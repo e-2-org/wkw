@@ -193,3 +193,103 @@ Nothing had been agreed about what Nat should write in the `decision` column, so
 **Pete:** Please update the sessions files in wkw
 
 **Claude:** Added this section to the transcript and a matching one to the summary.
+
+---
+
+# 3 November 2026: corrections, Wikidata, and the Jekyll site
+
+**Participants:** Pete (user), Claude (assistant)
+
+Pete's messages are quoted in full; Claude's replies and work are condensed. The same session also worked on minus20's slider, which is recorded in that repository and left out here. Nat's email is kept out of git, so it is summarised, not quoted.
+
+## Nat's reply
+
+**Pete:** I've heard back from the artists about the wkw data and relationship ontolology, and the judgement was harsh. Nat wants to drop the idea of using a vocabulary for relationships and stick to core FOAF. I'd still like to sort out any potential errors and add data from wikidata where its missing though
+
+**Claude:** Read the previous session's notes and the scripts, and measured the gaps: about 1,960 people had no birth year and about 2,000 no birthplace, and Wikidata had one for most of them, but nearly all through medium-confidence matches resting only on a name and a lifetime. So before borrowing anything:
+
+- **Impossible acquaintances:** checked every link for lifetimes that didn't overlap. Found Bewick linked to William Harvey the physician (his pupil was Harvey the engraver), Magnol linked to Antoine-Laurent de Jussieu (born after Magnol died; his pupil was Antoine de Jussieu), and four links between people who never overlapped. Two of those come from sentences in Nat's bios: Hill's friendship with Price, and Fanny Mendelssohn meeting Massenet in Italy.
+- **Duplicates:** checked the 36 groups Wikidata had found. All were the same person; so was Henry/Henri Chopin, whose only link is Brion Gysin.
+- **Dates:** fixed the 13 clear typos where Wikidata agreed, and left 7 where WKW is right or sources disagree.
+- **`data/corrections.csv`:** all of these went into it, one row per correction with its reason, applied by `export_wp.py`. Each person's record lists its corrections.
+- **Corroboration:** added a step to `wikidata.py`. A search match counts only if Wikidata or English Wikipedia connects the person to someone WKW says they knew. Fetching the Wikipedia links took about half an hour.
+
+Nat's reply was then added to the email file. Nat had read the first ten rows of the sheet, found the relationship types and the "contradictions" based on them wrong, and decided against classifying relationships; Nat also resists a definitive list of professions, but saw a use for catching obvious slips against outside sources. So Claude borrowed no occupations from Wikidata.
+
+**Pete:** I'm afraid he forgot to atach it!
+
+**Claude:** Went ahead without the Word document. Results:
+
+- 3,416 people after merging.
+- 1,383 of 1,731 uncertain matches corroborated; the rest became `skos:closeMatch`.
+- `supplement.ttl` fills dates for 1,462 people, so 2,873 now have dates.
+- Spot checks of the corroborated matches all looked right.
+- The README now records the relationship typing as dropped.
+
+## Git
+
+**Pete:** I've made wkw into a git repo and pushed the gitignore and sessions files. WHen you say data from before the changes, do you mean the original data from the wordpress site?
+
+**Claude:** No: the copy was the cleaned data from October, before this session's changes. The WordPress data is the dump in `_dump/`, which only gets read. Suggested committing the October state first and the changes on top, so the corrections show as a diff, and noted that the October scripts would need this session's edits reversing by hand.
+
+**Pete:** Can you reverse the edits for the commit, keep a scratchpad copy in data and do the two separate commits please?
+
+**Claude:** Saved this session's state, reversed the edits to the three scripts and the README, and checked them by re-running them from the dump. They reproduced the October data, except that the order of some people's professions had varied between runs. Committed the October state with the scratchpad copy as `data/` (`d1e8b55`), then restored this session's work and committed it (`2c88200`). Checked that no API key or secrets were included.
+
+## The Jekyll site
+
+**Pete:** I'd like this to be a jekyll site, with the same pages and design as the wordpress site, plus the visualisation, and in browser sparql engine
+
+**Claude:** Ran the original WordPress site locally: the dump's install and database in containers, with a fresh `wp-config.php` and WordPress's rewrite rules, as the dump has no `.htaccess`. Screenshotted and read its pages. Findings:
+
+- The design comes from GeneratePress, GP Premium and the WKW child theme, plus CSS WordPress writes inline (the Customizer's colours, and the word cloud background image).
+- Names link to `/types/<profession>/`; profession pages show ten people each.
+- Acquaintances were listed in Nat's order, which the export had been sorting. Changed the export to keep it.
+- The names list was meant to be alphabetical, but names without a sort key came first.
+- The d3 graph in `wkw.js` had never been attached to a page.
+
+Built `docs/` on a new branch, `jekyll-site`:
+
+- **Assets:** the theme's stylesheets, scripts, fonts and images, and the inline CSS.
+- **Layouts:** taken from WordPress's rendered HTML.
+- **`tools/build_site.py`:** generates the data, the name and profession pages, and the files search, graph and SPARQL load.
+- **`tools/import_pages.py`:** copied the ordinary pages from the running WordPress site, with their links rewritten.
+- **Search:** runs in the browser.
+- **The graph:** ported to d3 v7, with the static data in place of the WordPress API.
+- **SPARQL:** Oxigraph in a worker, with twelve examples, each tested with Oxigraph in Python first. One example turned up James Rosenquist born in 1547: Wikidata's error. The supplement now skips borrowed dates that give an impossible lifespan.
+
+Comparing screenshots with WordPress:
+
+- **CSS order:** bundling the inline CSS had moved a rule ahead of the file it overrides, which broke the phone menu. The CSS now loads in WordPress's order.
+- **Curly quotes:** WordPress showed bios and titles with curly quotes (`wptexturize`); added the same conversion.
+- **Result:** 37 of 52 sampled pages then matched pixel for pixel below the menu, and the rest differed only by corrected data.
+- **Links:** every internal link on 1,694 pages works.
+
+## Field, network and query
+
+**Pete:** Can you change graph to field and sparql to query. You also mentioned a version of the graph view whch could include all names and use webGL - it would be great to see how that operates
+
+**Claude:** Renamed the pages, URLs and scripts (`/field/`, `/query/`), and moved the bio panel into a shared script. Built the whole-network view:
+
+- **Libraries:** sigma.js with graphology's ForceAtlas2, bundled with esbuild (`tools/field-bundle/`). Sigma 4 was tried first, but its new styling API is too recent, so it uses sigma 3.
+- **Layout:** the first version tangled into a ball. Offline tests with Node showed that even 2,000 rounds of ForceAtlas2 couldn't unfold it from a random start. Starting everyone at their estimated birth year, with low gravity, opened it into two halves joined by a bridge, roughly earlier centuries and the 20th century.
+- **Lines:** sigma ignored transparency in line colours, so the lines are a solid colour already mixed with the background.
+
+**Pete:** Can you call the view of all names "network"
+
+**Claude:** Moved it to `/network/` with a menu item after "field". Committed (`8b39731`).
+
+## Pages directory
+
+**Pete:** Can you arrange the pages in a pages directory and use permalinks to get the number of subfolders down?
+
+**Claude:** Moved every page into `docs/pages/` as a single file with a `permalink`: `pages/names/<id>.html`, `pages/types/<profession>-2.html` and so on, instead of more than 1,700 folders. `build_site.py` and `import_pages.py` now write there. Checked the result two ways:
+
+- All 1,695 URLs are the same as before.
+- The previous commit, built separately, is byte-for-byte identical to the new build.
+
+## Session notes
+
+**Pete:** I'll push the branch and do a PR in GitHub for it to merge into main. Can you update the sessions files for wkw?
+
+**Claude:** Added this session to `summary.md` and `transcript.md`.
