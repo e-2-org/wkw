@@ -191,7 +191,7 @@ louis-althusser,michel-serres
 louis-althusser,philippe-sollers
 louis-althusser,pierre-bourdieu
 louis-althusser,pierre-macherey
-natan-altman,naum-gabo
+nathan-altman,naum-gabo
 nathan-altman,viking-eggeling
 nathan-altman,viktor-shklovsky
 robert-altman,tom-waits
@@ -296,8 +296,8 @@ george-antheil,thomas-macgreevy
 george-antheil,virgil-thomson
 george-antheil,william-butler-yeats
 antoine-arnauld,gottfried-wilhelm-leibniz
+antoine-de-jussieu,pierre-magnol
 antoine-de-saint-exupery,gaston-gallimard
-antoine-henri-becquerel,marie-curie
 anton-chekhov,maxim-gorky
 michelangelo-antonioni,sergio-leone
 guillaume-apollinaire,hans-arp
@@ -468,7 +468,7 @@ achim-von-arnim,friedrich-de-la-motte-fouque
 achim-von-arnim,friedrich-schlegel
 achim-von-arnim,gisela-von-arnim
 achim-von-arnim,heinrich-von-kleist
-achim-von-arnim,jakob-grimm
+achim-von-arnim,jacob-grimm
 achim-von-arnim,jean-paul
 achim-von-arnim,johann-wolfgang-von-goethe
 achim-von-arnim,joseph-gorres
@@ -484,7 +484,7 @@ bettina-von-arnim,franz-liszt
 bettina-von-arnim,friedrich-schleiermacher
 bettina-von-arnim,gisela-von-arnim
 bettina-von-arnim,ivan-turgenev
-bettina-von-arnim,jakob-grimm
+bettina-von-arnim,jacob-grimm
 bettina-von-arnim,johann-wolfgang-von-goethe
 bettina-von-arnim,johannes-brahms
 bettina-von-arnim,joseph-joachim
@@ -737,15 +737,15 @@ isaac-babel,maxim-gorky
 isaac-babel,osip-mandelstam
 isaac-babel,sergei-eisenstein
 isaac-babel,vladimir-mayakovsky
-c-p-e-bach,denis-diderot
-c-p-e-bach,ernst-wilhelm-wolf
-c-p-e-bach,jan-ladislav-dussek
-c-p-e-bach,johann-georg-sulzer
-c-p-e-bach,johann-sebastian-bach
-c-p-e-bach,joseph-haydn
+carl-philipp-emanuel-bach,denis-diderot
+carl-philipp-emanuel-bach,ernst-wilhelm-wolf
 carl-philipp-emanuel-bach,gotthold-ephraim-lessing
-carl-philipp-emmanuel-bach,johann-joachim-quantz
-j-c-bach,johann-sebastian-bach
+carl-philipp-emanuel-bach,jan-ladislav-dussek
+carl-philipp-emanuel-bach,johann-georg-sulzer
+carl-philipp-emanuel-bach,johann-joachim-quantz
+carl-philipp-emanuel-bach,johann-sebastian-bach
+carl-philipp-emanuel-bach,joseph-haydn
+johann-christian-bach,johann-sebastian-bach
 johann-christian-bach,thomas-gainsborough
 johann-christian-bach,wolfgang-amadeus-mozart
 johann-sebastian-bach,sylvius-leopold-weiss
@@ -795,8 +795,8 @@ leon-bakst,pablo-picasso
 leon-bakst,sergei-diaghilev
 leon-bakst,vaslav-nijinsky
 leon-bakst,yelena-guro
-mily-balakireff,pyotr-ilyich-tchaikovsky
 mily-balakirev,nikolai-rimsky-korsakov
+mily-balakirev,pyotr-ilyich-tchaikovsky
 george-balanchine,igor-stravinsky
 george-balanchine,josephine-baker
 george-balanchine,paul-bowles
@@ -1060,6 +1060,7 @@ samuel-beckett,tom-stoppard
 samuel-beckett,wilfred-bion
 samuel-beckett,william-s-burroughs
 antoine-cesar-becquerel,joseph-henry
+henri-becquerel,marie-curie
 henri-becquerel,mary-somerville
 henri-becquerel,william-crookes
 thomas-beddoes,thomas-lovell-beddoes
@@ -1320,7 +1321,7 @@ joseph-beuys,nam-june-paik
 joseph-beuys,robert-morris
 joseph-beuys,wolf-vostell
 joseph-beuys,yvonne-rainer
-thomas-bewick,william-harvey
+thomas-bewick,william-harvey-engraver
 thomas-bewick,william-hazlitt
 albert-bierstadt,clarence-king
 big-joe-williams,bob-dylan
@@ -1394,11 +1395,11 @@ ernst-bloch,theodor-adorno
 ernst-bloch,walter-benjamin
 ernst-bloch,wieland-herzfelde
 felix-bloch,niels-bohr
-aleksandr-blok,andrei-bely
-aleksandr-blok,anna-akhmatova
-aleksandr-blok,boris-pasternak
-aleksandr-blok,osip-mandelstam
+alexander-blok,andrei-bely
+alexander-blok,anna-akhmatova
+alexander-blok,boris-pasternak
 alexander-blok,dmitri-mendeleev
+alexander-blok,osip-mandelstam
 alexander-blok,vsevolod-meyerhold
 leonard-bloomfield,roman-jakobson
 johann-friedrich-blumenbach,johann-wolfgang-von-goethe
@@ -1420,7 +1421,7 @@ franz-boas,roman-jakobson
 franz-boas,rudolf-virchow
 franz-boas,ruth-benedict
 franz-boas,thorstein-veblen
-franz-boas,w-e-b-dubois
+franz-boas,w-e-b-du-bois
 franz-boas,zora-neale-hurston
 bob-marley,mick-jagger
 harald-bode,vladimir-ussachevsky
@@ -1754,7 +1755,7 @@ clemens-brentano,e-t-a-hoffmann
 clemens-brentano,fanny-mendelssohn
 clemens-brentano,friedrich-de-la-motte-fouque
 clemens-brentano,friedrich-schlegel
-clemens-brentano,jakob-grimm
+clemens-brentano,jacob-grimm
 clemens-brentano,johann-gottfried-herder
 clemens-brentano,johann-gottlieb-fichte
 clemens-brentano,johann-wolfgang-von-goethe
@@ -1945,7 +1946,7 @@ gavin-bryars,john-cage
 gavin-bryars,merce-cunningham
 gavin-bryars,morton-feldman
 gavin-bryars,tom-waits
-ernst-von-brucke,hermann-von-helmholtz
+ernst-wilhelm-von-brucke,hermann-von-helmholtz
 ernst-wilhelm-von-brucke,sigmund-freud
 leopold-von-buch,louis-agassiz
 leopold-von-buch,wilhelm-von-humboldt
@@ -2115,8 +2116,8 @@ john-cage,oskar-fischinger
 john-cage,philip-guston
 john-cage,pierre-boulez
 john-cage,pierre-schaeffer
+john-cage,r-buckminster-fuller
 john-cage,ray-johnson
-john-cage,richard-buckminster-fuller
 john-cage,robert-morris
 john-cage,robert-motherwell
 john-cage,robert-rauschenberg
@@ -2642,8 +2643,9 @@ chuck-berry,keith-richards
 chuck-berry,mick-jagger
 alonzo-church,willard-van-orman-quine
 cindy-sherman,david-byrne
-e-m-cioran,octavio-paz
-e-m-cioran,susan-sontag
+emil-cioran,eugene-ionesco
+emil-cioran,octavio-paz
+emil-cioran,susan-sontag
 helene-cixous,jacques-derrida
 alexis-clairaut,anders-celsius
 alexis-clairaut,charles-bossut
@@ -2794,7 +2796,6 @@ constant,henri-lefebvre
 constant,joseph-noiret
 constant,karel-appel
 constant,pierre-alechinsky
-constantin-stanislavski,maxim-gorky
 james-cook,johann-reinhold-forster
 james-cook,john-hunter
 james-cook,john-pringle
@@ -3296,7 +3297,7 @@ edgar-degas,paul-valery
 edgar-degas,pierre-auguste-renoir
 edgar-degas,stephane-mallarme
 edgar-degas,suzanne-valadon
-edgar-degas,walter-richard-sickert
+edgar-degas,walter-sickert
 elaine-de-kooning,fairfield-porter
 elaine-de-kooning,frank-ohara
 elaine-de-kooning,franz-kline
@@ -3307,8 +3308,8 @@ elaine-de-kooning,john-cage
 elaine-de-kooning,mark-rothko
 elaine-de-kooning,merce-cunningham
 elaine-de-kooning,meyer-schapiro
+elaine-de-kooning,r-buckminster-fuller
 elaine-de-kooning,ray-johnson
-elaine-de-kooning,richard-buckminster-fuller
 elaine-de-kooning,robert-motherwell
 elaine-de-kooning,rudy-burckhardt
 elaine-de-kooning,saul-steinberg
@@ -3339,7 +3340,7 @@ jean-baptiste-delambre,joseph-banks
 jean-baptiste-delambre,joseph-fourier
 jean-baptiste-delambre,marie-anne-paulze
 jean-baptiste-delambre,nevil-maskelyne
-jean-baptiste-delambre,pierre-francois-andre-mechain
+jean-baptiste-delambre,pierre-mechain
 jean-baptiste-delambre,pierre-simon-laplace
 auguste-arthur-de-la-rive,augustin-pyramus-de-candolle
 auguste-arthur-de-la-rive,charles-babbage
@@ -3631,6 +3632,10 @@ j-p-donleavy,patrick-kavanagh
 j-p-donleavy,robert-redford
 j-p-donleavy,shane-mcgowan
 alfred-donne,leon-foucault
+h-d,marianne-moore
+h-d,robert-duncan
+h-d,sigmund-freud
+h-d,william-carlos-williams
 alcide-dorbigny,alexander-von-humboldt
 alcide-dorbigny,charles-darwin
 alcide-dorbigny,esprit-requien
@@ -3934,7 +3939,7 @@ ehrenfried-walther-von-tschirnhaus,gottfried-wilhelm-leibniz
 albert-ehrenstein,alfred-adler
 albert-ehrenstein,alfred-doblin
 albert-ehrenstein,arthur-schnitzler
-albert-ehrenstein,bertholt-brecht
+albert-ehrenstein,bertolt-brecht
 albert-ehrenstein,franz-kafka
 albert-ehrenstein,george-grosz
 albert-ehrenstein,hans-richter
@@ -4072,7 +4077,6 @@ ralph-waldo-emerson,walt-whitman
 ralph-waldo-emerson,william-dean-howells
 ralph-waldo-emerson,william-james
 ralph-waldo-emerson,william-wordsworth
-emil-cioran,eugene-ionesco
 johann-franz-encke,johann-gottfried-galle
 johann-franz-encke,johann-heinrich-von-madler
 johann-franz-encke,john-herschel
@@ -4181,11 +4185,11 @@ manuel-de-falla,maurice-ravel
 manuel-de-falla,pablo-picasso
 manuel-de-falla,paul-dukas
 manuel-de-falla,sergei-diaghilev
+frantz-fanon,james-baldwin
 frantz-fanon,jean-paul-sartre
 frantz-fanon,richard-wright
 frantz-fanon,simone-de-beauvoir
 michael-faraday,michel-eugene-chevreul
-michael-faraday,paul-valery
 michael-faraday,peter-mark-roget
 michael-faraday,richard-owen
 michael-faraday,robert-edmond-grant
@@ -4280,6 +4284,7 @@ ian-hamilton-finlay,louis-zukofsky
 ian-hamilton-finlay,robert-creeley
 roy-fisher,tom-phillips
 george-fiske,john-muir
+f-scott-fitzgerald,gertrude-stein
 f-scott-fitzgerald,john-dos-passos
 george-fitzgerald,william-thomson-lord-kelvin
 hyppolite-fizeau,leon-foucault
@@ -4461,9 +4466,8 @@ benjamin-franklin,william-hunter
 benjamin-franklin,william-jones-philologist
 benjamin-franklin,william-small
 benjamin-franklin,william-wilberforce
-franz-fanon,james-baldwin
 francois-jacob,john-kendrew
-joseph-fraunhofer,samuel-thomas-von-sommerring
+joseph-von-fraunhofer,samuel-thomas-von-sommerring
 joseph-von-fraunhofer,william-henry-fox-talbot
 james-george-frazer,william-james
 fred-sanger,john-kendrew
@@ -4998,7 +5002,7 @@ ernst-gombrich,saul-steinberg
 eugen-gomringer,ian-hamilton-finlay
 natalia-goncharova,roland-petit
 natalia-goncharova,sergei-diaghilev
-natalya-goncharova,vasily-kandinsky
+natalia-goncharova,vasily-kandinsky
 edmond-de-goncourt,emile-zola
 edmond-de-goncourt,gustave-flaubert
 edmond-de-goncourt,ivan-turgenev
@@ -5167,7 +5171,7 @@ juan-gris,sergei-diaghilev
 juan-gris,sonia-delaunay
 red-grooms,rudy-burckhardt
 walter-gropius,wilhelm-wagenfeld
-antoine-jean-gros,elisabeth-vigee-le-brun
+antoine-jean-gros,elisabeth-louise-vigee-le-brun
 antoine-jean-gros,eugene-delacroix
 antoine-jean-gros,jacques-louis-david
 antoine-jean-gros,jean-auguste-dominique-ingres
@@ -5203,8 +5207,8 @@ barbara-guest,charles-bernstein
 barbara-guest,fairfield-porter
 barbara-guest,frank-ohara
 barbara-guest,grace-hartigan
+barbara-guest,h-d
 barbara-guest,henry-miller
-barbara-guest,hilda-doolittle
 barbara-guest,james-schuyler
 barbara-guest,joe-brainard
 barbara-guest,john-ashbery
@@ -5233,7 +5237,6 @@ louis-bernard-guyton-de-morveau,torbern-bergman
 louis-bernard-guyton-de-morveau,voltaire
 brion-gysin,gregory-corso
 brion-gysin,henri-chopin
-brion-gysin,henry-chopin
 brion-gysin,john-giorno
 brion-gysin,keith-haring
 brion-gysin,mohamed-choukri
@@ -5244,10 +5247,6 @@ gyorgy-kurtag,olivier-messiaen
 gerard-grisey,iannis-xenakis
 gerard-grisey,olivier-messiaen
 kurt-godel,willard-van-orman-quine
-h-d,marianne-moore
-h-d,robert-duncan
-h-d,sigmund-freud
-h-d,william-carlos-williams
 hans-haacke,pierre-bourdieu
 jurgen-habermas,theodor-adorno
 jean-nicolas-pierre-hachette,jean-victor-poncelet
@@ -5408,7 +5407,7 @@ seamus-heaney,sorley-maclean
 seamus-heaney,ted-hughes
 seamus-heaney,tom-stoppard
 seamus-heaney,w-h-auden
-seamus-heaney,wyslawa-szymborska
+seamus-heaney,wislawa-szymborska
 seamus-heaney,zbigniew-herbert
 john-heartfield,kurt-tucholsky
 john-heartfield,otto-dix
@@ -6166,7 +6165,6 @@ carl-jacobi,ludwig-schlafli
 carl-jacobi,moritz-jacobi
 carl-jacobi,niels-abel
 carl-jacobi,otto-hesse
-carl-jacobi,roger-joseph-boscovich
 carl-jacobi,simeon-denis-poisson
 carl-jacobi,william-rowan-hamilton
 friedrich-heinrich-jacobi,gotthold-ephraim-lessing
@@ -6399,12 +6397,12 @@ james-joyce,william-carlos-williams
 attila-jozsef,lajos-kassak
 donald-judd,john-chamberlain
 donald-judd,meyer-schapiro
-c-g-jung,h-g-wells
+carl-jung,h-g-wells
+carl-jung,herbert-read
 carl-jung,james-joyce
 carl-jung,sigmund-freud
-carl-gustav-jung,herbert-read
-carl-gustav-jung,wilfred-bion
-carl-gustav-jung,william-james
+carl-jung,wilfred-bion
+carl-jung,william-james
 franz-jung,george-grosz
 franz-jung,hannah-hoch
 franz-jung,john-heartfield
@@ -6420,7 +6418,6 @@ antoine-laurent-de-jussieu,claude-louis-berthollet
 antoine-laurent-de-jussieu,jean-baptiste-lamarck
 antoine-laurent-de-jussieu,joseph-banks
 antoine-laurent-de-jussieu,michel-eugene-chevreul
-antoine-laurent-de-jussieu,pierre-magnol
 antoine-laurent-de-jussieu,richard-owen
 antoine-laurent-de-jussieu,william-hooker
 bernard-de-jussieu,carl-linnaeus
@@ -6812,8 +6809,8 @@ julia-kristeva,philip-roth
 julia-kristeva,philippe-sollers
 julia-kristeva,roland-barthes
 alfred-kroeber,franz-boas
+aleksei-kruchenykh,filippo-tommaso-marinetti
 aleksei-kruchenykh,vladimir-mayakovsky
-alexei-kruchenykh,filippo-tommaso-marinetti
 germaine-krull,joris-ivens
 germaine-krull,walter-benjamin
 stanley-kubrick,steven-spielberg
@@ -7272,7 +7269,6 @@ matthew-lewis,percy-bysshe-shelley
 matthew-lewis,walter-scott
 meriwether-lewis,thomas-jefferson
 sol-lewitt,walter-de-maria
-anders-lexell,carl-linnaeus
 anders-johan-lexell,carl-linnaeus
 anders-johan-lexell,leonhard-euler
 stanislaw-lesniewski,willard-van-orman-quine
@@ -7521,7 +7517,7 @@ dora-maar,pablo-picasso
 dora-maar,paul-eluard
 dora-maar,rene-crevel
 dora-maar,simone-de-beauvoir
-thomas-babbington-macaulay,william-henry-fox-talbot
+thomas-babington-macaulay,william-henry-fox-talbot
 hugh-macdiarmid,ian-hamilton-finlay
 hugh-macdiarmid,john-buchan
 hugh-macdiarmid,john-calder
@@ -7711,7 +7707,7 @@ filippo-tommaso-marinetti,lajos-kassak
 filippo-tommaso-marinetti,luigi-pirandello
 filippo-tommaso-marinetti,luigi-russolo
 filippo-tommaso-marinetti,mina-loy
-filippo-tommaso-marinetti,natalya-goncharova
+filippo-tommaso-marinetti,natalia-goncharova
 filippo-tommaso-marinetti,sergei-diaghilev
 filippo-tommaso-marinetti,sergei-eisenstein
 filippo-tommaso-marinetti,tristan-tzara
@@ -7746,9 +7742,9 @@ giovanni-battista-martini,josef-myslivecek
 giovanni-battista-martini,joseph-martin-kraus
 giovanni-battista-martini,leopold-mozart
 giovanni-battista-martini,maksym-berezovsky
-giovanni-battista-martini,niccolo-jomelli
+giovanni-battista-martini,niccolo-jommelli
 giovanni-battista-martini,padre-antonio-soler
-giovanni-battista-martini,pietro-antonio-locatelli
+giovanni-battista-martini,pietro-locatelli
 giovanni-battista-martini,pietro-metastasio
 giovanni-battista-martini,vicente-martin-y-soler
 giovanni-battista-martini,wolfgang-amadeus-mozart
@@ -7989,7 +7985,6 @@ fanny-mendelssohn,heinrich-heine
 fanny-mendelssohn,ignaz-moscheles
 fanny-mendelssohn,jean-auguste-dominique-ingres
 fanny-mendelssohn,johann-wolfgang-von-goethe
-fanny-mendelssohn,jules-massenet
 fanny-mendelssohn,ludwig-berger
 fanny-mendelssohn,marie-bigot
 fanny-mendelssohn,niccolo-paganini
@@ -8098,7 +8093,7 @@ henri-michaux,victoria-ocampo
 john-michell,matthew-boulton
 john-michell,roger-joseph-boscovich
 albert-michelson,alexander-graham-bell
-albert-abraham-michelson,hermann-von-helmholtz
+albert-michelson,hermann-von-helmholtz
 adam-mickiewicz,alexander-pushkin
 adam-mickiewicz,august-wilhelm-schlegel
 adam-mickiewicz,bertel-thorvaldsen
@@ -8313,7 +8308,6 @@ august-mobius,carl-friedrich-gauss
 august-mobius,hermann-grassmann
 august-mobius,karl-mollweide
 paula-modersohn-becker,rainer-maria-rilke
-amadeo-modigliani,germaine-tailleferre
 amedeo-modigliani,andre-salmon
 amedeo-modigliani,anna-akhmatova
 amedeo-modigliani,antoine-pevsner
@@ -8324,6 +8318,7 @@ amedeo-modigliani,diego-rivera
 amedeo-modigliani,edgard-varese
 amedeo-modigliani,fernand-leger
 amedeo-modigliani,georges-auric
+amedeo-modigliani,germaine-tailleferre
 amedeo-modigliani,gino-severini
 amedeo-modigliani,hans-arp
 amedeo-modigliani,henri-laurens
@@ -9136,9 +9131,9 @@ charlotte-perriand,pablo-picasso
 charlotte-perriand,pierre-chareau
 charlotte-perriand,sori-yanagi
 charlotte-perriand,walter-gropius
-jean-perrin,pierre-duhem
 jean-baptiste-perrin,marie-curie
 jean-baptiste-perrin,pierre-curie
+jean-baptiste-perrin,pierre-duhem
 saint-john-perse,walter-benjamin
 max-perutz,peter-medawar
 max-perutz,peter-whitehead
@@ -9306,7 +9301,7 @@ joseph-plateau,michael-faraday
 joseph-plateau,peter-mark-roget
 august-von-platen,franz-von-bruchmann
 august-von-platen,friedrich-schelling
-august-von-platen,jakob-grimm
+august-von-platen,jacob-grimm
 august-von-platen,johann-friedrich-cotta
 august-von-platen,johann-wolfgang-von-goethe
 august-von-platen,justus-von-liebig
@@ -9497,7 +9492,6 @@ jacques-prevert,roland-petit
 jacques-prevert,serge-lifar
 jacques-prevert,yves-tanguy
 pierre-prevert,robert-doisneau
-richard-price,rowland-hill
 richard-price,thomas-bayes
 richard-price,thomas-jefferson
 richard-price,thomas-paine
@@ -9555,7 +9549,7 @@ hilary-putnam,willard-van-orman-quine
 arvo-part,philip-glass
 johann-joachim-quantz,johann-joseph-fux
 johann-joachim-quantz,johann-sebastian-bach
-johann-joachim-quantz,silvius-leopold-weiss
+johann-joachim-quantz,sylvius-leopold-weiss
 johann-joachim-quantz,voltaire
 raymond-queneau,silvio-ceccato
 raymond-queneau,simone-de-beauvoir
@@ -9827,7 +9821,7 @@ keith-richards,william-s-burroughs
 keith-richards,willie-dixon
 keith-richards,willie-nelson
 dorothy-richardson,h-g-wells
-dorothy-m-richardson,john-cowper-powys
+dorothy-richardson,john-cowper-powys
 samuel-richardson,william-hogarth
 germaine-richier,marino-marini
 mordecai-richler,terry-southern
@@ -11017,6 +11011,7 @@ gaspare-spontini,richard-wagner
 anton-stadler,wolfgang-amadeus-mozart
 mart-stam,sigfried-giedion
 mart-stam,walter-gropius
+konstantin-stanislavski,maxim-gorky
 konstantin-stanislavski,vsevolod-meyerhold
 freya-stark,lawrence-durrell
 madame-de-stael,silvio-pellico
@@ -11050,7 +11045,6 @@ gertrude-stein,pablo-picasso
 gertrude-stein,paul-bowles
 gertrude-stein,rene-crevel
 gertrude-stein,richard-wright
-gertrude-stein,scott-fitzgerald
 gertrude-stein,sergei-eisenstein
 gertrude-stein,sherwood-anderson
 gertrude-stein,thornton-wilder
@@ -11882,7 +11876,7 @@ andrei-voznesensky,francisco-clemente
 andrei-voznesensky,ilya-ehrenburg
 andrei-voznesensky,jean-paul-sartre
 andrei-voznesensky,john-updike
-andrei-voznesensky,kornei-chukovsky
+andrei-voznesensky,korney-chukovsky
 andrei-voznesensky,lawrence-ferlinghetti
 andrei-voznesensky,martin-heidegger
 andrei-voznesensky,mstislav-rostropovich
@@ -11976,8 +11970,8 @@ andy-warhol,william-s-burroughs
 andy-warhol,wolf-vostell
 andy-warhol,yoko-ono
 booker-t-washington,franz-boas
+carleton-watkins,clarence-king
 carleton-watkins,john-muir
-carleton-e-watkins,clarence-king
 james-watson,john-kendrew
 james-watson,john-steinbeck
 james-watson,max-perutz
@@ -12083,7 +12077,7 @@ h-g-wells,rebecca-west
 h-g-wells,rene-crevel
 h-g-wells,sidney-webb
 h-g-wells,thomas-henry-huxley
-h-g-wells,w-e-b-dubois
+h-g-wells,w-e-b-du-bois
 h-g-wells,william-james
 eudora-welty,henry-green
 eudora-welty,john-updike
@@ -12165,7 +12159,7 @@ charles-widor,darius-milhaud
 charles-widor,edgard-varese
 charles-widor,nadia-boulanger
 gustav-wiedemann,werner-von-siemens
-christoph-martin-wieland,christoph-wilhelm-friedrich-hufeland
+christoph-martin-wieland,christoph-wilhelm-hufeland
 christoph-martin-wieland,christoph-willibald-von-gluck
 christoph-martin-wieland,clemens-brentano
 christoph-martin-wieland,friedrich-schiller

@@ -3,11 +3,16 @@ Build RDF from the cleaned data.
 
   data/rdf/wkw.ttl        Who Knew Whom's own data: people (FOAF, schema.org), who knew whom,
                           professions (SKOS), sources, and links to Wikidata
+  data/rdf/supplement.ttl birth and death dates and places that WKW doesn't give, borrowed from
+                          Wikidata, in the same terms as wkw.ttl (schema:birthDate etc.)
   data/rdf/wikidata.ttl   what Wikidata says about the matched people, in Wikidata's own terms
                           (wdt:P569 etc.), so the same queries work here and on query.wikidata.org
 
 Keeping them apart means WKW's research and Wikidata's never get mixed up: a query can use
-either or both. Load them into separate named graphs if the store supports it.
+either or all three. Load them into separate named graphs if the store supports it. Querying
+wkw.ttl and supplement.ttl together gives every date and place known for a person.
+
+Links between people are plain foaf:knows: WKW doesn't classify relationships.
 
 Usage: uv run --with rdflib python -I tools/build_rdf.py
 """
@@ -42,6 +47,11 @@ def profession(name):
 
 def year_literal(y):
     return Literal(f"{y:04d}" if y >= 0 else f"-{-y:04d}", datatype=XSD.gYear)
+
+
+def trusted(w):
+    """Whether a Wikidata match is sure enough to state as owl:sameAs and to borrow facts from."""
+    return bool(w.get("qid")) and (w["confidence"] in ("high", "checked") or bool(w.get("corroborated_by")))
 
 
 def bind(g):
@@ -118,12 +128,57 @@ def build_wkw(people, wikidata):
                 g.add((u, DCTERMS.title, Literal(src["text"])))
         for wp in p["wordpress_ids"]:
             g.add((s, WKW.wordpressId, Literal(wp)))
+        for note in p.get("corrections", []):
+            g.add((s, SKOS.editorialNote, Literal(note, lang="en")))
         w = wikidata.get(p["id"], {})
         if w.get("qid"):
-            # low-confidence matches are only close matches until someone checks them
-            rel = SKOS.closeMatch if w["confidence"] == "low" else OWL.sameAs
-            g.add((s, rel, WD[w["qid"]]))
+            # uncorroborated search matches are only close matches until someone checks them
+            g.add((s, OWL.sameAs if trusted(w) else SKOS.closeMatch, WD[w["qid"]]))
     return g
+
+
+def date_literal(entries):
+    """One literal for Wikidata's date, or None if it gives several or is vaguer than a year."""
+    entries = [e for e in entries if e["precision"] >= 9]
+    if len({e["year"] for e in entries}) != 1:
+        return None
+    best = max(entries, key=lambda e: e["precision"])
+    if "date" in best and not best["date"].startswith("-"):
+        return Literal(best["date"], datatype=XSD.date)
+    return year_literal(best["year"])
+
+
+def build_supplement(people, wikidata):
+    """Dates and places WKW doesn't give, from trusted Wikidata matches, in wkw.ttl's terms."""
+    g = Graph()
+    bind(g)
+    counts = {"birth date": 0, "death date": 0, "birth place": 0, "death place": 0, "people": 0}
+    for p in people:
+        w = wikidata.get(p["id"], {})
+        if not trusted(w):
+            continue
+        x, s, added = w["wikidata"], person(p["id"]), False
+        for k, date_p, place_p in (("birth", SCHEMA.birthDate, SCHEMA.birthPlace),
+                                   ("death", SCHEMA.deathDate, SCHEMA.deathPlace)):
+            ours = p[k] or {}
+            lit = None if "year" in ours else date_literal(x[k])
+            if lit is not None:
+                g.add((s, date_p, lit))
+                counts[f"{k} date"] += 1
+                added = True
+            places = x[f"{k}_place"]
+            if not ours.get("place") and len(places) == 1:
+                o = WD[places[0]["qid"]]
+                g.add((s, place_p, o))
+                if places[0]["label"]:
+                    g.add((o, RDFS.label, Literal(places[0]["label"], lang="en")))
+                if "lat" in places[0]:
+                    g.add((o, SCHEMA.latitude, Literal(places[0]["lat"])))
+                    g.add((o, SCHEMA.longitude, Literal(places[0]["lon"])))
+                counts[f"{k} place"] += 1
+                added = True
+        counts["people"] += added
+    return g, counts
 
 
 def build_wikidata(wikidata):
@@ -177,6 +232,9 @@ def main():
     g.serialize(out / "wkw.ttl", format="turtle")
     print(f"wkw.ttl: {len(g)} triples")
     if wikidata:
+        g1, counts = build_supplement(people, wikidata)
+        g1.serialize(out / "supplement.ttl", format="turtle")
+        print(f"supplement.ttl: {len(g1)} triples; " + ", ".join(f"{k} {v}" for k, v in counts.items()))
         g2 = build_wikidata(wikidata)
         g2.serialize(out / "wikidata.ttl", format="turtle")
         print(f"wikidata.ttl: {len(g2)} triples")

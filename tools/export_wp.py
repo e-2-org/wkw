@@ -8,6 +8,15 @@ ng_culturalcartography_net.sql, cleans them, and writes:
   data/csv/*.csv           the same data as spreadsheet-friendly tables
   data/reports/export.md   what the clean-up changed or couldn't resolve
 
+Corrections that need a person's judgement are listed in data/corrections.csv
+(columns: action, person, value, note) and applied here, so re-running the export keeps them:
+
+  merge    person, value    the record `value` is the same person as `person`: merge it in
+  dates    person, value    replace the birth_death text, e.g. to fix a typo in a year
+  person   person, value    add a person WKW's links need but has no record for (id, name)
+  unlink   person, value    remove the link between two people
+  link     person, value    add a link between two people
+
 The database is reached through WKW_DB_CMD (default: the wkw-db container that
 tools/README.md describes), which must accept SQL on stdin.
 
@@ -107,12 +116,23 @@ def parse_dates(raw):
 
 def norm_url(url):
     url = clean_text(url)
+    # a URL pasted onto a fragment of another, e.g. 'https://alumniwebhttps://www.hertford.ox.ac.uk/...'
+    url = re.sub(r"^https?://[^/]*?(?=https?://)", "", url)
     url = re.sub(r"^http://", "https://", url)
     url = re.sub(r"^https://([a-z]+)\.m\.wikipedia\.org/", r"https://\1.wikipedia.org/", url)
     return url
 
 
+def read_corrections():
+    path = DATA / "corrections.csv"
+    if not path.exists():
+        return []
+    with open(path, newline="", encoding="utf-8") as f:
+        return [r for r in csv.DictReader(f) if r["action"].strip()]
+
+
 def main():
+    corrections = read_corrections()
     posts = {p["id"]: p for p in query("""
         SELECT JSON_OBJECT('id', ID, 'title', post_title, 'slug', post_name, 'status', post_status,
                            'bio', post_content, 'created', post_date, 'modified', post_modified)
@@ -132,7 +152,7 @@ def main():
     for r in query("""
         SELECT JSON_OBJECT('id', r.object_id, 'term', tt.term_id)
         FROM wp_term_relationships r JOIN wp_term_taxonomy tt USING (term_taxonomy_id)
-        WHERE tt.taxonomy = 'wkwcategory' ORDER BY r.object_id, r.term_order;"""):
+        WHERE tt.taxonomy = 'wkwcategory' ORDER BY r.object_id, r.term_order, tt.term_taxonomy_id;"""):
         post_terms[r["id"]].append(r["term"])
 
     report = collections.defaultdict(list)
@@ -149,6 +169,12 @@ def main():
         if not p["title"]:
             p["title"] = clean_text(f"{meta[pid].get('wkw_first_name', '')} {meta[pid].get('wkw_last_name', '')}")
             report["untitled"].append(f"{p['title']} (WordPress {pid})")
+
+    # people added in corrections.csv get negative IDs, as they have no WordPress post
+    for n, c in enumerate((c for c in corrections if c["action"] == "person"), 1):
+        posts[-n] = {"id": -n, "title": c["value"], "slug": c["person"], "status": "pending", "bio": None,
+                     "created": None, "modified": None}
+        report["corrections"].append(f"Added **{c['value']}** (`{c['person']}`): {c['note']}")
 
     # Duplicates: the 2018 import made a stub for every name, and some were added again by hand,
     # sometimes spelt without accents. Records whose names match once accents are removed are
@@ -185,6 +211,30 @@ def main():
         used.add(slug)
         slugs[pid] = slug
 
+    # merges from corrections.csv: duplicates whose names differ by more than accents
+    by_slug = {s: pid for pid, s in slugs.items()}
+
+    def lookup(slug):
+        if slug not in by_slug:
+            raise SystemExit(f"corrections.csv: no person `{slug}`")
+        return by_slug[slug]
+
+    notes = collections.defaultdict(list)
+    kept_names = set()
+    for c in corrections:
+        if c["action"] == "merge":
+            keep, drop = lookup(c["person"]), lookup(c["value"])
+            for pid in posts:
+                if canon[pid] == drop:
+                    canon[pid] = keep
+            kept_names.add(keep)
+            notes[keep].append(f"Merged with {posts[drop]['title']}: {c['note']}")
+            report["corrections"].append(
+                f"Merged {posts[drop]['title']} (`{c['value']}`) into **{posts[keep]['title']}** "
+                f"(`{c['person']}`): {c['note']}")
+        elif c["action"] not in ("dates", "person", "unlink", "link"):
+            raise SystemExit(f"corrections.csv: unknown action {c['action']!r}")
+
     # links between names: make them symmetric, drop ones to missing posts or to oneself
     knows = collections.defaultdict(set)
     for pid in posts:
@@ -201,6 +251,24 @@ def main():
         knows[b].add(a)
     report["one_way_count"] = len(one_way)
 
+    for c in corrections:
+        if c["action"] in ("unlink", "link"):
+            a, b = canon[lookup(c["person"])], canon[lookup(c["value"])]
+            if c["action"] == "unlink":
+                if b not in knows[a]:
+                    raise SystemExit(f"corrections.csv: {c['person']} and {c['value']} aren't linked")
+                knows[a].discard(b)
+                knows[b].discard(a)
+            else:
+                knows[a].add(b)
+                knows[b].add(a)
+            verb = "Removed the link between" if c["action"] == "unlink" else "Linked"
+            for x in (a, b):
+                notes[x].append(f"{verb} {posts[a]['title']} and {posts[b]['title']}: {c['note']}")
+            report["corrections"].append(
+                f"{verb} {posts[a]['title']} and {posts[b]['title']}: {c['note']}")
+    new_dates = {canon[lookup(c["person"])]: c for c in corrections if c["action"] == "dates"}
+
     people = []
     for pid, p in posts.items():
         if canon[pid] != pid:
@@ -216,9 +284,20 @@ def main():
                     return v
             return None
 
-        # the spelling with the most accents, as duplicates were often typed without them
+        # the spelling with the most accents, as duplicates were often typed without them, unless
+        # corrections.csv chose which record to keep
         name = max((posts[x]["title"] for x in records), key=lambda t: sum(ord(c) > 127 for c in t))
+        alt_name = field("wkw_aka_name")
+        if pid in kept_names:
+            name = p["title"]
+            others = [posts[x]["title"] for x in records if posts[x]["title"] != name]
+            alt_name = ";".join(dict.fromkeys(([alt_name] if alt_name else []) + others))
         dates_text = field("wkw_birth_death")
+        if pid in new_dates:
+            c = new_dates[pid]
+            notes[pid].append(f"Dates were '{dates_text}': {c['note']}")
+            report["corrections"].append(f"{name}: dates `{dates_text}` → `{c['value']}`: {c['note']}")
+            dates_text = c["value"]
         birth, death, ok = parse_dates(dates_text)
         if not ok:
             report["dates_unparsed"].append(f"{name}: `{dates_text}`")
@@ -254,7 +333,7 @@ def main():
             "given_name": field("wkw_first_name"),
             "family_name": field("wkw_last_name"),
             "sort_key": field("wkw_sort_key"),
-            "alt_name": field("wkw_aka_name"),
+            "alt_name": alt_name,
             "status": "bio" if p["status"] == "publish" else "stub",
             "dates_text": dates_text,
             "birth": birth,
@@ -264,10 +343,11 @@ def main():
             "knows": sorted(slugs[t] for t in knows[pid]),
             "disambiguation": sorted(slugs[t] for t in disambiguation - {pid}),
             "sources": sources,
-            "wordpress_ids": records,
+            "wordpress_ids": [x for x in records if x > 0],
             "mediawiki_id": field("wkw_wiki_id"),
-            "created": min(posts[x]["created"] for x in records),
-            "modified": max(posts[x]["modified"] for x in records),
+            "created": min((posts[x]["created"] for x in records if posts[x]["created"]), default=None),
+            "modified": max((posts[x]["modified"] for x in records if posts[x]["modified"]), default=None),
+            "corrections": notes[pid],
         })
 
     people.sort(key=lambda x: (x["sort_key"] or x["name"]).casefold())
@@ -334,6 +414,8 @@ def write_report(people, r, one_way, slugs):
         "WordPress's save hook keeps links two-way; this checks that it did. Any found are listed in "
         "`one-way-links.csv` and now run both ways.", "",
     ]
+    lines += section("Corrections from corrections.csv", r["corrections"],
+                     "Each person's record lists the corrections that apply to it, in `corrections`.")
     lines += section("Links to deleted names, dropped", r["dangling"])
     lines += section("Links to self, dropped", r["self_link"])
     lines += section("Records dropped", r["dropped"])

@@ -619,6 +619,8 @@ wd:Q776490 rdfs:label "Blasius Hueber"@en ;
 
 <https://en.wikipedia.org/wiki/Antoine_Pevsner> schema:about wd:Q381950 .
 
+<https://en.wikipedia.org/wiki/Antoine_de_Jussieu> schema:about wd:Q435674 .
+
 <https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry> schema:about wd:Q2908 .
 
 <https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k> schema:about wd:Q7298 .
@@ -2332,6 +2334,8 @@ wd:Q776490 rdfs:label "Blasius Hueber"@en ;
 <https://en.wikipedia.org/wiki/George_Bellows> schema:about wd:Q167132 .
 
 <https://en.wikipedia.org/wiki/George_Bentham> schema:about wd:Q731808 .
+
+<https://en.wikipedia.org/wiki/George_Berkeley> schema:about wd:Q82049 .
 
 <https://en.wikipedia.org/wiki/George_Bernard_Shaw> schema:about wd:Q19185 .
 
@@ -6391,6 +6395,8 @@ wd:Q776490 rdfs:label "Blasius Hueber"@en ;
 
 <https://en.wikipedia.org/wiki/William_Harvey> schema:about wd:Q93128 .
 
+<https://en.wikipedia.org/wiki/William_Harvey_(artist)> schema:about wd:Q8010985 .
+
 <https://en.wikipedia.org/wiki/William_Hazlitt> schema:about wd:Q126596 .
 
 <https://en.wikipedia.org/wiki/William_Herschel> schema:about wd:Q14277 .
@@ -7013,6 +7019,8 @@ wd:Q1054923 rdfs:label "British Hong Kong"@en ;
 wd:Q1055861 rdfs:label "Monroe"@en ;
     wdt:P625 "Point(-121.988333333 47.857777777)"^^geo:wktLiteral .
 
+wd:Q105627120 rdfs:label "atomic physicist"@en .
+
 wd:Q1056542 rdfs:label "Easton"@en ;
     wdt:P625 "Point(-75.216388888 40.688333333)"^^geo:wktLiteral .
 
@@ -7235,7 +7243,7 @@ wd:Q106662 rdfs:label "John Lydon"@en ;
     wdt:P244 "n94113308" ;
     wdt:P268 "12520740w" ;
     wdt:P569 "1956-01-31"^^xsd:date ;
-    schema:description "British-born Irish-American singer and songwriter"@en .
+    schema:description "English-born British singer and songwriter"@en .
 
 wd:Q106681 rdfs:label "Włocławek"@en ;
     wdt:P625 "Point(19.05 52.65)"^^geo:wktLiteral .
@@ -7383,8 +7391,7 @@ wd:Q107432 rdfs:label "Charles Mingus"@en ;
         wd:Q806349 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Mingus%201976%20cropped.jpg> ;
     wdt:P19 wd:Q79783 ;
-    wdt:P20 wd:Q204245,
-        wd:Q96 ;
+    wdt:P20 wd:Q204245 ;
     wdt:P213 "0000000110832626" ;
     wdt:P214 "111286947" ;
     wdt:P227 "118582631" ;
@@ -7724,6 +7731,7 @@ wd:Q112176 rdfs:label "Ernst von Glasersfeld"@en ;
     wdt:P268 "12386170h" ;
     wdt:P569 "1917-03-08"^^xsd:date ;
     wdt:P570 "2010-11-12"^^xsd:date ;
+    wdt:P737 wd:Q82049 ;
     schema:description "German philosopher (1917–2010)"@en .
 
 wd:Q112222344 rdfs:label "psychophysiologist"@en .
@@ -7767,8 +7775,7 @@ wd:Q1133758 rdfs:label "Cornelius Cardew"@en ;
         wd:Q639669 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Cornelius%20Cardew%20at%20Grunwick%20march.jpg> ;
     wdt:P19 wd:Q1234937 ;
-    wdt:P20 wd:Q23306,
-        wd:Q84 ;
+    wdt:P20 wd:Q84 ;
     wdt:P213 "0000000109554358" ;
     wdt:P214 "222534111" ;
     wdt:P227 "119293250" ;
@@ -8689,6 +8696,8 @@ wd:Q123627 rdfs:label "Stepney"@en ;
 wd:Q12368980 rdfs:label "nature photographer"@en .
 
 wd:Q123738724 rdfs:label "ornament designer"@en .
+
+wd:Q12376667 rdfs:label "technologist"@en .
 
 wd:Q12377291 rdfs:label "censor"@en .
 
@@ -10751,6 +10760,9 @@ wd:Q141691619 rdfs:label "German–Italian translator"@en .
 wd:Q1418789 rdfs:label "Fire Island"@en ;
     wdt:P625 "Point(-73.14666667 40.6475)"^^geo:wktLiteral .
 
+wd:Q142 rdfs:label "France"@en ;
+    wdt:P625 "Point(2.0 47.0)"^^geo:wktLiteral .
+
 wd:Q14206081 rdfs:label "Cap Estate"@en ;
     wdt:P625 "Point(-60.943333333 14.099444444)"^^geo:wktLiteral .
 
@@ -11280,6 +11292,9 @@ wd:Q151976 rdfs:label "Mikis Theodorakis"@en ;
         wd:Q80135 ;
     schema:description "Greek composer (1925–2021)"@en .
 
+wd:Q15215556 rdfs:label "Dysart Castle"@en ;
+    wdt:P625 "Point(-7.1215444 52.5020111)"^^geo:wktLiteral .
+
 wd:Q1521738 rdfs:label "Milton Bryan"@en ;
     wdt:P625 "Point(-0.587511111 51.964161111)"^^geo:wktLiteral .
 
@@ -11777,6 +11792,7 @@ wd:Q154083 rdfs:label "Henry van de Velde"@en ;
         wd:Q15296811,
         wd:Q1622272,
         wd:Q18431816,
+        wd:Q19788990,
         wd:Q2133309,
         wd:Q2519376,
         wd:Q36180,
@@ -11981,8 +11997,7 @@ wd:Q154545 rdfs:label "Léopold Sédar Senghor"@en ;
         wd:Q82955 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A9opold%20S%C3%A9dar%20Senghor.jpg> ;
     wdt:P19 wd:Q1340331 ;
-    wdt:P20 wd:Q142,
-        wd:Q862292 ;
+    wdt:P20 wd:Q862292 ;
     wdt:P213 "0000000122841060" ;
     wdt:P214 "110151491" ;
     wdt:P227 "11861326X" ;
@@ -12648,6 +12663,8 @@ wd:Q156890 rdfs:label "Ernst Barlach"@en ;
         wd:Q16947657,
         wd:Q214917,
         wd:Q36180,
+        wd:Q37226,
+        wd:Q483501,
         wd:Q49757,
         wd:Q5322166,
         wd:Q644687 ;
@@ -13093,7 +13110,7 @@ wd:Q15969 rdfs:label "Jean Améry"@en ;
 wd:Q15971226 rdfs:label "rue de Savoie"@en ;
     wdt:P625 "Point(2.34144 48.8543)"^^geo:wktLiteral .
 
-wd:Q15972162 rdfs:label "Filmtitle"@en .
+wd:Q15972162 rdfs:label "Titles of motion pictures"@en .
 
 wd:Q15973695 rdfs:label "political reporter"@en .
 
@@ -13108,9 +13125,6 @@ wd:Q15982 rdfs:label "Wernigerode"@en ;
     wdt:P625 "Point(10.785277777 51.835)"^^geo:wktLiteral .
 
 wd:Q15983985 rdfs:label "classical archaeologist"@en .
-
-wd:Q15986 rdfs:label "Naumburg"@en ;
-    wdt:P625 "Point(11.809819 51.152095)"^^geo:wktLiteral .
 
 wd:Q159907 rdfs:label "David Hockney"@en ;
     wdt:P106 wd:Q1028181,
@@ -13424,6 +13438,9 @@ wd:Q161048 rdfs:label "Alois Senefelder"@en ;
     wdt:P570 "1834-02-26"^^xsd:date ;
     schema:description "German actor and inventor of lithography (1771-1834)"@en .
 
+wd:Q16114046 rdfs:label "Nikola Tesla Memorial Center"@en ;
+    wdt:P625 "Point(15.308247 44.560409)"^^geo:wktLiteral .
+
 wd:Q1612253 rdfs:label "Holbeach"@en ;
     wdt:P625 "Point(0.0154 52.8037)"^^geo:wktLiteral .
 
@@ -13651,9 +13668,11 @@ wd:Q164683 rdfs:label "Max Beckmann"@en ;
     wdt:P106 wd:Q1028181,
         wd:Q11569986,
         wd:Q1281618,
+        wd:Q15296811,
         wd:Q1622272,
         wd:Q2079935,
         wd:Q36180,
+        wd:Q49757,
         wd:Q644687 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Beckmann%201928%2C%20by%20Hugo%20Erfurth.jpg> ;
     wdt:P19 wd:Q2079 ;
@@ -14110,7 +14129,7 @@ wd:Q16742203 rdfs:label "planetary scientist"@en .
 
 wd:Q16743936 rdfs:label "ontologist"@en .
 
-wd:Q16743941 rdfs:label "metaphysician"@en .
+wd:Q16744668 rdfs:label "physical chemist"@en .
 
 wd:Q16745601 rdfs:label "quantum physicist"@en .
 
@@ -14240,7 +14259,7 @@ wd:Q168356 rdfs:label "Adam Oehlenschläger"@en ;
         wd:Q49757,
         wd:Q8178443,
         wd:Q822146 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/A%20Oelenschlager.jpg> ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Oehlenschl%C3%A4ger%2C%20Adam%20%28av%20F%20C%20Gr%C3%B8ger%29.jpg> ;
     wdt:P19 wd:Q1748 ;
     wdt:P20 wd:Q1748 ;
     wdt:P213 "0000000122643371" ;
@@ -14863,6 +14882,7 @@ wd:Q17455 rdfs:label "John von Neumann"@en ;
         wd:Q169470,
         wd:Q170790,
         wd:Q188094,
+        wd:Q7888586,
         wd:Q82594 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/JohnvonNeumann-LosAlamos.jpg> ;
     wdt:P19 wd:Q1781 ;
@@ -15387,7 +15407,7 @@ wd:Q180078 rdfs:label "Kermanshah"@en ;
     wdt:P625 "Point(47.068611111 34.316666666)"^^geo:wktLiteral .
 
 wd:Q18013 rdfs:label "Sacramento"@en ;
-    wdt:P625 "Point(-121.486111111 38.575277777)"^^geo:wktLiteral .
+    wdt:P625 "Point(-121.493888888 38.581111111)"^^geo:wktLiteral .
 
 wd:Q180131 rdfs:label "Gabrovo"@en ;
     wdt:P625 "Point(25.31784 42.874242)"^^geo:wktLiteral .
@@ -15961,7 +15981,7 @@ wd:Q18391 rdfs:label "Elie Wiesel"@en ;
     wdt:P268 "11929172k" ;
     wdt:P569 "1928-09-30"^^xsd:date ;
     wdt:P570 "2016-07-02"^^xsd:date ;
-    schema:description "Romanian-born American writer, professor, political activist, Nobel laureate, and Holocaust survivor (1928-2016)"@en .
+    schema:description "Romanian-born American writer, professor, political activist, Nobel laureate, and Holocaust survivor (1928–2016)"@en .
 
 wd:Q183910 rdfs:label "Bayeux"@en ;
     wdt:P625 "Point(-0.703888888 49.278611111)"^^geo:wktLiteral .
@@ -17013,7 +17033,7 @@ wd:Q193257 rdfs:label "Jean-François Lyotard"@en ;
     wdt:P569 "1924-08-10"^^xsd:date ;
     wdt:P570 "1998-04-21"^^xsd:date ;
     wdt:P737 wd:Q48301 ;
-    schema:description "French philosopher (1924–1998)"@en .
+    schema:description "French philosopher, sociologist, and literary theorist (1924-1998)"@en .
 
 wd:Q193370 rdfs:label "Montreuil"@en ;
     wdt:P625 "Point(2.443055555 48.860277777)"^^geo:wktLiteral .
@@ -17170,6 +17190,7 @@ wd:Q19526 rdfs:label "Maya Angelou"@en ;
         wd:Q28389,
         wd:Q3282637,
         wd:Q36180,
+        wd:Q49757,
         wd:Q5716684,
         wd:Q578109,
         wd:Q6625963,
@@ -17527,9 +17548,6 @@ wd:Q201164 rdfs:label "William Sterndale Bennett"@en ;
     wdt:P569 "1816-04-13"^^xsd:date ;
     wdt:P570 "1875-02-01"^^xsd:date ;
     schema:description "British musician (1816-75)"@en .
-
-wd:Q20138 rdfs:label "Roxbury"@en ;
-    wdt:P625 "Point(-71.095277777 42.325)"^^geo:wktLiteral .
 
 wd:Q201494 rdfs:label "Harry Partch"@en ;
     wdt:P106 wd:Q14915627,
@@ -18485,8 +18503,7 @@ wd:Q208881 rdfs:label "Bo Diddley"@en ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bo%20Diddley%20%281957%20publicity%20portrait%29.jpg> ;
     wdt:P19 wd:Q2195934,
         wd:Q846178 ;
-    wdt:P20 wd:Q632661,
-        wd:Q812 ;
+    wdt:P20 wd:Q632661 ;
     wdt:P213 "0000000108153042" ;
     wdt:P214 "54332201" ;
     wdt:P227 "119164752" ;
@@ -18956,6 +18973,7 @@ wd:Q213543 rdfs:label "Rudolf Erich Raspe"@en ;
         wd:Q182436,
         wd:Q333634,
         wd:Q36180,
+        wd:Q520549,
         wd:Q593644,
         wd:Q674426,
         wd:Q755070 ;
@@ -19394,7 +19412,7 @@ wd:Q215258 rdfs:label "Richard Rorty"@en ;
         wd:Q1622272,
         wd:Q36180,
         wd:Q4964182 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20McKay%20Rorty.png> ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Rorty%20in%201959.png> ;
     wdt:P19 wd:Q60 ;
     wdt:P20 wd:Q47265 ;
     wdt:P213 "0000000121429496" ;
@@ -19538,11 +19556,13 @@ wd:Q215957 rdfs:label "Leonard Bloomfield"@en ;
     schema:description "American linguist (1887–1949)"@en .
 
 wd:Q215979 rdfs:label "Johann Beckmann"@en ;
-    wdt:P106 wd:Q1622272,
+    wdt:P106 wd:Q12376667,
+        wd:Q1622272,
         wd:Q169470,
         wd:Q17486338,
         wd:Q1781198,
         wd:Q188094,
+        wd:Q19788990,
         wd:Q2374149,
         wd:Q4964182,
         wd:Q864503 ;
@@ -20091,7 +20111,7 @@ wd:Q220078 rdfs:label "Kingsley Amis"@en ;
     wdt:P19 wd:Q5125864 ;
     wdt:P20 wd:Q84 ;
     wdt:P213 "0000000107873128" ;
-    wdt:P214 "103212356" ;
+    wdt:P214 "311112707" ;
     wdt:P227 "118645005" ;
     wdt:P244 "no96049107" ;
     wdt:P268 "12170022c" ;
@@ -20161,6 +20181,8 @@ wd:Q221377 rdfs:label "Viareggio"@en ;
 
 wd:Q221507 rdfs:label "Saint-Rémy-de-Provence"@en ;
     wdt:P625 "Point(4.831666666 43.789444444)"^^geo:wktLiteral .
+
+wd:Q2216340 rdfs:label "silversmith"@en .
 
 wd:Q221732 rdfs:label "Paul McCarthy"@en ;
     wdt:P106 wd:Q1028181,
@@ -20285,24 +20307,6 @@ wd:Q2235 rdfs:label "Veliky Novgorod"@en ;
 
 wd:Q2239557 rdfs:label "Mackworth"@en ;
     wdt:P625 "Point(-1.535 52.935)"^^geo:wktLiteral .
-
-wd:Q223963 rdfs:label "Antoine Laurent de Jussieu"@en ;
-    wdt:P1038 wd:Q432734 ;
-    wdt:P106 wd:Q1622272,
-        wd:Q2083925,
-        wd:Q2374149,
-        wd:Q39631 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Antoine%20Laurent%20de%20Jussieu.png> ;
-    wdt:P19 wd:Q456 ;
-    wdt:P20 wd:Q90 ;
-    wdt:P213 "0000000121455803" ;
-    wdt:P214 "100972099" ;
-    wdt:P227 "119273624" ;
-    wdt:P244 "n86825388" ;
-    wdt:P268 "12423918t" ;
-    wdt:P569 "1748-04-12"^^xsd:date ;
-    wdt:P570 "1836-09-17"^^xsd:date ;
-    schema:description "French botanist (1748–1836)"@en .
 
 wd:Q224029 rdfs:label "André Maurois"@en ;
     wdt:P106 wd:Q11774202,
@@ -20728,7 +20732,8 @@ wd:Q234370 rdfs:label "Paula Modersohn-Becker"@en ;
     wdt:P106 wd:Q1028181,
         wd:Q11569986,
         wd:Q15296811,
-        wd:Q483501 ;
+        wd:Q483501,
+        wd:Q78812499 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Paula%20Modersohn-Becker.jpg> ;
     wdt:P19 wd:Q1731 ;
     wdt:P20 wd:Q269174 ;
@@ -21262,6 +21267,8 @@ wd:Q237674 rdfs:label "Saint-Gilles"@en ;
 
 wd:Q23768 rdfs:label "Las Vegas"@en ;
     wdt:P625 "Point(-115.148611111 36.167222222)"^^geo:wktLiteral .
+
+wd:Q23770547 rdfs:label "serologist"@en .
 
 wd:Q2378296 rdfs:label "Rue Louise-Émilie-de-La-Tour-d'Auvergne"@en ;
     wdt:P625 "Point(2.34245 48.8794)"^^geo:wktLiteral .
@@ -22223,6 +22230,7 @@ wd:Q25591768 rdfs:label "Dieter Roth"@en ;
         wd:Q1281618,
         wd:Q18074503,
         wd:Q1925963,
+        wd:Q2516866,
         wd:Q33231,
         wd:Q3391743,
         wd:Q36180,
@@ -24112,8 +24120,7 @@ wd:Q28480 rdfs:label "Max Brod"@en ;
         wd:Q864380 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Brod%20v%20roce%201914.jpg> ;
     wdt:P19 wd:Q1085 ;
-    wdt:P20 wd:Q180294,
-        wd:Q33935 ;
+    wdt:P20 wd:Q180294 ;
     wdt:P213 "000000008343818X" ;
     wdt:P214 "56606649" ;
     wdt:P227 "118515624" ;
@@ -24243,6 +24250,7 @@ wd:Q28918 rdfs:label "Luce Irigaray"@en ;
         wd:Q34074720,
         wd:Q3410028,
         wd:Q4964182 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Luce%20Irigaray%20%28Quotidiano%20dei%20Lavoratori%2C%201975%29.jpg> ;
     wdt:P19 wd:Q2535272 ;
     wdt:P213 "0000000122800349" ;
     wdt:P214 "54149176" ;
@@ -24349,8 +24357,6 @@ wd:Q2916 rdfs:label "Osnabrück"@en ;
     wdt:P625 "Point(8.043055555 52.278888888)"^^geo:wktLiteral .
 
 wd:Q2917466 rdfs:label "psychic"@en .
-
-wd:Q29182 rdfs:label "bishop"@en .
 
 wd:Q29182003 rdfs:label "mathematics teacher"@en .
 
@@ -25417,6 +25423,9 @@ wd:Q3062919 rdfs:label "Warlingham"@en ;
 wd:Q3063086 rdfs:label "Tymoshivka"@en ;
     wdt:P625 "Point(32.068611111 48.968888888)"^^geo:wktLiteral .
 
+wd:Q3066336 rdfs:label "New Yorker Hotel"@en ;
+    wdt:P625 "Point(-73.993611111 40.752777777)"^^geo:wktLiteral .
+
 wd:Q306757 rdfs:label "Abbott"@en ;
     wdt:P625 "Point(-97.07568 31.883865)"^^geo:wktLiteral .
 
@@ -25464,6 +25473,8 @@ wd:Q3088895 rdfs:label "Joachim Bouvet"@en ;
     wdt:P569 "1656-07-18"^^xsd:date ;
     wdt:P570 "1732-07-28"^^xsd:date ;
     schema:description "French Jesuit active in China"@en .
+
+wd:Q3093411 rdfs:label "GRRRR"@en .
 
 wd:Q3097 rdfs:label "Remscheid"@en ;
     wdt:P625 "Point(7.1943544 51.1798706)"^^geo:wktLiteral .
@@ -25765,8 +25776,8 @@ wd:Q310309 rdfs:label "Bernard Le Bovier de Fontenelle"@en ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fontenelle.jpg> ;
     wdt:P19 wd:Q30974 ;
     wdt:P20 wd:Q90 ;
-    wdt:P213 "0000000107795289" ;
-    wdt:P214 "99744686" ;
+    wdt:P213 "0000000121449833" ;
+    wdt:P214 "9511167807300818130001" ;
     wdt:P227 "118639056" ;
     wdt:P244 "n50023960" ;
     wdt:P245 "500354027" ;
@@ -28418,6 +28429,8 @@ wd:Q325399 rdfs:label "Ken Jacobs"@en ;
     wdt:P570 "2025-10-05"^^xsd:date ;
     schema:description "American filmmaker (1933–2025)"@en .
 
+wd:Q325855 rdfs:label "naval surgeon"@en .
+
 wd:Q325945 rdfs:label "Art Spiegelman"@en ;
     wdt:P106 wd:Q110312558,
         wd:Q1114448,
@@ -29447,9 +29460,6 @@ wd:Q3386443 rdfs:label "Pierre Nicolas d'Incarville"@en ;
 
 wd:Q339182 rdfs:label "Saint-Julien"@en ;
     wdt:P625 "Point(4.652222222 46.026111111)"^^geo:wktLiteral .
-
-wd:Q33935 rdfs:label "Tel Aviv"@en ;
-    wdt:P625 "Point(34.78 32.08)"^^geo:wktLiteral .
 
 wd:Q3396445 rdfs:label "Alloway"@en ;
     wdt:P625 "Point(-4.633468 55.432691)"^^geo:wktLiteral .
@@ -31069,8 +31079,7 @@ wd:Q365129 rdfs:label "Arthur Coleman Danto"@en ;
         wd:Q4964182 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Arthur%20Danto%2C%202012.jpg> ;
     wdt:P19 wd:Q485172 ;
-    wdt:P20 wd:Q11299,
-        wd:Q60 ;
+    wdt:P20 wd:Q11299 ;
     wdt:P213 "0000000120981414" ;
     wdt:P214 "24366" ;
     wdt:P227 "118523724" ;
@@ -31259,9 +31268,6 @@ wd:Q366805 rdfs:label "William Congreve"@en ;
 
 wd:Q366898 rdfs:label "Devrouze"@en ;
     wdt:P625 "Point(5.158333333 46.762777777)"^^geo:wktLiteral .
-
-wd:Q367211 rdfs:label "Smiljan"@en ;
-    wdt:P625 "Point(15.3181 44.5643)"^^geo:wktLiteral .
 
 wd:Q367243 rdfs:label "Michel-Jean Sedaine"@en ;
     wdt:P106 wd:Q115793211,
@@ -31904,7 +31910,7 @@ wd:Q379816 rdfs:label "Oliver Lodge"@en ;
     wdt:P268 "12186255j" ;
     wdt:P569 "1851-06-12"^^xsd:date ;
     wdt:P570 "1940-08-22"^^xsd:date ;
-    schema:description "British physicist (1851-1940)"@en .
+    schema:description "English physicist (1851-1940)"@en .
 
 wd:Q379887 rdfs:label "Olaudah Equiano"@en ;
     wdt:P106 wd:Q107198,
@@ -32523,6 +32529,7 @@ wd:Q395725 rdfs:label "Agostino Steffani"@en ;
         wd:Q250867,
         wd:Q36834,
         wd:Q611644,
+        wd:Q639669,
         wd:Q75178,
         wd:Q765778,
         wd:Q948657 ;
@@ -33325,25 +33332,6 @@ wd:Q432924 rdfs:label "Clark Terry"@en ;
     wdt:P570 "2015-02-21"^^xsd:date ;
     schema:description "American swing and bebop trumpeter (1920–2015)"@en .
 
-wd:Q432938 rdfs:label "Reynaldo Hahn"@en ;
-    wdt:P106 wd:Q1350157,
-        wd:Q158852,
-        wd:Q2490358,
-        wd:Q36834,
-        wd:Q486748 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Reynaldo%20Hahn.jpg> ;
-    wdt:P19 wd:Q1533 ;
-    wdt:P20 wd:Q90 ;
-    wdt:P213 "0000000116911843" ;
-    wdt:P214 "97880170" ;
-    wdt:P227 "119032740" ;
-    wdt:P244 "n80163631" ;
-    wdt:P268 "12406064t" ;
-    wdt:P451 wd:Q7199 ;
-    wdt:P569 "1874-08-09"^^xsd:date ;
-    wdt:P570 "1947-01-28"^^xsd:date ;
-    schema:description "Venezuelan-French composer (1874-1947)"@en .
-
 wd:Q43303 rdfs:label "Malcolm X"@en ;
     wdt:P106 wd:Q1021386,
         wd:Q107637527,
@@ -33650,37 +33638,6 @@ wd:Q437462 rdfs:label "Octavia Hill"@en ;
     wdt:P569 "1838-12-03"^^xsd:date ;
     wdt:P570 "1912-08-13"^^xsd:date ;
     schema:description "English social reformer (1838-1912)"@en .
-
-wd:Q437594 rdfs:label "Thomas Bewick"@en ;
-    wdt:P106 wd:Q1028181,
-        wd:Q10373653,
-        wd:Q107212688,
-        wd:Q11569986,
-        wd:Q1225716,
-        wd:Q13365770,
-        wd:Q1437754,
-        wd:Q15296811,
-        wd:Q175151,
-        wd:Q201788,
-        wd:Q2516866,
-        wd:Q329439,
-        wd:Q40881196,
-        wd:Q47005195,
-        wd:Q6138343,
-        wd:Q644687 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Bewick%20by%20James%20Ramsay.jpg> ;
-    wdt:P19 wd:Q5092532 ;
-    wdt:P20 wd:Q216372 ;
-    wdt:P213 "0000000121180918" ;
-    wdt:P214 "2629144" ;
-    wdt:P227 "118658719" ;
-    wdt:P244 "n80036698" ;
-    wdt:P245 "500019989" ;
-    wdt:P268 "13520988k" ;
-    wdt:P569 "1753-08-10"^^xsd:date,
-        "1753-08-12"^^xsd:date ;
-    wdt:P570 "1828-11-08"^^xsd:date ;
-    schema:description "English engraver and natural history author (1753-1828)"@en .
 
 wd:Q437616 rdfs:label "Bill Viola"@en ;
     wdt:P106 wd:Q18074503,
@@ -34349,7 +34306,7 @@ wd:Q448845 rdfs:label "James Rosenquist"@en ;
     wdt:P244 "n50053394" ;
     wdt:P245 "500021855" ;
     wdt:P268 "124057306" ;
-    wdt:P569 "1933-11-29"^^xsd:date ;
+    wdt:P569 "1547-12-09"^^xsd:date ;
     wdt:P570 "2017-03-31"^^xsd:date ;
     schema:description "American artist (1933-2017)"@en .
 
@@ -36242,7 +36199,7 @@ wd:Q47496 rdfs:label "Marina Abramović"@en ;
         wd:Q3391743,
         wd:Q3455803,
         wd:Q483501 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Marina%20Abramovi%C4%87.%20The%20Cleaner%20%2845524492341%29.jpg> ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Marina%20Abramovi%C4%87%20%282018%29.jpg> ;
     wdt:P19 wd:Q3711 ;
     wdt:P213 "0000000122783921" ;
     wdt:P214 "37035899" ;
@@ -36645,9 +36602,6 @@ wd:Q49080 rdfs:label "Isaak Babel"@en ;
 
 wd:Q490839 rdfs:label "Issaquena County"@en ;
     wdt:P625 "Point(-90.99 32.74)"^^geo:wktLiteral .
-
-wd:Q491132 rdfs:label "Santa Clarita"@en ;
-    wdt:P625 "Point(-118.542586 34.3916641)"^^geo:wktLiteral .
 
 wd:Q4912866 rdfs:label "Billy Klüver"@en ;
     wdt:P106 wd:Q18805,
@@ -38969,6 +38923,8 @@ wd:Q54163 rdfs:label "Franklin County"@en ;
 wd:Q54165 rdfs:label "Berkshire County"@en ;
     wdt:P625 "Point(-73.21 42.396388888)"^^geo:wktLiteral .
 
+wd:Q54165684 rdfs:label "chaser"@en .
+
 wd:Q54170 rdfs:label "Winthrop"@en ;
     wdt:P625 "Point(-70.983333333 42.375)"^^geo:wktLiteral .
 
@@ -38982,6 +38938,7 @@ wd:Q542232 rdfs:label "Alan Hovhaness"@en ;
         wd:Q36834,
         wd:Q486748,
         wd:Q765778 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Hovhaness%20-%20Arlington%20High%20School%20yearbook%201929.jpg> ;
     wdt:P19 wd:Q49199 ;
     wdt:P20 wd:Q5083 ;
     wdt:P213 "0000000083575088" ;
@@ -40332,8 +40289,7 @@ wd:Q560969 rdfs:label "Hermeto Pascoal"@en ;
         wd:Q855091 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/03%20230624%20-%20Bruno%20Figueiredo%20-%20SENSA%20-%20082%20%2853045415791%29.jpg> ;
     wdt:P19 wd:Q1795976 ;
-    wdt:P20 wd:Q136288781,
-        wd:Q8678 ;
+    wdt:P20 wd:Q136288781 ;
     wdt:P213 "0000000081569549" ;
     wdt:P214 "76501110" ;
     wdt:P227 "134613562" ;
@@ -40689,8 +40645,10 @@ wd:Q57089 rdfs:label "Paul Ehrlich"@en ;
     wdt:P106 wd:Q115784320,
         wd:Q12119633,
         wd:Q1622272,
+        wd:Q19788990,
         wd:Q205375,
         wd:Q2114605,
+        wd:Q23770547,
         wd:Q39631,
         wd:Q593644 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Ehrlich%203.jpg> ;
@@ -40714,6 +40672,7 @@ wd:Q57110 rdfs:label "Corsier-sur-Vevey"@en ;
 
 wd:Q57125 rdfs:label "Walther Hermann Nernst"@en ;
     wdt:P106 wd:Q1622272,
+        wd:Q16744668,
         wd:Q169470,
         wd:Q593644 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Walther%20Nernst%20SI.jpg> ;
@@ -40974,7 +40933,7 @@ wd:Q57316 rdfs:label "Volker Schlöndorff"@en ;
         wd:Q28389,
         wd:Q3282637,
         wd:Q3455803 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/MK35043%20Volker%20Schl%C3%B6ndorff.jpg> ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Viennale%202026%20Volker%20Schl%C3%B6ndorff%20-%20BHO-5073.jpg> ;
     wdt:P19 wd:Q1721 ;
     wdt:P213 "0000000110302617" ;
     wdt:P214 "84161106" ;
@@ -41162,6 +41121,7 @@ wd:Q57619 rdfs:label "Frank Wedekind"@en ;
         wd:Q2259451,
         wd:Q28389,
         wd:Q33999,
+        wd:Q3455803,
         wd:Q36180,
         wd:Q36834,
         wd:Q482980,
@@ -41785,6 +41745,7 @@ wd:Q601307 rdfs:label "Athol Fugard"@en ;
         wd:Q3455803,
         wd:Q36180,
         wd:Q6625963 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Athol%20Fugard%2C%201960%20%28cropped%29.jpg> ;
     wdt:P19 wd:Q1002188 ;
     wdt:P20 wd:Q5460 ;
     wdt:P213 "0000000110788792" ;
@@ -41801,6 +41762,7 @@ wd:Q60135106 rdfs:label "Liverpool Maternity Hospital"@en ;
 
 wd:Q60163 rdfs:label "Leo von Klenze"@en ;
     wdt:P106 wd:Q1028181,
+        wd:Q1340643,
         wd:Q36180,
         wd:Q42973 ;
     wdt:P1066 wd:Q62973 ;
@@ -42876,7 +42838,8 @@ wd:Q64556 rdfs:label "Ewald Hering"@en ;
 wd:Q64592 rdfs:label "Otto Mencke"@en ;
     wdt:P106 wd:Q1622272,
         wd:Q170790,
-        wd:Q4964182 ;
+        wd:Q4964182,
+        wd:Q88198806 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mencke%2C%20Otto.jpg> ;
     wdt:P19 wd:Q2936 ;
     wdt:P20 wd:Q2079 ;
@@ -43517,7 +43480,9 @@ wd:Q670260 rdfs:label "Elbigenalp"@en ;
 
 wd:Q67089 rdfs:label "Rudolf Kohlrausch"@en ;
     wdt:P106 wd:Q1622272,
-        wd:Q169470 ;
+        wd:Q169470,
+        wd:Q170790,
+        wd:Q37226 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Rudolf%20Kohlrausch.jpg> ;
     wdt:P19 wd:Q3033 ;
     wdt:P20 wd:Q3126 ;
@@ -43804,8 +43769,7 @@ wd:Q680192 rdfs:label "Lawrence Weiner"@en ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lawrence%20Wiener%20in%20Speaking%20Portraits.jpg> ;
     wdt:P19 wd:Q11299,
         wd:Q60 ;
-    wdt:P20 wd:Q11299,
-        wd:Q60 ;
+    wdt:P20 wd:Q11299 ;
     wdt:P213 "0000000115600584" ;
     wdt:P214 "12320420" ;
     wdt:P227 "118630237" ;
@@ -43871,8 +43835,7 @@ wd:Q683378 rdfs:label "John Baldessari"@en ;
         wd:Q644687 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/John%20Baldessari%20headshot.tif> ;
     wdt:P19 wd:Q430316 ;
-    wdt:P20 wd:Q65,
-        wd:Q773853 ;
+    wdt:P20 wd:Q773853 ;
     wdt:P213 "0000000121329284" ;
     wdt:P214 "51819124" ;
     wdt:P227 "118506153" ;
@@ -45484,8 +45447,7 @@ wd:Q72334 rdfs:label "Toni Morrison"@en ;
         wd:Q876864 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Toni%20Morrison.jpg> ;
     wdt:P19 wd:Q609698 ;
-    wdt:P20 wd:Q18426,
-        wd:Q60 ;
+    wdt:P20 wd:Q18426 ;
     wdt:P213 "0000000121037927" ;
     wdt:P214 "109406177" ;
     wdt:P227 "118911627" ;
@@ -45905,8 +45867,7 @@ wd:Q7311 rdfs:label "Giacomo Puccini"@en ;
         wd:Q82955 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/GiacomoPuccini.jpg> ;
     wdt:P19 wd:Q13373 ;
-    wdt:P20 wd:Q111901161,
-        wd:Q239 ;
+    wdt:P20 wd:Q111901161 ;
     wdt:P213 "0000000121031832" ;
     wdt:P214 "95156473" ;
     wdt:P227 "118596942" ;
@@ -46971,9 +46932,11 @@ wd:Q76435 rdfs:label "Siegfried Kracauer"@en ;
     wdt:P106 wd:Q1930187,
         wd:Q2306091,
         wd:Q36180,
+        wd:Q4220878,
         wd:Q4220892,
         wd:Q42973,
         wd:Q6051619,
+        wd:Q6430706,
         wd:Q876864 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Siegfriedkracauer.jpg> ;
     wdt:P19 wd:Q1794 ;
@@ -47169,6 +47132,7 @@ wd:Q76730 rdfs:label "Erich Mendelsohn"@en ;
 
 wd:Q76734 rdfs:label "Hans Poelzig"@en ;
     wdt:P106 wd:Q1028181,
+        wd:Q11613590,
         wd:Q1622272,
         wd:Q42973,
         wd:Q47064,
@@ -47621,8 +47585,13 @@ wd:Q77371 rdfs:label "Friedrich de la Motte Fouqué"@en ;
 
 wd:Q77378 rdfs:label "Wilhelm Wagenfeld"@en ;
     wdt:P106 wd:Q11287574,
+        wd:Q15296811,
+        wd:Q2216340,
         wd:Q33231,
-        wd:Q5322166 ;
+        wd:Q462390,
+        wd:Q5322166,
+        wd:Q54165684,
+        wd:Q56673616 ;
     wdt:P19 wd:Q24879 ;
     wdt:P20 wd:Q1022 ;
     wdt:P213 "0000000082796823" ;
@@ -47691,7 +47660,8 @@ wd:Q777662 rdfs:label "Down Ampney"@en ;
     wdt:P625 "Point(-1.85 51.6667)"^^geo:wktLiteral .
 
 wd:Q77844 rdfs:label "Heinz Sielmann"@en ;
-    wdt:P106 wd:Q1622272,
+    wdt:P106 wd:Q15839134,
+        wd:Q1622272,
         wd:Q18805,
         wd:Q1930187,
         wd:Q222344,
@@ -47704,6 +47674,7 @@ wd:Q77844 rdfs:label "Heinz Sielmann"@en ;
         wd:Q350979,
         wd:Q36180,
         wd:Q6051619,
+        wd:Q864503,
         wd:Q947873 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Heinz%20Sielmann%20Portr%C3%A4trelie%E2%80%98%E2%80%99f.jpg> ;
     wdt:P19 wd:Q702411 ;
@@ -48193,6 +48164,8 @@ wd:Q78798 rdfs:label "Joseph Weigl"@en ;
     wdt:P570 "1846-02-03"^^xsd:date ;
     schema:description "Austrian composer"@en .
 
+wd:Q78812499 rdfs:label "schoolmistress"@en .
+
 wd:Q788526 rdfs:label "author reading"@en .
 
 wd:Q78865 rdfs:label "Eduard von Bauernfeld"@en ;
@@ -48236,6 +48209,8 @@ wd:Q78885 rdfs:label "Ettore Sottsass"@en ;
         "1917"^^xsd:gYear ;
     wdt:P570 "2007-12-31"^^xsd:date ;
     schema:description "Italian architect and designer (1917–2007)"@en .
+
+wd:Q7888586 rdfs:label "chemical engineer"@en .
 
 wd:Q789233 rdfs:label "Balassagyarmat"@en ;
     wdt:P625 "Point(19.293722222 48.071194444)"^^geo:wktLiteral .
@@ -48344,6 +48319,25 @@ wd:Q80064 rdfs:label "Elias Canetti"@en ;
     wdt:P570 "1994-08-14"^^xsd:date ;
     schema:description "Bulgarian-born Swiss and British Jewish modernist novelist, playwright, memoirist, and non-fiction writer (1905–1994)"@en .
 
+wd:Q8010985 rdfs:label "William Harvey"@en ;
+    wdt:P106 wd:Q1028181,
+        wd:Q1437754,
+        wd:Q15296811,
+        wd:Q329439,
+        wd:Q644687 ;
+    wdt:P1066 wd:Q437594 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Brothers%20Dalziel-035-1.jpg> ;
+    wdt:P19 wd:Q1425428 ;
+    wdt:P213 "0000000122834477" ;
+    wdt:P214 "100222044" ;
+    wdt:P227 "13013872X" ;
+    wdt:P244 "n82105521" ;
+    wdt:P245 "500018418" ;
+    wdt:P268 "149755965" ;
+    wdt:P569 "1796-07-13"^^xsd:date ;
+    wdt:P570 "1866-01-13"^^xsd:date ;
+    schema:description "English engraver and designer (1796-1866)"@en .
+
 wd:Q8021996 rdfs:label "Willington Quay"@en ;
     wdt:P625 "Point(-1.5 54.9833)"^^geo:wktLiteral .
 
@@ -48364,8 +48358,7 @@ wd:Q8027 rdfs:label "Martin Luther King Jr."@en ;
         wd:Q955464 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Rev.%20Dr.%20Martin%20Luther%20King%20Jr.%20Color%20Portrait%20%28high%20quality%29.jpg> ;
     wdt:P19 wd:Q23556 ;
-    wdt:P20 wd:Q16563,
-        wd:Q7589189 ;
+    wdt:P20 wd:Q7589189 ;
     wdt:P213 "0000000121450746" ;
     wdt:P214 "100170140" ;
     wdt:P227 "118562215" ;
@@ -48533,6 +48526,9 @@ wd:Q81052 rdfs:label "Inner Hebrides"@en ;
     wdt:P625 "Point(-6.0 56.5)"^^geo:wktLiteral .
 
 wd:Q811111 rdfs:label "construction officer"@en .
+
+wd:Q812 rdfs:label "Florida"@en ;
+    wdt:P625 "Point(-81.631666666 28.133333333)"^^geo:wktLiteral .
 
 wd:Q812892 rdfs:label "Beacon"@en ;
     wdt:P625 "Point(-73.965555555 41.504166666)"^^geo:wktLiteral .
@@ -49037,7 +49033,8 @@ wd:Q841957 rdfs:label "Cormeilles-en-Parisis"@en ;
     wdt:P625 "Point(2.200555555 48.973055555)"^^geo:wktLiteral .
 
 wd:Q84227 rdfs:label "Paul Ehrenfest"@en ;
-    wdt:P106 wd:Q1622272,
+    wdt:P106 wd:Q105627120,
+        wd:Q1622272,
         wd:Q16742096,
         wd:Q169470,
         wd:Q170790,
@@ -49206,8 +49203,7 @@ wd:Q84455 rdfs:label "Ödön von Horváth"@en ;
         wd:Q36180 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96d%C3%B6n%20von%20Horv%C3%A1th.jpg> ;
     wdt:P19 wd:Q1294457 ;
-    wdt:P20 wd:Q550,
-        wd:Q90 ;
+    wdt:P20 wd:Q550 ;
     wdt:P213 "0000000121441057" ;
     wdt:P214 "95147466" ;
     wdt:P227 "118553739" ;
@@ -49567,6 +49563,8 @@ wd:Q8818 rdfs:label "Valencia"@en ;
 
 wd:Q881836 rdfs:label "reserve officer"@en .
 
+wd:Q88198806 rdfs:label "state political scientist"@en .
+
 wd:Q88208289 rdfs:label "globe maker"@en .
 
 wd:Q8826 rdfs:label "Palma"@en ;
@@ -49780,8 +49778,8 @@ wd:Q9036 rdfs:label "Nikola Tesla"@en ;
         wd:Q205375,
         wd:Q846430 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tesla%20circa%201890.jpeg> ;
-    wdt:P19 wd:Q367211 ;
-    wdt:P20 wd:Q60 ;
+    wdt:P19 wd:Q16114046 ;
+    wdt:P20 wd:Q3066336 ;
     wdt:P213 "0000000121021829" ;
     wdt:P214 "70194046" ;
     wdt:P227 "119219166" ;
@@ -50934,6 +50932,9 @@ wd:Q959584 rdfs:label "Nevada"@en ;
 wd:Q959823 rdfs:label "Excelsior Springs"@en ;
     wdt:P625 "Point(-94.230833333 39.341388888)"^^geo:wktLiteral .
 
+wd:Q96 rdfs:label "Mexico"@en ;
+    wdt:P625 "Point(-102.0 23.0)"^^geo:wktLiteral .
+
 wd:Q960081 rdfs:label "Kenneth Burke"@en ;
     wdt:P106 wd:Q1350157,
         wd:Q1622272,
@@ -52018,8 +52019,6 @@ wd:Q1067477 rdfs:label "Charlton"@en ;
 
 wd:Q10690 rdfs:label "Cardiff"@en ;
     wdt:P625 "Point(-3.179166666 51.481666666)"^^geo:wktLiteral .
-
-wd:Q1076502 rdfs:label "choir director"@en .
 
 wd:Q108818918 rdfs:label "light artist"@en .
 
@@ -53367,9 +53366,6 @@ wd:Q14049 rdfs:label "Spencer Fullerton Baird"@en ;
         "1887"^^xsd:gYear ;
     schema:description "American naturalist, ornithologist, ichthyologist, museum curator, and the 2nd Secretary of the Smithsonian (1823-1887)"@en .
 
-wd:Q142 rdfs:label "France"@en ;
-    wdt:P625 "Point(2.0 47.0)"^^geo:wktLiteral .
-
 wd:Q14280 rdfs:label "Giuseppe Piazzi"@en ;
     wdt:P106 wd:Q11063,
         wd:Q1469535,
@@ -53389,8 +53385,6 @@ wd:Q14280 rdfs:label "Giuseppe Piazzi"@en ;
     wdt:P569 "1746-07-16"^^xsd:date ;
     wdt:P570 "1826-07-22"^^xsd:date ;
     schema:description "Italian Catholic priest, mathematician and astronomer (1746–1826)"@en .
-
-wd:Q1437754 rdfs:label "xylographer"@en .
 
 wd:Q144792 rdfs:label "Topanga"@en ;
     wdt:P625 "Point(-118.604444444 34.089722222)"^^geo:wktLiteral .
@@ -53563,6 +53557,7 @@ wd:Q151564 rdfs:label "Frederick Sanger"@en ;
 
 wd:Q151722 rdfs:label "Nicolas Steno"@en ;
     wdt:P106 wd:Q10872101,
+        wd:Q1234713,
         wd:Q15142825,
         wd:Q1662561,
         wd:Q18805,
@@ -54644,8 +54639,7 @@ wd:Q16409 rdfs:label "Tristan Tzara"@en ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tristan%20Tzara.jpg> ;
     wdt:P19 wd:Q10737004,
         wd:Q476226 ;
-    wdt:P20 wd:Q259463,
-        wd:Q90 ;
+    wdt:P20 wd:Q259463 ;
     wdt:P213 "0000000121251536" ;
     wdt:P214 "27072443" ;
     wdt:P227 "118624938" ;
@@ -54765,6 +54759,8 @@ wd:Q166835 rdfs:label "Wallace Stevens"@en ;
     wdt:P569 "1879-10-02"^^xsd:date ;
     wdt:P570 "1955-08-02"^^xsd:date ;
     schema:description "American poet (1879–1955)"@en .
+
+wd:Q16743941 rdfs:label "metaphysician"@en .
 
 wd:Q167600 rdfs:label "Auxerre"@en ;
     wdt:P625 "Point(3.566944444 47.7975)"^^geo:wktLiteral .
@@ -55429,7 +55425,7 @@ wd:Q185696 rdfs:label "Louisa May Alcott"@en ;
         wd:Q6625963 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Louisa%20May%20Alcott%2C%20c.%201870%20-%20Warren%27s%20Portraits%2C%20Boston.jpg> ;
     wdt:P19 wd:Q279890 ;
-    wdt:P20 wd:Q20138 ;
+    wdt:P20 wd:Q3093411 ;
     wdt:P213 "0000000121257727" ;
     wdt:P214 "29528997" ;
     wdt:P22 wd:Q474235 ;
@@ -57186,6 +57182,25 @@ wd:Q223955 rdfs:label "Aimé Césaire"@en ;
     wdt:P570 "2008-04-17"^^xsd:date ;
     schema:description "Martinican writer, poet and politician (1913–2008)"@en .
 
+wd:Q223963 rdfs:label "Antoine Laurent de Jussieu"@en ;
+    wdt:P1038 wd:Q432734,
+        wd:Q435674 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q2083925,
+        wd:Q2374149,
+        wd:Q39631 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Antoine%20Laurent%20de%20Jussieu.png> ;
+    wdt:P19 wd:Q456 ;
+    wdt:P20 wd:Q90 ;
+    wdt:P213 "0000000121455803" ;
+    wdt:P214 "100972099" ;
+    wdt:P227 "119273624" ;
+    wdt:P244 "n86825388" ;
+    wdt:P268 "12423918t" ;
+    wdt:P569 "1748-04-12"^^xsd:date ;
+    wdt:P570 "1836-09-17"^^xsd:date ;
+    schema:description "French botanist (1748–1836)"@en .
+
 wd:Q2251335 rdfs:label "school teacher"@en .
 
 wd:Q22669155 rdfs:label "fresco painter"@en .
@@ -57380,6 +57395,9 @@ wd:Q232972 rdfs:label "Sonia Delaunay"@en ;
 
 wd:Q23298 rdfs:label "Kent"@en ;
     wdt:P625 "Point(0.73 51.19)"^^geo:wktLiteral .
+
+wd:Q23306 rdfs:label "Greater London"@en ;
+    wdt:P625 "Point(-0.1 51.52)"^^geo:wktLiteral .
 
 wd:Q233088 rdfs:label "Marie Laurencin"@en ;
     wdt:P106 wd:Q1020606,
@@ -58032,7 +58050,6 @@ wd:Q2478141 rdfs:label "aristocrat"@en .
 wd:Q24829 rdfs:label "Orson Welles"@en ;
     wdt:P106 wd:Q10798782,
         wd:Q10800557,
-        wd:Q1414443,
         wd:Q15855449,
         wd:Q1759246,
         wd:Q1776724,
@@ -58398,7 +58415,7 @@ wd:Q262791 rdfs:label "Steve Reich"@en ;
     wdt:P569 "1936-10-03"^^xsd:date ;
     schema:description "American composer (born 1936)"@en .
 
-wd:Q2629392 rdfs:label "marionetteist"@en .
+wd:Q2629392 rdfs:label "puppeteer"@en .
 
 wd:Q263387 rdfs:label "François Magendie"@en ;
     wdt:P106 wd:Q121594,
@@ -58879,6 +58896,8 @@ wd:Q2915679 rdfs:label "Harry Mathews"@en ;
 wd:Q2915922 rdfs:label "Etruria"@en ;
     wdt:P625 "Point(-2.1994 53.0189)"^^geo:wktLiteral .
 
+wd:Q29182 rdfs:label "bishop"@en .
+
 wd:Q29297 rdfs:label "Carl Ritter"@en ;
     wdt:P106 wd:Q11900058,
         wd:Q1622272,
@@ -59305,8 +59324,7 @@ wd:Q310687 rdfs:label "Niccolò Piccinni"@en ;
     wdt:P1066 wd:Q314221 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Piccinni%2C%20Niccol%C3%B2%201.JPG> ;
     wdt:P19 wd:Q3519 ;
-    wdt:P20 wd:Q1241308,
-        wd:Q90 ;
+    wdt:P20 wd:Q1241308 ;
     wdt:P213 "000000012122444X" ;
     wdt:P214 "17319986" ;
     wdt:P227 "119314061" ;
@@ -59522,27 +59540,6 @@ wd:Q312631 rdfs:label "Alexander Rodchenko"@en ;
     wdt:P570 "1956-12-03"^^xsd:date,
         "1956"^^xsd:gYear ;
     schema:description "Russian artist, sculptor, photographer, and graphic designer (1891—1955)"@en .
-
-wd:Q312959 rdfs:label "Joseph Pitton de Tournefort"@en ;
-    wdt:P106 wd:Q121594,
-        wd:Q16334509,
-        wd:Q2083925,
-        wd:Q2374149,
-        wd:Q2487799,
-        wd:Q39631,
-        wd:Q98544732 ;
-    wdt:P1066 wd:Q522664 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tournefort%20Joseph%20Pitton%20de%201656-1708.jpg> ;
-    wdt:P19 wd:Q47465 ;
-    wdt:P20 wd:Q90 ;
-    wdt:P213 "0000000120999374" ;
-    wdt:P214 "24663685" ;
-    wdt:P227 "117628905" ;
-    wdt:P244 "n84102390" ;
-    wdt:P268 "12282135v" ;
-    wdt:P569 "1656-06-05"^^xsd:date ;
-    wdt:P570 "1708-12-28"^^xsd:date ;
-    schema:description "French botanist (1656-1708)"@en .
 
 wd:Q3130 rdfs:label "Sydney"@en ;
     wdt:P625 "Point(151.21 -33.867777777)"^^geo:wktLiteral .
@@ -61114,8 +61111,7 @@ wd:Q39212 rdfs:label "John Steinbeck"@en ;
         wd:Q98544732 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/John%20Steinbeck%201939%20%28cropped%29.jpg> ;
     wdt:P19 wd:Q488125 ;
-    wdt:P20 wd:Q189074,
-        wd:Q60 ;
+    wdt:P20 wd:Q189074 ;
     wdt:P213 "0000000121445760" ;
     wdt:P214 "96992551" ;
     wdt:P227 "118617338" ;
@@ -61365,28 +61361,12 @@ wd:Q432299 rdfs:label "Johann Adam Hiller"@en ;
     wdt:P802 wd:Q213556 ;
     schema:description "German composer and conductor (1728–1804)"@en .
 
-wd:Q432734 rdfs:label "Bernard de Jussieu"@en ;
-    wdt:P106 wd:Q18805,
-        wd:Q2083925,
-        wd:Q2374149,
-        wd:Q39631 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bernard%20de%20Jussieu.jpg> ;
-    wdt:P19 wd:Q456 ;
-    wdt:P20 wd:Q90 ;
-    wdt:P213 "0000000118333071" ;
-    wdt:P214 "54450638" ;
-    wdt:P227 "117659924" ;
-    wdt:P244 "n85158837" ;
-    wdt:P268 "105027860" ;
-    wdt:P569 "1699-08-17"^^xsd:date ;
-    wdt:P570 "1777-11-06"^^xsd:date ;
-    schema:description "French botanist (1699-1777)"@en .
-
 wd:Q432822 rdfs:label "La Monte Young"@en ;
     wdt:P106 wd:Q10774753,
         wd:Q36834,
         wd:Q483501,
         wd:Q55960555 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/La%20Monte%20Young%20%28Stampa%20Sera%2C%201970%29.png> ;
     wdt:P19 wd:Q935598 ;
     wdt:P213 "0000000109506831" ;
     wdt:P214 "5464112" ;
@@ -61396,6 +61376,25 @@ wd:Q432822 rdfs:label "La Monte Young"@en ;
     wdt:P268 "135597775" ;
     wdt:P569 "1935-10-14"^^xsd:date ;
     schema:description "American avant-garde composer (born 1935)"@en .
+
+wd:Q432938 rdfs:label "Reynaldo Hahn"@en ;
+    wdt:P106 wd:Q1350157,
+        wd:Q158852,
+        wd:Q2490358,
+        wd:Q36834,
+        wd:Q486748 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Reynaldo%20Hahn.jpg> ;
+    wdt:P19 wd:Q1533 ;
+    wdt:P20 wd:Q90 ;
+    wdt:P213 "0000000116911843" ;
+    wdt:P214 "97880170" ;
+    wdt:P227 "119032740" ;
+    wdt:P244 "n80163631" ;
+    wdt:P268 "12406064t" ;
+    wdt:P451 wd:Q7199 ;
+    wdt:P569 "1874-08-09"^^xsd:date ;
+    wdt:P570 "1947-01-28"^^xsd:date ;
+    schema:description "Venezuelan-French composer (1874-1947)"@en .
 
 wd:Q433093 rdfs:label "Jane Marcet"@en ;
     wdt:P106 wd:Q15143191,
@@ -61440,6 +61439,37 @@ wd:Q437352 rdfs:label "Alexander Monro"@en ;
     schema:description "Scottish doctor (1697-1767)"@en .
 
 wd:Q437512 rdfs:label "weaver"@en .
+
+wd:Q437594 rdfs:label "Thomas Bewick"@en ;
+    wdt:P106 wd:Q1028181,
+        wd:Q10373653,
+        wd:Q107212688,
+        wd:Q11569986,
+        wd:Q1225716,
+        wd:Q13365770,
+        wd:Q1437754,
+        wd:Q15296811,
+        wd:Q175151,
+        wd:Q201788,
+        wd:Q2516866,
+        wd:Q329439,
+        wd:Q40881196,
+        wd:Q47005195,
+        wd:Q6138343,
+        wd:Q644687 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Bewick%20by%20James%20Ramsay.jpg> ;
+    wdt:P19 wd:Q5092532 ;
+    wdt:P20 wd:Q216372 ;
+    wdt:P213 "0000000121180918" ;
+    wdt:P214 "2629144" ;
+    wdt:P227 "118658719" ;
+    wdt:P244 "n80036698" ;
+    wdt:P245 "500019989" ;
+    wdt:P268 "13520988k" ;
+    wdt:P569 "1753-08-10"^^xsd:date,
+        "1753-08-12"^^xsd:date ;
+    wdt:P570 "1828-11-08"^^xsd:date ;
+    schema:description "English engraver and natural history author (1753-1828)"@en .
 
 wd:Q438806 rdfs:label "Lucinda Childs"@en ;
     wdt:P106 wd:Q1650915,
@@ -61623,8 +61653,7 @@ wd:Q44252 rdfs:label "Max Klinger"@en ;
         wd:Q873492 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Klinger%20by%20Nicola%20Perscheid%20c1900.jpg> ;
     wdt:P19 wd:Q2079 ;
-    wdt:P20 wd:Q1549357,
-        wd:Q15986 ;
+    wdt:P20 wd:Q1549357 ;
     wdt:P213 "0000000120960584" ;
     wdt:P214 "46780561" ;
     wdt:P227 "118563335" ;
@@ -62342,8 +62371,7 @@ wd:Q47210 rdfs:label "Arthur Morin"@en ;
     wdt:P1066 wd:Q168452 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Arthur%20Morin.png> ;
     wdt:P19 wd:Q90 ;
-    wdt:P20 wd:Q1478999,
-        wd:Q90 ;
+    wdt:P20 wd:Q1478999 ;
     wdt:P213 "0000000111721717" ;
     wdt:P214 "4977156" ;
     wdt:P227 "117601667" ;
@@ -62782,8 +62810,7 @@ wd:Q51582 rdfs:label "William Friedkin"@en ;
         wd:Q69423232 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/William%20Friedkin%2C%20Festival%20de%20Sitges%202017%20%28cropped%29.jpg> ;
     wdt:P19 wd:Q1297 ;
-    wdt:P20 wd:Q65,
-        wd:Q86768 ;
+    wdt:P20 wd:Q86768 ;
     wdt:P213 "000000011816380X" ;
     wdt:P214 "100235701" ;
     wdt:P227 "11899915X" ;
@@ -62848,21 +62875,6 @@ wd:Q520792 rdfs:label "Nikolay Zinin"@en ;
     wdt:P570 "1880-02-18"^^xsd:date ;
     wdt:P802 wd:Q164004 ;
     schema:description "Russian chemist (1812-1880)"@en .
-
-wd:Q522664 rdfs:label "Pierre Magnol"@en ;
-    wdt:P106 wd:Q2374149 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Magnol-1638-1715.jpg> ;
-    wdt:P19 wd:Q6441 ;
-    wdt:P20 wd:Q6441 ;
-    wdt:P213 "0000000073665944" ;
-    wdt:P214 "66619287" ;
-    wdt:P227 "140333894" ;
-    wdt:P244 "n85812154" ;
-    wdt:P268 "13488829s" ;
-    wdt:P569 "1638-06-08"^^xsd:date ;
-    wdt:P570 "1715-05-21"^^xsd:date ;
-    wdt:P802 wd:Q312959 ;
-    schema:description "French botanist (1638-1715)"@en .
 
 wd:Q528493 rdfs:label "Stanisław Leśniewski"@en ;
     wdt:P106 wd:Q1622272,
@@ -63115,8 +63127,7 @@ wd:Q544469 rdfs:label "Pierre Henry"@en ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Henry%20%28cropped%29.jpg> ;
     wdt:P19 wd:Q191066,
         wd:Q90 ;
-    wdt:P20 wd:Q187153,
-        wd:Q90 ;
+    wdt:P20 wd:Q187153 ;
     wdt:P213 "0000000122840965" ;
     wdt:P214 "109889893" ;
     wdt:P227 "121707652" ;
@@ -63867,6 +63878,7 @@ wd:Q58793 rdfs:label "Adolf Bastian"@en ;
         wd:Q185351,
         wd:Q18805,
         wd:Q212980,
+        wd:Q325855,
         wd:Q36180,
         wd:Q39631,
         wd:Q4773904,
@@ -64497,7 +64509,7 @@ wd:Q6538 rdfs:label "Günter Grass"@en ;
     wdt:P268 "11905730x" ;
     wdt:P569 "1927-10-16"^^xsd:date ;
     wdt:P570 "2015-04-13"^^xsd:date ;
-    schema:description "German novelist, poet, playwright, illustrator, graphic artist, and sculptor (1927-2015)"@en .
+    schema:description "German novelist, poet, playwright, illustrator, graphic artist, and sculptor (1927–2015)"@en .
 
 wd:Q6555 rdfs:label "Narbonne"@en ;
     wdt:P625 "Point(3.003611111 43.184722222)"^^geo:wktLiteral .
@@ -64773,7 +64785,8 @@ wd:Q703925 rdfs:label "John Stevens Henslow"@en ;
 
 wd:Q704417 rdfs:label "Valentin Haüy"@en ;
     wdt:P106 wd:Q1231865,
-        wd:Q14467526 ;
+        wd:Q14467526,
+        wd:Q37226 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Valentin%20Ha%C3%BCy%20-%20Interpr%C3%A8te%20du%20Roi%20et%20de%20l%27Amiraut%C3%A9%20de%20France%20et%20Institeur%20des%20Enfants-Aveugles.jpg> ;
     wdt:P19 wd:Q389077 ;
     wdt:P20 wd:Q90 ;
@@ -65017,8 +65030,7 @@ wd:Q715379 rdfs:label "James Tenney"@en ;
         wd:Q639669 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/James%20Tenney.jpg> ;
     wdt:P19 wd:Q985526 ;
-    wdt:P20 wd:Q1319893,
-        wd:Q491132 ;
+    wdt:P20 wd:Q1319893 ;
     wdt:P213 "0000000114971009" ;
     wdt:P214 "111155088" ;
     wdt:P227 "128957719" ;
@@ -65412,6 +65424,7 @@ wd:Q75854 rdfs:label "Georg Philipp Telemann"@en ;
         wd:Q215793,
         wd:Q21680663,
         wd:Q36834,
+        wd:Q639669,
         wd:Q765778 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Telemann.jpg> ;
     wdt:P19 wd:Q1733 ;
@@ -65562,7 +65575,7 @@ wd:Q76641 rdfs:label "Felix Klein"@en ;
     wdt:P268 "11909828m" ;
     wdt:P569 "1849-04-25"^^xsd:date ;
     wdt:P570 "1925-06-22"^^xsd:date ;
-    schema:description "German mathematician, author of the Erlangen Program (1849-1925)"@en .
+    schema:description "German mathematician, author of the Erlangen Program (1849–1925)"@en .
 
 wd:Q76679 rdfs:label "Friedrich Fröbel"@en ;
     wdt:P106 wd:Q1231865,
@@ -66027,9 +66040,6 @@ wd:Q81130 rdfs:label "Anders Celsius"@en ;
         "1701-12-08"^^xsd:date ;
     wdt:P570 "1744-05-06"^^xsd:date ;
     schema:description "Swedish astronomer, physicist, and naturalist (1701-1744)"@en .
-
-wd:Q812 rdfs:label "Florida"@en ;
-    wdt:P625 "Point(-81.631666666 28.133333333)"^^geo:wktLiteral .
 
 wd:Q812906 rdfs:label "Beaconsfield"@en ;
     wdt:P625 "Point(-0.634680555 51.600872222)"^^geo:wktLiteral .
@@ -66786,9 +66796,6 @@ wd:Q95821 rdfs:label "Wolfgang Doeblin"@en ;
     wdt:P570 "1940-06-21"^^xsd:date ;
     schema:description "French-German mathematician (1915-1940)"@en .
 
-wd:Q96 rdfs:label "Mexico"@en ;
-    wdt:P625 "Point(-102.0 23.0)"^^geo:wktLiteral .
-
 wd:Q962499 rdfs:label "Morristown"@en ;
     wdt:P625 "Point(-74.4773 40.7966)"^^geo:wktLiteral .
 
@@ -67082,6 +67089,8 @@ wd:Q107287 rdfs:label "Michael Beer"@en ;
     wdt:P570 "1833-03-22"^^xsd:date,
         "1833-03-23"^^xsd:date ;
     schema:description "German poet & playwright (1800–1833)"@en .
+
+wd:Q1076502 rdfs:label "choir director"@en .
 
 wd:Q108301 rdfs:label "Maurice Utrillo"@en ;
     wdt:P106 wd:Q1028181,
@@ -67729,8 +67738,6 @@ wd:Q13311320 rdfs:label "court counsel"@en .
 wd:Q1335 rdfs:label "Montevideo"@en ;
     wdt:P625 "Point(-56.191311111 -34.905916666)"^^geo:wktLiteral .
 
-wd:Q1340643 rdfs:label "master builder"@en .
-
 wd:Q134661 rdfs:label "George Boole"@en ;
     wdt:P106 wd:Q14565331,
         wd:Q1622272,
@@ -67885,7 +67892,7 @@ wd:Q140694 rdfs:label "Alexis de Tocqueville"@en ;
 
 wd:Q141640533 rdfs:label "celestial cartographer"@en .
 
-wd:Q1423891 rdfs:label "Christian minister"@en .
+wd:Q1437754 rdfs:label "xylographer"@en .
 
 wd:Q14633979 rdfs:label "Christo"@en ;
     wdt:P106 wd:Q1028181,
@@ -69858,9 +69865,6 @@ wd:Q232295 rdfs:label "John Kendrew"@en ;
     wdt:P570 "1997-08-23"^^xsd:date ;
     schema:description "English biochemist and crystallographer (1917–1997)"@en .
 
-wd:Q23306 rdfs:label "Greater London"@en ;
-    wdt:P625 "Point(-0.1 51.52)"^^geo:wktLiteral .
-
 wd:Q234735 rdfs:label "Meudon"@en ;
     wdt:P625 "Point(2.240277777 48.8075)"^^geo:wktLiteral .
 
@@ -70131,8 +70135,6 @@ wd:Q2568679 rdfs:label "Wieland Herzfelde"@en ;
 wd:Q25829748 rdfs:label "brass player"@en .
 
 wd:Q2597249 rdfs:label "Coyoacán"@en .
-
-wd:Q2599593 rdfs:label "Germanist"@en .
 
 wd:Q2640827 rdfs:label "gynecologist"@en .
 
@@ -70647,6 +70649,28 @@ wd:Q312891 rdfs:label "Niccolò Jommelli"@en ;
     wdt:P569 "1714-09-10"^^xsd:date ;
     wdt:P570 "1774-08-25"^^xsd:date ;
     schema:description "Italian composer (1714–1774)"@en .
+
+wd:Q312959 rdfs:label "Joseph Pitton de Tournefort"@en ;
+    wdt:P106 wd:Q121594,
+        wd:Q16334509,
+        wd:Q2083925,
+        wd:Q2374149,
+        wd:Q2487799,
+        wd:Q39631,
+        wd:Q98544732 ;
+    wdt:P1066 wd:Q522664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tournefort%20Joseph%20Pitton%20de%201656-1708.jpg> ;
+    wdt:P19 wd:Q47465 ;
+    wdt:P20 wd:Q90 ;
+    wdt:P213 "0000000120999374" ;
+    wdt:P214 "24663685" ;
+    wdt:P227 "117628905" ;
+    wdt:P244 "n84102390" ;
+    wdt:P268 "12282135v" ;
+    wdt:P569 "1656-06-05"^^xsd:date ;
+    wdt:P570 "1708-12-28"^^xsd:date ;
+    wdt:P802 wd:Q435674 ;
+    schema:description "French botanist (1656-1708)"@en .
 
 wd:Q313055 rdfs:label "Alfred Stieglitz"@en ;
     wdt:P106 wd:Q11395024,
@@ -71442,7 +71466,7 @@ wd:Q382682 rdfs:label "Petrus Camper"@en ;
     schema:description "Dutch scientist (1722-1789)"@en .
 
 wd:Q38380 rdfs:label "Angers"@en ;
-    wdt:P625 "Point(-0.555555555 47.472777777)"^^geo:wktLiteral .
+    wdt:P625 "Point(-0.551944444 47.471111111)"^^geo:wktLiteral .
 
 wd:Q38873 rdfs:label "Lou Andreas-Salomem"@en ;
     wdt:P106 wd:Q11774202,
@@ -71672,8 +71696,6 @@ wd:Q41532 rdfs:label "Carl Jung"@en ;
 wd:Q41876 rdfs:label "Reims"@en ;
     wdt:P625 "Point(4.028611111 49.265277777)"^^geo:wktLiteral .
 
-wd:Q4220878 rdfs:label "film scholar"@en .
-
 wd:Q42807 rdfs:label "Nîmes"@en ;
     wdt:P625 "Point(4.359722222 43.838333333)"^^geo:wktLiteral .
 
@@ -71702,26 +71724,23 @@ wd:Q42831 rdfs:label "Ivan Turgenev"@en ;
 wd:Q429687 rdfs:label "Upper West Side"@en ;
     wdt:P625 "Point(-73.9754 40.787)"^^geo:wktLiteral .
 
-wd:Q43273 rdfs:label "Jean-Étienne Guettard"@en ;
-    wdt:P106 wd:Q1662561,
+wd:Q432734 rdfs:label "Bernard de Jussieu"@en ;
+    wdt:P106 wd:Q18805,
+        wd:Q2083925,
         wd:Q2374149,
-        wd:Q520549,
-        wd:Q674426 ;
-    wdt:P1066 wd:Q310779 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jean-%C3%89tienne%20Guettard.jpg> ;
-    wdt:P19 wd:Q205584 ;
+        wd:Q39631 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bernard%20de%20Jussieu.jpg> ;
+    wdt:P19 wd:Q456 ;
     wdt:P20 wd:Q90 ;
-    wdt:P213 "0000000109752004" ;
-    wdt:P214 "56774866" ;
-    wdt:P227 "117576425" ;
-    wdt:P244 "n83227724" ;
-    wdt:P268 "13556462k" ;
-    wdt:P569 "1715-09-19"^^xsd:date,
-        "1715-09-22"^^xsd:date ;
-    wdt:P570 "1786-01-07"^^xsd:date ;
-    wdt:P737 wd:Q310779 ;
-    wdt:P802 wd:Q39607 ;
-    schema:description "French scientist (1715-1786)"@en .
+    wdt:P213 "0000000118333071" ;
+    wdt:P214 "54450638" ;
+    wdt:P227 "117659924" ;
+    wdt:P244 "n85158837" ;
+    wdt:P268 "105027860" ;
+    wdt:P3373 wd:Q435674 ;
+    wdt:P569 "1699-08-17"^^xsd:date ;
+    wdt:P570 "1777-11-06"^^xsd:date ;
+    schema:description "French botanist (1699-1777)"@en .
 
 wd:Q43301 rdfs:label "Fresno"@en ;
     wdt:P625 "Point(-119.792222222 36.781666666)"^^geo:wktLiteral .
@@ -72469,6 +72488,21 @@ wd:Q517981 rdfs:label "Jean-Étienne Dominique Esquirol"@en ;
     wdt:P737 wd:Q311594 ;
     schema:description "French psychiatrist (1772-1840)"@en .
 
+wd:Q522664 rdfs:label "Pierre Magnol"@en ;
+    wdt:P106 wd:Q2374149 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Magnol-1638-1715.jpg> ;
+    wdt:P19 wd:Q6441 ;
+    wdt:P20 wd:Q6441 ;
+    wdt:P213 "0000000073665944" ;
+    wdt:P214 "66619287" ;
+    wdt:P227 "140333894" ;
+    wdt:P244 "n85812154" ;
+    wdt:P268 "13488829s" ;
+    wdt:P569 "1638-06-08"^^xsd:date ;
+    wdt:P570 "1715-05-21"^^xsd:date ;
+    wdt:P802 wd:Q312959 ;
+    schema:description "French botanist (1638-1715)"@en .
+
 wd:Q5352191 rdfs:label "technician"@en .
 
 wd:Q537112 rdfs:label "Ford Madox Ford"@en ;
@@ -72582,6 +72616,7 @@ wd:Q55010 rdfs:label "Engelbert Humperdinck"@en ;
         wd:Q36180,
         wd:Q36834,
         wd:Q462390,
+        wd:Q639669,
         wd:Q8178443 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Engelbert%20humperdinck%201854.jpg> ;
     wdt:P19 wd:Q14870 ;
@@ -73170,6 +73205,7 @@ wd:Q6701 rdfs:label "Jacob Grimm"@en ;
         wd:Q2135485,
         wd:Q2135538,
         wd:Q24387326,
+        wd:Q2599593,
         wd:Q333634,
         wd:Q36180,
         wd:Q4773904,
@@ -73197,10 +73233,12 @@ wd:Q6714 rdfs:label "Wilhelm Grimm"@en ;
         wd:Q13418253,
         wd:Q14467526,
         wd:Q14972848,
+        wd:Q1607826,
         wd:Q1622272,
         wd:Q17167049,
         wd:Q182436,
         wd:Q185351,
+        wd:Q19788990,
         wd:Q20551564,
         wd:Q2135485,
         wd:Q24387326,
@@ -73925,6 +73963,8 @@ wd:Q77286 rdfs:label "Heinrich Rose"@en ;
         wd:Q13416354,
         wd:Q1622272,
         wd:Q1627196,
+        wd:Q205375,
+        wd:Q333634,
         wd:Q593644 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Heinrich%20Rose.jpg> ;
     wdt:P184 wd:Q151911 ;
@@ -74274,7 +74314,6 @@ wd:Q862 rdfs:label "Joseph Brodsky"@en ;
     wdt:P106 wd:Q11774202,
         wd:Q1569495,
         wd:Q1622272,
-        wd:Q214917,
         wd:Q333634,
         wd:Q36180,
         wd:Q487596,
@@ -74938,6 +74977,8 @@ wd:Q1340 rdfs:label "Antonio Vivaldi"@en ;
     wdt:P737 wd:Q164475 ;
     schema:description "Italian composer and violinist (1678–1741)"@en .
 
+wd:Q1340643 rdfs:label "master builder"@en .
+
 wd:Q135216826 rdfs:label "translator of William Shakespeare"@en .
 
 wd:Q140201 rdfs:label "J. G. Ballard"@en ;
@@ -74963,8 +75004,7 @@ wd:Q140201 rdfs:label "J. G. Ballard"@en ;
         wd:Q905 ;
     schema:description "British novelist (1930–2009)"@en .
 
-wd:Q1425428 rdfs:label "Newcastle upon Tyne"@en ;
-    wdt:P625 "Point(-1.613333333 54.977777777)"^^geo:wktLiteral .
+wd:Q1423891 rdfs:label "Christian minister"@en .
 
 wd:Q148458 rdfs:label "Jean-François Millet"@en ;
     wdt:P106 wd:Q1028181,
@@ -75056,8 +75096,7 @@ wd:Q151523 rdfs:label "Georg Lukács"@en ;
         wd:Q88193571 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Luk%C3%A1cs%20Gy%C3%B6rgy.jpg> ;
     wdt:P19 wd:Q1781 ;
-    wdt:P20 wd:Q1781,
-        wd:Q974038 ;
+    wdt:P20 wd:Q974038 ;
     wdt:P213 "0000000121309398" ;
     wdt:P214 "46764285" ;
     wdt:P227 "11857518X" ;
@@ -75656,7 +75695,7 @@ wd:Q187166 rdfs:label "Antonin Artaud"@en ;
     schema:description "French-Occitanian poet, playwright, actor and theatre director (1896-1948)"@en .
 
 wd:Q1874 rdfs:label "Odesa"@en ;
-    wdt:P625 "Point(30.73262 46.47747)"^^geo:wktLiteral .
+    wdt:P625 "Point(30.7325 46.484166666)"^^geo:wktLiteral .
 
 wd:Q18930418 rdfs:label "analytic philosopher"@en .
 
@@ -76138,6 +76177,8 @@ wd:Q252311 rdfs:label "Farkas Bolyai"@en ;
 wd:Q25610 rdfs:label "Hampstead"@en ;
     wdt:P625 "Point(-0.1744 51.5541)"^^geo:wktLiteral .
 
+wd:Q2599593 rdfs:label "Germanist"@en .
+
 wd:Q2627699 rdfs:label "chess composer"@en .
 
 wd:Q2656 rdfs:label "Palermo"@en ;
@@ -76605,6 +76646,8 @@ wd:Q41408 rdfs:label "Federico García Lorca"@en ;
 wd:Q41604 rdfs:label "Amiens"@en ;
     wdt:P625 "Point(2.297777777 49.891944444)"^^geo:wktLiteral .
 
+wd:Q4220878 rdfs:label "film scholar"@en .
+
 wd:Q42299 rdfs:label "Bernhard Riemann"@en ;
     wdt:P106 wd:Q121594,
         wd:Q1622272,
@@ -76630,6 +76673,28 @@ wd:Q42462 rdfs:label "York"@en ;
 
 wd:Q43199 rdfs:label "Omaha"@en ;
     wdt:P625 "Point(-95.9375 41.258611111)"^^geo:wktLiteral .
+
+wd:Q43273 rdfs:label "Jean-Étienne Guettard"@en ;
+    wdt:P106 wd:Q1662561,
+        wd:Q2374149,
+        wd:Q520549,
+        wd:Q674426 ;
+    wdt:P1066 wd:Q310779,
+        wd:Q435674 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jean-%C3%89tienne%20Guettard.jpg> ;
+    wdt:P19 wd:Q205584 ;
+    wdt:P20 wd:Q90 ;
+    wdt:P213 "0000000109752004" ;
+    wdt:P214 "56774866" ;
+    wdt:P227 "117576425" ;
+    wdt:P244 "n83227724" ;
+    wdt:P268 "13556462k" ;
+    wdt:P569 "1715-09-19"^^xsd:date,
+        "1715-09-22"^^xsd:date ;
+    wdt:P570 "1786-01-07"^^xsd:date ;
+    wdt:P737 wd:Q310779 ;
+    wdt:P802 wd:Q39607 ;
+    schema:description "French scientist (1715-1786)"@en .
 
 wd:Q43393 rdfs:label "Robert Boyle"@en ;
     wdt:P106 wd:Q169470,
@@ -77171,6 +77236,9 @@ wd:Q518945 rdfs:label "Enrico Cecchetti"@en ;
         wd:Q240736 ;
     schema:description "Italian ballet dancer (1850–1928)"@en .
 
+wd:Q523240 rdfs:label "Concord"@en ;
+    wdt:P625 "Point(-71.349444444 42.460277777)"^^geo:wktLiteral .
+
 wd:Q546 rdfs:label "Trieste"@en ;
     wdt:P625 "Point(13.770277777 45.650277777)"^^geo:wktLiteral .
 
@@ -77223,8 +77291,7 @@ wd:Q573120 rdfs:label "Jean Wahl"@en ;
     wdt:P1066 wd:Q42156 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Photo%20de%20Jean%20Wahl%20%28cropped2%29.jpg> ;
     wdt:P19 wd:Q23482 ;
-    wdt:P20 wd:Q275118,
-        wd:Q90 ;
+    wdt:P20 wd:Q275118 ;
     wdt:P213 "0000000109019339" ;
     wdt:P214 "54155626" ;
     wdt:P227 "119194589" ;
@@ -77318,6 +77385,7 @@ wd:Q5912 rdfs:label "Marcel Duchamp"@en ;
 
 wd:Q60639 rdfs:label "Leopold Gmelin"@en ;
     wdt:P106 wd:Q1622272,
+        wd:Q19788990,
         wd:Q593644 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Leopold%20Gmelin.jpg> ;
     wdt:P184 wd:Q77309 ;
@@ -78298,6 +78366,9 @@ wd:Q138858 rdfs:label "entertainer"@en .
 wd:Q13972 rdfs:label "Tartu"@en ;
     wdt:P625 "Point(26.7225 58.38)"^^geo:wktLiteral .
 
+wd:Q1425428 rdfs:label "Newcastle upon Tyne"@en ;
+    wdt:P625 "Point(-1.613333333 54.977777777)"^^geo:wktLiteral .
+
 wd:Q14278 rdfs:label "John Frederick William Herschel"@en ;
     wdt:P1038 wd:Q76948 ;
     wdt:P106 wd:Q11063,
@@ -78491,6 +78562,9 @@ wd:Q164475 rdfs:label "Arcangelo Corelli"@en ;
         wd:Q311625 ;
     schema:description "Italian violinist and composer (1653–1713)"@en .
 
+wd:Q16563 rdfs:label "Memphis"@en ;
+    wdt:P625 "Point(-90.051944444 35.146111111)"^^geo:wktLiteral .
+
 wd:Q168362 rdfs:label "John Desmond Bernal"@en ;
     wdt:P106 wd:Q14906342,
         wd:Q15142825,
@@ -78635,6 +78709,7 @@ wd:Q187520 rdfs:label "Charles Sanders Peirce"@en ;
     wdt:P268 "12027958b" ;
     wdt:P569 "1839-09-10"^^xsd:date ;
     wdt:P570 "1914-04-19"^^xsd:date ;
+    wdt:P737 wd:Q82049 ;
     schema:description "American philosopher, logician, mathematician, and scientist (1839-1914)"@en .
 
 wd:Q188385 rdfs:label "Gertrude Stein"@en ;
@@ -79203,6 +79278,28 @@ wd:Q434610 rdfs:label "Henry Cowell"@en ;
 
 wd:Q4351403 rdfs:label "percussionist"@en .
 
+wd:Q435674 rdfs:label "Antoine de Jussieu"@en ;
+    wdt:P1038 wd:Q223963 ;
+    wdt:P106 wd:Q18805,
+        wd:Q2083925,
+        wd:Q2374149,
+        wd:Q37226,
+        wd:Q39631 ;
+    wdt:P1066 wd:Q312959,
+        wd:Q522664 ;
+    wdt:P19 wd:Q456 ;
+    wdt:P20 wd:Q90 ;
+    wdt:P213 "0000000121341865" ;
+    wdt:P214 "56673731" ;
+    wdt:P227 "117241865" ;
+    wdt:P244 "nr95001822" ;
+    wdt:P268 "12292557g" ;
+    wdt:P3373 wd:Q432734 ;
+    wdt:P569 "1686-07-06"^^xsd:date ;
+    wdt:P570 "1758-04-22"^^xsd:date ;
+    wdt:P802 wd:Q43273 ;
+    schema:description "French botanist (1686-1758)"@en .
+
 wd:Q45546 rdfs:label "William Wordsworth"@en ;
     wdt:P106 wd:Q36180,
         wd:Q49757,
@@ -79338,9 +79435,6 @@ wd:Q501 rdfs:label "Charles Baudelaire"@en ;
         wd:Q535 ;
     schema:description "French poet and critic (1821–1867)"@en .
 
-wd:Q523240 rdfs:label "Concord"@en ;
-    wdt:P625 "Point(-71.349444444 42.460277777)"^^geo:wktLiteral .
-
 wd:Q531721 rdfs:label "Philip Webb"@en ;
     wdt:P106 wd:Q11455387,
         wd:Q42973,
@@ -79382,8 +79476,6 @@ wd:Q5582 rdfs:label "Vincent van Gogh"@en ;
         wd:Q35548,
         wd:Q37693 ;
     schema:description "Dutch painter (1853–1890)"@en .
-
-wd:Q56673616 rdfs:label "decorative artist"@en .
 
 wd:Q5685 rdfs:label "Anton Chekhov"@en ;
     wdt:P106 wd:Q12144794,
@@ -80353,8 +80445,6 @@ wd:Q156889 rdfs:label "Suzanne Valadon"@en ;
     wdt:P802 wd:Q108301 ;
     schema:description "French painter (1865—1938)"@en .
 
-wd:Q15839134 rdfs:label "ecologist"@en .
-
 wd:Q159551 rdfs:label "Ignaz Moscheles"@en ;
     wdt:P106 wd:Q1231865,
         wd:Q1259917,
@@ -80388,9 +80478,6 @@ wd:Q15977927 rdfs:label "art educator"@en .
 wd:Q16063497 rdfs:label "evolutionary biologist"@en .
 
 wd:Q16271064 rdfs:label "herpetologist"@en .
-
-wd:Q16563 rdfs:label "Memphis"@en ;
-    wdt:P625 "Point(-90.051944444 35.146111111)"^^geo:wktLiteral .
 
 wd:Q1711 rdfs:label "Potsdam"@en ;
     wdt:P625 "Point(13.0591397 52.4009309)"^^geo:wktLiteral .
@@ -80621,8 +80708,7 @@ wd:Q313584 rdfs:label "Vincent d'Indy"@en ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Vincent%20d%27Indy.jpg> ;
     wdt:P19 wd:Q163948,
         wd:Q90 ;
-    wdt:P20 wd:Q259463,
-        wd:Q90 ;
+    wdt:P20 wd:Q259463 ;
     wdt:P213 "0000000121367045" ;
     wdt:P214 "64192115" ;
     wdt:P227 "118775480" ;
@@ -80984,6 +81070,8 @@ wd:Q5083 rdfs:label "Seattle"@en ;
 
 wd:Q56236186 rdfs:label "carpets designer"@en .
 
+wd:Q56673616 rdfs:label "decorative artist"@en .
+
 wd:Q57078 rdfs:label "Adolf von Baeyer"@en ;
     wdt:P106 wd:Q1622272,
         wd:Q593644 ;
@@ -81173,7 +81261,35 @@ wd:Q81447 rdfs:label "Aldous Huxley"@en ;
     wdt:P3373 wd:Q243419 ;
     wdt:P569 "1894-07-26"^^xsd:date ;
     wdt:P570 "1963-11-22"^^xsd:date ;
-    schema:description "English writer and philosopher (1894–1963)"@en .
+    schema:description "viva el completo (1894–1963)"@en .
+
+wd:Q82049 rdfs:label "George Berkeley"@en ;
+    wdt:P106 wd:Q1234713,
+        wd:Q1423891,
+        wd:Q15632482,
+        wd:Q16389557,
+        wd:Q16743941,
+        wd:Q29182,
+        wd:Q3409375,
+        wd:Q36180,
+        wd:Q4964182 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/George%20Berkeley%20by%20Jonh%20Smibert.jpg> ;
+    wdt:P19 wd:Q15215556 ;
+    wdt:P20 wd:Q34217 ;
+    wdt:P213 "0000000121451335" ;
+    wdt:P214 "100192823" ;
+    wdt:P227 "118509616" ;
+    wdt:P244 "n79055588" ;
+    wdt:P245 "500187611" ;
+    wdt:P268 "123285193" ;
+    wdt:P569 "1685-03-12"^^xsd:date,
+        "1684"^^xsd:gYear ;
+    wdt:P570 "1753-01-14"^^xsd:date,
+        "1731"^^xsd:gYear,
+        "1753"^^xsd:gYear ;
+    wdt:P737 wd:Q309818,
+        wd:Q9353 ;
+    schema:description "Irish idealist philosopher and Anglican bishop (1685–1753)"@en .
 
 wd:Q83155 rdfs:label "Jacques-Louis David"@en ;
     wdt:P106 wd:Q1028181,
@@ -81347,8 +81463,7 @@ wd:Q131149 rdfs:label "Henry David Thoreau"@en ;
         wd:Q4964182,
         wd:Q49757 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Benjamin%20D.%20Maxham%20-%20Henry%20David%20Thoreau%20-%20Restored%20-%20greyscale%20-%20straightened.jpg> ;
-    wdt:P19 wd:Q523240,
-        wd:Q6948294 ;
+    wdt:P19 wd:Q6948294 ;
     wdt:P20 wd:Q523240 ;
     wdt:P213 "0000000121020957" ;
     wdt:P214 "68936476" ;
@@ -81370,7 +81485,8 @@ wd:Q131491 rdfs:label "Brighton"@en ;
 wd:Q13424456 rdfs:label "hymnwriter"@en .
 
 wd:Q14277 rdfs:label "William Herschel"@en ;
-    wdt:P106 wd:Q11063,
+    wdt:P106 wd:Q1076502,
+        wd:Q11063,
         wd:Q16003954,
         wd:Q169470,
         wd:Q36834,
@@ -81399,7 +81515,7 @@ wd:Q152002 rdfs:label "pastor"@en .
 
 wd:Q15627169 rdfs:label "trade unionist"@en .
 
-wd:Q15632482 rdfs:label "epistemologist"@en .
+wd:Q15839134 rdfs:label "ecologist"@en .
 
 wd:Q15978337 rdfs:label "social critic"@en .
 
@@ -81542,6 +81658,8 @@ wd:Q189074 rdfs:label "Harlem"@en ;
 wd:Q18930236 rdfs:label "philosopher of language"@en .
 
 wd:Q1906857 rdfs:label "mechanical engineer"@en .
+
+wd:Q19788990 rdfs:label "professor"@en .
 
 wd:Q19829980 rdfs:label "religious studies scholar"@en .
 
@@ -81923,8 +82041,6 @@ wd:Q4100 rdfs:label "Baden-Baden"@en ;
 
 wd:Q42909 rdfs:label "reporter"@en .
 
-wd:Q462390 rdfs:label "docent"@en .
-
 wd:Q504 rdfs:label "Émile Zola"@en ;
     wdt:P106 wd:Q11774202,
         wd:Q15949613,
@@ -82021,6 +82137,7 @@ wd:Q60028 rdfs:label "Gottlob Frege"@en ;
         wd:Q170790,
         wd:Q18930236,
         wd:Q18930418,
+        wd:Q19788990,
         wd:Q4964182 ;
     wdt:P1066 wd:Q76707 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Young%20frege.jpg> ;
@@ -82262,6 +82379,8 @@ wd:Q154770 rdfs:label "Arnold Schoenberg"@en ;
         wd:Q78704 ;
     schema:description "Austrian-Jewish American composer (1874-1951)"@en .
 
+wd:Q15632482 rdfs:label "epistemologist"@en .
+
 wd:Q1569495 rdfs:label "lecturer"@en .
 
 wd:Q15816836 rdfs:label "bacteriologist"@en .
@@ -82440,8 +82559,6 @@ wd:Q340 rdfs:label "Montreal"@en ;
 wd:Q34006 rdfs:label "Hollywood"@en ;
     wdt:P625 "Point(-118.326666666 34.098333333)"^^geo:wktLiteral .
 
-wd:Q3409375 rdfs:label "Anglican priest"@en .
-
 wd:Q34618 rdfs:label "Gustave Courbet"@en ;
     wdt:P106 wd:Q1028181,
         wd:Q1281618,
@@ -82558,6 +82675,8 @@ wd:Q41513 rdfs:label "William Blake"@en ;
         wd:Q122382,
         wd:Q185832 ;
     schema:description "English poet and artist (1757–1827)"@en .
+
+wd:Q462390 rdfs:label "docent"@en .
 
 wd:Q47164 rdfs:label "Santa Monica"@en ;
     wdt:P625 "Point(-118.481388888 34.021944444)"^^geo:wktLiteral .
@@ -82765,10 +82884,12 @@ wd:Q76509 rdfs:label "Karl Jaspers"@en ;
     wdt:P106 wd:Q1234713,
         wd:Q1607826,
         wd:Q1622272,
+        wd:Q19788990,
         wd:Q211346,
         wd:Q212980,
         wd:Q36180,
         wd:Q39631,
+        wd:Q482980,
         wd:Q4964182 ;
     wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Jaspers%201910.jpg> ;
     wdt:P19 wd:Q2936 ;
@@ -82895,6 +83016,9 @@ wd:Q82925 rdfs:label "Joseph Conrad"@en ;
         wd:Q79822 ;
     schema:description "Polish-British writer (1857–1924)"@en .
 
+wd:Q8678 rdfs:label "Rio de Janeiro"@en ;
+    wdt:P625 "Point(-43.205555555 -22.911111111)"^^geo:wktLiteral .
+
 wd:Q899758 rdfs:label "violist"@en .
 
 wd:Q9068 rdfs:label "Voltaire"@en ;
@@ -83006,7 +83130,7 @@ wd:Q937 rdfs:label "Albert Einstein"@en ;
         wd:Q991 ;
     schema:description "German-born theoretical physicist (1879–1955)"@en .
 
-wd:Q998550 rdfs:label "bookseller"@en .
+wd:Q998550 rdfs:label "book dealer"@en .
 
 wd:Q11496048 rdfs:label "war photographer"@en .
 
@@ -83226,30 +83350,11 @@ wd:Q255 rdfs:label "Ludwig van Beethoven"@en ;
 wd:Q288781 rdfs:label "Kensington"@en ;
     wdt:P625 "Point(-0.1909 51.5004)"^^geo:wktLiteral .
 
-wd:Q309818 rdfs:label "Nicolas Malebranche"@en ;
-    wdt:P106 wd:Q1231865,
-        wd:Q1234713,
-        wd:Q36180,
-        wd:Q4964182,
-        wd:Q98833890 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Nicolas%20Malebranche%20-%20Versailles%20MV%202929.jpg> ;
-    wdt:P184 wd:Q9047 ;
-    wdt:P185 wd:Q122392,
-        wd:Q379219 ;
-    wdt:P19 wd:Q90 ;
-    wdt:P20 wd:Q90 ;
-    wdt:P213 "0000000122811312" ;
-    wdt:P214 "66545180" ;
-    wdt:P227 "118576682" ;
-    wdt:P244 "n79133702" ;
-    wdt:P268 "12371373p" ;
-    wdt:P569 "1638-08-06"^^xsd:date ;
-    wdt:P570 "1715-10-13"^^xsd:date ;
-    schema:description "French philosopher"@en .
-
 wd:Q3400985 rdfs:label "academic"@en .
 
 wd:Q34074720 rdfs:label "feminist"@en .
+
+wd:Q3409375 rdfs:label "Anglican priest"@en .
 
 wd:Q34404 rdfs:label "New Orleans"@en ;
     wdt:P625 "Point(-90.078333333 29.976111111)"^^geo:wktLiteral .
@@ -83388,6 +83493,7 @@ wd:Q42156 rdfs:label "Henri Bergson"@en ;
         wd:Q37160,
         wd:Q38193,
         wd:Q60028,
+        wd:Q82049,
         wd:Q9047,
         wd:Q9312,
         wd:Q937 ;
@@ -83398,9 +83504,6 @@ wd:Q42303786 rdfs:label "blues musician"@en .
 
 wd:Q43631 rdfs:label "Leiden"@en ;
     wdt:P625 "Point(4.49 52.16)"^^geo:wktLiteral .
-
-wd:Q456 rdfs:label "Lyon"@en ;
-    wdt:P625 "Point(4.835 45.7675)"^^geo:wktLiteral .
 
 wd:Q46096 rdfs:label "Felix Mendelssohn"@en ;
     wdt:P1038 wd:Q29193,
@@ -83624,32 +83727,6 @@ wd:Q77309 rdfs:label "Friedrich Stromeyer"@en ;
     wdt:P802 wd:Q71031 ;
     schema:description "German Chemist"@en .
 
-wd:Q8678 rdfs:label "Rio de Janeiro"@en ;
-    wdt:P625 "Point(-43.205555555 -22.911111111)"^^geo:wktLiteral .
-
-wd:Q9353 rdfs:label "John Locke"@en ;
-    wdt:P106 wd:Q23760244,
-        wd:Q36180,
-        wd:Q39631,
-        wd:Q4964182,
-        wd:Q82955,
-        wd:Q901 ;
-    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/JohnLocke.png> ;
-    wdt:P19 wd:Q1825419 ;
-    wdt:P20 wd:Q2233631 ;
-    wdt:P213 "0000000121272329" ;
-    wdt:P214 "34459614" ;
-    wdt:P227 "118573748" ;
-    wdt:P244 "n79090225" ;
-    wdt:P245 "500222209" ;
-    wdt:P268 "11913201p" ;
-    wdt:P569 "1632-08-29"^^xsd:date,
-        "1632-09-08"^^xsd:date ;
-    wdt:P570 "1704-10-28"^^xsd:date,
-        "1704-11-08"^^xsd:date ;
-    wdt:P737 wd:Q37621 ;
-    schema:description "English philosopher and physician (1632-1704)"@en .
-
 wd:Q955464 rdfs:label "parson"@en .
 
 wd:Q1022 rdfs:label "Stuttgart"@en ;
@@ -83823,6 +83900,9 @@ wd:Q188176 rdfs:label "William S. Burroughs"@en ;
 
 wd:Q215536 rdfs:label "merchant"@en .
 
+wd:Q239 rdfs:label "Brussels"@en ;
+    wdt:P625 "Point(4.351666666 50.846666666)"^^geo:wktLiteral .
+
 wd:Q25320 rdfs:label "Paul Langevin"@en ;
     wdt:P1038 wd:Q311594 ;
     wdt:P106 wd:Q1231865,
@@ -83900,6 +83980,27 @@ wd:Q29193 rdfs:label "Johann Peter Gustav Lejeune Dirichlet"@en ;
     wdt:P570 "1859-05-05"^^xsd:date ;
     wdt:P802 wd:Q76556 ;
     schema:description "German mathematician (1805–1859)"@en .
+
+wd:Q309818 rdfs:label "Nicolas Malebranche"@en ;
+    wdt:P106 wd:Q1231865,
+        wd:Q1234713,
+        wd:Q36180,
+        wd:Q4964182,
+        wd:Q98833890 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Nicolas%20Malebranche%20-%20Versailles%20MV%202929.jpg> ;
+    wdt:P184 wd:Q9047 ;
+    wdt:P185 wd:Q122392,
+        wd:Q379219 ;
+    wdt:P19 wd:Q90 ;
+    wdt:P20 wd:Q90 ;
+    wdt:P213 "0000000122811312" ;
+    wdt:P214 "66545180" ;
+    wdt:P227 "118576682" ;
+    wdt:P244 "n79133702" ;
+    wdt:P268 "12371373p" ;
+    wdt:P569 "1638-08-06"^^xsd:date ;
+    wdt:P570 "1715-10-13"^^xsd:date ;
+    schema:description "French philosopher"@en .
 
 wd:Q36661 rdfs:label "Henrik Ibsen"@en ;
     wdt:P106 wd:Q214917,
@@ -83991,6 +84092,9 @@ wd:Q43444 rdfs:label "Gustave Flaubert"@en ;
     wdt:P570 "1880-05-08"^^xsd:date,
         "1880"^^xsd:gYear ;
     schema:description "French novelist (1821–1880)"@en .
+
+wd:Q456 rdfs:label "Lyon"@en ;
+    wdt:P625 "Point(4.835 45.7675)"^^geo:wktLiteral .
 
 wd:Q4610556 rdfs:label "model"@en .
 
@@ -84157,6 +84261,29 @@ wd:Q905 rdfs:label "Franz Kafka"@en ;
     wdt:P737 wd:Q28494,
         wd:Q43444 ;
     schema:description "Bohemian writer from Prague (1883–1924)"@en .
+
+wd:Q9353 rdfs:label "John Locke"@en ;
+    wdt:P106 wd:Q23760244,
+        wd:Q36180,
+        wd:Q39631,
+        wd:Q4964182,
+        wd:Q82955,
+        wd:Q901 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/JohnLocke.png> ;
+    wdt:P19 wd:Q1825419 ;
+    wdt:P20 wd:Q2233631 ;
+    wdt:P213 "0000000121272329" ;
+    wdt:P214 "34459614" ;
+    wdt:P227 "118573748" ;
+    wdt:P244 "n79090225" ;
+    wdt:P245 "500222209" ;
+    wdt:P268 "11913201p" ;
+    wdt:P569 "1632-08-29"^^xsd:date,
+        "1632-09-08"^^xsd:date ;
+    wdt:P570 "1704-10-28"^^xsd:date,
+        "1704-11-08"^^xsd:date ;
+    wdt:P737 wd:Q37621 ;
+    schema:description "English philosopher and physician (1632-1704)"@en .
 
 wd:Q9391 rdfs:label "Ludwig Wittgenstein"@en ;
     wdt:P1038 wd:Q159976 ;
@@ -84353,9 +84480,6 @@ wd:Q227897 rdfs:label "Johann Bernoulli"@en ;
 
 wd:Q238723 rdfs:label "5th arrondissement of Paris"@en ;
     wdt:P625 "Point(2.344444444 48.847222222)"^^geo:wktLiteral .
-
-wd:Q239 rdfs:label "Brussels"@en ;
-    wdt:P625 "Point(4.351666666 50.846666666)"^^geo:wktLiteral .
 
 wd:Q2516852 rdfs:label "literary editor"@en .
 
@@ -84733,8 +84857,6 @@ wd:Q15253558 rdfs:label "activist"@en .
 
 wd:Q15962340 rdfs:label "literary theorist"@en .
 
-wd:Q16389557 rdfs:label "philosopher of science"@en .
-
 wd:Q1650915 rdfs:label "researcher"@en .
 
 wd:Q175151 rdfs:label "printer"@en .
@@ -84848,6 +84970,7 @@ wd:Q7199 rdfs:label "Marcel Proust"@en ;
     wdt:P244 "n79021736" ;
     wdt:P245 "500247117" ;
     wdt:P268 "119207126" ;
+    wdt:P451 wd:Q432938 ;
     wdt:P569 "1871-07-10"^^xsd:date ;
     wdt:P570 "1922-11-18"^^xsd:date ;
     schema:description "French novelist, critic and essayist (1871–1922)"@en .
@@ -84861,6 +84984,8 @@ wd:Q974144 rdfs:label "educator"@en .
 wd:Q1229025 rdfs:label "typographer"@en .
 
 wd:Q16003550 rdfs:label "pacifist"@en .
+
+wd:Q16389557 rdfs:label "philosopher of science"@en .
 
 wd:Q1715 rdfs:label "Hanover"@en ;
     wdt:P625 "Point(9.738611111 52.374444444)"^^geo:wktLiteral .
@@ -85088,6 +85213,7 @@ wd:Q37160 rdfs:label "David Hume"@en ;
     wdt:P570 "1776-08-25"^^xsd:date,
         "1776"^^xsd:gYear ;
     wdt:P737 wd:Q316367,
+        wd:Q82049,
         wd:Q935,
         wd:Q9353 ;
     schema:description "Scottish philosopher, economist, and historian (1711-1776)"@en .
@@ -85128,7 +85254,7 @@ wd:Q991 rdfs:label "Fyodor Dostoyevsky"@en ;
         wd:Q79822,
         wd:Q9312,
         wd:Q9711 ;
-    schema:description "Russian novelist (1821–1881)"@en .
+    schema:description "Russian novelist and philosopher (1821–1881)"@en .
 
 wd:Q10694573 rdfs:label "textile artist"@en .
 
@@ -85216,9 +85342,10 @@ wd:Q13582652 rdfs:label "civil engineer"@en .
 
 wd:Q17337766 rdfs:label "theatre critic"@en .
 
-wd:Q2732142 rdfs:label "statistician"@en .
+wd:Q1781 rdfs:label "Budapest"@en ;
+    wdt:P625 "Point(19.040833333 47.498333333)"^^geo:wktLiteral .
 
-wd:Q329439 rdfs:label "engraver"@en .
+wd:Q2732142 rdfs:label "statistician"@en .
 
 wd:Q82594 rdfs:label "computer scientist"@en .
 
@@ -85300,17 +85427,13 @@ wd:Q140619 rdfs:label "Nadia Boulanger"@en ;
         wd:Q746182 ;
     schema:description "French musician, conductor, and teacher (1887-1979)"@en .
 
-wd:Q1781 rdfs:label "Budapest"@en ;
-    wdt:P625 "Point(19.040833333 47.498333333)"^^geo:wktLiteral .
-
 wd:Q20857490 rdfs:label "pastellist"@en .
 
 wd:Q23833535 rdfs:label "French resistance fighter"@en .
 
 wd:Q3126128 rdfs:label "geneticist"@en .
 
-wd:Q34217 rdfs:label "Oxford"@en ;
-    wdt:P625 "Point(-1.257777777 51.751944444)"^^geo:wktLiteral .
+wd:Q329439 rdfs:label "engraver"@en .
 
 wd:Q3658608 rdfs:label "caricaturist"@en .
 
@@ -85327,6 +85450,9 @@ wd:Q259463 rdfs:label "7th arrondissement of Paris"@en ;
 
 wd:Q3033 rdfs:label "Göttingen"@en ;
     wdt:P625 "Point(9.935555555 51.533888888)"^^geo:wktLiteral .
+
+wd:Q34217 rdfs:label "Oxford"@en ;
+    wdt:P625 "Point(-1.257777777 51.751944444)"^^geo:wktLiteral .
 
 wd:Q551835 rdfs:label "physician writer"@en .
 
@@ -85744,17 +85870,18 @@ wd:Q9312 rdfs:label "Immanuel Kant"@en ;
         wd:Q35802,
         wd:Q37160,
         wd:Q6527,
+        wd:Q82049,
         wd:Q9047,
         wd:Q935,
         wd:Q9353 ;
     wdt:P802 wd:Q102585 ;
     schema:description "German philosopher (1724-1804)"@en .
 
-wd:Q11613590 rdfs:label "theatre designer"@en .
-
 wd:Q131524 rdfs:label "entrepreneur"@en .
 
 wd:Q627325 rdfs:label "graphic designer"@en .
+
+wd:Q11613590 rdfs:label "theatre designer"@en .
 
 wd:Q1297 rdfs:label "Chicago"@en ;
     wdt:P625 "Point(-87.627777777 41.881944444)"^^geo:wktLiteral .
@@ -85801,6 +85928,9 @@ wd:Q193391 rdfs:label "diplomat"@en .
 wd:Q23436 rdfs:label "Edinburgh"@en ;
     wdt:P625 "Point(-3.189166666 55.953333333)"^^geo:wktLiteral .
 
+wd:Q65 rdfs:label "Los Angeles"@en ;
+    wdt:P625 "Point(-118.24368 34.05223)"^^geo:wktLiteral .
+
 wd:Q183945 rdfs:label "record producer"@en .
 
 wd:Q47541952 rdfs:label "producer"@en .
@@ -85810,20 +85940,17 @@ wd:Q656 rdfs:label "Saint Petersburg"@en ;
 
 wd:Q188094 rdfs:label "economist"@en .
 
-wd:Q65 rdfs:label "Los Angeles"@en ;
-    wdt:P625 "Point(-118.24368 34.05223)"^^geo:wktLiteral .
-
 wd:Q1415090 rdfs:label "film score composer"@en .
 
 wd:Q222344 rdfs:label "cinematographer"@en .
 
 wd:Q22343478 rdfs:label "collagist"@en .
 
-wd:Q2516866 rdfs:label "publisher"@en .
-
 wd:Q3055126 rdfs:label "entomologist"@en .
 
 wd:Q4164507 rdfs:label "art critic"@en .
+
+wd:Q2516866 rdfs:label "publisher"@en .
 
 wd:Q5716684 rdfs:label "dancer"@en .
 
@@ -85843,17 +85970,17 @@ wd:Q11299 rdfs:label "Manhattan"@en ;
 
 wd:Q2259451 rdfs:label "stage actor"@en .
 
-wd:Q520549 rdfs:label "geologist"@en .
-
 wd:Q11900058 rdfs:label "explorer"@en .
 
-wd:Q1607826 rdfs:label "editor"@en .
-
-wd:Q6430706 rdfs:label "critic"@en .
+wd:Q520549 rdfs:label "geologist"@en .
 
 wd:Q855091 rdfs:label "guitarist"@en .
 
 wd:Q864380 rdfs:label "biographer"@en .
+
+wd:Q1607826 rdfs:label "editor"@en .
+
+wd:Q6430706 rdfs:label "critic"@en .
 
 wd:Q2707485 rdfs:label "scenographer"@en .
 
@@ -85881,9 +86008,9 @@ wd:Q98544732 rdfs:label "scientific collector"@en .
 
 wd:Q15949613 rdfs:label "short story writer"@en .
 
-wd:Q2083925 rdfs:label "botanical collector"@en .
-
 wd:Q18844224 rdfs:label "science fiction writer"@en .
+
+wd:Q2083925 rdfs:label "botanical collector"@en .
 
 wd:Q2306091 rdfs:label "sociologist"@en .
 
@@ -85900,11 +86027,11 @@ wd:Q4773904 rdfs:label "anthropologist"@en .
 
 wd:Q4853732 rdfs:label "children's writer"@en .
 
+wd:Q1414443 rdfs:label "filmmaker"@en .
+
 wd:Q69423232 rdfs:label "film screenwriter"@en .
 
 wd:Q753110 rdfs:label "songwriter"@en .
-
-wd:Q1414443 rdfs:label "filmmaker"@en .
 
 wd:Q1792450 rdfs:label "art historian"@en .
 
@@ -85925,9 +86052,9 @@ wd:Q1741 rdfs:label "Vienna"@en ;
 
 wd:Q1231865 rdfs:label "pedagogue"@en .
 
-wd:Q482980 rdfs:label "author"@en .
-
 wd:Q15981151 rdfs:label "jazz musician"@en .
+
+wd:Q482980 rdfs:label "author"@en .
 
 wd:Q16145150 rdfs:label "music educator"@en .
 
@@ -85938,11 +86065,11 @@ wd:Q11063 rdfs:label "astronomer"@en .
 wd:Q64 rdfs:label "Berlin"@en ;
     wdt:P625 "Point(13.383333333 52.516666666)"^^geo:wktLiteral .
 
-wd:Q37226 rdfs:label "teacher"@en .
-
 wd:Q14915627 rdfs:label "musicologist"@en .
 
 wd:Q12144794 rdfs:label "prose writer"@en .
+
+wd:Q37226 rdfs:label "teacher"@en .
 
 wd:Q10800557 rdfs:label "film actor"@en .
 
@@ -85956,9 +86083,9 @@ wd:Q18814623 rdfs:label "autobiographer"@en .
 
 wd:Q201788 rdfs:label "historian"@en .
 
-wd:Q2374149 rdfs:label "botanist"@en .
-
 wd:Q3282637 rdfs:label "film producer"@en .
+
+wd:Q2374149 rdfs:label "botanist"@en .
 
 wd:Q177220 rdfs:label "singer"@en .
 
@@ -86014,9 +86141,9 @@ wd:Q84 rdfs:label "London"@en ;
 
 wd:Q639669 rdfs:label "musician"@en .
 
-wd:Q15296811 rdfs:label "draftsperson"@en .
-
 wd:Q1930187 rdfs:label "journalist"@en .
+
+wd:Q15296811 rdfs:label "draftsperson"@en .
 
 wd:Q90 rdfs:label "Paris"@en ;
     wdt:P625 "Point(2.352222222 48.856666666)"^^geo:wktLiteral .

@@ -16,6 +16,11 @@ Matching, most reliable first:
                 restricted to humans and scored on birth and death years. Candidates who weren't
                 alive at the same time as anyone they are said to have known are rejected.
 
+Medium and low search matches are then checked against the people WKW says they knew: a match is
+corroborated if Wikidata records a relationship with one of them, or either person's English
+Wikipedia article links to the other's. build_rdf.py only borrows Wikidata's facts for people
+whose match is high, checked or corroborated.
+
 Confirmed or corrected matches can be recorded in data/wikidata-overrides.csv
 (columns: person, qid, note); a qid of "none" means the person isn't on Wikidata.
 
@@ -252,6 +257,61 @@ def fetch_relations(qids):
     return [r for r in out if r[2] in wanted]
 
 
+def article_links(url):
+    """Wikidata items of the pages an English Wikipedia article links to, following redirects."""
+    title = urllib.parse.unquote(url.rsplit("/wiki/", 1)[1]).replace("_", " ")
+    api = "https://en.wikipedia.org/w/api.php"
+    params = {"action": "query", "format": "json", "formatversion": 2, "titles": title,
+              "generator": "links", "gplnamespace": 0, "gpllimit": "max", "redirects": 1,
+              "prop": "pageprops", "ppprop": "wikibase_item"}
+    qids, cont = set(), {}
+    while True:
+        data = cached("links", json.dumps({**params, **cont}, sort_keys=True),
+                      lambda: get_json(api, {**params, **cont}))
+        for p in data.get("query", {}).get("pages", []):
+            q = p.get("pageprops", {}).get("wikibase_item")
+            if q:
+                qids.add(q)
+        if "continue" not in data:
+            return qids
+        cont = data["continue"]
+
+
+# --- Stage 3: corroboration --------------------------------------------------------------------
+
+def corroborate(people, result, details):
+    """Medium and low search matches rest on a name and a lifetime. A match is corroborated when
+    Wikidata or English Wikipedia independently connects the matched item to someone WKW says
+    the person knew: a Wikidata relationship, or either person's article linking to the other's.
+    Records the WKW people who corroborate it in result[pid]["corroborated_by"]."""
+    links = {}
+
+    def linked(q):
+        if q not in links:
+            url = details[q]["enwiki"]
+            links[q] = article_links(url) if url else set()
+        return links[q]
+
+    todo = [p for p in people if result[p["id"]]["qid"] and result[p["id"]].get("confidence") in ("medium", "low")]
+    for n, p in enumerate(todo):
+        if n % 250 == 0:
+            print(f"  {n}/{len(todo)}")
+        r = result[p["id"]]
+        q = r["qid"]
+        found = {rel["person"] for rel in r.get("relations", []) if rel["in_wkw"]}
+        for k in p["knows"]:
+            kq = result[k]["qid"]
+            if k in found or not kq or kq == q:
+                continue
+            if any(rel["person"] == p["id"] for rel in result[k].get("relations", [])):
+                found.add(k)
+        for k in p["knows"]:
+            kq = result[k]["qid"]
+            if k not in found and kq and kq != q and (kq in linked(q) or q in linked(kq)):
+                found.add(k)
+        r["corroborated_by"] = sorted(found)
+
+
 # --- Stage 2: search ---------------------------------------------------------------------------
 
 def search(name):
@@ -461,6 +521,9 @@ def main():
                     {"property": prop, "label": RELATIONS[prop], "person": pb,
                      "in_wkw": pb in by_id[pa]["knows"]})
 
+    print("Corroborating search matches")
+    corroborate(people, result, details)
+
     for pid, r in result.items():
         if r["qid"]:
             r["wikidata"] = details[r["qid"]]
@@ -504,6 +567,9 @@ def write_report(people, result, conflicts, by_qid, details):
         f"and the English Wikipedia article has the same name): {conf['medium']}",
         f"  - by search, low (no years to check; worth reviewing): {conf['low']}",
         f"  - checked by hand: {conf['checked']}",
+        f"- **Medium and low matches corroborated** by a Wikidata relationship or Wikipedia link to "
+        f"someone they knew: {sum(1 for r in result.values() if r.get('corroborated_by'))} of "
+        f"{conf['medium'] + conf['low']}. The rest are only `skos:closeMatch` in the RDF.",
         f"- **Unmatched:** {conf['unmatched']}",
         f"- **Relationships Wikidata records between matched people:** {len(rels)}, of which "
         f"{in_wkw} are between people WKW already links",

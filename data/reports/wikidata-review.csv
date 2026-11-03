@@ -1,6 +1,5 @@
 person,name,wkw_dates,status,confidence,qid,wikidata_label,wikidata_description,wikidata_years,other_candidates
 alison-smithson,Alison Smithson,,stub,low,Q2647238,Alison Smithson,British architect (1928–1993),1928–1993/1993,
-andre-debierne,André Debierne,,stub,low,Q468371,André-Louis Debierne,French chemist (1874-1949),1874–1949,
 antonio-porchia,Antonio Porchía,,stub,low,Q604378,Antonio Porchia,Italian Argentinian poet (1885–1968),1886/1885–1968/1968,
 auguste-villiers-de-l-isle-adam,Auguste Villiers de L'Isle Adam,,stub,low,Q366285,Auguste Villiers de l'Isle-Adam,French writer (1838–1889),1838–1889,
 carlo-carra,Carlo Carrá,,stub,low,Q168496,Carlo Carrà,Italian painter (1881-1966),1881–1966/1966,"Q3659164 Carlo Carraro (1957–?, researcher of environmental economics); Q93225304 Carlo Carrara (1959–?, ); Q73478664 Carlo Carraro (?–?, physicist who publishes in chemistry journals)"
@@ -8,7 +7,6 @@ charles-chevalier,Charles Chevalier,,stub,low,Q2249707,Charles Chevalier,French 
 charles-coulomb,Charles Coulomb,,stub,low,Q81716,Charles-Augustin de Coulomb,French physicist (1736-1806),1736–1806,"Q5074822 Charles A. Coulombe (1960/1960–?, American historian (1960-))"
 colin-campbell-of-achnaba,Colin Campbell of Achnaba,,stub,low,Q18527237,Colin Campbell,Church of Scotland minister,1644–1726,
 don-de-lillo,Don de Lillo,,stub,low,Q310048,Don DeLillo,"American novelist, playwright and essayist (born 1936)",1936–?,
-elisabeth-vigee-le-brun,Élisabeth Vigée-Le Brun,,stub,low,Q213163,Élisabeth Louise Vigée Le Brun,French portrait painter (1755–1842),1755/1755–1842/1842/1842,
 engelbert-humperdinck,Engelbert Humperdinck,,stub,low,Q55010,Engelbert Humperdinck,German composer (1854–1921),1854–1921/1921,"Q221289 Engelbert Humperdinck (1936–?, British singer)"
 ernst-schroder,Ernst Schröder,,stub,low,Q77297,Ernst Schröder,German mathematician (1841-1902),1841–1902,"Q128239003 Ernst Schröder (?–?, 1830-); Q75217 Ernst Schröder (1915–1994/1994, German actor (1915–1994)); Q1360144 Ernst Schröder (1893–1976, German politician (1893-1976))"
 etienne-esquirol,Étienne Esquirol,,stub,low,Q517981,Jean-Étienne Dominique Esquirol,French psychiatrist (1772-1840),1772/1772–1840/1840,
@@ -29,9 +27,7 @@ john-nash,John Nash,,stub,low,Q309905,John Nash,British architect (1752–1835),
 joseph-michel-montgolfier,Joseph-Michel Montgolfier,,stub,low,Q2467332,Joseph-Michel Montgolfier,"French inventor, older of the 18th-century Montgolfier brothers",1740–1810,
 lawrence-wiener,Lawrence Wiener,,stub,low,Q680192,Lawrence Weiner,American artist (1942–2021),1942/1942–2021,"Q128806424 Lawrence H. Wiener (?–?, American rower, Syracuse (1957–1958))"
 milan-hasek,Milan Hašek,,stub,low,Q1092384,Milan Hašek,"Czech biologist, physician and immunologist. (1925–1984)",1925–1984,
-natalya-goncharova,Natalya Goncharova,,stub,low,Q232391,Natalia Goncharova,Russian-French artist (1881–1962),1881/1881–1962,"Q6968308 Natalya Goncharova (1974–?, fencer); Q274331 Natalia Pushkina (1812–1863, wife of Russian poet Alexander Pushkin (1812–1863))"
 orville-wright,Orville Wright,,stub,low,Q494455,Orville Wright,American aviation pioneer (1871–1948),1871–1948,
-pierre-francois-andre-mechain,Pierre Francois-André Méchain,,stub,low,Q311022,Pierre Méchain,French mathematician and astronomer (1744-1804),1744–1804,
 sadi-carnot,Sadi Carnot,,stub,low,Q181685,Nicolas Carnot,French physicist (1796–1832),1796–1832,"Q215778 Sadi Carnot (1837–1894, 5th president of France (1837–1894)); Q27535640 Lazare-Hippolyte-Sadi Carnot (1865–1948, (1865-1948))"
 stephen-quay,Stephen Quay,,stub,low,Q18045614,Stephen Quay,American film director (born 1947),1947–?,"Q114406063 Stephen L Quaye (?–?, researcher)"
 thomas-hart-benton,Thomas Hart Benton,,stub,low,Q471764,Thomas Hart Benton,American painter (1889–1975),1889–1975,"Q1317969 Thomas Hart Benton (1782/1782–1858/1858, State Senator from Tennessee, Senator and U.S. Representative from Missouri (1782–1858)); Q55720103 Thomas Hart Benton Jr. (1816–1879/1879, American educator, military officer, and politician from Iowa (1816–1879))"
@@ -57,6 +53,7 @@ ami-bonpland,Ami Bonpland,,stub,unmatched,,,,,
 amiri-baraka,Amiri Baraka,"1938 (Newark, N.J.) – 2014 (New York)",bio,unmatched,,,,,"Q354783 Amiri Baraka (1934–2014, African-American writer (1934–2014))"
 anand-mulk-raj,"Anand, Mulk Raj",,stub,unmatched,,,,,"Q732434 Mulk Raj Anand (1905–2004, Indian English writer (1905–2004))"
 anthony-powell,Anthony Powell,,stub,unmatched,,,,,"Q573813 Anthony Powell (1905–2000, English novelist (1905-2000)); Q573805 Anthony Powell (1935–2021, English costume designer (1935-2021)); Q27518480 Tony Powell (1943–?, Canadian sprinter)"
+antoine-de-jussieu,Antoine de Jussieu,,stub,checked,Q435674,Antoine de Jussieu,French botanist (1686-1758),1686–1758,"Q223963 Antoine Laurent de Jussieu (1748–1836, French botanist (1748–1836))"
 archibald-mcleish,Archibald McLeish,"1892 (Glencoe, Illinois) - 1982 (Boston, Mass.)",stub,unmatched,,,,,"Q633354 Archibald MacLeish (1892–1982, American poet and Librarian of Congress (1892-1982))"
 aristide-maugee,Aristide Maugée,,stub,unmatched,,,,,
 auguste-macke,Auguste Macke,,stub,unmatched,,,,,"Q33981 August Macke (1887–1914, German painter of the expressionist group Der Blaue Reiter (1887–1914))"
@@ -100,7 +97,6 @@ gaspard-prony,Gaspard Prony,,stub,unmatched,,,,,"Q451608 Gaspard de Prony (1755�
 gennady-aigi,Gennady Aigi,1934 (Moscow) – 2006 (Moscow),stub,unmatched,,,,,"Q335110 Gennadiy Aygi (1934–2006, Chuvash poet, writer, and translator (1934-2006))"
 geoffroy-saint-hilaire,Geoffroy Saint-Hilaire,,stub,unmatched,,,,,"Q192428 Étienne Geoffroy Saint-Hilaire (1772–1844, French naturalist who established the principle of ""unity of composition"" (1772-1844))"
 george-barker,George Barker,,stub,unmatched,,,,,"Q16012563 George Barker (1913–1991, English poet (1913–1991)); Q5543609 George R. Barker (1881–1958, Canadian politician (1881–1958)); Q15997460 George Barker (1885–1947, Australian footballer, born 1885)"
-george-berkeley,George Berkeley,"1685 (County Kilkenny, Ireland) - 1753 (Oxford, England)",stub,unmatched,,,,,"Q63285282 George Berkeley (?–?, researcher); Q75933303 George Berkeley (1735–?, (born 1735)); Q5536926 George Berkeley (1693–1746, English politician)"
 george-fiske,George Fiske,,stub,unmatched,,,,,"Q472636 George Fiske (1835–1918, American photographer (1835–1918)); Q18715737 George Fiske (1891–1965, sport shooter); Q15995703 Fiske O'Hara (1878–1945, American singer and actor (1878-1945))"
 george-fitzgerald,George Fitzgerald,,stub,unmatched,,,,,"Q536469 George FitzGerald (1851–1901, Irish physicist (1851–1901)); Q16059303 George Fitzgerald (1843–1917, Australian politician (1843-1917)); Q75895330 George Wildman Yates Fitzgerald (1840–?, (born 1840))"
 george-gerrshwin,George Gerrshwin,,stub,unmatched,,,,,
@@ -114,7 +110,6 @@ harmony-khorine,Harmony Khorine,,stub,unmatched,,,,,
 harold-rosenberg,Harold Rosenberg,,stub,unmatched,,,,,"Q959768 Harold Rosenberg (1906–1978, American writer and art critic (1906–1978)); Q19958022 Harold Rosenberg (1941–?, American mathematician)"
 heinz-christian-pander,Heinz Christian Pander,,stub,unmatched,,,,,"Q704620 Christian Heinrich Pander (1794–1865, Baltic German zoologist and palaeontologist (1794-1865))"
 henry-bates,Henry Bates,,stub,unmatched,,,,,"Q370308 Henry Walter Bates (1825–1892, English naturalist and explorer (1825–1892)); Q28972081 Henry Bates (1880–1942, cricketer (1880-1942)); Q28946321 Henry Bates (1813–1893, British army officer)"
-henry-chopin,Henry Chopin,,stub,unmatched,,,,,
 henry-cole,Henry Cole,,stub,unmatched,,,,,"Q537906 Henry Cole (1808–1882, English civil servant and inventor (1808–1882)); Q5719665 Henry Cole (1809–1890, British politician, cricketer and army officer (1809-1890)); Q26733187 Henry Thomas Cole (1816–1885, politician, died 1885)"
 herman-mark,Herman Mark,,stub,unmatched,,,,,"Q85914 Herman F. Mark (1895–1992, Austrian American chemist (1895–1992)); Q9288476 Henryk Markiewicz (1922–2013, Polish historian); Q5770787 Herman Greid (1892/1892–1975/1975, Austrian-born Swedish actor)"
 herwath-walden,Herwath Walden,,stub,unmatched,,,,,
@@ -176,7 +171,7 @@ michael-snow,Michael Snow,,stub,unmatched,,,,,"Q558332 Michael Snow (1929/1928�
 michael-young,Michael Young,,stub,unmatched,,,,,"Q1929672 Michael W. Young (1949–?, American geneticist, chronobiologist); Q6835498 Michael Young (1966/1966–?, British industrial designer and creative director (born 1966)); Q131412201 Michael Young (1920–1998, British flying ace of WWII)"
 mick-jones,Mick Jones,,stub,unmatched,,,,,"Q357310 Mick Jones (1955–?, British musician and singer (born 1955)); Q956208 Mick Jones (1944–?, English rock guitarist (born 1944)); Q404518 Mick Jones (1945–?, English footballer)"
 mikhail-butlerov,Mikhail Butlerov,,stub,unmatched,,,,,
-moritz-jacobi,Moritz Jacobi,,stub,unmatched,,,,,"Q60579 Moritz von Jacobi (1801–1874, German engineer and physicist (1801–1874)); Q133071237 Moritz Jacobi (?–?, ); Q132957628 Moritz Jacobi (?–?, )"
+moritz-jacobi,Moritz Jacobi,,stub,unmatched,,,,,"Q60579 Moritz von Jacobi (1801–1874, German-Russian engineer and physicist (1801–1874)); Q133071237 Moritz Jacobi (?–?, ); Q132957628 Moritz Jacobi (?–?, )"
 mrs-humphry-ward,Mrs Humphry Ward,,stub,unmatched,,,,,"Q952452 Mary Augusta Ward (1851–1920, British novelist (1851-1920))"
 nevile-maskelyne,Nevile Maskelyne,,stub,unmatched,,,,,
 nirad-chaudhuri,Nirad Chaudhuri,,stub,unmatched,,,,,"Q982828 Nirad C. Chaudhuri (1897–1999, Indian Bengali−English writer and man of letters (1897–1999))"
@@ -236,6 +231,7 @@ willem-joseph-sgravesande,Willem Joseph 'sGravesande,,stub,unmatched,,,,,
 william-cowper-anatomist,"William Cowper, anatomist","1666 (Petersfield, England) – 1709 (?London)",stub,unmatched,,,,,
 william-dickson,William Dickson,,stub,unmatched,,,,,"Q465350 William Kennedy Dickson (1860–1935, Scottish photographer and inventor of motion picture cameras (1860-1935)); Q2477646 William Dickson (1898–1987, Royal Naval Air Service aviator (1898–1987)); Q122753924 William Dickson (1799–1875, British solicitor and banker (1799-1875) associated with Alnwick, Northumberland)"
 william-frith,William Frith,,stub,unmatched,,,,,"Q955750 William Powell Frith (1819–1909, English painter (1819-1909)); Q8009447 William Frith (1871–1956, English cricketer (1871-1956)); Q11001445 William Frith (1856–1949, English-born New Zealand cricketer (1856-1949))"
+william-harvey-engraver,"William Harvey, engraver",,stub,checked,Q8010985,William Harvey,English engraver and designer (1796-1866),1796–1866,
 william-henry-perkin,William Henry Perkin,,stub,unmatched,,,,,"Q165749 William Henry Perkin (1838–1907, British chemist known for his accidental discovery of the first synthetic dye (1838–1907)); Q2631780 William Henry Perkin (1860–1929, English organic chemist (1860-1929)); Q109353078 Moccasin Bill Perkins (1825–1904, 24 Dec 1825 - 13 Nov 1904)"
 william-hunter,William Hunter,,stub,unmatched,,,,,"Q944360 William Hunter (1718–1783, British anatomist and physician (1718-1783)); Q3568719 William Hunter (1755–1812/1812, British botanist (1755-1812)); Q2579380 William Hunter (1774–1849, American politician and diplomat (1774-1849))"
 william-j-hammer,William J. Hammer,,stub,unmatched,,,,,"Q924576 William Joseph Hammer (1858–1934, American engineer (1858–1934))"
@@ -270,7 +266,6 @@ al-held,Al Held,,stub,medium,Q1301849,Al Held,American artist (1928-2005),1928�
 alan-hovhaness,Alan Hovhaness,,stub,medium,Q542232,Alan Hovhaness,Armenian-American composer (1911-2000),1911–2000,
 alan-lomax,Alan Lomax,,stub,medium,Q558104,Alan Lomax,American musicologist (1915–2002),1915–2002,"Q51747680 Alan E. Lomax (?–?, researcher)"
 alban-berg,Alban Berg,,stub,medium,Q78475,Alban Berg,Austrian composer (1885–1935),1885/1885–1935,
-albert-abraham-michelson,Albert Abraham Michelson,,stub,medium,Q127234,Albert Abraham Michelson,American physicist (1852–1931),1852–1931,
 albert-ayler,Albert Ayler,,stub,medium,Q457125,Albert Ayler,American jazz saxophonist (1936–1970),1936–1970/1970,
 albert-bierstadt,Albert Bierstadt,,stub,medium,Q77132,Albert Bierstadt,American painter (1830–1902),1830–1902,
 albert-marquet,Albert Marquet,,stub,medium,Q267858,Albert Marquet,French painter (1875–1947),1875–1947,"Q130582811 Albert Marquet Lacaya (?–?, Catalan politician)"
@@ -282,10 +277,9 @@ alberto-cavalcanti,Alberto Cavalcanti,,stub,medium,Q728396,Alberto Cavalcanti,Br
 alberto-moravia,Alberto Moravia,,stub,medium,Q161933,Alberto Moravia,Italian writer and journalist (1907-1990),1907/1907–1990,"Q109703342 Alberto Moravia (?–?, Indonesian political candidate)"
 alberto-santos-dumont,Alberto Santos-Dumont,,stub,medium,Q313211,Alberto Santos-Dumont,Brazilian aviation pioneer (1873-1932),1873–1932,
 alberto-savinio,Alberto Savinio,,stub,medium,Q691973,Alberto Savinio,"Italian painter, writer, and composer (1891–1952)",1891/1891–1952/1952,
-aleksandr-blok,Aleksandr Blok,,stub,medium,Q164765,Alexander Blok,Russian poet (1880–1921),1880/1880–1921,"Q965878 Aleksandr Blok (1852/1852–1909/1909/1909, Russian jurist (1852-1909)); Q4088260 Aleksandr Blok (1955–2015, Russian actor (1955-2015)); Q139188500 Aleksandr Blok (1957–?, )"
 alex-haley,Alex Haley,,stub,medium,Q296069,Alex Haley,"American biographer, screenwriter, and novelist (1921–1992)",1921–1992,
 alexander-aubert,Alexander Aubert,,stub,medium,Q4718272,Alexander Aubert,British astronomer (1730-1805),1730–1805,
-alexander-blok,Alexander Blok,,stub,medium,Q164765,Alexander Blok,Russian poet (1880–1921),1880/1880–1921,"Q102281583 Alexander M. Blokh (?–?, Ph.D. Voronezh State University 1985); Q131286158 Alexander Blokhin (1983–?, )"
+alexander-blok,Alexander Blok,,stub,medium,Q164765,Alexander Blok,Russian poet (1880–1921),1880/1880–1921,"Q965878 Aleksandr Blok (1852/1852–1909/1909/1909, Russian jurist (1852-1909)); Q4088260 Aleksandr Blok (1955–2015, Russian actor (1955-2015)); Q139188500 Aleksandr Blok (1957–?, )"
 alexander-borodin,Alexander Borodin,,stub,medium,Q164004,Alexander Borodin,"Russian composer, doctor and chemist (1833–1887)",1833/1833–1887/1887/1887,"Q57422651 Alexander Borodin (?–?, researcher); Q131934123 Alexander Borodin (?–?, actor); Q21089371 Aleksandr Borodin (1917–1984, )"
 alexander-crum-brown,Alexander Crum Brown,,stub,medium,Q364956,Alexander Crum Brown,Scottish organic chemist (1838–1922),1838–1922,"Q103376364 Alexander Crum Brown (?–?, )"
 alexander-dovzhenko,Alexander Dovzhenko,,stub,medium,Q55198,Oleksandr Dovzhenko,"Soviet Ukrainian screenwriter, film producer and director (1894–1956)",1894–1956,"Q4164011 Alexander Dovzhenko (1918–1995, Soviet and Ukrainian physician, psychiatrist and psychotherapist (1918-1995)); Q102055186 Alexander Dovzhenko (1974–?, researcher)"
@@ -302,7 +296,6 @@ alexandre-benois,Alexandre Benois,,stub,medium,Q319861,Alexandre Benois,Russian 
 alexandre-brongniart,Alexandre Brongniart,,stub,medium,Q442937,Alexandre Brongniart,"French chemist, mineralogist, and zoologist (1770–1847)",1770–1847,
 alexandre-koyre,Alexandre Koyré,,stub,medium,Q319243,Alexandre Koyré,French philosopher (1892–1964),1892–1964,
 alexandre-yersin,Alexandre Yersin,,stub,medium,Q123920,Alexandre Yersin,Swiss-French physician and bacteriologist,1863–1943/1943,"Q4720436 Alexander Yersin (1825–1863, Swiss entomologist (1825-1863))"
-alexei-kruchenykh,Alexei Kruchenykh,,stub,medium,Q721962,Aleksei Kruchenykh,Russian writer (1886-1968),1886–1968,
 alexei-von-jawlensky,Alexei von Jawlensky,,stub,medium,Q156426,Alexej von Jawlensky,Russian painter (1865–1941),1864/1864–1941,
 alexey-brodovitch,Alexey Brodovitch,,stub,medium,Q525387,Alexey Brodovitch,Russian artist (1898–1971),1898–1971,
 alexis-de-tocqueville,Alexis de Tocqueville,,stub,medium,Q140694,Alexis de Tocqueville,"French political thinker and historian, minister of Foreign Affairs (1805-1859)",1805–1859,"Q53100365 Alexis de Tocqueville (?–?, )"
@@ -322,19 +315,18 @@ alvin-ailey,Alvin Ailey,,stub,medium,Q449037,Alvin Ailey,"African-American dance
 alvin-curran,Alvin Curran,,stub,medium,Q449059,Alvin Curran,American musician and composer,1938–?,
 alvin-langdon-coburn,Alvin Langdon Coburn,,stub,medium,Q449156,Alvin Langdon Coburn,American-British photographer (1882–1966),1882–1966,
 alvin-lucier,Alvin Lucier,,stub,medium,Q449171,Alvin Lucier,American composer of experimental music and sound installations (1931–2021),1931–2021,
-amadeo-modigliani,Amadeo Modigliani,,stub,medium,Q120993,Amedeo Modigliani,Italian painter and sculptor (1884–1920),1884–1920,
 amadou-hampate-ba,Amadou Hampâté Bâ,,stub,medium,Q452299,Amadou Hampâté Bâ,"Malian writer, historian and ethnologist",1900/1899–1991,
 amelia-earhart,Amelia Earhart,,stub,medium,Q3355,Amelia Earhart,American aviation pioneer and author (1897–1939),1897–1939,"Q88109557 Amelia Otis (1869–1962, (1869-1962)); Q140089234 Amelia Earhart (1993–?, )"
 ami-argand,Ami Argand,,stub,medium,Q124132,Ami Argand,Genevan chemist (1750-1803),1750–1803,
 anatole-france,Anatole France,,stub,medium,Q42443,Anatole France,French writer (1844–1924),1844/1844–1924/1924,
-anders-lexell,Anders Lexell,,stub,medium,Q447071,Anders Johan Lexell,Russian mathematician (1740-1784),1740–1784,
 andre-bazin,André Bazin,,stub,medium,Q362544,André Bazin,French film critic and theorist (1918–1958),1918/1918–1958,
 andre-chenier,André Chenier,,stub,medium,Q295548,André Chénier,French poet,1762/1762–1794/1794,
+andre-debierne,André Debierne,,stub,medium,Q468371,André-Louis Debierne,French chemist (1874-1949),1874–1949,
 andre-jolivet,André Jolivet,,stub,medium,Q316280,André Jolivet,French composer,1905–1974,"Q2847997 André Jolivet (1964–?, French painter)"
 andre-maurois,André Maurois,,stub,medium,Q224029,André Maurois,French author (1885–1967),1885–1967,
 andre-michel-guerry,André-Michel Guerry,,stub,medium,Q441271,André-Michel Guerry,French lawyer and statistician (1802-1866),1802–1866,
 andre-techine,André Téchiné,,stub,medium,Q523144,André Téchiné,French filmmaker (born 1943),1943–?,
-andre-weil,André Weil,,stub,medium,Q323232,André Weil,French mathematician (1906-1998),1906–1998,"Q28537393 André Weil-Curiel (1910–1988, ); Q15925459 André Weill (1892–1914, French soldier); Q140373230 André Weill (1895–?, )"
+andre-weil,André Weil,,stub,medium,Q323232,André Weil,French mathematician (1906-1998),1906–1998,"Q28537393 André Weil-Curiel (1910–1988, ); Q15925459 André Weill (1892–1914, French soldier); Q140373230 André Weill (1895–?, Swiss victim of the Holocaust)"
 andreas-embirikos,Andreas Embirikos,,stub,medium,Q497035,Andreas Embirikos,Greek poet (1901–1975),1901–1975,
 andrei-platonov,Andrei Platonov,,stub,medium,Q315147,Andrei Platonov,Russian author (1899–1951),1899/1899–1951,"Q16679299 Andrei Nagel (1877–1956, French journalist and racecar driver)"
 andrei-sakharov,Andrei Sakharov,,stub,medium,Q997,Andrei Sakharov,Soviet nuclear physicist and human rights activist (1921–1989),1921–1989,"Q4409469 Andrey Sakharov (1930–2019, Soviet historian (1930–2019))"
@@ -356,7 +348,6 @@ antoine-arnauld,Antoine Arnauld,,stub,medium,Q353887,Antoine Arnauld,"French the
 antoine-bourdelle,Antoine Bourdelle,,stub,medium,Q314350,Antoine Bourdelle,French painter and sculptor (1861–1929),1861–1929,
 antoine-cesar-becquerel,Antoine César Becquerel,,stub,medium,Q318004,Antoine César Becquerel,French scientist and pioneer in the study of electric and luminescent phenomena (1788-1878),1788–1878,
 antoine-de-saint-exupery,Antoine de Saint-Exupéry,,stub,medium,Q2908,Antoine de Saint-Exupéry,French writer and aviator (1900–1944),1900–1944,
-antoine-henri-becquerel,Antoine Henri Becquerel,,stub,medium,Q41269,Antoine Henri Becquerel,French physicist (1852–1908),1852–1908,
 anton-chekhov,Anton Chekhov,,stub,medium,Q5685,Anton Chekhov,Russian dramatist and author (1860–1904),1860–1904,
 anton-raphael-mengs,Anton Raphael Mengs,,stub,medium,Q76718,Anton Raphael Mengs,"German-Bohemian painter active in Dresden, Rome and Madrid (1728-1779)",1728/1728–1779,
 anton-webern,Anton Webern,,stub,medium,Q190933,Anton Webern,Austrian composer and conductor,1883–1945,
@@ -438,7 +429,6 @@ bernard-le-bouyer-de-fontenelle,Bernard Le Bouyer de Fontenelle,,stub,medium,Q31
 bernard-leach,Bernard Leach,,stub,medium,Q2898210,Bernard Leach,British potter (1887–1979),1887–1979,
 bernardo-bertolucci,Bernardo Bertolucci,,stub,medium,Q53009,Bernardo Bertolucci,Italian film director and screenwriter (1941–2018),1941–2018,
 berthold-lubetkin,Berthold Lubetkin,,stub,medium,Q827997,Berthold Lubetkin,Russian architect (1901–1990),1901–1990,
-bertholt-brecht,Bertholt Brecht,,stub,medium,Q38757,Bertolt Brecht,"German poet, playwright, and theatre director (1898–1956)",1898–1956,
 bessie-smith,Bessie Smith,,stub,medium,Q93349,Bessie Smith,American blues singer (1892–1937),1894–1937,"Q76087635 Bessie Ava Johnstone (1918–1997, (1918-1997)); Q43396043 Bessie Smith (?–?, Accused of witchcraft); Q43395523 Bessie Smith (?–?, accused of witchcraft)"
 big-joe-williams,Big Joe Williams,,stub,medium,Q519289,Big Joe Williams,"American Delta blues guitarist, singer and songwriter (1903–1982)",1903–1982,
 bill-brandt,Bill Brandt,,stub,medium,Q63184,Bill Brandt,German-British photographer (1904–1983),1904/1904–1983,"Q4908243 Bill Brandt (1915–1968, American baseball player (1915-1968))"
@@ -474,10 +464,8 @@ bud-powell,Bud Powell,,stub,medium,Q312692,Bud Powell,American jazz pianist and 
 buddy-rich,Buddy Rich,,stub,medium,Q318339,Buddy Rich,American jazz drummer and bandleader (1917–1987),1917–1987,"Q1001328 Buddy Richard (1943–?, Chilean singer songwriter)"
 burgoyne-diller,Burgoyne Diller,,stub,medium,Q827021,Burgoyne Diller,American abstract painter (1906-1965),1906–1965,
 burt-bacharach,Burt Bacharach,,stub,medium,Q212762,Burt Bacharach,"American pianist, composer, producer (1928–2023)",1928–2023,
-c-g-jung,C. G. Jung,,stub,medium,Q41532,Carl Jung,Swiss psychiatrist and psychotherapist (1875–1961),1875–1961,
 c-h-waddington,C. H. Waddington,,stub,medium,Q721128,Conrad Hal Waddington,British biologist (1905–1975),1905–1975,
 c-l-r-james,C. L. R. James,,stub,medium,Q773828,C. L. R. James,"Trinidadian historian, journalist and Marxist (1901–1989)",1901–1989,
-c-p-e-bach,C. P. E. Bach,,stub,medium,Q76428,Carl Philipp Emanuel Bach,German composer (1714–1788),1714–1788,"Q72937423 Johann Andreas Hoffmann (1752/1752–1832/1832, German singer)"
 c-r-ashbee,C. R. Ashbee,,stub,medium,Q614071,Charles Robert Ashbee,British (jewelry) designer and entrepreneur (1863-1942),1863–1942,
 c-r-w-nevinson,C. R. W. Nevinson,,stub,medium,Q185850,C. R. W. Nevinson,British artist (1889-1946),1889–1946,
 c-s-lewis,C. S. Lewis,,stub,medium,Q9204,C. S. Lewis,"British writer, lay theologian, and scholar (1898–1963)",1898–1963,
@@ -489,13 +477,11 @@ carl-andre,Carl Andre,,stub,medium,Q315348,Carl Andre,American artist (1935-2024
 carl-breer,Carl Breer,,stub,medium,Q5039933,Carl Breer,American automotive engineer (1883-1970),1883–1970,
 carl-ditters-von-dittersdorf,Carl Ditters von Dittersdorf,,stub,medium,Q78522,Carl Ditters von Dittersdorf,"Austrian composer, violinist and silvologist",1739/1739–1799,
 carl-friedrich-abel,Carl Friedrich Abel,,stub,medium,Q168539,Carl Friedrich Abel,German composer,1723/1725–1787/1787/1787,
-carl-gustav-jung,Carl Gustav Jung,,stub,medium,Q41532,Carl Jung,Swiss psychiatrist and psychotherapist (1875–1961),1875–1961,"Q2739430 Karl Gustav Jung (1794–1864, German-Swiss Medical Professor (1794-1864))"
 carl-jung,Carl Jung,,stub,medium,Q41532,Carl Jung,Swiss psychiatrist and psychotherapist (1875–1961),1875–1961,"Q9184575 Carl Jung (1852–1924, German painter (1852-1924)); Q57084097 Carl Jung (1868–1944, ); Q94891638 Carl Jung (1826–1883, )"
 carl-nielsen,Carl Nielsen,,stub,medium,Q205139,Carl Nielsen,Danish composer (1865–1931),1865/1865–1931,"Q51448034 Carl Nielsen (1836–1910, Norwegian businessman and local politician); Q16063438 Carl Nielsen (1854–1895, Danish theatre director); Q108718229 Carl Nielsen (1890–1976, )"
-carl-philipp-emanuel-bach,Carl Philipp Emanuel Bach,,stub,medium,Q76428,Carl Philipp Emanuel Bach,German composer (1714–1788),1714–1788,
-carl-philipp-emmanuel-bach,Carl Philipp Emmanuel Bach,,stub,medium,Q76428,Carl Philipp Emanuel Bach,German composer (1714–1788),1714–1788,
+carl-philipp-emanuel-bach,Carl Philipp Emanuel Bach,,stub,medium,Q76428,Carl Philipp Emanuel Bach,German composer (1714–1788),1714–1788,"Q72937423 Johann Andreas Hoffmann (1752/1752–1832/1832, German singer)"
 carl-rakosi,Carl Rakosi,,stub,medium,Q5040682,Carl Rakosi,American poet,1903–2004/2004,
-carl-ritter,Carl Ritter,,stub,medium,Q29297,Carl Ritter,German geographer (1779-1859),1779/1779–1859/1859,"Q94848920 Carl Ritter (1817–1898, ); Q94826134 Carl Ritter (1804/1804–1878/1878, Austrian Catholic priest); Q101016198 Carl Ritter (1807–1885, artist and chronicler from Austria)"
+carl-ritter,Carl Ritter,,stub,medium,Q29297,Carl Ritter,German geographer (1779-1859),1779/1779–1859/1859,"Q94848920 Carl Ritter (1817–1898/1898, ); Q94826134 Carl Ritter (1804/1804–1878/1878, Austrian Catholic priest); Q101016198 Carl Ritter (1807–1885, artist and chronicler from Austria)"
 carl-rogers,Carl Rogers,,stub,medium,Q191004,Carl Rogers,American psychologist (1902–1987),1902–1987,"Q5040719 Carl Rogers (1970–?, English cricketer (born 1970)); Q5040722 Carl Rogers Darnall (1867–1941, United States general (1867-1941)); Q136476756 Carl Rogers (?–?, American politician)"
 carl-ruggles,Carl Ruggles,,stub,medium,Q958763,Carl Ruggles,American composer (1876-1971),1876–1971,
 carl-sandburg,Carl Sandburg,,stub,medium,Q193608,Carl Sandburg,American writer and editor (1878–1967),1878–1967,
@@ -504,7 +490,6 @@ carl-stumpf,Carl Stumpf,,stub,medium,Q57497,Carl Stumpf,German philosopher (1848
 carl-vogt,Carl Vogt,,stub,medium,Q76513,Carl Vogt,German-Swiss scientist and politician (1817–1895),1817–1895,"Q140971279 Carl Vogt (1874–?, featured in the Norwegian Who's Who 1912); Q100942397 Carl Vogt (?–?, college basketball player (1958–1958) Loyola (LA)); Q125241087 Carl Vogtmann (?–?, American architect, active in Chicago)"
 carl-wilhelm-borchardt,Carl Wilhelm Borchardt,,stub,medium,Q65205,Carl Wilhelm Borchardt,German mathematician (1817–1880),1817/1817–1880/1880,
 carl-wilhelm-scheele,Carl Wilhelm Scheele,,stub,medium,Q70538,Carl Wilhelm Scheele,Swedish German chemist who discovered oxygen,1742/1742/1742/1742–1786,
-carleton-e-watkins,Carleton E. Watkins,,stub,medium,Q2939083,Carleton Watkins,American photographer (1829–1916),1829–1916,
 carleton-watkins,Carleton Watkins,,stub,medium,Q2939083,Carleton Watkins,American photographer (1829–1916),1829–1916,
 carlo-goldoni,Carlo Goldoni,,stub,medium,Q165534,Carlo Goldoni,Italian playwright (1707-1793),1707–1793,
 carlos-drummond-de-andrade,Carlos Drummond de Andrade,,stub,medium,Q379745,Carlos Drummond de Andrade,Brazilian poet (1902–1987),1902–1987,
@@ -570,7 +555,6 @@ christian-schad,Christian Schad,,stub,medium,Q703331,Christian Schad,German arti
 christina-rossetti,Christina Rossetti,,stub,medium,Q236596,Christina Rossetti,English poet (1830–1894),1830–1894,
 christof-koch,Christof Koch,,stub,medium,Q1084303,Christof Koch,American neuroscientist,1956–?,"Q64909901 Christof Koch (?–?, )"
 christoph-graupner,Christoph Graupner,,stub,medium,Q115067,Christoph Graupner,German composer,1683–1760,"Q133876551 Christoph Graupner Jr. (1715–1760/1760, Son of composer Christoph Graupner)"
-christoph-wilhelm-friedrich-hufeland,Christoph Wilhelm Friedrich Hufeland,,stub,medium,Q32257,Christoph Wilhelm Hufeland,German physician (1762–1836),1762–1836,
 christoph-wilhelm-hufeland,Christoph Wilhelm Hufeland,,stub,medium,Q32257,Christoph Wilhelm Hufeland,German physician (1762–1836),1762–1836,
 christopher-sholes,Christopher Sholes,,stub,medium,Q453351,Christopher Latham Sholes,American politician (1819–1890),1819–1890,
 christopher-smart,Christopher Smart,,stub,medium,Q2617795,Christopher Smart,"English poet, hymnwriter, editor",1722–1771/1771,"Q58338387 Christopher W Smart (?–?, researcher, ORCID id # 0000-0001-6329-4139); Q57305478 Chris Smart (?–?, archaeologist); Q116967650 Christopher Smart (?–?, Chief Global Strategist and Head, Barings Investment Institute)"
@@ -594,7 +578,6 @@ clyfford-still,Clyfford Still,,stub,medium,Q700336,Clyfford Still,American artis
 coleman-hawkins,Coleman Hawkins,,stub,medium,Q217812,Coleman Hawkins,American jazz saxophonist (1904–1969),1904–1969,"Q115813848 Coleman Hawkins (2001–?, American basketball player)"
 colette,Colette,,stub,medium,Q218679,Colette,French novelist (1873–1954),1873–1954,"Q3560541 DJ Colette (1975–?, DJ and vocalist from Chicago, Illinois); Q451544 Colette Flesch (1937–2026, Luxembourgish politician (1937-2026)); Q466802 Colette Deréal (1927–1988, French singer (1927-1988))"
 colin-macinnes,Colin MacInnes,,stub,medium,Q1563964,Colin MacInnes,British writer (1914–1976),1914–1976,
-constantin-stanislavski,Constantin Stanislavski,,stub,medium,Q49484,Constantine Stanislavsky,Russian actor and theatre director (1863–1938),1863–1938,
 constantine-samuel-rafinesque,Constantine Samuel Rafinesque,,stub,medium,Q364857,Constantine Samuel Rafinesque,French naturalist (1783-1840),1783–1840,
 cornelius-cardew,Cornelius Cardew,,stub,medium,Q1133758,Cornelius Cardew,English composer and improviser,1936–1981,"Q141302749 Cornelius Cardew (1748–1831, British clergyman); Q96086129 Cornelius Cardew (1747–1831, (1747-1831))"
 cornelius-castoriadis,Cornelius Castoriadis,,stub,medium,Q158030,Cornelius Castoriadis,Greek-French philosopher (1922–1997),1922–1997,
@@ -642,13 +625,11 @@ don-everly,Don Everly,,stub,medium,Q4590889,Don Everly,American musician (1937�
 donald-judd,Donald Judd,,stub,medium,Q250293,Donald Judd,American minimalist artist (1928–1994),1928–1994,"Q94531226 Donald Judd (1919–?, )"
 doris-lessing,Doris Lessing,,stub,medium,Q40874,Doris Lessing,"British novelist, poet, playwright, librettist, biographer, and short story writer (1919–2013)",1919–2013,"Q95651242 Doris Lessig (1931–?, German romanist); Q132970011 Doris Lessing-Schneider (?–?, )"
 dorothy-hodgkin,Dorothy Hodgkin,,stub,medium,Q7487,Dorothy Hodgkin,British chemist,1910–1994,"Q76200014 Dorothy Mary Gertrude Leonard (1914–2003, (1914-2003))"
-dorothy-m-richardson,Dorothy M. Richardson,,stub,medium,Q447268,Dorothy Richardson,British writer (1873–1957),1873–1957,
-dorothy-richardson,Dorothy Richardson,,stub,medium,Q447268,Dorothy Richardson,British writer (1873–1957),1873–1957,"Q124282648 Dorothy Richardson (1903–?, American zoologist); Q106414401 Dorothy Dorothy (1899–1986, American singer, songwriter, columnist, and pilot (1899-1986)); Q76055770 Dorothy Richardson (?–?, Peerage person ID=499248)"
+dorothy-richardson,Dorothy Richardson,,stub,medium,Q447268,Dorothy Richardson,British writer (1873–1957),1873–1957,"Q2251773 Dot Richardson (1961–?, softball player); Q124282648 Dorothy Richardson (1903–?, American zoologist); Q106414401 Dorothy Dorothy (1899–1986, American singer, songwriter, columnist, and pilot (1899-1986))"
 dwight-macdonald,Dwight Macdonald,,stub,medium,Q744332,Dwight Macdonald,"American writer, editor, film critic, social critic, philosopher and political radical (1906-1982)",1906–1982,
 dziga-vertov,Dziga Vertov,,stub,medium,Q55193,Dziga Vertov,Russian-Soviet documentary/avantgarde filmmaker (1896-1954),1896–1954,
 e-b-ford,E. B. Ford,,stub,medium,Q533632,E. B. Ford,British ecological geneticist (1901-1988),1901–1988/1986,"Q60893218 Eric B. Ford (?–?, American astrophysicist)"
 e-f-burian,E. F. Burian,,stub,medium,Q457687,Emil František Burian,"Czech poet, journalist, singer, actor, musician, composer, playwright adviser, playwright and director communist (1904–1959)",1904–1959,
-e-m-cioran,E. M. Cioran,,stub,medium,Q193405,Emil Cioran,Romanian-French philosopher and essayist (1911–1995),1911–1995,
 e-m-forster,E. M. Forster,,stub,medium,Q189119,E. M. Forster,English novelist (1879-1970),1879–1970,
 eadweard-muybridge,Eadweard Muybridge,,stub,medium,Q190568,Eadweard Muybridge,English-American photographer (1830–1904),1830–1904,
 earl-hines,Earl Hines,,stub,medium,Q354883,Earl Hines,American jazz pianist (1903–1983),1903–1983,"Q75769988 Earl Hines (?–?, Peerage person ID=325177)"
@@ -694,7 +675,7 @@ ehrenfried-walther-von-tschirnhaus,Ehrenfried Walther von Tschirnhaus,,stub,medi
 eli-lotar,Eli Lotar,,stub,medium,Q769724,Eli Lotar,French photographer (1905–1969),1905/1905–1969/1969,
 elia-kazan,Elia Kazan,,stub,medium,Q72717,Elia Kazan,American director and actor (1909–2003),1909–2003,
 elias-ashmole,Elias Ashmole,,stub,medium,Q471406,Elias Ashmole,"English antiquarian, politician, officer of arms, astrologer and alchemist (1617-1692)",1617/1617–1692/1692,"Q75622896 Elias Ashmole Ashmall (?–?, Peerage person ID=252069)"
-elie-wiesel,Elie Wiesel,,stub,medium,Q18391,Elie Wiesel,"Romanian-born American writer, professor, political activist, Nobel laureate, and Holocaust survivor (1928-2016)",1928–2016,
+elie-wiesel,Elie Wiesel,,stub,medium,Q18391,Elie Wiesel,"Romanian-born American writer, professor, political activist, Nobel laureate, and Holocaust survivor (1928–2016)",1928–2016,
 eliot-porter,Eliot Porter,,stub,medium,Q762632,Eliot Porter,American photographer (1901-1990),1901–1990,
 elisabeth-hauptmann,Elisabeth Hauptmann,,stub,medium,Q73781,Elisabeth Hauptmann,German writer (1897–1973),1897–1973,
 elisha-gray,Elisha Gray,,stub,medium,Q318449,Elisha Gray,American electrical engineer,1835–1901,
@@ -745,7 +726,6 @@ ernst-ludwig-kirchner,Ernst Ludwig Kirchner,,stub,medium,Q229272,Ernst Ludwig Ki
 ernst-mach,Ernst Mach,,stub,medium,Q93996,Ernst Mach,Austrian physicist (1838–1916),1838–1916,"Q133312677 Ernst Mach (?–?, ); Q108328893 Ernst Machek (1898–1962, Austrian civil servant, writer and journalist (1898-1962)); Q111978340 Ernst Macht (1917–?, )"
 ernst-mayr,Ernst Mayr,,stub,medium,Q5354,Ernst Mayr,German-American evolutionary biologist (1904-2005),1904–2005,"Q1359461 Ernst Mayr (1950–?, German computer scientist (1950-)); Q112399018 Ernst Mayr (1952–?, ); Q125275340 Ernst Mayr (?–?, Austrian architect, active in Vienna)"
 ernst-toller,Ernst Toller,,stub,medium,Q57266,Ernst Toller,"German writer, politician and leader of the Munich Soviet Republic (1893-1939)",1893–1939,
-ernst-von-brucke,Ernst von Brücke,,stub,medium,Q72374,Ernst Wilhelm von Brücke,German physiologist (1819–1892),1819–1892,
 ernst-von-glasersfeld,Ernst von Glasersfeld,,stub,medium,Q112176,Ernst von Glasersfeld,German philosopher (1917–2010),1917–2010,
 ernst-wilhelm-von-brucke,Ernst Wilhelm von Brücke,,stub,medium,Q72374,Ernst Wilhelm von Brücke,German physiologist (1819–1892),1819–1892,
 erskine-caldwell,Erskine Caldwell,,stub,medium,Q310464,Erskine Caldwell,"American novelist, short story writer, travel writer, essayist (1903–1987)",1903–1987/1987,"Q100766991 Erskine Caldwell (?–?, college basketball player (1991–1992) Little Rock)"
@@ -766,7 +746,7 @@ eva-hesse,Eva Hesse,,stub,medium,Q215457,Eva Hesse,German-born American sculptor
 evelyn-waugh,Evelyn Waugh,,stub,medium,Q107002,Evelyn Waugh,British writer and journalist (1903–1966),1903–1966,
 ewald-hering,Ewald Hering,,stub,medium,Q64556,Ewald Hering,German physiologist (1834–1918),1834–1918,"Q1597189 Heinrich Ewald Hering (1866/1866–1948/1948, Austrian physiologist (1866–1948)); Q94928743 Ewald Hering (1802–1862, )"
 ewan-mccoll,Ewan McColl,,stub,medium,Q1192339,Ewan MacColl,"British folk singer, songwriter, communist, labour activist, actor, poet, playwright, and record producer (1915–1989)",1915–1989,
-f-scott-fitzgerald,F. Scott Fitzgerald,,stub,medium,Q93354,F. Scott Fitzgerald,American writer (1896–1940),1896–1940,
+f-scott-fitzgerald,F. Scott Fitzgerald,,stub,medium,Q93354,F. Scott Fitzgerald,American writer (1896–1940),1896–1940,"Q462128 Scott Fitzgerald (1948–?, British singer-songwriter); Q7436650 Scott L. Fitzgerald (1963–?, American politician and newspaper publisher (born 1963)); Q7436328 Scott Fitzgerald (1969–?, Footballer (born 1969))"
 f-w-murnau,F. W. Murnau,,stub,medium,Q55412,F. W. Murnau,German film director (1888–1931),1888–1931,
 fanny-burney,Fanny Burney,,stub,medium,Q259530,Frances Burney,"English satirical novelist, diarist, playwright (1752-1840)",1752/1752–1840/1840,"Q18528980 Fanny Anne Burney (1812–1860, diarist)"
 fats-navarro,Fats Navarro,,stub,medium,Q711198,Fats Navarro,American jazz trumpeter (1923–1950),1923–1950,
@@ -777,7 +757,7 @@ fela-kuti,Fela Kuti,,stub,medium,Q313868,Fela Kuti,Nigerian musician and activis
 felipe-pedrell,Felipe Pedrell,,stub,medium,Q351394,Felip Pedrell,"Catalan composer, teacher and musicologist (1841–1922)",1841/1841–1922/1922,
 felix-bloch,Felix Bloch,,stub,medium,Q123022,Felix Bloch,Swiss physicist (1905-1983),1905–1983,"Q1403357 Felix Bloch (1935–?, American government official); Q104405065 Felix Bloch (1898–1944, holocaust victim, b. 1898-08-15); Q94875533 Felix Bloch (1845–1887, )"
 felix-guattari,Félix Guattari,,stub,medium,Q352465,Félix Guattari,French psychoanalyst (1930–1992),1930/1930–1992,
-felix-klein,Felix Klein,,stub,medium,Q76641,Felix Klein,"German mathematician, author of the Erlangen Program (1849-1925)",1849–1925,"Q16750728 Félix Klein (1862/1862–1953/1953, French priest (1862-1953)); Q58181951 Felix Klein (?–?, researcher, ORCID id # 0000-0002-3680-4735); Q133352514 Felix Klein (?–?, )"
+felix-klein,Felix Klein,,stub,medium,Q76641,Felix Klein,"German mathematician, author of the Erlangen Program (1849–1925)",1849–1925,"Q16750728 Félix Klein (1862/1862–1953/1953, French priest (1862-1953)); Q58181951 Felix Klein (?–?, researcher, ORCID id # 0000-0002-3680-4735); Q133352514 Felix Klein (?–?, )"
 felix-savart,Félix Savart,,stub,medium,Q711509,Félix Savart,French physicist (1791–1841),1791–1841,
 ferdinand-cohn,Ferdinand Cohn,,stub,medium,Q76774,Ferdinand Cohn,German biologist (1828-1898),1828–1898/1898,
 ferdinand-eisenstein,Ferdinand Eisenstein,,stub,medium,Q61047,Gotthold Eisenstein,German mathematician (1823–1852),1823–1852,
@@ -811,7 +791,6 @@ frank-zappa,Frank Zappa,,stub,medium,Q127330,Frank Zappa,American musician (1940
 frantisek-josef-gerstner,František Josef Gerstner,,stub,medium,Q213783,Franz Josef Gerstner,Czech physicist and mathematician,1756/1756–1832/1832,
 frantisek-kupka,František Kupka,,stub,medium,Q167414,František Kupka,Czech painter and graphic artist (1871–1957),1871–1957/1957,"Q116238424 František Kupka (1889–?, ); Q115797348 František Kupka (1885–?, ); Q106661550 František Kupka (1926–?, )"
 franz-ernst-neumann,Franz Ernst Neumann,,stub,medium,Q61774,Franz Ernst Neumann,German physicist and mineralogist (1798-1895),1798–1895,"Q94756068 Franz Ernst Neumann (1758–1821, (1758-1821))"
-franz-fanon,Franz Fanon,,stub,medium,Q193670,Frantz Fanon,French West Indian psychiatrist and philosopher (1925–1961),1925–1961,
 franz-grillparzer,Franz Grillparzer,,stub,medium,Q154438,Franz Grillparzer,Austrian dramatist and poet (1791-1872),1791/1791–1872/1872,"Q133628968 Franz Grillparzer (1827–1865, )"
 franz-kafka,Franz Kafka,,stub,medium,Q905,Franz Kafka,Bohemian writer from Prague (1883–1924),1883–1924,"Q111962205 Franz Kafka (1894–?, )"
 franz-marc,Franz Marc,,stub,medium,Q44054,Franz Marc,German artist (1880–1916),1880–1916,"Q95328670 Franz Marcus (1886/1886–?, German-Danish lawyer); Q113670902 Franz Marchel (1850–1924, Austrian-Italian teacher, translator, writer); Q102308491 Franz-Marc Boas (?–?, Ph.D. Universität Hamburg 1999)"
@@ -919,7 +898,7 @@ guglielmo-libri,Guglielmo Libri,,stub,medium,Q1251586,Guglielmo Libri Carucci da
 guglielmo-marconi,Guglielmo Marconi,,stub,medium,Q36488,Guglielmo Marconi,Italian inventor and radio pioneer (1874–1937),1874–1937,"Q42322200 Guglielmo Marconi (1841–1885, French photographer (1841-1885)); Q3778966 Guglielmo Marconi (1903–1968, Italian partisan (1903–1968))"
 guillaume-de-l-hopital,Guillaume de l'Hôpital,,stub,medium,Q202279,Guillaume de l'Hôpital,French noble and mathematician (*1661 – †1704),1661–1704,
 gunta-stolzl,Gunta Stölzl,,stub,medium,Q73085,Gunta Stölzl,German artist (1897-1983),1897–1983,
-gunter-grass,Günter Grass,,stub,medium,Q6538,Günter Grass,"German novelist, poet, playwright, illustrator, graphic artist, and sculptor (1927-2015)",1927–2015,"Q21289048 Günter Grass (1953–?, German architect); Q137147584 Günter Graß (1944–?, )"
+gunter-grass,Günter Grass,,stub,medium,Q6538,Günter Grass,"German novelist, poet, playwright, illustrator, graphic artist, and sculptor (1927–2015)",1927–2015,"Q21289048 Günter Grass (1953–?, German architect); Q137147584 Günter Graß (1944–?, )"
 gustav-fechner,Gustav Fechner,,stub,medium,Q76881,Gustav Fechner,German scientist (1801-1887),1801–1887,
 gustav-magnus,Gustav Magnus,,stub,medium,Q44318,Heinrich Gustav Magnus,German chemist and physicist (1802–1870),1802–1870,"Q60240471 Gustav Menke Gottlieb Magnus (1852–1943, photographer (1852-1943)); Q63330417 Magnus Hamlander (1877–1951, Norwegian newspaper editor); Q12363171 Gustav Magnus Elephandt (1781–1819, Finnish and Estonian clergy person (1781-1819))"
 gustav-mahler,Gustav Mahler,,stub,medium,Q7304,Gustav Mahler,Austrian late-Romantic composer (1860–1911),1860–1911,"Q3665686 Cex (1981–?, American musical project)"
@@ -1012,7 +991,6 @@ hermann-joseph-muller,Hermann Joseph Muller,,stub,medium,Q83598,Hermann Joseph M
 hermann-knoblauch,Hermann Knoblauch,,stub,medium,Q70523,Hermann Knoblauch,German physicist (1820–1895),1820–1895,
 hermann-kolbe,Hermann Kolbe,,stub,medium,Q76621,Adolph Wilhelm Hermann Kolbe,German chemist (1818–1884),1818–1884,"Q127268775 Hermann Kolberg (1842–1911, )"
 hermeto-pascoal,Hermeto Pascoal,,stub,medium,Q560969,Hermeto Pascoal,"Brazilian composer, musician and record producer (1936–2025)",1936–2025,
-hilda-doolittle,Hilda Doolittle,,stub,medium,Q236469,H.D.,American Imagist poet (1886–1961),1886/1886–1961/1961/1961,
 hoagy-carmichael,Hoagy Carmichael,,stub,medium,Q460662,Hoagy Carmichael,"American composer, pianist, singer, actor and bandleader (1899–1981)",1899–1981,
 hollis-frampton,Hollis Frampton,,stub,medium,Q477638,Hollis Frampton,American filmmaker (1936-1984),1936–1984,
 honor-fell,Honor Fell,,stub,medium,Q5896784,Honor Bridget Fell,British scientist and zoologist (1900–1986),1900–1986,
@@ -1055,7 +1033,6 @@ ivan-goncharov,Ivan Goncharov,,stub,medium,Q189665,Ivan Goncharov,Russian noveli
 ivan-puni,Ivan Puni,,stub,medium,Q705062,Ivan Puni,Russian artist (1890-1956),1890–1956,
 j-b-priestley,J. B. Priestley,,stub,medium,Q443528,J. B. Priestley,English writer (1894–1984),1894–1984,
 j-b-s-haldane,J. B. S. Haldane,,stub,medium,Q156333,J.B.S. Haldane,Geneticist and evolutionary biologist (1892-1964),1892–1964,
-j-c-bach,J. C. Bach,,stub,medium,Q106641,Johann Christian Bach,German composer (1735–1782),1735/1735–1782,"Q131419861 Kaspar Bachmayer (1760–1805, Austrian painter (1760-1805))"
 j-c-r-licklider,J. C. R. Licklider,,stub,medium,Q92778,J. C. R. Licklider,American psychologist and computer scientist (1915–1990),1915–1990,
 j-d-bernal,J. D. Bernal,,stub,medium,Q168362,John Desmond Bernal,Irish scientist (1901-1971),1901–1971,
 j-d-salinger,J. D. Salinger,,stub,medium,Q79904,J. D. Salinger,American author (1919–2010),1919–2010,
@@ -1073,7 +1050,7 @@ jackie-wilson,Jackie Wilson,,stub,medium,Q181483,Jackie Wilson,American singer (
 jacob-bernoulli,Jacob Bernoulli,,stub,medium,Q122392,Jacob Bernoulli,Swiss mathematician (1655-1705),1654/1655–1705,"Q136636849 Jacob Bernoulli (1712–1769, ); Q139207831 Jacob Bernoulli (1779–1836, ); Q108733906 Jacob Bernoulli (1598–1634, (1598-1634))"
 jacob-burckhardt,Jacob Burckhardt,,stub,medium,Q59945,Jacob Burckhardt,Swiss historian (1818–1897),1818–1897,"Q29422244 Jacob Burghart (?–?, ); Q94796951 Jacob Burckhardt (1642–1720, ); Q3160664 Jakob Burckhard (1681–1752, German librarian)"
 jacob-epstein,Jacob Epstein,,stub,medium,Q354779,Jacob Epstein,American-British sculptor (1880–1959),1880–1959,"Q76456156 Jacob Epstein (1864–1945, art collector (1864–1945)); Q6118583 Jacob Epstein (1903–1998, Soviet spy in World War II); Q94760531 Jacob Epstein (1838–1919, )"
-jacob-grimm,Jacob Grimm,,stub,medium,Q6701,Jacob Grimm,"German philologist, linguist, jurist and mythologist (1785–1863)",1785/1785–1863/1863,"Q95342541 Jacob Grimm (?–1490, ); Q1828172 Jacob Grimmer (1525–1590, Flemish painter (1525–1590))"
+jacob-grimm,Jacob Grimm,,stub,medium,Q6701,Jacob Grimm,"German philologist, linguist, jurist and mythologist (1785–1863)",1785/1785–1863/1863,"Q95342541 Jacob Grimm (?–1490, ); Q73109 Jakob Grimminger (1892–1969, SS officer and German National Socialist, bearer of the blood flag in the film Triumph of the Will (1892–1969)); Q1828172 Jacob Grimmer (1525–1590, Flemish painter (1525–1590))"
 jacob-lawrence,Jacob Lawrence,,stub,medium,Q355566,Jacob Lawrence,African American painter and art professor (1917–2000),1917–2000,"Q28203630 Jacob Frey (1981–?, American politician, attorney, and mayor of Minneapolis since 2018 (born 1981)); Q6118902 Jacob L. Shuford (1952–?, United States Navy admiral); Q129254435 Jacob Lawrence van der Meide (1910–1987, )"
 jacobus-henricus-van-t-hoff,Jacobus Henricus van't Hoff,,stub,medium,Q102822,Jacobus Henricus van 't Hoff,Dutch physical and organic chemist (1852-1911),1852–1911,
 jacqueline-tyrwhitt,Jacqueline Tyrwhitt,,stub,medium,Q16567110,Jaqueline Tyrwhitt,British architect (1905-1983),1905–1983,"Q76273969 Jacqueline Tyrwhitt (?–?, Peerage person ID=654831)"
@@ -1088,7 +1065,6 @@ jacques-monod,Jacques Monod,,stub,medium,Q231402,Jacques Monod,"French biologist
 jacques-rivette,Jacques Rivette,,stub,medium,Q167475,Jacques Rivette,"French film director, screenwriter and film critic (1928–2016)",1928–2016,
 jacques-sternberg,Jacques Sternberg,,stub,medium,Q281258,Jacques Sternberg,Belgian writer (1923–2006),1923–2006,
 jacques-tati,Jacques Tati,,stub,medium,Q51549,Jacques Tati,French filmmaker (1907-1982),1907–1982/1982,
-jakob-grimm,Jakob Grimm,,stub,medium,Q6701,Jacob Grimm,"German philologist, linguist, jurist and mythologist (1785–1863)",1785/1785–1863/1863,"Q73109 Jakob Grimminger (1892–1969, SS officer and German National Socialist, bearer of the blood flag in the film Triumph of the Will (1892–1969))"
 jakob-steiner,Jakob Steiner,,stub,medium,Q123514,Jakob Steiner,Swiss mathematician (1796-1863),1796–1863,"Q19286418 Jakob Steiner (1813–1865, Swiss lawyer and judge (1813-1865)); Q139012895 Jakob Steiner (1815–1873, ); Q99305403 Jakob Steiner (1884–1962, Swiss politician (1884-1962))"
 james-agee,James Agee,,stub,medium,Q352963,James Agee,"American author, journalist, poet, screenwriter and film critic (1909-1955)",1909–1955,"Q111155803 James G. Agee (1940–?, American politician)"
 james-bradley,James Bradley,,stub,medium,Q312278,James Bradley,English astronomer; Astronomer Royal,1693–1762/1762,"Q61794354 James W Bradley (?–?, electrical engineering professor from England); Q121091425 James Bradley (?–?, ); Q118168578 James Bradley (?–?, University of Melbourne lecturer)"
@@ -1102,7 +1078,7 @@ james-george-frazer,James George Frazer,,stub,medium,Q151936,James George Frazer
 james-mcneill-whistler,James McNeill Whistler,,stub,medium,Q203643,James McNeill Whistler,American painter (1834-1903),1834/1834–1903,
 james-nasmyth,James Nasmyth,,stub,medium,Q240633,James Nasmyth,Scottish mechanical engineer and inventor (1808–1890),1808–1890,"Q17318806 Sir James Nasmyth, 2nd Baronet (1704–1779, Scottish politician (1704-1779)); Q18168555 Sir James Nasmyth, 1st Baronet (?–1720/1720, Scottish lawyer)"
 james-pryde,James Pryde,,stub,medium,Q6141491,James Pryde,Scottish painter and poster designer (1866-1941),1866–1941/1941,"Q109853919 James Pryde (1802–1879, )"
-james-rosenquist,James Rosenquist,,stub,medium,Q448845,James Rosenquist,American artist (1933-2017),1933–2017,
+james-rosenquist,James Rosenquist,,stub,medium,Q448845,James Rosenquist,American artist (1933-2017),1547–2017,
 james-smithson,James Smithson,,stub,medium,Q900947,James Smithson,British chemist,1765–1829,
 james-tenney,James Tenney,,stub,medium,Q715379,James Tenney,American composer and music theorist (1934–2006),1934–2006,"Q6143909 James T. Brand (1886–1964, American judge (1886–1964)); Q105572354 James M. Tenney (?–?, physician)"
 james-thurber,James Thurber,,stub,medium,Q124527,James Thurber,"American cartoonist, author, journalist, playwright (1894–1961)",1894/1894–1961,"Q102168130 James Kent Thurber (?–?, Ph.D. New York University 1961)"
@@ -1129,7 +1105,7 @@ jean-charles-galissard-de-marignac,Jean Charles Galissard de Marignac,,stub,medi
 jean-claude-carriere,Jean-Claude Carrière,,stub,medium,Q551429,Jean-Claude Carrière,French screenwriter and actor (1931-2021),1931–2021,"Q95348710 Jean-Claude Carrière (1938–?, French hellenist)"
 jean-delsarte,Jean Delsarte,,stub,medium,Q726390,Jean Delsarte,French mathematician (1903-1968),1903–1968,
 jean-epstein,Jean Epstein,,stub,medium,Q456968,Jean Epstein,"French film director, essayist and novelist (1897–1953)",1897–1953,"Q3171922 Jean Epstein (?–?, French journalist)"
-jean-francois-lyotard,Jean-François Lyotard,,stub,medium,Q193257,Jean-François Lyotard,French philosopher (1924–1998),1924–1998,
+jean-francois-lyotard,Jean-François Lyotard,,stub,medium,Q193257,Jean-François Lyotard,"French philosopher, sociologist, and literary theorist (1924-1998)",1924–1998,
 jean-francois-millet,Jean-François Millet,,stub,medium,Q148458,Jean-François Millet,French painter (1814–1875),1814–1875,"Q124659252 Jean-François Millet (1849–?, son of painter Jean-François Millet); Q3751077 Francisque Millet (1642/1642/1642–1679/1679, French painter and engraver (1642–1679)); Q21458675 Jean François Millet (1666–1723/1723, French painter (1666-1723))"
 jean-francois-pilatre-de-rozier,Jean-François Pilâtre de Rozier,,stub,medium,Q310996,Jean-François Pilatre de Rozier,French balloonist,1754–1785,
 jean-giono,Jean Giono,,stub,medium,Q177411,Jean Giono,French writer (1895–1970),1895–1970,"Q121034747 Jean Giono (?–?, )"
@@ -1142,7 +1118,6 @@ jean-painleve,Jean Painlevé,,stub,medium,Q905187,Jean Painlevé,French photogra
 jean-paul,Jean Paul,,stub,medium,Q77079,Jean Paul,German Romantic writer (1763-1825),1763–1825,"Q122290 Jean-Paul Marat (1743–1793, politician and journalist during the French Revolution (1743-1793)); Q989 John Paul II (1920–2005, pope, cardinal, bishop, priest, author); Q9364 Jean-Paul Sartre (1905–1980, French existentialist philosopher (1905–1980))"
 jean-paul-riopelle,Jean-Paul Riopelle,,stub,medium,Q708544,Jean Paul Riopelle,Canadian artist (1923–2002),1923–2002,
 jean-paulhan,Jean Paulhan,,stub,medium,Q470557,Jean Paulhan,French writer (1884–1968),1884–1968,
-jean-perrin,Jean Perrin,,stub,medium,Q134085,Jean-Baptiste Perrin,French physicist (1870–1942),1870–1942,"Q95564908 Jean Perrin (1910–2008, French poet); Q100875134 Jean Perrinjaquet (1880–1950, French writer); Q107585046 Jean Perrin (?–?, French drawer)"
 jean-price-mars,Jean Price-Mars,,stub,medium,Q3045911,Jean Price-Mars,"Haitian doctor, politician and writer (1876–1969)",1876–1969,
 jean-prouve,Jean Prouvé,,stub,medium,Q381924,Jean Prouvé,French architect and designer (1901-1984),1901–1984,"Q131611276 Jean Prouvèze (?–?, ); Q131578941 Jean Prouvèze (?–?, ); Q131563996 Jean Prouvèze (?–?, )"
 jean-rouch,Jean Rouch,,stub,medium,Q166405,Jean Rouch,French film director and ethnologist (1917–2004),1917–2004,"Q131734228 Jean Rouch (1861–1915, ); Q66614935 Jean Roucheyrolles (1865–?, ); Q68910802 Jean Rouchault (?–?, Roman Catholic bishop)"
@@ -1174,7 +1149,7 @@ johann-beckmann,Johann Beckmann,,stub,medium,Q215979,Johann Beckmann,"German phi
 johann-benedict-listing,Johann Benedict Listing,,stub,medium,Q62313,Johann Benedict Listing,German mathematician (1808-1882),1808–1882,
 johann-bernhard-basedow,Johann Bernhard Basedow,,stub,medium,Q60247,Johann Bernhard Basedow,German philosopher (1724–1790),1724/1724–1790/1790,
 johann-caspar-fussli,Johann Caspar Füssli,,stub,medium,Q667640,Johann Caspar Füssli,Swiss artist (1706-1782),1706–1782,"Q2630485 Johann Kaspar Füssli (1743–1786, Swiss entomologist (1743-1786))"
-johann-christian-bach,Johann Christian Bach,,stub,medium,Q106641,Johann Christian Bach,German composer (1735–1782),1735/1735–1782,"Q1692890 Johann Christian Bach (1743–1814/1814, German pianist (1743-1814)); Q94869377 Johann Christian Bachoff (1698–1769, ); Q118404817 Johann Christian Bach (1640–1682, German violinist and chapel master in Erfurt (1640-1682))"
+johann-christian-bach,Johann Christian Bach,,stub,medium,Q106641,Johann Christian Bach,German composer (1735–1782),1735/1735–1782,"Q1692890 Johann Christian Bach (1743–1814/1814, German pianist (1743-1814)); Q94869377 Johann Christian Bachoff (1698–1769, ); Q131419861 Kaspar Bachmayer (1760–1805, Austrian painter (1760-1805))"
 johann-elert-bode,Johann Elert Bode,,stub,medium,Q76966,Johann Elert Bode,Prusian astronomer (1747–1826),1747–1826/1826,
 johann-friedrich-gmelin,Johann Friedrich Gmelin,,stub,medium,Q57230,Johann Friedrich Gmelin,German naturalist (1748–1804),1748–1804,"Q58068 Johann Georg Gmelin (1709/1709–1755/1775, German and Russian scientist (1709-1755)); Q94943311 Johann Friedrich Gmelin (1690–1718, ); Q94819514 Johann Friedrich Gmelin (1702–1729, )"
 johann-friedrich-von-eschscholtz,Johann Friedrich von Eschscholtz,,stub,medium,Q61266,Johann Friedrich von Eschscholtz,"Baltic German physician, naturalist and explorer (1793-1831)",1793–1831,
@@ -1206,7 +1181,7 @@ john-guare,John Guare,,stub,medium,Q320556,John Guare,American playwright and sc
 john-harrison,John Harrison,,stub,medium,Q314335,John Harrison,British clockworker,1693–1776,"Q1440641 John Harrison (1773–1833/1833, American industrial chemist); Q108910476 John Harrison (1691–1771, 25 Sep 1691 - May 1771); Q19325380 John Harrison (?–?, English purser in the Royal Navy)"
 john-huston,John Huston,,stub,medium,Q51575,John Huston,"American film director, screenwriter, and actor (1906–1987)",1906–1987,"Q1700539 John Huston (1961–?, professional golfer); Q19879279 John Huston (1976–?, American explorer); Q1700540 John Ricard (1940–2026, American Roman Catholic bishop)"
 john-lee-hooker,John Lee Hooker,,stub,medium,Q44570,John Lee Hooker,American blues musician (1912 or 1917–2001),1917–2001,"Q1700809 John Lee Hooker, Jr. (1952–?, American blues musician)"
-john-lydon,John Lydon,,stub,medium,Q106662,John Lydon,British-born Irish-American singer and songwriter,1956–?,"Q90976640 John P. Lydon (?–?, molecular and cell biologist at Baylor College of Medicine); Q76021080 John Lydon de la Perrelle (1913–?, (born 1913)); Q108867166 John Lydon (?–?, biomedical researcher at Genzyme)"
+john-lydon,John Lydon,,stub,medium,Q106662,John Lydon,English-born British singer and songwriter,1956–?,"Q90976640 John P. Lydon (?–?, molecular and cell biologist at Baylor College of Medicine); Q76021080 John Lydon de la Perrelle (1913–?, (born 1913)); Q108867166 John Lydon (?–?, biomedical researcher at Genzyme)"
 john-michell,John Michell,,stub,medium,Q373097,John Michell,English philosopher,1724–1793,"Q4298260 John Michel (1804–1886, British Army officer (1804-1886)); Q96076010 John Michell (?–?, ); Q56181258 John Michell (?–?, vicar of Fairford)"
 john-osborne,John Osborne,,stub,medium,Q313841,John Osborne,English playwright (1929-1994),1929–1994,"Q1699125 John Osborne (1936–2011, Montserratian politician (1936-2011)); Q6251357 John Osborne (1940–1998, English footballer (1940-1998)); Q18166061 John Osborne (1878–1961, Politician and union official from New South Wales, Australia (1878-1961))"
 john-scott-russell,John Scott Russell,,stub,medium,Q138545,John Scott Russell,British naval engineer (1808–1882),1808–1882/1882,
@@ -1235,7 +1210,6 @@ joseph-bertrand,Joseph Bertrand,,stub,medium,Q315436,Joseph Bertrand,French math
 joseph-brodsky,Joseph Brodsky,,stub,medium,Q862,Joseph Brodsky,"Russian-American poet, essayist, and Nobel laureate (1940–1996)",1940–1996/1996,"Q62089914 Joe Brodsky (1934–2006, American football coach)"
 joseph-cornell,Joseph Cornell,,stub,medium,Q694774,Joseph Cornell,American artist and filmmaker (1903-1972),1903–1972,"Q18044620 Joseph C. Lindsey (1959–?, American politician); Q107107739 Joseph Howland Cornell (1818–?, politician in Massachusetts, US (b.1818)); Q107041562 Joseph Warren Cornell (1810–1889, politician in Massachusetts, US (1810-1889))"
 joseph-diaz-gergonne,Joseph Diaz Gergonne,,stub,medium,Q1707098,Joseph Diez Gergonne,French mathematician,1771–1859/1859,
-joseph-fraunhofer,Joseph Fraunhofer,,stub,medium,Q43948,Joseph von Fraunhofer,Bavarian physicist and optical lens manufacturer,1787–1826,
 joseph-gorres,Joseph Görres,,stub,medium,Q215730,Joseph Görres,German writer and journalist (1776-1848),1776/1776–1848/1848,
 joseph-heller,Joseph Heller,,stub,medium,Q208101,Joseph Heller,American writer,1923–1999/1999,"Q7067067 Joseph Heller (1941–?, Australian zoologist); Q7023650 Joseph Heller (1937–?, Israeli historian); Q101437821 Joseph Elias Heller (1888–1957, )"
 joseph-joubert,Joseph Joubert,,stub,medium,Q551754,Joseph Joubert,French moralist and essayist,1754/1754–1824,"Q3185147 Joseph Joubert (1878–1963, French organist (1878–1963)); Q19287136 Joseph Joubert (1640–1719, ); Q138664984 Joseph Joubert (1958–?, American pianist, arranger, and conductor (born 1958))"
@@ -1251,7 +1225,7 @@ joseph-roumanille,Joseph Roumanille,,stub,medium,Q774507,Joseph Roumanille,Frenc
 joseph-swan,Joseph Swan,,stub,medium,Q315422,Joseph Swan,British physicist and inventor (1828-1914),1828–1914,"Q40117087 Joseph Swan (1796–1872/1872, engraver and publisher (1796–1872)); Q18879709 Joseph Swan (1791–1874/1874, Swan, Joseph (bap. 1791, d. 1874), anatomist); Q76232037 Joseph W. Swan (?–?, Peerage person ID=623412)"
 joseph-von-eichendorff,Joseph von Eichendorff,,stub,medium,Q77204,Joseph von Eichendorff,German poet and novelist (1788-1857),1788/1788–1857/1857,
 joseph-von-fraunhofer,Joseph von Fraunhofer,,stub,medium,Q43948,Joseph von Fraunhofer,Bavarian physicist and optical lens manufacturer,1787–1826,
-joseph-whitworth,Joseph Whitworth,,stub,medium,Q712307,Joseph Whitworth,"English engineer, entrepreneur (1804–1887)",1804/1803–1887,"Q63159184 Joseph Whitworth Hulse (1861–1898, (1861-1898) of Hulse and Co son of William Wilson Hulse Engineer of Manchester. 1898 Obituary)"
+joseph-whitworth,Joseph Whitworth,,stub,medium,Q712307,Joseph Whitworth,"English engineer, entrepreneur (1804–1887)",1803/1804–1887,"Q63159184 Joseph Whitworth Hulse (1861–1898, (1861-1898) of Hulse and Co son of William Wilson Hulse Engineer of Manchester. 1898 Obituary)"
 josiah-royce,Josiah Royce,,stub,medium,Q471260,Josiah Royce,American philosopher (1855–1916),1855–1916,
 juan-goytisolo,Juan Goytisolo,,stub,medium,Q353762,Juan Goytisolo,Spanish writer (1931-2017),1931/1931/1931–2017,
 judith-malina,Judith Malina,,stub,medium,Q213844,Judith Malina,"German-born American theater and film actress, writer and director",1926–2015,
@@ -1301,7 +1275,6 @@ kingsley-amis,Kingsley Amis,,stub,medium,Q220078,Kingsley Amis,"English novelist
 klaus-mann,Klaus Mann,,stub,medium,Q77087,Klaus Mann,German writer (1906–1949),1906–1949,"Q95463663 Klaus Mann (1945–?, ); Q135706313 Klaus Mann (1937–?, German surgeon); Q91542437 Klaus Mann (?–?, researcher (ORCID 0000-0001-8392-6519))"
 konrad-lorenz,Konrad Lorenz,,stub,medium,Q78496,Konrad Lorenz,"Austrian zoologist, winner of the Nobel Prize in Physiology or Medicine in 1973 (1903–1989)",1903–1989,"Q1289782 Konrad Lorenz (1942–?, German writer); Q130777385 Konrad Lorenz (1985–?, )"
 konstantin-tsiolkovsky,Konstantin Tsiolkovsky,,stub,medium,Q41239,Konstantin Tsiolkovsky,Russian and Soviet rocket scientist and pioneer of the astronautic theory (1857-1935),1857–1935,
-kornei-chukovsky,Kornei Chukovsky,,stub,medium,Q347685,Korney Chukovsky,Russian children's poet (1882–1969),1882/1882–1969,
 korney-chukovsky,Korney Chukovsky,,stub,medium,Q347685,Korney Chukovsky,Russian children's poet (1882–1969),1882/1882–1969,
 kostis-palamas,Kostis Palamas,,stub,medium,Q317967,Kostis Palamas,Greek poet,1859–1943,
 kurt-seligmann,Kurt Seligmann,,stub,medium,Q450110,Kurt Seligmann,Swiss artist (1900-1962),1900–1962,"Q24577250 Kurt Seligmann (1896–1967/1967, ); Q131919595 Kurt Seligmann (1912–1937, )"
@@ -1506,7 +1479,6 @@ milan-kundera,Milan Kundera,,stub,medium,Q93166,Milan Kundera,Franco-Czechoslova
 millicent-fawcett,Millicent Fawcett,,stub,medium,Q442818,Millicent Garrett Fawcett,"English politician, writer, and activist (1847–1929)",1847/1847–1929/1929,
 milton-avery,Milton Avery,,stub,medium,Q2714574,Milton Avery,American artist (1885–1965),1885–1965,
 milton-babbitt,Milton Babbitt,,stub,medium,Q318518,Milton Babbitt,American composer (1916–2011),1916–2011,"Q107004197 Milton Babbitt (?–?, architect)"
-mily-balakirev,Mily Balakirev,,stub,medium,Q185040,Mily Alexeyevich Balakirev,"Russian composer, pianist, and conductor (1837–1910)",1837–1910,
 min-tanaka,Min Tanaka,,stub,medium,Q3108327,Min Tanaka,Japanese actor and dancer (1945-),1945–?,
 mina-loy,Mina Loy,,stub,medium,Q470063,Mina Loy,"British writer, poet, playwright, novelist, painter, designer of lamps (1882-1966)",1882–1966,
 minor-white,Minor White,,stub,medium,Q712996,Minor White,(1908-1976) American photographer (1908–1976),1908–1976,"Q3315564 Minor White (?–?, American astronomer); Q113809923 Minor White Latham (1881–1968/1968, )"
@@ -1527,8 +1499,7 @@ muddy-waters,Muddy Waters,,stub,medium,Q220707,Muddy Waters,American blues music
 n-f-s-grundtvig,N. F. S. Grundtvig,,stub,medium,Q331893,Nikolaj Frederik Severin Grundtvig,"Danish Lutheran pastor, theologian, hymn-writer and educator (1783-1872)",1783/1783–1872/1872,
 nadezhda-mandelstam,Nadezhda Mandelstam,,stub,medium,Q234765,Nadezhda Mandelstam,Russian writer and educator,1899/1899–1980,
 nanos-valaoritis,Nanos Valaoritis,,stub,medium,Q939693,Nanos Valaoritis,Greek poet (1921-2019),1921–2019,
-natalia-goncharova,Natalia Goncharova,,stub,medium,Q232391,Natalia Goncharova,Russian-French artist (1881–1962),1881/1881–1962,"Q516288 Natalia Mikhaylovna Goncharova (1988–?, diver); Q102067083 Natalia S Goncharova (?–?, researcher); Q60835019 Natalia Gontcharova (1972–?, Russian handball player)"
-natan-altman,Natan Altman,,stub,medium,Q1358816,Nathan Altman,Russian artist of Jewish origin (1889–1970),1899/1889/1889/1890–1971/1970/1970,"Q131382728 Nathan Altman (1864–1929, )"
+natalia-goncharova,Natalia Goncharova,,stub,medium,Q232391,Natalia Goncharova,Russian-French artist (1881–1962),1881/1881–1962,"Q516288 Natalia Mikhaylovna Goncharova (1988–?, diver); Q6968308 Natalya Goncharova (1974–?, fencer); Q102067083 Natalia S Goncharova (?–?, researcher)"
 nathan-altman,Nathan Altman,,stub,medium,Q1358816,Nathan Altman,Russian artist of Jewish origin (1889–1970),1899/1889/1889/1890–1971/1970/1970,"Q131382728 Nathan Altman (1864–1929, )"
 nathanael-west,Nathanael West,,stub,medium,Q370521,Nathanael West,American writer and screenwriter (1903–1940),1903–1940,
 nathaniel-hawthorne,Nathaniel Hawthorne,,stub,medium,Q69339,Nathaniel Hawthorne,American author (1804–1864),1804/1804–1864/1864,"Q94283460 Nat Vincent (1889/1889–1979/1979, American composer, lyricist, and author (1889-1979))"
@@ -1539,7 +1510,6 @@ nelly-sachs,Nelly Sachs,,stub,medium,Q57074,Nelly Sachs,Jewish German poet and p
 nelson-goodman,Nelson Goodman,,stub,medium,Q318048,Nelson Goodman,American philosopher (1906–1998),1906–1998,
 nevil-maskelyne,Nevil Maskelyne,,stub,medium,Q450757,Nevil Maskelyne,fifth Astronomer Royal (*1765 – †1811),1732/1732–1811/1811,"Q1982239 Nevil Maskelyne (1863–1924/1924, British magician and inventor (1863–1924)); Q7004562 Nevil Maskelyne (1611–1679, English politician)"
 nguyen-thien-dao,Nguyen-Thien Dao,,stub,medium,Q3339352,Nguyen-Thien Dao,French composer of Vietnamese family origin (1940-2015),1940/1940/1940–2015/2015,
-niccolo-jomelli,Niccolò Jomelli,,stub,medium,Q312891,Niccolò Jommelli,Italian composer (1714–1774),1714–1774,
 niccolo-jommelli,Niccolò Jommelli,,stub,medium,Q312891,Niccolò Jommelli,Italian composer (1714–1774),1714–1774,
 niccolo-piccini,Niccolò Piccini,,stub,medium,Q310687,Niccolò Piccinni,Italian composer,1728–1800,"Q52900051 Niccolò Piccini (?–?, ); Q979543 Niccolò Piccinino (1386–1444, Italian condottiero)"
 nick-hornby,Nick Hornby,,stub,medium,Q313007,Nick Hornby,"English novelist, screenwriter, essayist, and film producer (born 1957)",1957–?,"Q7027324 Nick Hornby (1980–?, British artist)"
@@ -1569,7 +1539,7 @@ olaudah-equiano,Olaudah Equiano,,stub,medium,Q379887,Olaudah Equiano,Black Briti
 ole-romer,Ole Rømer,,stub,medium,Q160187,Ole Rømer,Danish astronomer (*1644 – †1710),1644–1710,"Q106771729 Ole Rømer (1954–?, ); Q4584829 Ole Rømer Aagaard Sandberg (1900–1985, Norwegian politician (1900–1985)); Q6092009 Ole Rømer Aagaard Sandberg (1811–1883, Norwegian doctor)"
 olga-rozanova,Olga Rozanova,,stub,medium,Q270460,Olga Rozanova,Russian artist (1886-1918),1886–1918/1918,"Q68100027 Olga E. Rozanova (?–?, researcher)"
 oliver-heaviside,Oliver Heaviside,,stub,medium,Q154345,Oliver Heaviside,"electrical engineer, mathematician and physicist (1850–1925)",1850–1925,
-oliver-lodge,Oliver Lodge,,stub,medium,Q379816,Oliver Lodge,British physicist (1851-1940),1851–1940,"Q75645923 Oliver Lodge (?–?, Peerage person ID=268541); Q75425666 Oliver Robert Lodge (?–?, Peerage person ID=133942)"
+oliver-lodge,Oliver Lodge,,stub,medium,Q379816,Oliver Lodge,English physicist (1851-1940),1851–1940,"Q75645923 Oliver Lodge (?–?, Peerage person ID=268541); Q75425666 Oliver Robert Lodge (?–?, Peerage person ID=133942)"
 orlan,Orlan,,stub,medium,Q265732,ORLAN,French performance artist (born 1947),1947–?,"Q44467 Orlando Bloom (1977–?, English actor and model (born 1977)); Q542069 Orlando Jones (1968–?, American stand-up comedian); Q154792 Orlande de Lassus (1532–1594, Franco-Flemish composer (1532–1594))"
 oscar-dominguez,Oscar Dominguez,,stub,medium,Q293314,Óscar Domínguez,Spanish surrealist painter (1906–1957),1906–1957,"Q60621176 Oscar Domínguez (?–?, researcher ORCID ID = 0000-0001-7751-1632); Q133441216 Óscar Domínguez Giraldo (?–?, ); Q102804125 Oscar Dominguez (?–?, Ph.D. Universidad Complutense de Madrid 2016)"
 osip-brik,Osip Brik,,stub,medium,Q738721,Osip Brik,"Russian lawyer, literary critic and chekist (1888–1945)",1888–1945,
@@ -1671,14 +1641,13 @@ pierre-schaeffer,Pierre Schaeffer,,stub,medium,Q315744,Pierre Schaeffer,French c
 pierre-soulages,Pierre Soulages,,stub,medium,Q708631,Pierre Soulages,French painter and engraver (1919–2022),1919–2022,
 pierre-teilhard-de-chardin,Pierre Teilhard de Chardin,,stub,medium,Q189564,Pierre Teilhard de Chardin,"French philosopher, Jesuit priest, and paleontologist",1881–1955,
 pieter-van-musschenbroek,Pieter van Musschenbroek,,stub,medium,Q176206,Pieter van Musschenbroek,Dutch naturalist (1692–1761),1692–1761,
-pietro-antonio-locatelli,Pietro Antonio Locatelli,,stub,medium,Q124772,Pietro Locatelli,Italian Baroque composer and violinist (1695-1764),1695–1764,
 pietro-locatelli,Pietro Locatelli,,stub,medium,Q124772,Pietro Locatelli,Italian Baroque composer and violinist (1695-1764),1695–1764,"Q7192997 Pietro Lucatelli (1637/1634–1710, Italian painter (c.1637-1710))"
 pio-baroja,Pío Baroja,,stub,medium,Q220980,Pío Baroja,Spanish writer (1872-1956),1872–1956,
 pol-bury,Pol Bury,,stub,medium,Q492909,Pol Bury,"painter, jewelry designer and sculptor from Belgium (1922–2005)",1922/1922–2005/2005/2005,
 pops-staples,Pops Staples,,stub,medium,Q2104293,Pops Staples,American gospel and R&B musician (1914–2000),1914/1915–2000,
 professor-longhair,Professor Longhair,,stub,medium,Q918447,Professor Longhair,African-American blues musician,1918/1918–1980/1980,
 quincy-jones,Quincy Jones,,stub,medium,Q193645,Quincy Jones,American record producer and composer (1933–2024),1933–2024,"Q25190073 Quincy Jones (1984–?, American comedian); Q748538 Quincy Jones III (1968–?, Swedish-American music producer and film producer); Q116312338 Quincy Jones (?–?, Guyanese politician)"
-r-buckminster-fuller,R. Buckminster Fuller,,stub,medium,Q102289,Buckminster Fuller,"American architect, systems theorist, author, designer, inventor and futurist (1895–1983)",1895–1983,
+r-buckminster-fuller,R. Buckminster Fuller,,stub,medium,Q102289,Buckminster Fuller,"American architect, systems theorist, author, designer, inventor and futurist (1895–1983)",1895–1983,"Q96089677 Richard Buckminster Fuller (1861–1910, (1861-1910))"
 r-k-narayan,R. K. Narayan,,stub,medium,Q334252,R. K. Narayan,Indian English-language writer (1906–2001),1906–2001,
 r-s-thomas,R. S. Thomas,,stub,medium,Q725745,R. S. Thomas,Welsh poet (1913–2000),1913–2000,"Q141268673 Robert S. Thomas (1882–1941, American Army officer (1882–1941)); Q18600471 Robert Strickland Thomas (1787–1853, British painter (1787-1853))"
 rafael-cansinos-assens,Rafael Cansinos-Assens,,stub,medium,Q1335032,Rafael Cansinos Assens,Spanish writer (1882-1964),1882–1964,
@@ -1704,7 +1673,6 @@ reynaldo-hahn,Reynaldo Hahn,,stub,medium,Q432938,Reynaldo Hahn,Venezuelan-French
 reyner-banham,Reyner Banham,,stub,medium,Q647075,Reyner Banham,British architectural critic (1922–1988),1922–1988,
 richard-arkwright,Richard Arkwright,,stub,medium,Q294153,Richard Arkwright,textile entrepreneur; developer of the spinning frame (known as the water frame),1732/1732–1792,"Q17279150 Richard Arkwright (1781–1832, British politician (1781-1832)); Q2641036 Richard Arkwright junior (1755–1843, Derby industrialist); Q7323773 Richard Arkwright (1835–1918, Member of Parliament, Barrister (1835–1918))"
 richard-artschwager,Richard Artschwager,,stub,medium,Q568262,Richard Artschwager,American artist (1923-2013),1923–2013,
-richard-buckminster-fuller,Richard Buckminster Fuller,,stub,medium,Q102289,Buckminster Fuller,"American architect, systems theorist, author, designer, inventor and futurist (1895–1983)",1895–1983,"Q96089677 Richard Buckminster Fuller (1861–1910, (1861-1910))"
 richard-feynman,Richard Feynman,,stub,medium,Q39246,Richard Feynman,American theoretical physicist (1918–1988),1918–1988,
 richard-neutra,Richard Neutra,,stub,medium,Q84312,Richard Neutra,Austrian–American architect (1892-1970),1892–1970,
 richard-rodgers,Richard Rodgers,,stub,medium,Q269094,Richard Rodgers,American composer of songs and Broadway musicals (1902–1979),1902/1902–1979/1979,"Q3162850 Richard Reid Rogers (1867–1949, American governor of the Panama Canal Zone (1867-1949)); Q98341234 Richard Rodgers (?–?, Northern Irish election candidate); Q38914911 Richard Rodgers (?–?, Librarian at MIT)"
@@ -1723,7 +1691,7 @@ robert-henri,Robert Henri,,stub,medium,Q724860,Robert Henri,American painter (18
 robert-hinde,Robert Hinde,,stub,medium,Q321842,Robert Aubrey Hinde,British zoologist (1923–2016),1923–2016,"Q55677295 Robert Hinderling (1935–2011, German philologist (1935-2011)); Q61831052 Robert J. Hinde (?–?, American chemistry professor and academic administrator); Q27132846 Robert Hinde (?–?, legal writer of Lincoln's Inn, active 1785)"
 robert-mapplethorpe,Robert Mapplethorpe,,stub,medium,Q312786,Robert Mapplethorpe,American photographer (1946–1989),1946–1989,
 robert-moog,Robert Moog,,stub,medium,Q200883,Robert Moog,American electronic music pioneer and inventor (1934-2005),1934–2005,
-robert-musil,Robert Musil,,stub,medium,Q78487,Robert Musil,Austrian philosophical writer (1880–1942),1880–1942,"Q108808231 Robert K. Musil (1943–?, American author and environmentalist); Q95149277 Robert Musil (1953–?, ); Q89912817 Robert Musil (1862/1862–1941, 1862-1941)"
+robert-musil,Robert Musil,,stub,medium,Q78487,Robert Musil,Austrian philosophical writer (1880–1942),1880–1942,"Q108808231 Robert K. Musil (1943–?, American author and environmentalist); Q95149277 Robert Musil (1953–?, sculptor); Q89912817 Robert Musil (1862/1862–1941, physician (1862-1941))"
 robert-penn-warren,Robert Penn Warren,,stub,medium,Q312720,Robert Penn Warren,"American poet, novelist, and literary critic (1905-1989)",1905–1989,
 robert-redford,Robert Redford,,stub,medium,Q59215,Robert Redford,American actor and director (1936–2025),1936–2025,"Q131687011 Robert Redford act (1937–?, 1937-)"
 robert-stephenson,Robert Stephenson,,stub,medium,Q328728,Robert Stephenson,British railway engineer and locomotive designer (1803-1859),1803–1859,"Q61107853 Robert Stephenson (1788–1837, brother of railway engineer George Stephenson (1788-1837)); Q12665 Robert Baden-Powell, 1st Baron Baden-Powell (1857–1941, lieutenant-general in the British Army, writer, founder and Chief Scout of the Scout Movement (1857-1941)); Q125951725 Robert Stephenson (1892–1974, American diplomat (1892-1974))"
@@ -1776,7 +1744,6 @@ satyajit-ray,Satyajit Ray,,stub,medium,Q8873,Satyajit Ray,Indian filmmaker and w
 satyendra-nath-bose,Satyendra Nath Bose,,stub,medium,Q45789,Satyendra Nath Bose,Indian Bengali physicist and polymath (1894–1974),1894–1974,
 saul-bass,Saul Bass,,stub,medium,Q536884,Saul Bass,American graphic designer and filmmaker (1920–1996),1920–1996,
 saul-bellow,Saul Bellow,,stub,medium,Q83059,Saul Bellow,Canadian-American writer (1915–2005),1915/1915–2005,
-scott-fitzgerald,Scott Fitzgerald,,stub,medium,Q93354,F. Scott Fitzgerald,American writer (1896–1940),1896–1940,"Q13202047 Scott Fitzgerald (?–?, ); Q116263091 Scott Fitzgerald (?–?, academic, professor of sociology); Q123499184 Scott Fitzgerald Gray (?–?, Canadian writer and game designer)"
 serge-chermayeff,Serge Chermayeff,,stub,medium,Q2118101,Serge Chermayeff,British architect (1900-1996),1900–1996,
 serge-vandercam,Serge Vandercam,,stub,medium,Q2925429,Serge Vandercam,Belgian artist (1924-2005),1924/1924/1924–2005/2010/2005,
 sergei-prokofiev,Sergei Prokofiev,,stub,medium,Q49481,Sergei Prokofiev,"Russian and Soviet pianist, composer and conductor (1891–1953)",1891/1891/1891–1953,
@@ -1786,7 +1753,6 @@ sidney-bechet,Sidney Bechet,,stub,medium,Q313519,Sidney Bechet,American jazz mus
 sidney-webb,Sidney Webb,,stub,medium,Q332442,Sidney Webb,"English socialist economist, 1859–1947 (1859–1947)",1859–1947,"Q7507945 Sid Webb (1884–1956, English footballer); Q20876887 Sidney Webb (1875–1923, English cricketer); Q7509256 Sidney Northcote (1884–1952, British actor and director (1884-1952))"
 siegfried-kracauer,Siegfried Kracauer,,stub,medium,Q76435,Siegfried Kracauer,"German writer, journalist, sociologist, cultural critic, and film theorist (1889-1966)",1889–1966,
 siegfried-sassoon,Siegfried Sassoon,,stub,medium,Q363729,Siegfried Sassoon,English war poet and writer (1886-1967),1886–1967,
-silvius-leopold-weiss,Silvius Leopold Weiss,,stub,medium,Q379571,Sylvius Leopold Weiss,German composer and lutenist,1686/1687–1750/1750,
 sinclair-lewis,Sinclair Lewis,,stub,medium,Q123469,Sinclair Lewis,American writer and playwright (1885–1951),1885/1885–1951,"Q275545 Dorothy Thompson (1893–1961, American journalist and radio broadcaster (1893-1961))"
 slatan-dudow,Slatan Dudow,,stub,medium,Q124842,Slatan Dudow,Bulgarian film director (1903-1963),1903/1903–1963/1963,
 sofia-kovalevskaya,Sofia Kovalevskaya,,stub,medium,Q184535,Sofia Kovalevskaya,19th-century Russian mathematician,1850–1891,"Q52224371 Sofia Kovalevskaya (1879–?, (b.1879)); Q9078569 Svetlana Sigizmundovna Kovalevskaja (1929–1987, soviet botanist (1929-1987))"
@@ -1835,7 +1801,6 @@ thea-musgrave,Thea Musgrave,,stub,medium,Q539794,Thea Musgrave,Scottish composer
 theodore-dreiser,Theodore Dreiser,,stub,medium,Q486096,Theodore Dreiser,American novelist and journalist (1871–1945),1871/1871–1945/1945,
 theodore-stephanides,Theodore Stephanides,,stub,medium,Q1739046,Theodoros Stephanides,"Greek-British poet, author, doctor, scientist and naturalist",1896–1983,
 theodosius-dobzhansky,Theodosius Dobzhansky,,stub,medium,Q246731,Theodosius Dobzhansky,geneticist and evolutionary biologist (1900-1975),1900–1975,
-thomas-babbington-macaulay,Thomas Babbington Macaulay,,stub,medium,Q315989,"Thomas Babington Macaulay, 1st Baron Macaulay",British historian and politician (1800–1859),1800–1859,
 thomas-babington-macaulay,Thomas Babington Macaulay,,stub,medium,Q315989,"Thomas Babington Macaulay, 1st Baron Macaulay",British historian and politician (1800–1859),1800–1859,"Q19519573 Thomas Babington Macaulay (1826–1878, Yoruba priest and educator); Q135569668 Thomas Babington Macaulay (1914–1997, (1914–1997) business executive, company chairman, and community leader)"
 thomas-bayes,Thomas Bayes,,stub,medium,Q208452,Thomas Bayes,British mathematician and Presbyterian minister (1702-1761),1701/1702–1761/1761,
 thomas-browne,Thomas Browne,,stub,medium,Q313925,Thomas Browne,English polymath and author (1605–1682),1605/1605–1682/1682,"Q116124830 Thomas Browne (?–1633, Abt 1561 - 5 Apr 1633); Q110083426 Thomas Browne (1654–1741, ); Q121339796 Thomas Browne (?–?, )"
@@ -1893,7 +1858,6 @@ volker-schlondorff,Volker Schlöndorff,,stub,medium,Q57316,Volker Schlöndorff,"
 vsevolod-ivanov,Vsevolod Ivanov,,stub,medium,Q435569,Vsevolod Ivanov,"screenwriter, author",1895–1963,"Q4196085 Vsevolod Ivanov (1888/1888–1971, Russian poet and writer (1888–1971)); Q4196084 Vsevolod Ivanov (1934–?, Soviet astronomer); Q26178840 Vsevolod Ivanov (1912–1950, )"
 vsevolod-pudovkin,Vsevolod Pudovkin,,stub,medium,Q55195,Vsevolod Pudovkin,"Soviet film director, screenwriter and actor (1893–1953)",1893–1953,
 w-e-b-du-bois,W. E. B. Du Bois,,stub,medium,Q158060,W. E. B. Du Bois,American sociologist and activist (1868–1963),1868/1868–1963,
-w-e-b-dubois,W. E. B. DuBois,,stub,medium,Q158060,W. E. B. Du Bois,American sociologist and activist (1868–1963),1868/1868–1963,
 w-g-sebald,W. G. Sebald,,stub,medium,Q76952,W. G. Sebald,German writer and academic (1944-2001),1944–2001,
 walker-evans,Walker Evans,,stub,medium,Q363308,Walker Evans,American photographer and photojournalist (1903-1975),1903–1975,"Q7962255 Walker Evans (1938–2025, American racing driver)"
 wallace-stevens,Wallace Stevens,,stub,medium,Q166835,Wallace Stevens,American poet (1879–1955),1879–1955,
@@ -1902,7 +1866,6 @@ walter-hood-fitch,Walter Hood Fitch,,stub,medium,Q1102060,Walter Hood Fitch,bota
 walter-j-ong,Walter J. Ong,,stub,medium,Q722347,Walter J. Ong,American philosopher and historian (1912–2003),1912–2003,
 walter-piston,Walter Piston,,stub,medium,Q711052,Walter Piston,American composer (1894–1976),1894–1976,
 walter-pitts,Walter Pitts,,stub,medium,Q705010,Walter Pitts,American logician and computational neuroscientist (1923-1969),1923–1969,"Q23020560 Walter Hill (1877–1942, British military officer); Q100901371 Walter Pitts (?–?, college basketball player (1993–1994) Alabama)"
-walter-richard-sickert,Walter Richard Sickert,,stub,medium,Q703369,Walter Sickert,British artist (1860-1942),1860–1942,
 walter-ruttmann,Walter Ruttmann,,stub,medium,Q77365,Walter Ruttmann,German film director (1887-1941),1887–1941,
 walter-sickert,Walter Sickert,,stub,medium,Q703369,Walter Sickert,British artist (1860-1942),1860–1942,"Q2546304 Walter Sickert (1919–2013, German politician (1919–2013))"
 walter-zimmermann,Walter Zimmermann,,stub,medium,Q76209,Walter Zimmermann,German composer (born 1949),1949–?,"Q1679168 Walter Zimmermann (1892–1968, German educationist (1892-1968)); Q11351908 Walter Zimmermann (1897–1995, German military personnel (1897-1995)); Q29407085 Walter Zimmermann (1901–?, German agricultural scientist and professor (born 1901))"
@@ -1934,7 +1897,7 @@ william-friedkin,William Friedkin,,stub,medium,Q51582,William Friedkin,American 
 william-froude,William Froude,,stub,medium,Q918587,William Froude,British engineer and naval architect (1810–1879),1810–1879,
 william-george-armstrong,William George Armstrong,,stub,medium,Q335115,"William Armstrong, 1st Baron Armstrong","English inventor, scientist, engineer, industrialist (1810-1900)",1810–1900,"Q15948423 William George Armstrong (1859–1941, English-born Australian physician and journalist)"
 william-grey-walter,William Grey Walter,,stub,medium,Q1359845,William Grey Walter,American-born British neuroscientist and roboticist,1910–1977,
-william-harvey,William Harvey,,stub,medium,Q93128,William Harvey,English physician (1578-1657),1578–1657,"Q1378128 William H. Harvey (1811–1866, Irish botanist (1811-1866)); Q75833467 William Harvey (1682–1765, (1682-1765)); Q8010985 William Harvey (1796–1866, English engraver and designer (1796-1866))"
+william-harvey,William Harvey,,stub,medium,Q93128,William Harvey,English physician (1578-1657),1578–1657,"Q26213613 William Harvey (1663/1663–1731, English Member of Parliament (1663-1731)); Q75833467 William Harvey (1682–1765, (1682-1765)); Q129257374 William Harvey (?–?, 1787 - 1889)"
 william-herschel,William Herschel,,stub,medium,Q14277,William Herschel,German-born British astronomer and composer (1738–1822),1738–1822/1822/1822/1822,"Q120381670 William Herschel Lemon (1832–?, Indiana writer 1832-?); Q18911596 William Herschell (1873–1939, poet); Q64020184 William Ford (?–?, Ph.D. University of Illinois at Urbana-Champaign 1972)"
 william-john-macquorn-rankine,William John Macquorn Rankine,,stub,medium,Q232149,William John Macquorn Rankine,civil engineer (1820–1872),1820–1872,
 william-murdoch,William Murdoch,,stub,medium,Q451444,William Murdoch,Scottish engineer and inventor (1754-1839),1754–1839,"Q131840209 William Murdoch (1800–1866, Scottish-born Canadian businessman); Q75334680 William Murdoch (?–?, Peerage person ID=70476); Q3527101 Billy Murdoch (1854–1911, Australian cricketer (1854-1911))"
@@ -1949,7 +1912,6 @@ willie-dixon,Willie Dixon,,stub,medium,Q204092,Willie Dixon,American blues music
 willie-nelson,Willie Nelson,,stub,medium,Q206112,Willie Nelson,American country musician (born 1933),1933/1933/1933–?,"Q8021739 Willie Nelson (1987–?, American boxer)"
 willy-ronis,Willy Ronis,,stub,medium,Q536620,Willy Ronis,French photographer (1910-2009),1910–2009/2009,
 wim-wenders,Wim Wenders,,stub,medium,Q55411,Wim Wenders,German filmmaker (born 1945),1945–?,
-wislawa-szymborska,Wisława Szymborska,,stub,medium,Q42552,Wisława Szymborska,"Polish poet, Nobel Prize winner (1923–2012)",1923–2012,
 witold-gombrowicz,Witold Gombrowicz,,stub,medium,Q275175,Witold Gombrowicz,Polish writer (1904–1969),1904–1969/1969,
 wojciech-kilar,Wojciech Kilar,,stub,medium,Q319777,Wojciech Kilar,Polish composer and pianist (1932–2013),1932–2013,
 wole-soyinka,Wole Soyinka,,stub,medium,Q41488,Wole Soyinka,Nigerian writer and playwright (born 1934),1934–?,
@@ -1979,7 +1941,7 @@ ahmet-ertegun,Ahmet Ertegun,"1923 (Istanbul, Turkey) - 2006 (New York)",stub,hig
 alain-robbe-grillet,Alain Robbe-Grillet,"1922 (Brest, France) – 2008 (Caen)",bio,high,Q216266,Alain Robbe-Grillet,French author and film director (1922–2008),1922–2008,"Q137063749 Alain Robbe-Grillet (?–?, )"
 albert-gleizes,Albert Gleizes,1881 (Paris) – 1953 (Avignon),bio,high,Q711903,Albert Gleizes,French painter (1881–1953),1881–1953,
 alberto-giacometti,Alberto Giacometti,"1901 (Borgonovo, Switzerland) – 1966 (Chur)",bio,high,Q157194,Alberto Giacometti,Swiss sculptor and painter (1901–1966),1901–1966,"Q110400181 Alberto Giacometti (1834–?, Swiss baker and café owner (1834-1933); father of the painter Giovanni Giacometti, grandfather of the sculptor and painter Alberto Giacometti); Q671236 Augusto Giacometti (1877–1947/1947, Swiss artist (1877-1947))"
-aldous-huxley,Aldous Huxley,"1894 (Godalming, England) – 1963 (Los Angeles)",bio,high,Q81447,Aldous Huxley,English writer and philosopher (1894–1963),1894–1963,
+aldous-huxley,Aldous Huxley,"1894 (Godalming, England) – 1963 (Los Angeles)",bio,high,Q81447,Aldous Huxley,viva el completo (1894–1963),1894–1963,
 aleister-crowley,Aleister Crowley,"1875 (Royal Leamington Spa, Warwickshire) - 1947 (Hastings, East Sussex)",stub,high,Q172684,Aleister Crowley,English occultist (1875–1947),1875–1947,
 aleksei-kruchenykh,Aleksei Kruchenykh,1886 (Olevka) - 1968 (Moscow),stub,high,Q721962,Aleksei Kruchenykh,Russian writer (1886-1968),1886–1968,
 alex-katz,Alex Katz,1927 (New York) –,bio,high,Q919265,Alex Katz,American painter and sculptor (born 1927),1927–?,"Q26837147 Alex Katz (1994–?, Israeli-American professional baseball player); Q105354869 Alex Katz (1863–1940, Holocaust victim (born 1863))"
@@ -2105,9 +2067,10 @@ francis-ford-coppola,Francis Ford Coppola,1939 (Detroit) –,bio,high,Q56094,Fra
 francis-picabia,Francis Picabia,1879 (Paris) – 1953 (Paris),bio,high,Q157321,Francis Picabia,French painter and writer (1879–1953),1879–1953,
 frank-sinatra,Frank Sinatra,"1915 (Hoboken, New Jersey) - 1998 (Los Angeles, California)",stub,high,Q40912,Frank Sinatra,American singer and actor (1915–1998),1915–1998,"Q1349639 Frank Sinatra Jr. (1944–2016, American singer, composer, conductor and actor (1944–2016))"
 fred-astaire,Fred Astaire,"1899 (Omaha, Nebraska) - 1987 (Los Angeles, California)",stub,high,Q100937,Fred Astaire,"American dancer, choreographer, actor, and singer (1899–1987)",1899–1987,
-fyodor-dostoevsky,Fyodor Dostoevsky,"1821 (Moscow, Russia) - 1881 (St. Petersburg, Russia)",stub,high,Q991,Fyodor Dostoyevsky,Russian novelist (1821–1881),1821/1821–1881/1881,
+fyodor-dostoevsky,Fyodor Dostoevsky,"1821 (Moscow, Russia) - 1881 (St. Petersburg, Russia)",stub,high,Q991,Fyodor Dostoyevsky,Russian novelist and philosopher (1821–1881),1821/1821–1881/1881,
 george-balanchine,George Balanchine,"1904 (St. Petersburg, Russia) - 1983 (New York)",stub,high,Q310184,George Balanchine,"American choreographer, dancer and ballet master (1904–1983)",1904–1983/1983/1983,
 george-barnard,George N. Barnard,"1819 (Coventry, Connecticut) – 1902 (Syracuse, N.Y.)",bio,high,Q127916,George N. Barnard,American photographer (1819–1902),1819–1902,"Q75485355 George Barnard (?–?, Peerage person ID=170639); Q108283699 George Barnard (?–?, British Royal Navy officer, commander in 1840); Q75967423 George Barnard (1823–?, (born 1823))"
+george-berkeley,George Berkeley,"1685 (County Kilkenny, Ireland) - 1753 (Oxford, England)",stub,high,Q82049,George Berkeley,Irish idealist philosopher and Anglican bishop (1685–1753),1684/1685–1753/1753/1731,"Q63285282 George Berkeley (?–?, researcher); Q75933303 George Berkeley (1735–?, (born 1735)); Q5536926 George Berkeley (1693–1746, English politician)"
 george-cruikshank,George Cruikshank,1792 (London) – 1878 (London),bio,high,Q360466,George Cruikshank,British caricaturist and book illustrator; (1792-1878),1792/1792–1873/1878,"Q5538256 George Cruikshank (1857–1936, American educator, newspaper editor, and historian); Q5538255 George Cruickshank (1881–1951, Bishop of Waiapu; English-born Anglican bishop)"
 george-orwell,George Orwell,"1903 (Motihari, India) – 1950 (London)",bio,high,Q3335,George Orwell,British writer and journalist (1903–1950),1903–1950,"Q137676463 Eric Blair (?–?, Canadian political candidate); Q140090004 Blair Harris (1952–?, American pornographic actor, born 1952)"
 georges-brassens,Georges Brassens,"1921 (Sète, France) – 1981 (Saint-Gély-du-Fesc)",bio,high,Q449,Georges Brassens,"French musician, singer-songwriter and poet (1921–1981)",1921–1981,
@@ -2223,7 +2186,7 @@ michael-herr,Michael Herr,"1940 (Lexington, Kentucky) - 2016 (New York)",stub,hi
 mike-stoller,Mike Stoller,1933,stub,high,Q3857460,Mike Stoller,American songwriter and producer,1933–?,
 mikhail-kalatozov,Mikhail Kalatozov,1903 (Tbilisi) - 1973 (Moscow),stub,high,Q324937,Mikhail Kalatozov,Soviet film director and screenwriter (1903-1973),1903–1973/1973,
 milos-forman,Miloš Forman,"1932 (Čáslav, Czechoslovakia) - 2018 (Danbury, Connecticut)",stub,high,Q51525,Miloš Forman,"Czech American director, screenwriter, and professor (1932–2018)",1932–2018,
-mily-balakireff,Mily Balakireff,1837 - 1910,stub,high,Q185040,Mily Alexeyevich Balakirev,"Russian composer, pianist, and conductor (1837–1910)",1837–1910,
+mily-balakirev,Mily Balakirev,1837 - 1910,stub,high,Q185040,Mily Alexeyevich Balakirev,"Russian composer, pianist, and conductor (1837–1910)",1837–1910,
 miroslav-holub,Miroslav Holub,"1923 (Plzeň, Czechoslovakia) - 1998 (Prague, Czech Republic)",stub,high,Q1395048,Miroslav Holub,Czech poet and immunologist (1923–1998),1923–1998/1998,"Q106658555 Miroslav Holub (1922–?, ); Q106658557 Miroslav Holub (1925–?, ); Q95119546 Miroslav Holub (1924–2003, )"
 mordecai-richler,Mordecai Richler,1931 (Montreal) – 2001 (Montreal),bio,high,Q452282,Mordecai Richler,Canadian writer (1931–2001),1931–2001,
 moritz-schlick,Moritz Schlick,"1882 (Berlin, Germany) - 1936 (Vienna, Austria)",stub,high,Q57193,Moritz Schlick,German philosopher (1882-1936),1882–1936,
@@ -2240,7 +2203,7 @@ paolo-soleri,Paolo Soleri,"1919 (Turin, Italy) - 2013 (Paradise Valley, Arizona)
 patrick-kavanagh,Patrick Kavanagh,"1904 (Inniskeen, County Monaghan, Ireland) - 1967 (Dublin)",stub,high,Q73418,Patrick Kavanagh,Irish poet (1904–1967),1904–1967/1967,"Q87926000 Patrick H Kavanagh (?–?, researcher); Q56598080 Patrick Kavanagh (?–?, person who owned merchant ships); Q125896235 Patrick J. Kavanagh (?–?, astrophysicist and lecturer)"
 paul-bowles,Paul Bowles,"1910 (New York) – 1999 (Tangier, Morocco)",bio,high,Q358342,Paul Bowles,American composer and writer (1910–1999),1910–1999/1999,"Q112429846 Paul Bowles (1956/1956–?, ); Q7149466 Paul Bowles (1957–2017, English footballer (1957-2017))"
 paul-eluard,Paul Éluard,"1895 (Saint-Denis, France) – 1952 (Paris)",bio,high,Q152176,Paul Éluard,French poet (1895–1952),1895–1952,
-paul-muldoon,Paul Muldoon,1952,stub,high,Q2061388,Paul Muldoon,Irish poet (born 1951),1951–?,
+paul-muldoon,Paul Muldoon,1951,stub,high,Q2061388,Paul Muldoon,Irish poet (born 1951),1951–?,
 paul-simon,Paul Simon,1941,stub,high,Q4028,Paul Simon,American singer-songwriter (born 1941),1941–?,"Q67479964 Paul Simon (?–?, Austrian cardiology researcher); Q126851061 Paul Simon (?–?, candidate in the 2024 United Kingdom general election); Q3372205 Paul Simon (1886–1956, French politician (1886–1956))"
 paul-thomas-anderson,Paul Thomas Anderson,1970 (Los Angeles),stub,high,Q25132,Paul Thomas Anderson,American filmmaker (born 1970),1970–?,
 pauline-oliveros,Pauline Oliveros,1932 – 2016,stub,high,Q444857,Pauline Oliveros,American composer and musician (1932–2016),1932–2016/2016,
@@ -2346,8 +2309,8 @@ william-small,William Small,"1734 (Carmyllie, Scotland) – 1775 (Birmingham)",b
 william-styron,William Styron,"1925 (Newport News, Va.) – 2006 (Martha's Vineyard, Mass.)",bio,high,Q245257,William Styron,American novelist and essayist (1925–2006),1925–2006,
 william-wycherley,William Wycherley,"c.1640 (Wem, England) – 1716 (London)",bio,high,Q978564,William Wycherley,English dramatist of the Restoration period,1640–1716/1715,
 william-wyler,William Wyler,"1902 (Mülhausen, Alsace-Lorraine) - 1981 (Beverly Hills, California)",stub,high,Q51495,William Wyler,Swiss-German-American director and producer (1902–1981),1902–1981,
+wislawa-szymborska,Wisława Szymborska,"1923 (Kórnik, Poland) - 2012 (Kraków, Poland)",stub,high,Q42552,Wisława Szymborska,"Polish poet, Nobel Prize winner (1923–2012)",1923–2012,
 woody-allen,Woody Allen,1935 (New York),stub,high,Q25089,Woody Allen,"American filmmaker, actor and comedian (born 1935)",1935/1935–?,
-wyslawa-szymborska,Wysława Szymborska,"1923 (Kórnik, Poland) - 2012 (Kraków, Poland)",stub,high,Q42552,Wisława Szymborska,"Polish poet, Nobel Prize winner (1923–2012)",1923–2012,
 yehuda-amichai,Yehuda Amichai,"1924 (Würzburg, Germany) - 2000 (Israel)",stub,high,Q58612,Yehuda Amichai,Israeli poet (1924-2000),1924–2000,
 yevgeny-yevtushenko,Yevgeny Yevtushenko,"1933 (Zima, Russia) – 2017 (Tulsa, Okla.)",bio,high,Q297736,Yevgeny Yevtushenko,Soviet and Russian poet (1933–2017),1932/1933–2017,
 yoko-ono,Yoko Ono,1933 (Tokyo) –,bio,high,Q117012,Yoko Ono,Japanese artist and activist based in the United States (born 1933),1933–?,"Q16264827 Yōko Ōno (1989–?, Japanese judoka); Q11464149 Yōko Ono (1954–?, Japanese actress born in 1954)"

@@ -5,9 +5,9 @@ one reads the previous one's output from `data/`.
 
 | Script | Reads | Writes |
 |---|---|---|
-| `export_wp.py` | the WordPress database | `data/wkw.json`, `data/csv/`, `data/reports/export.md` |
+| `export_wp.py` | the WordPress database, `data/corrections.csv` | `data/wkw.json`, `data/csv/`, `data/reports/export.md` |
 | `wikidata.py` | `data/wkw.json`, `data/wikidata-overrides.csv` | `data/wikidata.json`, `data/reports/wikidata.md`, `data/reports/wikidata-review.csv` |
-| `build_rdf.py` | `data/wkw.json`, `data/wikidata.json` | `data/rdf/wkw.ttl`, `data/rdf/wikidata.ttl` |
+| `build_rdf.py` | `data/wkw.json`, `data/wikidata.json` | `data/rdf/wkw.ttl`, `data/rdf/supplement.ttl`, `data/rdf/wikidata.ttl` |
 
 ## 1. Load the WordPress database
 
@@ -27,6 +27,21 @@ docker stop wkw-db
 
 Set `WKW_DB_CMD` to use a different database client.
 
+### Corrections
+
+Errors that the export can't fix by itself are listed in `data/corrections.csv`, one per row,
+with a note saying why. The export applies them every time it runs, so they survive a fresh
+export, and lists them in `export.md`. Each person's record also lists the corrections that
+affect it, which become `skos:editorialNote`s in the RDF. To undo one, delete its row.
+
+| action | person | value |
+|---|---|---|
+| `merge` | the record to keep | a duplicate of it, to merge in |
+| `dates` | a person | the corrected birth–death text, e.g. `1770 (Cockermouth, England) – 1850 (Rydal Mount)` |
+| `person` | a new person's id | their name: for someone WKW's links need but has no record for |
+| `unlink` | a person | someone they're linked to, to remove the link |
+| `link` | a person | someone to link them to |
+
 ## 2. Reconcile with Wikidata
 
 ```bash
@@ -44,13 +59,28 @@ charles-babbage,Q46633,checked
 some-person,none,not on Wikidata
 ```
 
+Search matches with medium or low confidence are then checked against the people WKW says
+the person knew. A match is *corroborated* if Wikidata records a relationship with one of them,
+or either person's English Wikipedia article links to the other's.
+
 ## 3. Build RDF
 
 ```bash
 uv run --no-project --with rdflib python -I tools/build_rdf.py
 ```
 
-## 4. Suggest relationship types (costs money)
+- `wkw.ttl` is WKW's own data. People are linked with plain `foaf:knows`. The Wikidata match is
+  `owl:sameAs` if it is high confidence, checked or corroborated, and `skos:closeMatch` otherwise.
+- `supplement.ttl` holds birth and death dates and places that WKW doesn't give, taken from
+  Wikidata in the same terms as `wkw.ttl`. It only uses `owl:sameAs` matches, and only where
+  Wikidata gives a single value. Occupations aren't borrowed.
+- `wikidata.ttl` is what Wikidata says about every matched person, in Wikidata's own terms.
+
+## 4. Suggest relationship types (dropped)
+
+Nat reviewed the start of the sheet this produced and decided against classifying WKW's
+relationships with any vocabulary: links stay as plain `foaf:knows`. The script and
+`data/link-types/` are kept only as a record of what was tried.
 
 `type_links.py` asks Claude (Sonnet 5.5) to type each link from the bios, using the RELATIONSHIP
 vocabulary plus a few WKW terms, and to flag anything that doesn't fit. It needs

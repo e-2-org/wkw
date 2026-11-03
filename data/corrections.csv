@@ -1,0 +1,63 @@
+action,person,value,note
+merge,nathan-altman,natan-altman,Same person: Wikidata Q1358816
+merge,henri-becquerel,antoine-henri-becquerel,Same person: Wikidata Q41269
+merge,carl-philipp-emanuel-bach,c-p-e-bach,Same person: Wikidata Q76428
+merge,carl-philipp-emanuel-bach,carl-philipp-emmanuel-bach,Same person: Wikidata Q76428
+merge,johann-christian-bach,j-c-bach,Same person: Wikidata Q106641
+merge,mily-balakirev,mily-balakireff,Same person: Wikidata Q185040
+merge,alexander-blok,aleksandr-blok,Same person: Wikidata Q164765
+merge,w-e-b-du-bois,w-e-b-dubois,Same person: Wikidata Q158060
+merge,bertolt-brecht,bertholt-brecht,Same person: Wikidata Q38757
+merge,elisabeth-louise-vigee-le-brun,elisabeth-vigee-le-brun,Same person: Wikidata Q213163
+merge,ernst-wilhelm-von-brucke,ernst-von-brucke,Same person: Wikidata Q72374
+merge,korney-chukovsky,kornei-chukovsky,Same person: Wikidata Q347685
+merge,emil-cioran,e-m-cioran,Same person: Wikidata Q193405
+merge,konstantin-stanislavski,constantin-stanislavski,Same person: Wikidata Q49484
+merge,h-d,hilda-doolittle,Same person: Wikidata Q236469
+merge,frantz-fanon,franz-fanon,Same person: Wikidata Q193670
+merge,f-scott-fitzgerald,scott-fitzgerald,Same person: Wikidata Q93354
+merge,joseph-von-fraunhofer,joseph-fraunhofer,Same person: Wikidata Q43948
+merge,r-buckminster-fuller,richard-buckminster-fuller,Same person: Wikidata Q102289
+merge,natalia-goncharova,natalya-goncharova,Same person: Wikidata Q232391
+merge,jacob-grimm,jakob-grimm,Same person: Wikidata Q6701
+merge,christoph-wilhelm-hufeland,christoph-wilhelm-friedrich-hufeland,Same person: Wikidata Q32257
+merge,niccolo-jommelli,niccolo-jomelli,Same person: Wikidata Q312891
+merge,carl-jung,c-g-jung,Same person: Wikidata Q41532
+merge,carl-jung,carl-gustav-jung,Same person: Wikidata Q41532
+merge,aleksei-kruchenykh,alexei-kruchenykh,Same person: Wikidata Q721962
+merge,anders-johan-lexell,anders-lexell,Same person: Wikidata Q447071
+merge,pietro-locatelli,pietro-antonio-locatelli,Same person: Wikidata Q124772
+merge,thomas-babington-macaulay,thomas-babbington-macaulay,Same person: Wikidata Q315989
+merge,albert-michelson,albert-abraham-michelson,Same person: Wikidata Q127234
+merge,amedeo-modigliani,amadeo-modigliani,Same person: Wikidata Q120993
+merge,pierre-mechain,pierre-francois-andre-mechain,Same person: Wikidata Q311022
+merge,jean-baptiste-perrin,jean-perrin,Same person: Wikidata Q134085
+merge,dorothy-richardson,dorothy-m-richardson,Same person: Wikidata Q447268
+merge,walter-sickert,walter-richard-sickert,Same person: Wikidata Q703369
+merge,wislawa-szymborska,wyslawa-szymborska,Same person: Wikidata Q42552
+merge,carleton-watkins,carleton-e-watkins,Same person: Wikidata Q2939083
+merge,sylvius-leopold-weiss,silvius-leopold-weiss,Same person: Wikidata Q379571
+merge,henri-chopin,henry-chopin,"Same person: Henry Chopin's only link is Brion Gysin, Henri Chopin's collaborator"
+dates,albert-einstein,"1879 (Ulm, Germany) – 1955 (Princeton, N.J.)",Born 1879 not 1874
+dates,alighiero-boetti,1940 (Turin) – 1994 (Rome),Born 1940 not 1640
+dates,etienne-bonnot-de-condillac,"1714 (Grenoble, France) – 1780 (Beaugency)",Born 1714 not 1715
+dates,marie-curie,"1867 (Warsaw) – 1934 (Sancellemoz, France)",Born 1867 not 1897
+dates,honore-daumier,"1808 (Marseille) – 1879 (Valmondais, France)",Died 1879 not 1979
+dates,marcel-duhamel,1900 – 1977,Died 1977 not 1966
+dates,luise-gottsched,"1713 (Danzig, now Gdańsk, Poland) – 1762 (Leipzig, Germany)",Died 1762 not 1870
+dates,johan-barthold-jongkind,"1819 (Lattrop, Netherlands) – 1891 (La Côte-Saint-André, France)",Died 1891 not 1981
+dates,carl-friedrich-von-martius,"1794 (Erlangen, Germany) – 1868 (Munich)",Born 1794 not 1814
+dates,paul-muldoon,1951,Born 1951 not 1952
+dates,titian-peale,1799 (Philadelphia) – 1885 (Philadelphia),Died 1885 not 1855
+dates,christian-friedrich-schonbein,"1799 (Metzingen, Germany) – 1868 (Baden-Baden)",Died 1868 not 1866
+dates,william-wordsworth,"1770 (Cockermouth, England) – 1850 (Rydal Mount)",Died 1850 not 1950
+person,william-harvey-engraver,"William Harvey, engraver","Bewick's pupil (1796–1866), Wikidata Q8010985. WKW linked Bewick to William Harvey the physician (1578–1657)"
+unlink,thomas-bewick,william-harvey,"Harvey the physician died a century before Bewick was born; Bewick's bio means Harvey the engraver"
+link,thomas-bewick,william-harvey-engraver,Bewick's bio: 'Harvey was his favourite pupil and assistant'
+person,antoine-de-jussieu,Antoine de Jussieu,"Magnol's pupil (1686–1758), Wikidata Q435674. WKW linked Magnol to his nephew Antoine-Laurent (born 1748, after Magnol died)"
+unlink,pierre-magnol,antoine-laurent-de-jussieu,Magnol died in 1715; Antoine-Laurent de Jussieu was born in 1748
+link,pierre-magnol,antoine-de-jussieu,Magnol's bio: 'Magnol's best-known students were Tournefort and Jussieu'
+unlink,roger-joseph-boscovich,carl-jacobi,"Boscovich died in 1787; Carl Jacobi was born in 1804. Perhaps Friedrich Heinrich Jacobi (1743–1819), who is in WKW: for Nat to decide"
+unlink,rowland-hill,richard-price,"Price died in 1791, four years before Hill was born. Hill's bio names Priestley, Paine and Price as his friends: probably his father's"
+unlink,michael-faraday,paul-valery,"Faraday died in 1867; Valéry was born in 1871. Neither bio mentions the other"
+unlink,fanny-mendelssohn,jules-massenet,"Fanny Mendelssohn's bio says she met Massenet in Italy (1839–40), but he was born in 1842"
