@@ -1,0 +1,8 @@
+# Original WordPress/MediaWiki install and database dump: contain passwords and user data
+_dump/
+
+# Cached Wikipedia/Wikidata API responses (tools/wikidata.py)
+tools/.cache/
+__pycache__/
+
+email*
