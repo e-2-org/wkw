@@ -1,0 +1,22 @@
+---
+title: Network
+body_class: page wkw-field-page wkw-network-page
+scripts:
+  - /assets/js/vendor/sigma-bundle.min.js
+  - /assets/js/bio-panel.js
+  - /assets/js/network.js
+---
+<div id="wkw-network" data-graph="{{ '/assets/data/graph.json' | relative_url }}" data-base="{{ '/' | relative_url }}" role="img" aria-label="Everyone in Who Knew Whom, and who knew whom"></div>
+<div class="wkw-field-controls">
+	<form id="wkw-field-find" autocomplete="off">
+		<label class="screen-reader-text" for="wkw-field-name">Find someone</label>
+		<input type="search" id="wkw-field-name" list="wkw-field-names" placeholder="Find someone&hellip;">
+		<datalist id="wkw-field-names"></datalist>
+		<button type="button" id="wkw-field-layout" disabled>Arranging&hellip;</button>
+	</form>
+	<p class="wkw-field-help">Everyone in Who Knew Whom, with a line between each pair who knew each other. Bright circles are people with a biography. Scroll or pinch to zoom and drag to move around; point at someone to see who they knew, or click them to read about them. <span id="wkw-field-count"></span></p>
+</div>
+<div class="wkwpanel" aria-live="polite">
+	<button class="wkwpanel-close" type="button">Close</button>
+	<div class="wkwpanel-content"></div>
+</div>

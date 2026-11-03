@@ -1,5 +1,5 @@
 /*
- * The SPARQL page: loads the three Turtle files into Oxigraph (in assets/js/sparql-worker.mjs),
+ * The query page: loads the three Turtle files into Oxigraph (in assets/js/query-worker.js),
  * one named graph each, and runs queries over all three. The query is kept in the URL (?query=)
  * so it can be bookmarked or shared. People link to their pages here, Wikimedia Commons
  * pictures show as thumbnails, and results can be saved as CSV.

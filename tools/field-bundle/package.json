@@ -1,0 +1,16 @@
+{
+  "name": "wkw-field-bundle",
+  "private": true,
+  "description": "Bundles sigma.js, graphology and ForceAtlas2 into one file for docs/network/ (see README.md)",
+  "scripts": {
+    "build": "esbuild entry.js --bundle --minify --format=iife --target=es2019 --legal-comments=eof \"--banner:js=/*! sigma.js 3.0.3, graphology 0.26.0 and graphology-layout-forceatlas2 0.10.1 (MIT licence, Guillaume Plique, Alexis Jacomy and contributors), bundled by tools/field-bundle */\" --outfile=../../docs/assets/js/vendor/sigma-bundle.min.js"
+  },
+  "dependencies": {
+    "graphology": "0.26.0",
+    "graphology-layout-forceatlas2": "0.10.1",
+    "sigma": "3.0.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

@@ -1,6 +1,6 @@
-# Example queries on the SPARQL page (sparql/index.html), in the order they are listed.
+# Example queries on the query page (query/index.html), in the order they are listed.
 # Each has a title, a sentence saying what it shows, and the query. The data is described on
-# the page itself; the prefixes every query can use are in sparql/index.html.
+# the page itself; the prefixes every query can use are in assets/js/query.js.
 
 - title: Who Charles Babbage knew
   description: Everyone WKW says Babbage knew, with their dates where they are known, from WKW or, where WKW doesn't give them, from Wikidata.

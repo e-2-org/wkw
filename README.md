@@ -9,8 +9,9 @@
 - **The same pages:** the home page with the latest additions, the list of names, a page for each person with a bio (people without one never had a page), each profession's people (`types/`), and the about pages and blog, copied from WordPress.
 - **The same design:** the GeneratePress theme's and the WKW child theme's stylesheets, scripts, fonts (Handsome Pro, licensed for the website) and images.
 - **Search** runs in the browser, through the names and bios, as WordPress's search did.
-- **The graph** (`graph/`) is the force-directed graph the WKW theme had started, finished: one person, the people they knew, and the people those people knew. Each person's page links to their graph.
-- **SPARQL** (`sparql/`) runs queries over the linked data in the browser, with examples to start from.
+- **The field** (`field/`) is the force-directed graph the WKW theme had started, finished: one person, the people they knew, and the people those people knew. Each person's page links to their field.
+- **The network** (`network/`) shows everyone at once, drawn with WebGL, arranging itself as you watch.
+- **Query** (`query/`) runs SPARQL queries over the linked data in the browser, with examples to start from.
 
 `docs/_config.yml` says where everything is. Most of the site is generated from the data by `tools/build_site.py`; the pages copied from WordPress are edited in `docs/`.
 

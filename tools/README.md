@@ -86,7 +86,7 @@ cd docs && bundle exec jekyll build    # or: bundle exec jekyll serve
 
 `build_site.py` writes the site's data (`docs/_data/people.json`, `names.json`, `latest.json`),
 a page for each person with a bio (`docs/names/`), the profession pages (`docs/types/`), and the
-files the search, graph and SPARQL pages load (`docs/assets/data/`). It replaces those each time,
+files the search, field and query pages load (`docs/assets/data/`). It replaces those each time,
 so they shouldn't be edited by hand. Everything else in `docs/` is edited directly.
 
 `import_pages.py` copied the WordPress site's other pages (the about pages, the blog, the 404

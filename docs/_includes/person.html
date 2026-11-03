@@ -42,7 +42,7 @@
 			{%- if q.page %}<li><a href="{{ '/names/' | append: k | append: '/' | relative_url }}" title="{{ q.name | escape }}">{{ q.name }}</a></li>{% else %}<li>{{ q.name }}</li>{% endif -%}
 			{%- endfor -%}
 		</ul>
-		<p class="wkw-graph-link"><a href="{{ '/graph/' | relative_url }}#{{ include.id }}">See {{ p.name }}&rsquo;s network as a graph</a></p>
+		<p class="wkw-field-link"><a href="{{ '/field/' | relative_url }}#{{ include.id }}">See {{ p.name }}&rsquo;s field</a></p>
 		</div>
 		{%- endif %}
 	</div>

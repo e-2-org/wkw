@@ -11,9 +11,9 @@ Reads data/wkw.json and data/rdf/*.ttl and writes, in docs/:
   names/<id>/index.html    a page for each person with a bio (people without one, the stubs,
                            never had a page)
   types/<profession>/      each profession's people, ten to a page as WordPress showed them
-  assets/data/graph.json   the network, for the graph page
+  assets/data/graph.json   the network, for the field and network pages
   assets/data/search.json  names and bios, for the search page
-  assets/data/*.ttl        the RDF, for the SPARQL page
+  assets/data/*.ttl        the RDF, for the query page
 
 Everything it writes is generated, so it is safe to delete and re-run. The pages' look is in
 docs/_layouts and docs/_includes.
@@ -75,6 +75,31 @@ def paragraphs(text):
 def excerpt(text, words=EXCERPT_WORDS):
     w = text.split()
     return texturize(" ".join(w[:words])) + (" ..." if len(w) > words else "")
+
+
+def birth_years(people):
+    """Roughly when everyone was born: WKW's year, else 60 years before they died, else Wikidata's
+    year for a trusted match, else the median of the people they knew (spread a few times)."""
+    wikidata = json.loads((DATA / "wikidata.json").read_text()) if (DATA / "wikidata.json").exists() else {}
+    years = {}
+    for p in people:
+        y = (p["birth"] or {}).get("year")
+        if y is None and (p["death"] or {}).get("year"):
+            y = p["death"]["year"] - 60
+        w = wikidata.get(p["id"], {})
+        if y is None and w.get("qid") and w["wikidata"]["birth"] and (
+                w["confidence"] in ("high", "checked") or w.get("corroborated_by")):
+            y = min(e["year"] for e in w["wikidata"]["birth"])
+        if y is not None:
+            years[p["id"]] = y
+    for _ in range(5):
+        guesses = {}
+        for p in people:
+            known = sorted(years[k] for k in p["knows"] if k in years)
+            if p["id"] not in years and known:
+                guesses[p["id"]] = known[len(known) // 2]
+        years.update(guesses)
+    return years
 
 
 def write(path, text):
@@ -173,9 +198,11 @@ def main():
                                      body_class=f"archive tax-wkwcategory term-{slug}" + (" paged" if n > 1 else ""))
                   + pager(base, n, pages) + "\n")
 
-    # the network for the graph page: nodes are [id, name, has a page], links are index pairs
+    # the network for the field and network pages: nodes are [id, name, has a page, year], links
+    # are index pairs. The year is roughly when they were born, to start the network's layout
     index = {p["id"]: i for i, p in enumerate(people)}
-    graph = {"nodes": [[p["id"], p["name"], p["status"] == "bio"] for p in people],
+    years = birth_years(people)
+    graph = {"nodes": [[p["id"], p["name"], p["status"] == "bio", years.get(p["id"])] for p in people],
              "links": [[index[p["id"]], index[k]] for p in people for k in p["knows"] if p["id"] < k]}
     write(DOCS / "assets" / "data" / "graph.json", json.dumps(graph, ensure_ascii=False, separators=(",", ":")))
 

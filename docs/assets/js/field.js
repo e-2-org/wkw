@@ -1,21 +1,19 @@
 /*
- * The force-directed graph from the WKW theme (wkw-theme/js/wkw.js), finished and ported to d3 v7.
+ * The field: the force-directed graph from the WKW theme (wkw-theme/js/wkw.js), finished and ported to d3 v7.
  *
  * Around one person: them (level 1, the large name), everyone they knew (level 2) and everyone
  * those people knew (level 3, circles only), as the theme's /d3/{id} API built it. Circles can
  * be dragged; double-clicking one centres the graph on that person. Clicking the name of anyone
  * with a page opens their bio in the panel, and the graph moves left to make room.
  *
- * The person is the one in the URL's #hash (e.g. graph/#charles-babbage), else data-start.
+ * The person is the one in the URL's #hash (e.g. field/#charles-babbage), else data-start.
  * The network is assets/data/graph.json: nodes are [id, name, has a page], links index pairs.
  */
 (function () {
-    const svg = d3.select('#wkw-graph');
+    const svg = d3.select('#wkw-field');
     const el = svg.node();
     const base = el.dataset.base;
     const breakpoint = 1024;
-    const panel = document.querySelector('.wkwpanel');
-    const content = panel.querySelector('.wkwpanel-content');
     let width, height, simulation, nodes = [], neighbours, byId;
 
     const bg = svg.append('rect').attr('class', 'bg');
@@ -61,7 +59,7 @@
         if (!byId.has(id)) id = el.dataset.start;
         const graph = network(id);
         nodes = graph.nodes;
-        document.title = `${byId.get(id)[1]}’s network – Who Knew Whom`;
+        document.title = `${byId.get(id)[1]}’s field – Who Knew Whom`;
 
         const link = gl.selectAll('line').data(graph.links, d => d.source + ' ' + d.target)
             .join('line');
@@ -106,36 +104,10 @@
         d.fx = null; d.fy = null;
     }
 
-    /* the bio panel, from the person's own page */
-    function showBio(id) {
-        fetch(`${base}names/${id}/`).then(r => r.text()).then(page => {
-            const doc = new DOMParser().parseFromString(page, 'text/html');
-            const name = byId.get(id)[1];
-            const bio = document.createElement('div');
-            bio.className = 'wkwpanel-content-bio';
-            const meta = doc.querySelector('.wkwname-meta');
-            if (meta) bio.append(meta);
-            bio.append(...doc.querySelector('.entry-content').childNodes);
-            const knew = doc.querySelector('.linked-names');
-            if (knew) {
-                knew.querySelector('.wkw-graph-link')?.remove();
-                bio.append(knew);
-            }
-            const h1 = document.createElement('h1');
-            const a = document.createElement('a');
-            a.href = `${base}names/${id}/`;
-            a.textContent = name;
-            h1.append(a);
-            content.replaceChildren(h1, bio);
-            panel.style.display = 'block';
-            moveGraph('left');
-        });
-    }
-    function hideBio() {
-        panel.style.display = 'none';
-        moveGraph('centre');
-    }
-    panel.querySelector('.wkwpanel-close').addEventListener('click', hideBio);
+    /* the bio panel, from the person's own page (assets/js/bio-panel.js) */
+    const panel = wkwBioPanel(base, { onShow: () => moveGraph('left'), onHide: () => moveGraph('centre') });
+    const showBio = id => panel.show(id, byId.get(id)[1]);
+    const hideBio = () => panel.hide();
 
     let align = 'centre';
     function centre() {

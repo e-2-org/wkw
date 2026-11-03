@@ -1,13 +1,13 @@
 ---
-title: SPARQL
-body_class: page wkw-sparql-page
+title: Query
+body_class: page wkw-query-page
 scripts:
-  - /assets/js/sparql.js
+  - /assets/js/query.js
 ---
 <article class="page type-page status-publish" itemtype="https://schema.org/CreativeWork" itemscope>
 	<div class="inside-article">
 		<header class="entry-header">
-			<h1 class="entry-title" itemprop="headline">SPARQL</h1>
+			<h1 class="entry-title" itemprop="headline">Query</h1>
 		</header>
 		<div class="wkwname-meta"></div>
 		<div class="entry-content" itemprop="text">
@@ -18,7 +18,7 @@ scripts:
 				<li><a href="{{ '/assets/data/supplement.ttl' | relative_url }}">supplement.ttl</a>: dates and places of birth and death that Who Knew Whom doesn&rsquo;t give, taken from Wikidata, in the same terms.</li>
 				<li><a href="{{ '/assets/data/wikidata.ttl' | relative_url }}">wikidata.ttl</a>: what Wikidata says about the same people, in Wikidata&rsquo;s own terms (<code>wdt:P569</code> for date of birth, <code>wdt:P18</code> for a picture and so on), so queries written for <a href="https://query.wikidata.org/">query.wikidata.org</a> work here too.</li>
 			</ul>
-			<form class="wkw-sparql" id="sparql-form" data-base="{{ '/' | relative_url }}" data-worker="{{ '/assets/js/sparql-worker.js' | relative_url }}"
+			<form class="wkw-sparql" id="sparql-form" data-base="{{ '/' | relative_url }}" data-worker="{{ '/assets/js/query-worker.js' | relative_url }}"
 				data-graphs="https://culturalcartography.net/graph/wkw {{ '/assets/data/wkw.ttl' | relative_url }} https://culturalcartography.net/graph/supplement {{ '/assets/data/supplement.ttl' | relative_url }} https://culturalcartography.net/graph/wikidata {{ '/assets/data/wikidata.ttl' | relative_url }}">
 				<h2 class="entry-title">Examples</h2>
 				<ul class="wkw-sparql-examples">
