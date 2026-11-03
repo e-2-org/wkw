@@ -138,3 +138,66 @@ About $8.80 of credit is left.
 ## Security note
 
 During the session an API key was briefly exposed through an editor selection. Pete replaced it with a new key, and it is redacted from the transcript. `~/.bashrc` only sets `ANTHROPIC_API_KEY` for interactive shells, so the scripts are run with `bash -ic`.
+
+---
+
+# 3 November 2026: corrections, Wikidata, and the Jekyll site
+
+**Branch:** `main` for the data work, then `jekyll-site` for the site (to be merged through a pull request)
+**Commits:** `d1e8b55`, `2c88200` on `main`; `757f821`, `12f094f`, `d2b91e7`, `8b39731` and the `docs/pages/` reorganisation on `jekyll-site`
+
+The same Claude Code session also worked on minus20's slider, which is recorded in that repository.
+
+## Nat's reply
+
+Nat reviewed the start of the relationship-typing sheet and decided against classifying WKW's relationships with any vocabulary: links stay as plain `foaf:knows`. Nat also resists a definitive list of professions, but sees a use for checking WKW against outside sources to catch obvious slips, such as Wordsworth's death being a century out. The Word document Nat mentioned wasn't attached.
+
+## Data: errors corrected
+
+- **`data/corrections.csv`**, applied by `export_wp.py` every time it runs, one row per correction with its reason. Each person's record lists the corrections that affect it, which become `skos:editorialNote`s in the RDF. To undo one, delete its row.
+  - **39 duplicate records merged** (36 groups found through Wikidata, plus Henry/Henri Chopin), such as Bertholt/Bertolt Brecht and three Carl Jungs: 3,453 people became 3,416. Other spellings are kept as other names.
+  - **13 date typos fixed** where Wikidata agreed: Wordsworth 1950→1850, Curie, Daumier, Einstein, Boetti, Jongkind, Martius and others.
+  - **Two links moved to the right person**, adding two people: Bewick's pupil William Harvey the engraver (not the physician who died in 1657), and Magnol's pupil Antoine de Jussieu (not his nephew, born after Magnol died).
+  - **Four links removed** between people whose lifetimes didn't overlap: Boscovich–Carl Jacobi (perhaps F. H. Jacobi, for Nat to decide), Rowland Hill–Richard Price, Faraday–Valéry, Fanny Mendelssohn–Massenet. Two of these come from Nat's bios, which are unchanged.
+- **The export** also repairs a URL pasted onto another (Jonathan Swift's), orders professions the same way every run, and keeps each person's acquaintances in the order Nat listed them.
+- **7 date disagreements with Wikidata were left alone.** For Kelvin (1824), Piazzi Smyth (1819) and Flamsteed (1719, Old Style), WKW is right and Wikidata wrong; the others are disputed.
+
+## Data: filled in from Wikidata
+
+- **Corroboration (`wikidata.py`).** A medium or low search match now counts only if Wikidata records a relationship with someone WKW says the person knew, or either person's English Wikipedia article links to the other's. 1,383 of 1,731 passed. The rest are `skos:closeMatch` in the RDF instead of `owl:sameAs`.
+- **`data/rdf/supplement.ttl`** holds birth and death dates and places that WKW doesn't give, from trusted matches only, where Wikidata gives one value, in the same terms as `wkw.ttl`. Occupations aren't borrowed, following Nat. Dates giving an impossible lifespan are skipped (Wikidata has James Rosenquist born in 1547).
+- **People with dates:** 1,493 → 2,873 of 3,416.
+
+## Git
+
+Pete made `wkw` a git repository (`e-2-org/wkw`, public). The data was committed in two steps so the corrections show as a diff: first the October state (`d1e8b55`), using a copy of `data/` saved before the changes and the scripts with this session's edits reversed (checked by re-running them, which reproduced the October data apart from the order of professions), then this session's changes (`2c88200`).
+
+## The Jekyll site (`docs/`, branch `jekyll-site`)
+
+- **Same pages and URLs as WordPress:** home with the latest additions, the list of names, a page for each of the 1,295 people with a bio, the profession pages (ten to a page), and the about pages, blog post, author, category and 404 pages.
+- **Same design:** GeneratePress's, GP Premium's and the WKW theme's stylesheets, scripts, fonts (Handsome Pro) and images, plus the CSS WordPress put inline, loaded in WordPress's order. The order matters: the phone menu broke until it was kept.
+- **How it was checked:** the original site was run locally (the dump's WordPress and database in containers, with a local `wp-config.php` and rewrite rules) and compared by screenshot. 37 of 52 sampled pages matched pixel for pixel below the menu; the rest differ only by corrected data, the now-alphabetical names list, and the spacing of other names.
+- **Faithful details:** curly quotes as WordPress's `wptexturize` made them in bios and titles; the names list sorted properly (WordPress put names without a sort key first); "film director" and "film-director" share one profession page.
+- **Search** runs in the browser over names and bios (`assets/data/search.json`).
+- **Field** (`/field/#id`, first called "graph"): the WKW theme's unfinished d3 force graph, finished and ported to d3 v7. One person, who they knew, and who those people knew; double-click to recentre; click a name for the bio panel. Each person's page links to their field.
+- **Network** (`/network/`): everyone at once in WebGL with sigma.js 3, laid out live by ForceAtlas2 in a worker for 30 seconds. Everyone starts at their (estimated) birth year, left to right, which lets the layout unfold into two halves, roughly earlier centuries and the 20th century; from a random start it tangled into a ball. Point at someone to see who they knew; click for the bio panel; a find box zooms to anyone. Sigma 4 was tried and dropped: its new styling API is too recent.
+- **Query** (`/query/`, first called "sparql"): SPARQL with Oxigraph (WebAssembly) in a worker, over `wkw.ttl`, `supplement.ttl` and `wikidata.ttl` as three named graphs queried together. It loads in under a second. Twelve tested examples are in `_data/sparql_examples.yml`; queries are kept in the URL, results link to people's pages, Commons portraits show as thumbnails, and results download as CSV.
+- **Layout:** every page is one file in `docs/pages/` with a `permalink` (`pages/names/<id>.html` is `/names/<id>/`), instead of a folder per URL. The built site was identical before and after the move.
+- **Tools:** `tools/build_site.py` generates the site's data, name and profession pages, and the search, graph and RDF files; `tools/import_pages.py` copied the ordinary pages from the running WordPress site once; `tools/field-bundle/` bundles sigma, graphology and ForceAtlas2 with esbuild.
+
+## Decisions
+
+- No relationship vocabulary: links are plain `foaf:knows`.
+- No occupations borrowed from Wikidata.
+- Corrections are kept as data (`corrections.csv`), not edits to the database dump.
+- The menu reads search, about, blog, contact, field, network, query. The odd existing labels ("search" opens the "what Who Knew Whom is" page, "blog" opens "questions") are kept as WordPress had them. The empty contact page stays empty.
+- Pages keep the theme's see-through sticky menu, as WordPress showed it.
+
+## Open items
+
+- Merge `jekyll-site` into `main` through a pull request; then switch on GitHub Pages (`main`, `/docs`). The repo is already public. Nat may want to see the site first.
+- Nat to decide on the Boscovich–Jacobi link, and perhaps reword the Hill and Fanny Mendelssohn bios.
+- Nat to review the 201 unmatched people and the 348 uncorroborated matches (`data/reports/wikidata-review.csv`).
+- Wikidata errors that could be reported upstream: Kelvin's and Piazzi Smyth's birth years, Rosenquist's birth date, Louis Bretez's dates.
+- The field's centre gets crowded for well-connected people (the prototype's force settings were kept).
+- Not tested on a real phone, or in Safari or Firefox.
