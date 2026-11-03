@@ -44,3 +44,5 @@
 .wkwpanel .wkw-field-link { margin-top: 1em; }
 /* the network shows through the theme's see-through panel, so it is solid here */
 .wkw-network-page .wkwpanel .wkwpanel-content { background-color: #178f4c; }
+/* clicking a level 2 name makes them the focus */
+.wkw-field-page .texts.level2 { cursor: pointer; }
