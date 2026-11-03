@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{%- comment -%} archive-wkwname.php: every name, linked if they have a page {%- endcomment -%}
+<ul class="names">
+{%- for id in site.data.names -%}
+{%- assign p = site.data.people[id] -%}
+{%- if p.page %}<li><a href="{{ '/names/' | append: id | append: '/' | relative_url }}" title="{{ p.name | escape }}">{{ p.name }}</a></li>{% else %}<li>{{ p.name }}</li>{% endif -%}
+{%- endfor -%}
+</ul>

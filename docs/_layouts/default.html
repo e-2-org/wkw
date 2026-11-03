@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8">
+	<title>{% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title }} &#8211; {{ site.title }}{% endif %}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{ '/assets/css/unsemantic-grid.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/style.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/wp-inline.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/mobile.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/font-icons.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/sticky.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/menu-logo.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/menu-logo-inline.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/wkw.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+	{%- for css in page.styles %}
+	<link rel="stylesheet" href="{{ css | relative_url }}">
+	{%- endfor %}
+	<link rel="icon" href="{{ '/assets/img/iphone4-icon.png' | relative_url }}" sizes="32x32">
+	<link rel="icon" href="{{ '/assets/img/iphone4-icon.png' | relative_url }}" sizes="192x192">
+	<link rel="apple-touch-icon" href="{{ '/assets/img/iphone4-icon.png' | relative_url }}">
+	<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+</head>
+
+<body class="{{ page.body_class | default: 'wp-singular page' }} wp-embed-responsive wp-theme-generatepress wp-child-theme-wkw-theme sticky-menu-no-transition sticky-enabled menu-logo menu-logo-enabled both-sticky-menu no-sidebar nav-float-left one-container fluid-header active-footer-widgets-0 nav-search-enabled header-aligned-center dropdown-click-arrow dropdown-click" itemtype="https://schema.org/WebPage" itemscope>
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
+	{% include header.html %}
+
+	<div class="site grid-container container hfeed grid-parent" id="page">
+		<div class="site-content" id="content">
+			<div class="content-area grid-parent mobile-grid-100 grid-100 tablet-grid-100" id="primary">
+				<main class="site-main" id="main">
+{{ content }}
+				</main>
+			</div>
+		</div>
+	</div>
+
+	<div class="site-footer">
+		<footer class="site-info" aria-label="Site" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info grid-container grid-parent">
+				<div class="copyright-bar">
+					&copy; {{ site.time | date: '%Y' }}
+				</div>
+			</div>
+		</footer>
+	</div>
+
+<script>
+!function(){"use strict";if("querySelector"in document&&"addEventListener"in window){var e=document.body;e.addEventListener("pointerdown",(function(){e.classList.add("using-mouse")}),{passive:!0}),e.addEventListener("keydown",(function(){e.classList.remove("using-mouse")}),{passive:!0})}}();
+</script>
+<script src="{{ '/assets/js/sticky.min.js' | relative_url }}"></script>
+<script>var generatepressMenu = {"toggleOpenedSubMenus":true,"openSubMenuLabel":"Open Submenu","closeSubMenuLabel":"Close Submenu"};</script>
+<script src="{{ '/assets/js/menu.min.js' | relative_url }}"></script>
+<script>var generatepressDropdownClick = {"openSubMenuLabel":"Open Submenu","closeSubMenuLabel":"Close Submenu"};</script>
+<script src="{{ '/assets/js/dropdown-click.min.js' | relative_url }}"></script>
+<script>var generatepressNavSearch = {"open":"Open Search Bar","close":"Close Search Bar"};</script>
+<script src="{{ '/assets/js/navigation-search.min.js' | relative_url }}"></script>
+{%- for js in page.scripts %}
+<script src="{{ js | relative_url }}"></script>
+{%- endfor %}
+</body>
+</html>

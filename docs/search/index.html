@@ -1,0 +1,9 @@
+---
+title: Search
+body_class: search search-results
+scripts:
+  - /assets/js/search.js
+---
+<div id="search-results" data-base="{{ '/' | relative_url }}" data-index="{{ '/assets/data/search.json' | relative_url }}">
+	<noscript><p>Searching needs JavaScript. The <a href="{{ '/names/' | relative_url }}">full list of names</a> works without it.</p></noscript>
+</div>

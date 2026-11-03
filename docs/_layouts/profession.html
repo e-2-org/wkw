@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<header class="page-header" aria-label="Page">
+	<h1 class="page-title">
+		Profession: <span>{{ page.profession }}</span>
+	</h1>
+</header>
+{%- for id in page.people %}
+{% include person.html id=id %}
+{%- endfor %}
+{{ content }}

@@ -8,6 +8,7 @@ one reads the previous one's output from `data/`.
 | `export_wp.py` | the WordPress database, `data/corrections.csv` | `data/wkw.json`, `data/csv/`, `data/reports/export.md` |
 | `wikidata.py` | `data/wkw.json`, `data/wikidata-overrides.csv` | `data/wikidata.json`, `data/reports/wikidata.md`, `data/reports/wikidata-review.csv` |
 | `build_rdf.py` | `data/wkw.json`, `data/wikidata.json` | `data/rdf/wkw.ttl`, `data/rdf/supplement.ttl`, `data/rdf/wikidata.ttl` |
+| `build_site.py` | `data/wkw.json`, `data/rdf/` | the generated parts of the Jekyll site in `docs/` |
 
 ## 1. Load the WordPress database
 
@@ -76,7 +77,34 @@ uv run --no-project --with rdflib python -I tools/build_rdf.py
   Wikidata gives a single value. Occupations aren't borrowed.
 - `wikidata.ttl` is what Wikidata says about every matched person, in Wikidata's own terms.
 
-## 4. Suggest relationship types (dropped)
+## 4. Build the site
+
+```bash
+python3 -I tools/build_site.py
+cd docs && bundle exec jekyll build    # or: bundle exec jekyll serve
+```
+
+`build_site.py` writes the site's data (`docs/_data/people.json`, `names.json`, `latest.json`),
+a page for each person with a bio (`docs/names/`), the profession pages (`docs/types/`), and the
+files the search, graph and SPARQL pages load (`docs/assets/data/`). It replaces those each time,
+so they shouldn't be edited by hand. Everything else in `docs/` is edited directly.
+
+`import_pages.py` copied the WordPress site's other pages (the about pages, the blog, the 404
+page) into `docs/` once. It read them from a copy of the WordPress site running locally, which
+needs the database container from step 1 (started with `-p 127.0.0.1:8099:80`) and WordPress
+alongside it, with a local `wp-config.php` (database `wkw`, user `root`, no password, host
+`127.0.0.1`, and `WP_HOME` and `WP_SITEURL` set to `http://localhost:8099`) and WordPress's
+usual rewrite rules in an Apache config file, as the dump has no `.htaccess`:
+
+```bash
+docker run -d --rm --name wkw-wp --network container:wkw-db \
+  -v "$PWD/_dump/culturalcartography.net/httpdocs:/var/www/html:ro,Z" \
+  -v "/path/to/wp-config.php:/var/www/html/wp-config.php:ro,Z" \
+  -v "/path/to/wp-rewrite.conf:/etc/apache2/conf-enabled/wp-rewrite.conf:ro,Z" \
+  docker.io/library/wordpress:php8.3-apache apache2-foreground
+```
+
+## 5. Suggest relationship types (dropped)
 
 Nat reviewed the start of the sheet this produced and decided against classifying WKW's
 relationships with any vocabulary: links stay as plain `foaf:knows`. The script and

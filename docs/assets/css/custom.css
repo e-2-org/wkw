@@ -1,0 +1,9 @@
+/* the site's Additional CSS from the WordPress Customizer, which came last */
+@media (max-width:1024px) {
+	body {
+		background-image:none;
+	}
+	.one-container .site-content {
+		padding-right:40px;
+	}
+}
