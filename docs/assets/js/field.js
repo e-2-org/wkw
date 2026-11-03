@@ -3,8 +3,10 @@
  *
  * Around one person: them (level 1, the large name), everyone they knew (level 2) and everyone
  * those people knew (level 3, circles only), as the theme's /d3/{id} API built it. Circles can
- * be dragged; double-clicking one centres the graph on that person. Clicking the name of anyone
- * with a page opens their bio in the panel, and the graph moves left to make room.
+ * be dragged; double-clicking one, or clicking a level 2 name, centres the graph on that person,
+ * whose circle is pulled gently to the middle. Clicking the name in the middle opens their bio
+ * in the panel (if they have a page), and the graph moves left to make room; refocusing on
+ * someone with a page opens theirs too.
  *
  * The person is the one in the URL's #hash (e.g. field/#charles-babbage), else data-start.
  * The network is assets/data/graph.json: nodes are [id, name, has a page], links index pairs.
@@ -78,19 +80,22 @@
             .attr('dy', d => -(40 / d.level))
             .attr('text-anchor', 'middle')
             .text(d => d.name)
-            .on('click', (e, d) => { if (d.bio) showBio(d.id); });
+            .on('click', (e, d) => {
+                if (d.level === 2) location.hash = d.id;
+                else if (d.bio) showBio(d.id);
+            });
 
         if (simulation) simulation.stop();
         simulation = d3.forceSimulation(nodes)
             .force('link', d3.forceLink(graph.links).distance(80).id(d => d.id))
             .force('charge', d3.forceManyBody().strength(-40))
-            .force('center', d3.forceCenter(...centre()))
             .on('tick', () => {
                 link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
                     .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
                 node.attr('cx', d => d.x).attr('cy', d => d.y);
                 text.attr('x', d => d.x).attr('y', d => d.y);
             });
+        setCentre(centre());
         if (byId.get(id)[2]) showBio(id); else hideBio();
     }
 
@@ -109,6 +114,14 @@
     const showBio = id => panel.show(id, byId.get(id)[1]);
     const hideBio = () => panel.hide();
 
+    /* the graph is centred on the middle of the field, and the focus is pulled gently towards it */
+    function setCentre([x, y]) {
+        const pull = d => d.level === 1 ? 0.3 : 0;
+        simulation.force('center', d3.forceCenter(x, y))
+            .force('focusX', d3.forceX(x).strength(pull))
+            .force('focusY', d3.forceY(y).strength(pull));
+    }
+
     let align = 'centre';
     function centre() {
         return [align === 'left' && width > breakpoint ? width / 3 : width / 2, height / 2];
@@ -120,7 +133,7 @@
         const to = centre();
         d3.transition().duration(750).tween('center.move', () => {
             const i = d3.interpolateArray(from, to);
-            return t => simulation.force('center', d3.forceCenter(...i(t))).alpha(Math.max(simulation.alpha(), 0.1)).restart();
+            return t => { setCentre(i(t)); simulation.alpha(Math.max(simulation.alpha(), 0.1)).restart(); };
         });
     }
 
@@ -129,7 +142,8 @@
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(() => {
             size();
-            simulation.force('center', d3.forceCenter(...centre())).alpha(0.3).restart();
+            setCentre(centre());
+            simulation.alpha(0.3).restart();
         }, 250);
     });
 
