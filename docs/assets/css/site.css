@@ -1,0 +1,46 @@
+/* additions for the static site: the field link on name pages, search results, field and query pages */
+.wkw-field-link { margin-top: 1em; }
+
+/* field page: the graph fills the window behind the menu, as the theme's prototype did */
+.wkw-field-page #wkw-field { position: fixed; top: 0; left: 0; z-index: 0; display: block; }
+.wkw-field-page .site-header { position: relative; z-index: 2; pointer-events: none; }
+.wkw-field-page .site-header .main-navigation { pointer-events: auto; }
+.wkw-field-page .site-footer { display: none; }
+.wkw-field-page .wkw-field-help { position: fixed; left: 1.5em; bottom: 1em; z-index: 1; max-width: 36em;
+    margin: 0; font-size: 85%; pointer-events: none; }
+.wkw-field-page .wkw-field-help a { pointer-events: auto; }
+.wkw-field-page .wkwpanel { z-index: 3; }
+.wkwpanel .wkwpanel-content h1 a { color: #fff; }
+.wkwpanel .wkwpanel-content .wkwname-meta { margin-bottom: 1em; }
+.wkwpanel .wkwpanel-content .linked-names { padding: 0; }
+.wkwpanel .wkwpanel-content .linked-names h2 { font-family: HandsomeProRegular, sans-serif; font-size: 2em; color: #fff; }
+@media (max-width: 1023px) { .wkw-field-page .wkwpanel { z-index: 3; background: #19aa5a; } }
+
+/* query page */
+.wkw-sparql-examples { margin-left: 1.5em; }
+.wkw-sparql-example { background: none; border: 0; padding: 0; color: #fff; font: inherit; cursor: pointer; text-align: left; }
+.wkw-sparql-example:hover, .wkw-sparql-example:focus { text-decoration: underline; background: none; color: #fff; }
+#sparql-query { width: 100%; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 14px; line-height: 1.5;
+    color: #fff; background: rgba(0, 0, 0, .15); border: 0; border-radius: 1em; padding: 1em; }
+#sparql-query:focus { background: rgba(0, 0, 0, .25); color: #fff; }
+.wkw-sparql-actions button { border-radius: 1em; padding: .4em 1.5em; margin-right: 1em; }
+.wkw-sparql-table { overflow-x: auto; margin-bottom: 1.5em; }
+.wkw-sparql-table table { border-collapse: collapse; border: 0; font-size: 90%; }
+.wkw-sparql-table th, .wkw-sparql-table td { border: 0; border-bottom: 1px solid rgba(255, 255, 255, .2); padding: .3em .8em .3em 0;
+    text-align: left; vertical-align: top; }
+.wkw-sparql-table th { color: #fff; font-weight: normal; }
+.wkw-sparql-table img { display: block; border-radius: .3em; }
+.wkw-sparql-type { opacity: .6; font-size: 85%; }
+.wkw-sparql-error, .wkw-sparql-turtle { white-space: pre-wrap; background: rgba(0, 0, 0, .15); color: #fff; border: 0; border-radius: 1em; }
+
+/* the network: everyone at once, filling the window behind the menu */
+.wkw-network-page #wkw-network { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 0; background: #19aa5a; }
+.wkw-field-controls { position: fixed; left: 1.5em; bottom: 1em; z-index: 1; max-width: 36em; }
+.wkw-field-controls .wkw-field-help { position: static; margin: .5em 0 0; }
+#wkw-field-find { display: flex; gap: .5em; }
+#wkw-field-name { flex: 1; border: 0; border-radius: 1em; padding: .4em 1em; color: #fff; background: rgba(0, 0, 0, .15); }
+#wkw-field-name::placeholder { color: #9dd9ff; }
+#wkw-field-layout { border-radius: 1em; padding: .4em 1.2em; white-space: nowrap; }
+.wkwpanel .wkw-field-link { margin-top: 1em; }
+/* the network shows through the theme's see-through panel, so it is solid here */
+.wkw-network-page .wkwpanel .wkwpanel-content { background-color: #178f4c; }

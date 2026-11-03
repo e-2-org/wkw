@@ -6,3 +6,9 @@ tools/.cache/
 __pycache__/
 
 email*
+
+# Jekyll's build output and Bundler's files (docs/)
+docs/_site/
+docs/.jekyll-cache/
+docs/.bundle/
+docs/vendor/

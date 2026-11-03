@@ -1,0 +1,32 @@
+{%- assign menu = "/what/|search,/contact/|about,/questions/|blog,/contact-2/|contact,/field/|field,/network/|network,/query/|query" | split: "," -%}
+<header class="site-header" id="masthead" aria-label="Site" itemtype="https://schema.org/WPHeader" itemscope>
+	<div class="inside-header grid-container grid-parent">
+		<nav class="main-navigation sub-menu-right" id="site-navigation" aria-label="Primary" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+				<div class="site-logo sticky-logo navigation-logo">
+					<a href="{{ '/' | relative_url }}" title="Who Knew Whom" rel="home">
+						<img src="{{ '/assets/img/main-title-small.png' | relative_url }}" alt="Who Knew Whom" class="is-logo-image">
+					</a>
+				</div>
+				<form method="get" class="search-form navigation-search" action="{{ '/search/' | relative_url }}">
+					<input type="search" class="search-field" value="" name="q" title="Search">
+				</form>
+				<div class="mobile-bar-items">
+					<span class="search-item">
+						<a aria-label="Open Search Bar" href="#"></a>
+					</span>
+				</div>
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="mobile-menu">Menu</span>
+				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-main-menu" class="menu sf-menu">
+				{%- for item in menu -%}
+					{%- assign parts = item | split: "|" -%}
+					<li class="menu-item menu-item-type-post_type menu-item-object-page{% if page.url == parts[0] %} current-menu-item current_page_item{% endif %}"><a href="{{ parts[0] | relative_url }}"{% if page.url == parts[0] %} aria-current="page"{% endif %}>{{ parts[1] }}</a></li>
+				{%- endfor -%}
+					<li class="search-item menu-item-align-right"><a aria-label="Open Search Bar" href="#"></a></li>
+				</ul></div>
+			</div>
+		</nav>
+	</div>
+</header>

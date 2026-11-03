@@ -1,0 +1,432 @@
+﻿person,knew,suggested_types,evidence,evidence_from,confidence,discrepancy_type,discrepancy,wikidata_says,decision,notes,person_id,knew_id
+Ada Lovelace,Charles Dickens,unspecified,,,low,,,,,,ada-lovelace,charles-dickens
+Ada Lovelace,David Brewster,unspecified,,,low,,,,,,ada-lovelace,david-brewster
+Antonin Artaud,Georges Bataille,unspecified,,,low,,,,,,antonin-artaud,georges-bataille
+Antonin Artaud,Georges Limbour,unspecified,,,low,,,,,,antonin-artaud,georges-limbour
+Antonin Artaud,Pierre Naville,unspecified,,,low,,,,,,antonin-artaud,pierre-naville
+Arnold Schoenberg,Charlie Chaplin,acquaintanceOf,,,low,,,,,,arnold-schoenberg,charlie-chaplin
+Arnold Schoenberg,Francis Poulenc,acquaintanceOf,Milhaud (who visited with Poulenc),Arnold Schoenberg,low,,Schoenberg's biography only says Milhaud visited with Poulenc; no direct contact between Schoenberg and Poulenc is stated.,,,,arnold-schoenberg,francis-poulenc
+Arnold Schoenberg,Giacomo Puccini,unspecified,,,low,,,,,,arnold-schoenberg,giacomo-puccini
+Arnold Schoenberg,Igor Stravinsky,unspecified,,,low,,,,,,arnold-schoenberg,igor-stravinsky
+Arnold Schoenberg,Milton Babbitt,unspecified,,,low,,,,,,arnold-schoenberg,milton-babbitt
+Claude Lévi-Strauss,Louis Althusser,unspecified,,,low,,,(reverse) influenced by,,,claude-levi-strauss,louis-althusser
+Claude Lévi-Strauss,Marcel Duchamp,unspecified,,,low,,,,,,claude-levi-strauss,marcel-duchamp
+Claude Lévi-Strauss,Meyer Schapiro,unspecified,,,low,,,,,,claude-levi-strauss,meyer-schapiro
+Claude Lévi-Strauss,Michel Foucault,unspecified,,,low,,,(reverse) influenced by,,,claude-levi-strauss,michel-foucault
+Claude Lévi-Strauss,Ruth Benedict,unspecified,,,low,,,,,,claude-levi-strauss,ruth-benedict
+Claude Lévi-Strauss,Émile Benveniste,unspecified,,,low,,,,,,claude-levi-strauss,emile-benveniste
+David Smith,Anthony Caro,unspecified,Caro got a supply of his raw materials following his fatal accident.,David Smith,low,,,,,,david-smith,anthony-caro
+David Smith,György Kepes,unspecified,,,low,,"Kepes's biography mentions Tony Smith but not David Smith, so the link cannot be confirmed from the texts; the Tony Smith mention may be a different person.",,,,david-smith,gyorgy-kepes
+Dizzy Gillespie,Billy Eckstine,unspecified,,,low,,,,,,dizzy-gillespie,billy-eckstine
+Dizzy Gillespie,Duke Ellington,unspecified,,,low,,,,,,dizzy-gillespie,duke-ellington
+Dizzy Gillespie,Ella Fitzgerald,unspecified,,,low,,,,,,dizzy-gillespie,ella-fitzgerald
+Dizzy Gillespie,John Coltrane,unspecified,,,low,,,,,,dizzy-gillespie,john-coltrane
+Dizzy Gillespie,Juliette Gréco,unspecified,,,low,,,,,,dizzy-gillespie,juliette-greco
+Dizzy Gillespie,Quincy Jones,unspecified,,,low,,,,,,dizzy-gillespie,quincy-jones
+Francis Picabia,Georges Auric,unspecified,,,low,,,,,,francis-picabia,georges-auric
+Francis Picabia,Gertrude Stein,unspecified,,,low,,,,,,francis-picabia,gertrude-stein
+Francis Picabia,Hans Arp,unspecified,,,low,,,,,,francis-picabia,hans-arp
+Francis Picabia,Man Ray,unspecified,,,low,,,,,,francis-picabia,man-ray
+Francis Picabia,Pierre Soulages,unspecified,,,low,,,,,,francis-picabia,pierre-soulages
+Francis Picabia,Raoul Ubac,unspecified,,,low,,,,,,francis-picabia,raoul-ubac
+Friedrich Schiller,Christoph Wilhelm Hufeland,unspecified,,,low,,,,,,friedrich-schiller,christoph-wilhelm-hufeland
+Friedrich Schiller,Johann Nepomuk Hummel,unspecified,,,low,,,,,,friedrich-schiller,johann-nepomuk-hummel
+Hans Richter,Jonas Mekas,unspecified,,,low,,,,,,hans-richter,jonas-mekas
+Hans Richter,Joris Ivens,unspecified,,,low,,,,,,hans-richter,joris-ivens
+Hans Richter,Josep Lluis Sert,unspecified,,,low,,,,,,hans-richter,josep-lluis-sert
+Hans Richter,Kasimir Malevich,unspecified,,,low,,,,,,hans-richter,kasimir-malevich
+Hans Richter,Paul Klee,unspecified,,,low,,,,,,hans-richter,paul-klee
+Hans Richter,Rudolf Schlichter,unspecified,,,low,,,,,,hans-richter,rudolf-schlichter
+Hans Richter,Walter Mehring,unspecified,,,low,,,,,,hans-richter,walter-mehring
+Hugh MacDiarmid,Kenneth Rexroth,unspecified,,,low,,,,,,hugh-macdiarmid,kenneth-rexroth
+Hugh MacDiarmid,Margaret Tait,unspecified,,,low,,,,,,hugh-macdiarmid,margaret-tait
+Jack B. Yeats,G. K. Chesterton,unspecified,,,low,,,,,,jack-b-yeats,g-k-chesterton
+Jeanne Moreau,Agnès Varda,unspecified,,,low,,,,,,jeanne-moreau,agnes-varda
+Jeanne Moreau,André Téchiné,unspecified,,,low,,,,,,jeanne-moreau,andre-techine
+Jeanne Moreau,Ingmar Bergman,unspecified,,,low,,,,,,jeanne-moreau,ingmar-bergman
+Jeanne Moreau,Jacques Demy,unspecified,,,low,,,,,,jeanne-moreau,jacques-demy
+Jeanne Moreau,Luc Besson,unspecified,,,low,,,,,,jeanne-moreau,luc-besson
+Jeanne Moreau,Patricia Highsmith,unspecified,,,low,,,,,,jeanne-moreau,patricia-highsmith
+Jeanne Moreau,Peter Brook,unspecified,,,low,,,,,,jeanne-moreau,peter-brook
+Jeanne Moreau,Pierre Cardin,unspecified,,,low,,,,,,jeanne-moreau,pierre-cardin
+Jeanne Moreau,Robert Wilson,unspecified,,,low,,,,,,jeanne-moreau,robert-wilson
+Jeanne Moreau,Roger Vadim,unspecified,,,low,,,,,,jeanne-moreau,roger-vadim
+Jeanne Moreau,Tennessee Williams,unspecified,,,low,,,,,,jeanne-moreau,tennessee-williams
+Joan Mitchell,Edna St Vincent Millay,unspecified,,,low,,,,,,joan-mitchell,edna-st-vincent-millay
+Joan Mitchell,Helen Frankenthaler,unspecified,,,low,,,,,,joan-mitchell,helen-frankenthaler
+Joan Mitchell,John Ashbery,acquaintanceOf,"The de Koonings, Guston (who lived above her), Kline, Leslie and O'Hara were among a New York crowd",Joan Mitchell,low,,"Ashbery's biography does not mention Mitchell, and the subject's text does not mention Ashbery; the name 'Ashbery' is absent, so the link is unsupported.",,,,joan-mitchell,john-ashbery
+Joan Mitchell,T. S. Eliot,unspecified,,,low,,,,,,joan-mitchell,t-s-eliot
+Johann Bernoulli,Nicolas Fatio de Duillier,unspecified,,,low,,"Neither biography mentions the other; Fatio's biography does not mention Bernoulli, and Fatio's account of studying and working elsewhere gives no sign of a link.",,,,johann-bernoulli,nicolas-fatio-de-duillier
+Johann Bernoulli,Nicolas Malebranche,unspecified,,,low,,,,,,johann-bernoulli,nicolas-malebranche
+John Betjeman,Ted Hughes,unspecified,,,low,,,,,,john-betjeman,ted-hughes
+John Giorno,Frank Stella,unspecified,,,low,,,,,,john-giorno,frank-stella
+John Giorno,Lou Reed,unspecified,,,low,,,,,,john-giorno,lou-reed
+John Giorno,Marcel Duchamp,unspecified,,,low,,"Duchamp's biography does not mention Giorno, and the editor should confirm the link.",,,,john-giorno,marcel-duchamp
+John Giorno,Merce Cunningham,unspecified,,,low,,,,,,john-giorno,merce-cunningham
+John Giorno,Meredith Monk,unspecified,,,low,,,,,,john-giorno,meredith-monk
+John Giorno,Robert Creeley,unspecified,,,low,,,,,,john-giorno,robert-creeley
+John Keats,Thomas Bewick,acquaintanceOf,Keats asked Haydon to be remembered to Bewick and Hazlitt.,John Keats,low,,"The text only says Keats asked Haydon to pass on his regards to Bewick, which does not show they met; Bewick (1753-1828) lived in Newcastle area and the biography does not mention any meeting.",,,,john-keats,thomas-bewick
+John Lennon,Elvis Presley,unspecified,,,low,,,,,,john-lennon,elvis-presley
+John Lennon,Frank Zappa,unspecified,,,low,,,,,,john-lennon,frank-zappa
+John Lennon,Terry Southern,unspecified,,,low,,,,,,john-lennon,terry-southern
+Käthe Kollwitz,Rudolf Steiner,unspecified,,,low,,,,,,kathe-kollwitz,rudolf-steiner
+Käthe Kollwitz,Sergei Eisenstein,unspecified,,,low,,Neither biography mentions the other; Eisenstein's text lists Grosz and Einstein but not Kollwitz.,,,,kathe-kollwitz,sergei-eisenstein
+Mart Stam,H. P. Berlage,unspecified,,,low,,,,,,mart-stam,h-p-berlage
+Mart Stam,Hans Scharoun,unspecified,,,low,,,,,,mart-stam,hans-scharoun
+Max Frisch,Carl Zuckmayr,unspecified,,,low,,,,,,max-frisch,carl-zuckmayr
+Max Frisch,Christa Wolf,unspecified,,,low,,,,,,max-frisch,christa-wolf
+Max Frisch,Günter Grass,unspecified,,,low,,,,,,max-frisch,gunter-grass
+Max Frisch,Herbert Marcuse,unspecified,,,low,,,,,,max-frisch,herbert-marcuse
+Maxim Gorky,William Dean Howells,unspecified,,,low,,,,,,maxim-gorky,william-dean-howells
+Pierre Duhem,Paul Painlevé,unspecified,,,low,,,,,,pierre-duhem,paul-painleve
+Pierre Duhem,Pierre Curie,acquaintanceOf,Curie disagreed with him about Maxwell,Pierre Duhem,low,,"The text says only 'Curie', which could be Marie Curie rather than Pierre Curie; the editor should check which Curie is meant.",,,,pierre-duhem,pierre-curie
+Samuel Beckett,Tom Stoppard,unspecified,,,low,,"Neither biography mentions the other, and Stoppard (born 1937) is much younger than Beckett, so how they knew each other is unclear.",,,,samuel-beckett,tom-stoppard
+Samuel Beckett,William S. Burroughs,unspecified,,,low,,"Neither biography mentions the other, so the link cannot be confirmed from the texts.",,,,samuel-beckett,william-s-burroughs
+Theodor Adorno,Anton Webern,unspecified,,,low,,,,,,theodor-adorno,anton-webern
+Theodor Adorno,Charlie Chaplin,unspecified,,,low,,,,,,theodor-adorno,charlie-chaplin
+Theodor Adorno,Herbert Marcuse,unspecified,,,low,,,,,,theodor-adorno,herbert-marcuse
+Theodor Adorno,Lotte Lenya,unspecified,,,low,,,,,,theodor-adorno,lotte-lenya
+Theodor Adorno,Paul Celan,unspecified,,,low,,,,,,theodor-adorno,paul-celan
+Theodor Adorno,Siegfried Kracauer,unspecified,,,low,,,,,,theodor-adorno,siegfried-kracauer
+Timothy Leary,Yoko Ono,unspecified,,,low,,,,,,timothy-leary,yoko-ono
+Ada Lovelace,Charles Babbage,collaboratesWith; closeFriendOf,"She was a close ally of his (he called her an 'enchantress of numbers'), strongly supportive of him (even when treading on each others' toes), and deeply involved in propagating his achievements.",Ada Lovelace,medium,,,influenced by; significant person; (reverse) influenced by,,,ada-lovelace,charles-babbage
+Ada Lovelace,Michael Faraday,acquaintanceOf,"Faraday, fearing for his health, declined her request to help her.",Ada Lovelace,medium,,,,,,ada-lovelace,michael-faraday
+Antonin Artaud,Carl Theodor Dreyer,colleagueOf,the monk Massin in Dreyer's film 'The Passion of Joan of Arc.',Antonin Artaud,medium,,,,,,antonin-artaud,carl-theodor-dreyer
+Antonin Artaud,Edgard Varèse,acquaintanceOf,"Zadkine, Miró, Artaud and Villa-Lobos were regular Paris companions.",Edgard Varèse,medium,,,,,,antonin-artaud,edgard-varese
+Antonin Artaud,Jacques Prévert,acquaintanceOf,frequented Masson's studio and Prévert's apartment,Antonin Artaud,medium,,,,,,antonin-artaud,jacques-prevert
+Arnold Schoenberg,Bertolt Brecht,acquaintanceOf,He told Brecht how a donkey taught him,Arnold Schoenberg,medium,,"Mann's biography says Schoenberg and Brecht were neighbours in L.A. who never hid their dislike, though this is ambiguous about who disliked whom.",,,,arnold-schoenberg,bertolt-brecht
+Arnold Schoenberg,George Gershwin,acquaintanceOf,played tennis with Gershwin,Arnold Schoenberg,medium,,,,,,arnold-schoenberg,george-gershwin
+Arnold Schoenberg,Gustav Mahler,apprenticeTo,Mahler considered him his protégé,Arnold Schoenberg,medium,,,,,,arnold-schoenberg,gustav-mahler
+Arnold Schoenberg,Lion Feuchtwanger,neighborOf,"later in Los Angeles (Heinrich Mann, a lifelong friend, Döblin, Herzfelde, Schoenberg, Lang, Remarque, Huxley, Wilder.)",Lion Feuchtwanger,medium,,,,,,arnold-schoenberg,lion-feuchtwanger
+Cecil Day-Lewis,T. E. Lawrence,correspondedWith,"Shortly before his fatal accident, Lawrence wrote praising his poetry.",Cecil Day-Lewis,medium,,"The text only mentions Lawrence writing to praise his poetry, so they may have known each other only through a letter rather than meeting.",,,,cecil-day-lewis,t-e-lawrence
+Christian Felix Weisse,Johann Wolfgang von Goethe,acquaintanceOf,Goethe reported that everyone liked him and enthusiastically enjoyed his plays.,Christian Felix Weisse,medium,,,,,,christian-felix-weisse,johann-wolfgang-von-goethe
+Christian Felix Weisse,Moses Mendelssohn,acquaintanceOf,Mendelssohn told him that he wrote with too much facility,Christian Felix Weisse,medium,,"The name 'Mendelssohn' is given by surname only; it could be Moses or another Mendelssohn, but no dates are given to check.",,,,christian-felix-weisse,moses-mendelssohn
+Claude Lévi-Strauss,Georges Bataille,acquaintanceOf; unspecified,"Adorno, Benjamin and Lévi-Strauss gave lectures to his College of Sociology",Georges Bataille,medium,,,,,,claude-levi-strauss,georges-bataille
+Claude Lévi-Strauss,Jacques Lacan,acquaintanceOf,"Lévi-Strauss, Althusser, Hyppolite and Foucault all participated in his famous seminars",Jacques Lacan,medium,,,,,,claude-levi-strauss,jacques-lacan
+Claude Lévi-Strauss,Max Ernst,livesWith; acquaintanceOf,"He shared a bohemian lifestyle in Greenwich Village with Breton, Ernst and Tanguy",Claude Lévi-Strauss,medium,,,,,,claude-levi-strauss,max-ernst
+Claude Lévi-Strauss,Paul Nizan,acquaintanceOf; influencedBy,"It was Nizan's suggestion that led Lévi-Strauss to São Paulo, where he taught philosophy.",Paul Nizan,medium,,,,,,claude-levi-strauss,paul-nizan
+Claude Lévi-Strauss,Yves Tanguy,livesWith; acquaintanceOf,Lévi-Strauss was a Greenwich Village companion,Yves Tanguy,medium,,,,,,claude-levi-strauss,yves-tanguy
+David Smith,Elaine de Kooning,acquaintanceOf,She wrote about Smith making a sculpture,Elaine de Kooning,medium,,,,,,david-smith,elaine-de-kooning
+David Smith,Franz Kline,colleagueOf; acquaintanceOf,Kline and Leslie were further Cedar Bar drinking colleagues in the 1950's.,David Smith,medium,,,,,,david-smith,franz-kline
+Dizzy Gillespie,Charles Mingus,collaboratesWith,"Roach was a key member of the Gillespie/Parker quintet, and with Mingus of a later Gillespie quintet.",Dizzy Gillespie,medium,,,,,,dizzy-gillespie,charles-mingus
+Dizzy Gillespie,Charlie Christian,collaboratesWith,Christian was an early accomplice,Dizzy Gillespie,medium,,,,,,dizzy-gillespie,charlie-christian
+Dizzy Gillespie,Earl Hines,employedBy,then in Hines' band,Dizzy Gillespie,medium,,,,,,dizzy-gillespie,earl-hines
+Dizzy Gillespie,Elvin Jones,unspecified,was courted by Gillespie but turned the offer down,Elvin Jones,medium,,"Jones turned down Gillespie's offer, so the text does not show they worked together; the editor should check how they knew each other.",,,,dizzy-gillespie,elvin-jones
+Edgar Allan Poe,Washington Irving,acquaintanceOf; correspondedWith,Poe wangled from Irving (whom he didn't really respect) his endorsement for a volume of stories,Edgar Allan Poe,medium,,,,,,edgar-allan-poe,washington-irving
+Francis Picabia,Hans Richter,unspecified,"Richter compared meeting him to ""the experience of death.""",Francis Picabia,medium,,,,,,francis-picabia,hans-richter
+Francis Picabia,Jacques Villon,acquaintanceOf; colleagueOf,"Picabia, Léger, Gris and Delaunay were regular members of the Sunday discussion group Villon",Jacques Villon,medium,,,,,,francis-picabia,jacques-villon
+Francis Picabia,Louis Aragon,acquaintanceOf; colleagueOf,"Pérét, Picabia, Tzara and Éluard were all fellow-members of Paris surrealism/dada circles.",Louis Aragon,medium,,"Picabia's biography says he knew Aragon via surrealist circles, but his later anti-Breton manifesto suggests he was not a lasting member of the group.",,,,francis-picabia,louis-aragon
+Francis Picabia,Raymond Duchamp-Villon,colleagueOf,"fellow-organisers of the Puteaux group, a Sunday discussion group for artists including the painters Picabia, Gris, Léger, Delaunay, Gleizes, Metzinger and Kupka",Raymond Duchamp-Villon,medium,,,,,,francis-picabia,raymond-duchamp-villon
+Francis Picabia,Walter Serner,acquaintanceOf,went to Paris with Picabia and Tzara,Walter Serner,medium,,,,,,francis-picabia,walter-serner
+Francis Picabia,William Carlos Williams,acquaintanceOf,"Stevens, Moore, Duchamp, Ray and Picabia were among the New York circle he frequented",William Carlos Williams,medium,,,,,,francis-picabia,william-carlos-williams
+Friedrich Schiller,Friedrich Schlegel,unspecified,"Schlegel, Fichte, Herder, both Humboldts and Hölderlin all contributed to his periodical 'die Horen', though Schlegel and he eventually fell out with one another",Friedrich Schiller,medium,,,,,,friedrich-schiller,friedrich-schlegel
+Friedrich Schiller,Johann Friedrich Cotta,closeFriendOf,Schiller and Goethe were particularly close to him,Johann Friedrich Cotta,medium,,,,,,friedrich-schiller,johann-friedrich-cotta
+Gustave Eiffel,Alberto Santos-Dumont,friendOf,Santos-Dumont regularly ate with Eiffel and circled the tower in his biplane.,Gustave Eiffel,medium,,,,,,gustave-eiffel,alberto-santos-dumont
+Gustave Eiffel,Louis Blériot,acquaintanceOf,Blériot consulted him on the best shape for a wing,Gustave Eiffel,medium,,,,,,gustave-eiffel,louis-bleriot
+Gustave Eiffel,Thomas Edison,acquaintanceOf,happily joined Eiffel and his guest Edison at a champagne lunch atop it,Gustave Eiffel,medium,,,,,,gustave-eiffel,thomas-edison
+Hans Richter,Johannes Baader,acquaintanceOf; colleagueOf,"Baader was introduced by Hausmann to Richter, and was present with Heartfield, Herzfelde, Hausmann, Huelsenbeck and Grosz at most Berlin Dada meetings and events.",Johannes Baader,medium,,,,,,hans-richter,johannes-baader
+Hans Richter,Man Ray,collaboratesWith,"Soupault and Man Ray contributed to the magazine 'G', co-edited with Mies van der Rohe.",Hans Richter,medium,,,,,,hans-richter,man-ray
+Hans Richter,Marcel Janco,colleagueOf,"Ball, Tzara, Huelsenbeck and Arp were fellow-founders with Janco",Marcel Janco,medium,,"Janco's text says Richter 'came along a little later' to Zürich Dada, so he was not a founder alongside Janco.",,,,hans-richter,marcel-janco
+Hans Richter,Walter Serner,acquaintanceOf,"Richter described him as ""an idealist in a world of pragmatists.""",Walter Serner,medium,,,,,,hans-richter,walter-serner
+Hugh MacDiarmid,John Calder,acquaintanceOf,Trocchi and MacDiarmid had a famous spat at a conference he organised,John Calder,medium,,"The text describes Trocchi's spat with MacDiarmid at Calder's conference; it does not say MacDiarmid and Calder personally interacted, so check they met.",,,,hugh-macdiarmid,john-calder
+Hugh MacDiarmid,Seamus Heaney,acquaintanceOf,He read with MacDiarmid,Seamus Heaney,medium,,Heaney was born in 1939 and MacDiarmid was elderly by then; the reading together is plausible but the text gives no detail.,,,,hugh-macdiarmid,seamus-heaney
+Hugh MacDiarmid,T. S. Eliot,acquaintanceOf,Eliot turned down as uncommercial a long poem MacDiarmid submitted for publication.,Hugh MacDiarmid,medium,,"The texts only describe a publishing rejection, which may have been by correspondence rather than a personal acquaintance.",,,,hugh-macdiarmid,t-s-eliot
+Jack B. Yeats,Brian O'Doherty,acquaintanceOf,was visited regularly in his nursing home by O'Doherty,Jack B. Yeats,medium,,,,,,jack-b-yeats,brian-o-doherty
+Jean de La Fontaine,Charles Perrault,friendOf,He and Perrault stayed on good terms despite taking opposing sides in a debate about literary principles.,Jean de La Fontaine,medium,,,,,,jean-de-la-fontaine,charles-perrault
+Jean de La Fontaine,Jean Racine,colleagueOf; acquaintanceOf,"He was one of the so-called Quartet of the rue du Vieux Colombier, along with Molière, Racine and Boileau",Jean de La Fontaine,medium,,,,,,jean-de-la-fontaine,jean-racine
+Jean de La Fontaine,Molière,colleagueOf; friendOf,"Molière, his close contemporary La Fontaine, and the younger Boileau (both friend and supporter) and Racine, were celebrated as the so-called Quartet of the rue du Vieux Colombier.",Molière,medium,,,,,,jean-de-la-fontaine,moliere
+Jeanne Moreau,Joseph Losey,collaboratesWith,chased the producer-butcher of a Losey film brandishing a knife,Jeanne Moreau,medium,,,,,,jeanne-moreau,joseph-losey
+Jeanne Moreau,Orson Welles,patronisedBy,Welles thought her the best actress in the world.,Jeanne Moreau,medium,,,,,,jeanne-moreau,orson-welles
+Joan Mitchell,Hans Hofmann,unspecified,"She rejected Hofmann's teaching, but would meet him dog-walking (he'd tell her she should be painting).",Joan Mitchell,medium,,,,,,joan-mitchell,hans-hofmann
+Joan Mitchell,Thornton Wilder,acquaintanceOf,Wilder (published by her mother) read to her as a child.,Joan Mitchell,medium,,,,,,joan-mitchell,thornton-wilder
+Johann Heinrich von Mädler,John Herschel,acquaintanceOf,He showed his Mappa Selenographica to Humboldt and Herschel (and pipped the latter in first using the word 'photography'),Johann Heinrich von Mädler,medium,,"The text says Mädler showed his map to Herschel, but does not say they met or corresponded; Herschel's own biography does not mention Mädler.",,,,johann-heinrich-von-madler,john-herschel
+John Betjeman,László Moholy-Nagy,acquaintanceOf,He took the arch-modernist Moholy-Nagy to a party,John Betjeman,medium,,,,,,john-betjeman,laszlo-moholy-nagy
+John Betjeman,R. S. Thomas,friendOf,"was friends with the austere, politicised Thomas",John Betjeman,medium,,The surname 'Thomas' is ambiguous and could refer to Dylan Thomas rather than R. S. Thomas; the editor should check that it is the right Thomas.,,,,john-betjeman,r-s-thomas
+John Betjeman,William Butler Yeats,correspondedWith,corresponded with notables from Shaw to Betjeman and Eliot to Lutyens,William Butler Yeats,medium,,,,,,john-betjeman,william-butler-yeats
+John Chamberlain,Larry Rivers,acquaintanceOf,"Chamberlain took the bumpers off Rivers' old Ford, and drove over them to reshape them.",John Chamberlain,medium,,,,,,john-chamberlain,larry-rivers
+John Chamberlain,Richard Huelsenbeck,acquaintanceOf,Huelsenbeck introduced him to Tinguely (surely another kindred spirit).,John Chamberlain,medium,,,,,,john-chamberlain,richard-huelsenbeck
+John Chamberlain,Robert Duncan,acquaintanceOf; colleagueOf,"Studying and teaching at Black Mountain college, he found kindred spirits in the poets Olson, Duncan and — a lifelong friend, and sometime collaborator — Creeley.",John Chamberlain,medium,,,,,,john-chamberlain,robert-duncan
+John Giorno,Carolee Schneeman,acquaintanceOf,"He mixed with a group including Lichtenstein, Johns, Reich, Riley, Glass, Morris, Rainer, Schneeman and Brown.",John Giorno,medium,,,,,,john-giorno,carolee-schneeman
+John Giorno,Keith Haring,lifePartnerOf,had a lively sexual encounter with Haring,John Giorno,medium,,,,,,john-giorno,keith-haring
+John Giorno,Robert Morris,acquaintanceOf,"He mixed with a group including Lichtenstein, Johns, Reich, Riley, Glass, Morris, Rainer, Schneeman and Brown.",John Giorno,medium,,,,,,john-giorno,robert-morris
+John Giorno,Robert Rauschenberg,acquaintanceOf,was told by Rauschenberg to meet Moog,John Giorno,medium,,,,,,john-giorno,robert-rauschenberg
+John Giorno,Roy Lichtenstein,acquaintanceOf,"He mixed with a group including Lichtenstein, Johns, Reich, Riley, Glass, Morris, Rainer, Schneeman and Brown.",John Giorno,medium,,,,,,john-giorno,roy-lichtenstein
+John Giorno,Steve Reich,acquaintanceOf,"He mixed with a group including Lichtenstein, Johns, Reich, Riley, Glass, Morris, Rainer, Schneeman and Brown.",John Giorno,medium,,,,,,john-giorno,steve-reich
+John Giorno,Terry Riley,acquaintanceOf,"He mixed with a group including Lichtenstein, Johns, Reich, Riley, Glass, Morris, Rainer, Schneeman and Brown.",John Giorno,medium,,,,,,john-giorno,terry-riley
+John Giorno,Trisha Brown,acquaintanceOf,"He mixed with a group including Lichtenstein, Johns, Reich, Riley, Glass, Morris, Rainer, Schneeman and Brown.",John Giorno,medium,,,,,,john-giorno,trisha-brown
+John Giorno,Yvonne Rainer,acquaintanceOf,"He mixed with a group including Lichtenstein, Johns, Reich, Riley, Glass, Morris, Rainer, Schneeman and Brown.",John Giorno,medium,,,,,,john-giorno,yvonne-rainer
+John Keats,William Hazlitt,acquaintanceOf; friendOf,Hazlitt was Keats' most admired acquaintance; they met through Leigh Hunt,John Keats,medium,,,influenced by,,,john-keats,william-hazlitt
+John Lennon,Keith Richards,acquaintanceOf; collaboratesWith,"Jagger, Richards (both mates on the London scene) and Bowie were among his occasional collaborators",John Lennon,medium,,,,,,john-lennon,keith-richards
+John Lennon,Mick Jagger,friendOf; collaboratesWith,"Jagger, Richards (both mates on the London scene) and Bowie were among his occasional collaborators",John Lennon,medium,,,,,,john-lennon,mick-jagger
+John Torrey,Constantine Samuel Rafinesque,correspondedWith,"He corresponded extensively with other botanists and naturalists, including Henry, Silliman, Parry, von Schweinitz, Hooker, Bentham, Rafinesque and Downing.",John Torrey,medium,,,,,,john-torrey,constantine-samuel-rafinesque
+John Torrey,William Hooker,correspondedWith,"He corresponded extensively with other botanists and naturalists, including Henry, Silliman, Parry, von Schweinitz, Hooker, Bentham, Rafinesque and Downing.",John Torrey,medium,,"Torrey's text names only 'Hooker' by surname, which could be William or his son Joseph Dalton Hooker; the editor should check which is meant.",,,,john-torrey,william-hooker
+Julio González,Marino Marini,acquaintanceOf,"The sculptors Maillol, Laurens, Lipchitz and Gonzalez, as well as Braque and Kandinsky, were among the artists he met when he visited Paris",Marino Marini,medium,,,,,,julio-gonzalez,marino-marini
+Julius Schnorr von Carolsfeld,Peter von Cornelius,colleagueOf,He joined the Nazarene group around Overbeck and Cornelius,Julius Schnorr von Carolsfeld,medium,,,,,,julius-schnorr-von-carolsfeld,peter-von-cornelius
+Käthe Kollwitz,Gerhart Hauptmann,acquaintanceOf; influencedBy,She had met and been impressed by Hauptmann several years before making a series of prints based around a play of his,Käthe Kollwitz,medium,,,,,,kathe-kollwitz,gerhart-hauptmann
+Mart Stam,Sigfried Giedion,collaboratesWith; colleagueOf,"Lissitzky was a close friend, and like Rietveld and to some extent Corbusier, Giedion and van Eesteren, a collaborator and colleague in the pursuit of advanced ideas about architecture and planning.",Mart Stam,medium,,,,,,mart-stam,sigfried-giedion
+Mart Stam,Walter Gropius,acquaintanceOf; employedBy,Gropius wanted him to lead the Bauhaus's architecture department (he declined).,Mart Stam,medium,,"Stam declined the Bauhaus post, so no employment resulted; only an offer is recorded.",,,,mart-stam,walter-gropius
+Max Frisch,Ingeborg Bachmann,lifePartnerOf,had an intense relationship with Bachmann,Max Frisch,medium,,,unmarried partner; (reverse) unmarried partner,,,max-frisch,ingeborg-bachmann
+Max Frisch,Samuel Beckett,acquaintanceOf,He played simultaneous chess with Calder and Beckett,Max Frisch,medium,,,,,,max-frisch,samuel-beckett
+Maxim Gorky,Viktor Shklovsky,acquaintanceOf,Shklovsky showed him Triolet's letters from Tahiti.,Maxim Gorky,medium,,,,,,maxim-gorky,viktor-shklovsky
+Maxim Gorky,Vsevolod Ivanov,patronOf,Ivanov was another protégé.,Maxim Gorky,medium,,,,,,maxim-gorky,vsevolod-ivanov
+Maxim Gorky,Yevgeny Zamyatin,patronOf,his influence helped save Zamyatin's skin,Maxim Gorky,medium,,,,,,maxim-gorky,yevgeny-zamyatin
+Maxime du Camp,Gustave Le Gray,apprenticeTo,Gray taught him photography,Maxime du Camp,medium,,"The text says only ""Gray"", with no first name or dates; it is probably Gustave Le Gray but the editor should confirm.",,,,maxime-du-camp,gustave-le-gray
+Maxime du Camp,Prosper Mérimée,acquaintanceOf,du Camp returned to him the letters he'd written to a past lover,Prosper Mérimée,medium,,,,,,maxime-du-camp,prosper-merimee
+Pierre Alechinsky,Bram van Velde,friendOf,"Brauner, Giacometti and van Velde all became friends.",Pierre Alechinsky,medium,,The name 'van Velde' could refer to Bram or Geer van Velde; the text gives only the surname.,,,,pierre-alechinsky,bram-van-velde
+Pierre Duhem,Jacques Hadamard,friendOf; classmateOf,Hadamard was met as a student and remained a firm friend.,Pierre Duhem,medium,,,,,,pierre-duhem,jacques-hadamard
+Pierre Duhem,Jean Perrin,acquaintanceOf,Perrin looked up to Duhem,Pierre Duhem,medium,,,,,,pierre-duhem,jean-perrin
+Raoul Dufy,D. H. Lawrence,acquaintanceOf,met Lawrence while travelling in Italy,Raoul Dufy,medium,,"The text gives only the surname 'Lawrence'; it may not be D. H. Lawrence, so the editor should check the identification.",,,,raoul-dufy,d-h-lawrence
+Robert Burns,Thomas Blacklock,correspondedWith; friendOf,"they only met later, writing fondly to one another in verse",Robert Burns,medium,,,,,,robert-burns,thomas-blacklock
+Samuel Beckett,Simone de Beauvoir,livesWith; antagonistOf,"Beckett lodged with her, but they squabbled over the publication of a story of his.",Simone de Beauvoir,medium,,"The two biographies differ on the arrangement: Beckett's says de Beauvoir was at one point his landlady, while hers says he lodged with her; this is compatible but worth checking.",,,,samuel-beckett,simone-de-beauvoir
+Samuel Beckett,Theodor Adorno,correspondedWith,wrote to Beckett disapproving bare-breasted student disruption,Theodor Adorno,medium,,"Adorno's biography only mentions a letter to Beckett and Beckett's does not mention Adorno, so it is unclear whether they actually met.",,,,samuel-beckett,theodor-adorno
+Samuel Beckett,Thomas MacGreevy,influencedBy; acquaintanceOf,introducing Beckett (whom he also influenced) to him,Thomas MacGreevy,medium,,"Types are from Beckett's side, so MacGreevy's influence on Beckett is recorded as Beckett being influenced by him; Beckett's own biography does not mention MacGreevy.",,,,samuel-beckett,thomas-macgreevy
+Samuel Beckett,Wilfred Bion,patronisedBy,Bion was Beckett's psychoanalyst,Samuel Beckett,medium,,,,,,samuel-beckett,wilfred-bion
+Theodor Adorno,Max Horkheimer,colleagueOf; employedBy,Horkheimer helped him get a job in the US,Theodor Adorno,medium,,,influenced by,,,theodor-adorno,max-horkheimer
+Ada Lovelace,Augustus de Morgan,mentorOf; apprenticeTo,"Somerville, a family friend and neighbour, taught and mentored her, as did de Morgan.",Ada Lovelace,high,,,student of; (reverse) student,,,ada-lovelace,augustus-de-morgan
+Ada Lovelace,Charles Wheatstone,collaboratesWith; friendOf,"She also worked with Wheatstone, another family friend.",Ada Lovelace,high,,,,,,ada-lovelace,charles-wheatstone
+Ada Lovelace,Lord Byron,childOf,"Lovelace (Byron's daughter, though he abandoned her as a baby)",Ada Lovelace,high,,"Byron abandoned her as a baby (he died when she was eight), so the two may hardly have known each other.",father; (reverse) child,,,ada-lovelace,lord-byron
+Ada Lovelace,Mary Somerville,mentorOf; apprenticeTo; friendOf; neighborOf,"Somerville, a family friend and neighbour, taught and mentored her, as did de Morgan.",Ada Lovelace,high,,,student of; (reverse) student,,,ada-lovelace,mary-somerville
+Antonin Artaud,Jean Dubuffet,friendOf,Prévert and Artaud were also friends,Jean Dubuffet,high,,,,,,antonin-artaud,jean-dubuffet
+Antonin Artaud,Jean-Louis Barrault,correspondedWith; patronisedBy,"He corresponded with Barrault, who was vocal in support of his banned radio-play.",Antonin Artaud,high,,,,,,antonin-artaud,jean-louis-barrault
+Antonin Artaud,Juan Gris,acquaintanceOf,"Artaud, Leiris and Masson were met through the dealer Kahnweiler.",Juan Gris,high,,,,,,antonin-artaud,juan-gris
+Antonin Artaud,Robert Desnos,collaboratesWith; acquaintanceOf,"He played the title-role in a play by Desnos, who also interceded with the director of the asylum where Artaud was given electric-shock treatment.",Antonin Artaud,high,,"Desnos's biography says he intervened to get Artaud given ECT treatment, while Artaud's says he interceded with the asylum director; the accounts differ in nature.",,,,antonin-artaud,robert-desnos
+Antonin Artaud,Roger Vitrac,collaboratesWith; colleagueOf,He started the Théâtre Alfred Jarry with Vitrac,Antonin Artaud,high,,,,,,antonin-artaud,roger-vitrac
+Arnold Schoenberg,Alban Berg,mentorOf,"Berg, Webern, Eisler, Cage and Harrison were among his students.",Arnold Schoenberg,high,,,student; (reverse) student of,,,arnold-schoenberg,alban-berg
+Arnold Schoenberg,Alexander Zemlinsky,apprenticeTo,"Zemlinsky, met at age 20, was an important mentor",Arnold Schoenberg,high,,,student of,,,arnold-schoenberg,alexander-zemlinsky
+Arnold Schoenberg,Anton Webern,mentorOf,"Berg, Webern, Eisler, Cage and Harrison were among his students.",Arnold Schoenberg,high,,,student; (reverse) student of,,,arnold-schoenberg,anton-webern
+Arnold Schoenberg,Darius Milhaud,closeFriendOf,Milhaud (who visited with Poulenc) and Varèse were strong and admiring friends.,Arnold Schoenberg,high,,,,,,arnold-schoenberg,darius-milhaud
+Arnold Schoenberg,Edgard Varèse,closeFriendOf,Milhaud (who visited with Poulenc) and Varèse were strong and admiring friends.,Arnold Schoenberg,high,,,,,,arnold-schoenberg,edgard-varese
+Arnold Schoenberg,Ferruccio Busoni,correspondedWith,corresponded with Schoenberg,Ferruccio Busoni,high,,"Busoni's biography mentions only correspondence, so they may not have met in person.",,,,arnold-schoenberg,ferruccio-busoni
+Arnold Schoenberg,Hanns Eisler,mentorOf,"Berg, Webern, Eisler, Cage and Harrison were among his students.",Arnold Schoenberg,high,,,student; (reverse) student of,,,arnold-schoenberg,hanns-eisler
+Arnold Schoenberg,John Cage,mentorOf,"Berg, Webern, Eisler, Cage and Harrison were among his students.",Arnold Schoenberg,high,,,student; (reverse) student of,,,arnold-schoenberg,john-cage
+Arnold Schoenberg,Lou Harrison,mentorOf,"Berg, Webern, Eisler, Cage and Harrison were among his students.",Arnold Schoenberg,high,,,student; (reverse) student of,,,arnold-schoenberg,lou-harrison
+Arnold Schoenberg,Pau Casals,correspondedWith,Both Schoenberg and Glazunov corresponded and wrote cello pieces for him.,Pau Casals,high,,,,,,arnold-schoenberg,pau-casals
+Arnold Schoenberg,Richard Strauss,acquaintanceOf; patronisedBy,He was backed by Strauss for a teaching post,Arnold Schoenberg,high,,,,,,arnold-schoenberg,richard-strauss
+Arnold Schoenberg,Theodor Adorno,friendOf; influencedBy,Berg (with whom he studied composition) and Schoenberg (a strong influence) were both friends,Theodor Adorno,high,,,,,,arnold-schoenberg,theodor-adorno
+Arnold Schoenberg,Thomas Mann,friendOf; antagonistOf; neighborOf,"Mann, a Los Angeles friend, modelled a fictional composer partly on Schoenberg, leading to a famous spat.",Arnold Schoenberg,high,,,,,,arnold-schoenberg,thomas-mann
+Arnold Schoenberg,Vasily Kandinsky,friendOf; patronisedBy,he invited his old friend Schoenberg to lead a music department there,Vasily Kandinsky,high,,,,,,arnold-schoenberg,vasily-kandinsky
+Augustin Lemaître,Nicéphore Niépce,employedBy; collaboratesWith,Niépce engaged the printmaker Lemaître to help him produce paper prints from his photographic experiments,Augustin Lemaître,high,,,,,,augustin-lemaitre,nicephore-niepce
+Cecil Day-Lewis,Kingsley Amis,friendOf; livesWith,his friend Amis gave him house-room in the months he was dying,Cecil Day-Lewis,high,,,,,,cecil-day-lewis,kingsley-amis
+Cecil Day-Lewis,Louis MacNeice,friendOf,"Auden (particularly close, an inspiration and later collaborator), Spender and Day Lewis were friends from university",Louis MacNeice,high,,"Day-Lewis's biography says the four (Auden, Spender, MacNeice, Day-Lewis) were never in the same room at the same time, which is only a minor caveat; the MacNeice biography says he was a university friend.",,,,cecil-day-lewis,louis-macneice
+Cecil Day-Lewis,Patrick Kavanagh,friendOf,Day-Lewis's friend Kavanagh told him he should have made more of his socialist convictions,Cecil Day-Lewis,high,,,,,,cecil-day-lewis,patrick-kavanagh
+Cecil Day-Lewis,Rosamond Lehmann,lifePartnerOf,Lehmann had a long affair with him,Cecil Day-Lewis,high,,,unmarried partner; (reverse) unmarried partner,,,cecil-day-lewis,rosamond-lehmann
+Cecil Day-Lewis,Stephen Spender,friendOf,Spender became another friend from the time,Cecil Day-Lewis,high,,,,,,cecil-day-lewis,stephen-spender
+Cecil Day-Lewis,W. H. Auden,influencedBy; friendOf; colleagueOf; portrayedBy,"Auden, initially strongly influential, was met at Oxford: Day-Lewis joined the circle around him, later modelling a fictional detective on him.",Cecil Day-Lewis,high,,,,,,cecil-day-lewis,w-h-auden
+Christian Felix Weisse,Christoph Martin Wieland,acquaintanceOf,Wieland and Jean Paul visited him,Christian Felix Weisse,high,,,,,,christian-felix-weisse,christoph-martin-wieland
+Christian Felix Weisse,Friedrich Klopstock,friendOf,Klopstock was another student friend.,Christian Felix Weisse,high,,,,,,christian-felix-weisse,friedrich-klopstock
+Christian Felix Weisse,Friedrich Schiller,acquaintanceOf,"Schiller met Moritz, Hiller and Weisse as a student.",Friedrich Schiller,high,,,,,,christian-felix-weisse,friedrich-schiller
+Christian Felix Weisse,Gotthold Ephraim Lessing,closeFriendOf; classmateOf; collaboratesWith,"Lessing and he were close friends as students, scrounging for a living, and translating plays.",Christian Felix Weisse,high,,,,,,christian-felix-weisse,gotthold-ephraim-lessing
+Christian Felix Weisse,Jean Paul,acquaintanceOf,Wieland and Jean Paul visited him,Christian Felix Weisse,high,,,,,,christian-felix-weisse,jean-paul
+Christian Felix Weisse,Jean-Jacques Rousseau,acquaintanceOf,he also got acquainted with Rousseau and Voltaire when he was in Paris,Christian Felix Weisse,high,,,,,,christian-felix-weisse,jean-jacques-rousseau
+Christian Felix Weisse,Johann Adam Hiller,collaboratesWith,Hiller collaborated with him on a number of light operas,Christian Felix Weisse,high,,,,,,christian-felix-weisse,johann-adam-hiller
+Christian Felix Weisse,Voltaire,acquaintanceOf,he also got acquainted with Rousseau and Voltaire when he was in Paris,Christian Felix Weisse,high,,,,,,christian-felix-weisse,voltaire
+Claude Lévi-Strauss,Franz Boas,friendOf; influencedBy,"Their friendship helped define stucturalism, while that with Boas (who died beside him at a banquet) was also influential.",Claude Lévi-Strauss,high,,,,,,claude-levi-strauss,franz-boas
+Claude Lévi-Strauss,Italo Calvino,acquaintanceOf,"He met Barthes, Lévi-Strauss and Queneau in Paris",Italo Calvino,high,,,,,,claude-levi-strauss,italo-calvino
+Claude Lévi-Strauss,Jean Baptiste Perrin,colleagueOf,"Lévi-Strauss knew him right at the end of his life, in New York, where they helped set up an institution for exiled French academics.",Jean Baptiste Perrin,high,,,,,,claude-levi-strauss,jean-baptiste-perrin
+Claude Lévi-Strauss,Jean-Paul Sartre,acquaintanceOf; classmateOf,"He met Lévi-Strauss, Merleau-Ponty, Weil, Canguilhem and Hyppolite as a student",Jean-Paul Sartre,high,,,,,,claude-levi-strauss,jean-paul-sartre
+Claude Lévi-Strauss,Julian Huxley,correspondedWith,"his correspondents ranged from Britten to Lévi-Strauss, Leakey to Warburg",Julian Huxley,high,,,,,,claude-levi-strauss,julian-huxley
+Claude Lévi-Strauss,Marcel Mauss,acquaintanceOf,He discussed exogamous relations with Mauss,Claude Lévi-Strauss,high,,Mauss's biography says Lévi-Strauss regarded him as an important influence but didn't study under him; no teacher relationship is supported.,,,,claude-levi-strauss,marcel-mauss
+Claude Lévi-Strauss,Margaret Mead,acquaintanceOf,Lévi-Strauss (then lesser-known than her) met her when he exiled himself in New York,Margaret Mead,high,,,,,,claude-levi-strauss,margaret-mead
+Claude Lévi-Strauss,Maurice Merleau-Ponty,closeFriendOf; classmateOf; colleagueOf,"Sartre, de Beauvoir and Lévi-Strauss were all fellow-students who remained colleagues and friends",Maurice Merleau-Ponty,high,,,,,,claude-levi-strauss,maurice-merleau-ponty
+Claude Lévi-Strauss,Richard Wright,correspondedWith,"Grierson, McLaren, Boas and Lévi-Strauss were all correspondents.",Richard Wright,high,,,,,,claude-levi-strauss,richard-wright
+Claude Lévi-Strauss,Roman Jakobson,friendOf; influencedBy,Lévi-Strauss (met in New York) and he had a profound influence on one another.,Roman Jakobson,high,,,,,,claude-levi-strauss,roman-jakobson
+Claude Lévi-Strauss,Simone de Beauvoir,classmateOf; acquaintanceOf,"was a fellow-student, as were Merleau-Ponty and Lévi-Strauss",Simone de Beauvoir,high,,,,,,claude-levi-strauss,simone-de-beauvoir
+Claude Lévi-Strauss,Victor Brauner,acquaintanceOf,"Lévi-Strauss, Masson, Lam and Breton were all on the same boat to Martinique, escaping occupied France.",Victor Brauner,high,,,,,,claude-levi-strauss,victor-brauner
+Claude Lévi-Strauss,Wilfredo Lam,acquaintanceOf,"He sailed to Martinique to escape occupied France on the same boat as Breton, Lévi-Strauss, Brauner and Masson",Wilfredo Lam,high,,,,,,claude-levi-strauss,wilfredo-lam
+David Smith,Adolph Gottlieb,acquaintanceOf,Pollock and Gottlieb were also met in pre-war New York,David Smith,high,,,,,,david-smith,adolph-gottlieb
+David Smith,Burgoyne Diller,classmateOf,"Diller was a fellow-student, through whom he met Avery and the Ukrainian Futurist, Burlyuk.",David Smith,high,,,,,,david-smith,burgoyne-diller
+David Smith,David Burlyuk,acquaintanceOf,"Diller was a fellow-student, through whom he met Avery and the Ukrainian Futurist, Burlyuk.",David Smith,high,,,,,,david-smith,david-burlyuk
+David Smith,Frank O'Hara,acquaintanceOf,O'Hara interviewed him.,David Smith,high,,,,,,david-smith,frank-ohara
+David Smith,Helen Frankenthaler,closeFriendOf,"Motherwell, Frankenthaler and Noland were all close friends",David Smith,high,,,,,,david-smith,helen-frankenthaler
+David Smith,Jackson Pollock,acquaintanceOf,Pollock and Gottlieb were also met in pre-war New York,David Smith,high,,"Pollock's biography mentions Tony Smith, not David Smith, so it does not corroborate the link.",,,,david-smith,jackson-pollock
+David Smith,John Graham,apprenticeTo; acquaintanceOf,"Graham was an influential mentor in the 1930's, taking Smith to meet Gorky",David Smith,high,,,,,,david-smith,john-graham
+David Smith,Kenneth Noland,closeFriendOf,"Motherwell, Frankenthaler and Noland were all close friends",David Smith,high,,,,,,david-smith,kenneth-noland
+David Smith,Milton Avery,acquaintanceOf,"Diller was a fellow-student, through whom he met Avery and the Ukrainian Futurist, Burlyuk.",David Smith,high,,,,,,david-smith,milton-avery
+David Smith,Robert Motherwell,closeFriendOf,"Motherwell, Frankenthaler and Noland were all close friends",David Smith,high,,,,,,david-smith,robert-motherwell
+David Smith,Stuart Davis,acquaintanceOf,introducing him to Davis and Willem de Kooning,David Smith,high,,,,,,david-smith,stuart-davis
+David Smith,Willem de Kooning,acquaintanceOf,introducing him to Davis and Willem de Kooning,David Smith,high,,,,,,david-smith,willem-de-kooning
+Dizzy Gillespie,Karel Appel,collaboratesWith; friendOf,"He also worked with Baker, and with his friend Gillespie.",Karel Appel,high,,,,,,dizzy-gillespie,karel-appel
+Dizzy Gillespie,Max Roach,collaboratesWith,Roach was a key member of the Gillespie/Parker quintet,Dizzy Gillespie,high,,,,,,dizzy-gillespie,max-roach
+Dizzy Gillespie,Miles Davis,colleagueOf,Davis had been met in Eckstine's band.,Dizzy Gillespie,high,,,,,,dizzy-gillespie,miles-davis
+Dizzy Gillespie,Roy Eldridge,influencedBy; collaboratesWith,"Eldridge, a formative influence as a trumpeter, played with him later in life.",Dizzy Gillespie,high,,,,,,dizzy-gillespie,roy-eldridge
+Dizzy Gillespie,Thelonious Monk,colleagueOf; collaboratesWith,"Monk was an important musical colleague, the two trying things out together.",Dizzy Gillespie,high,,,,,,dizzy-gillespie,thelonious-monk
+Edgar Allan Poe,Henry Wadsworth Longfellow,correspondedWith; antagonistOf,"publicly abused the long-suffering Longfellow, a correspondent though they never met face-to-face",Edgar Allan Poe,high,,"The subject's biography says Poe and Longfellow never met face-to-face, knowing each other only through letters, which doesn't fit a record of acquaintance.",,,,edgar-allan-poe,henry-wadsworth-longfellow
+Edgar Allan Poe,Nathaniel Hawthorne,correspondedWith; antagonistOf,"Hawthorne was a correspondent, but also a great rival.",Edgar Allan Poe,high,,,,,,edgar-allan-poe,nathaniel-hawthorne
+Edward S. Morse,Louis Agassiz,apprenticeTo,He studied marine biology under Agassiz,Edward S. Morse,high,,,,,,edward-s-morse,louis-agassiz
+Edward S. Morse,Percival Lowell,friendOf,became a friend of the astronomer Lowell,Edward S. Morse,high,,,,,,edward-s-morse,percival-lowell
+Francis Picabia,Georges Braque,classmateOf,Laurencin and Braque were fellow-students,Francis Picabia,high,,,,,,francis-picabia,georges-braque
+Francis Picabia,Guillaume Apollinaire,closeFriendOf,His close friend Apollinaire went to England with him,Francis Picabia,high,,,,,,francis-picabia,guillaume-apollinaire
+Francis Picabia,Jean Metzinger,acquaintanceOf,"Léger, Gris, Gleizes and Metzinger were also met through Duchamp and his brothers.",Francis Picabia,high,,,,,,francis-picabia,jean-metzinger
+Francis Picabia,Joan Miró,acquaintanceOf,Miró met Picabia before leaving for Paris,Joan Miró,high,,,,,,francis-picabia,joan-miro
+Francis Picabia,Joseph Stella,acquaintanceOf,"Stella met Duchamp, Picabia and Gleizes in New York",Joseph Stella,high,,,,,,francis-picabia,joseph-stella
+Francis Picabia,Juan Gris,acquaintanceOf,"An introduction to Villon and Duchamp's Puteaux group led to him knowing Gleizes, Metzinger and Picabia.",Juan Gris,high,,,,,,francis-picabia,juan-gris
+Francis Picabia,Marcel Duchamp,closeFriendOf; collaboratesWith,His lifelong friend Duchamp helped him publish a magazine,Francis Picabia,high,,,,,,francis-picabia,marcel-duchamp
+Francis Picabia,Marie Laurencin,classmateOf; acquaintanceOf,She studied alongside Braque and Picabia,Marie Laurencin,high,,,,,,francis-picabia,marie-laurencin
+Francis Picabia,René Clair,collaboratesWith,He collaborated with Satie and Clair,Francis Picabia,high,,,,,,francis-picabia,rene-clair
+Francis Picabia,Tristan Tzara,acquaintanceOf,Tzara behaved well when Picabia took him to the Steins’.,Tristan Tzara,high,,,,,,francis-picabia,tristan-tzara
+Friedrich Schiller,Heinrich Gentz,acquaintanceOf,he also got to know Wieland and Schiller in Weimar,Heinrich Gentz,high,,,,,,friedrich-schiller,heinrich-gentz
+Friedrich Schiller,Johann Adam Hiller,acquaintanceOf,"Schiller met Moritz, Hiller and Weisse as a student.",Friedrich Schiller,high,,,,,,friedrich-schiller,johann-adam-hiller
+Friedrich Schiller,Johann Christian Reinhart,closeFriendOf,Reinhart became a lifelong friend.,Friedrich Schiller,high,,,,,,friedrich-schiller,johann-christian-reinhart
+Friedrich Schiller,Johann Gottfried Herder,friendOf,He befriended Herder and Wieland while in Weimar,Friedrich Schiller,high,,"The subject's biography also says Herder disliked him, which sits oddly with the friendship.",,,,friedrich-schiller,johann-gottfried-herder
+Friedrich Schiller,Johann Gottlieb Fichte,colleagueOf,"Schelling, Niethammer and Fichte had all been university colleagues in Jena.",Friedrich Schiller,high,,Fichte's biography calls their relationship prickly.,,,,friedrich-schiller,johann-gottlieb-fichte
+Friedrich Schiller,Johann Wolfgang von Goethe,friendOf; colleagueOf,Schiller approached him in admiration: they became friends and colleagues for life.,Johann Wolfgang von Goethe,high,,,influenced by; (reverse) influenced by,,,friedrich-schiller,johann-wolfgang-von-goethe
+Friedrich Schiller,Karl Philipp Moritz,acquaintanceOf,He met Schiller in Leipzig,Karl Philipp Moritz,high,,,,,,friedrich-schiller,karl-philipp-moritz
+Friedrich Schiller,Novalis,mentorOf; friendOf,he was befriended and encouraged in his thought by Schiller,Novalis,high,,,,,,friedrich-schiller,novalis
+Friedrich Schiller,Wilhelm von Humboldt,friendOf; correspondedWith,"Both were friends of Goethe and Schiller, Wilhelm frequently visiting them in Weimar and maintaining a correspondence with Schiller.",Wilhelm von Humboldt,high,,,,,,friedrich-schiller,wilhelm-von-humboldt
+Georg Joseph Vogler,Giacomo Meyerbeer,mentorOf,Meyerbeer and Weber were his students in Darmstadt.,Georg Joseph Vogler,high,,,student; (reverse) student of,,,georg-joseph-vogler,giacomo-meyerbeer
+Georg Joseph Vogler,Giovanni Battista Martini,apprenticeTo,Vogler studied under Martini.,Georg Joseph Vogler,high,,,student of; (reverse) student,,,georg-joseph-vogler,giovanni-battista-martini
+Georg Joseph Vogler,Wolfgang Amadeus Mozart,acquaintanceOf; antagonistOf,"Mozart, who met him in Mannheim and roundly disparaged him",Georg Joseph Vogler,high,,,,,,georg-joseph-vogler,wolfgang-amadeus-mozart
+Gotthold Ephraim Lessing,Carl Philipp Emanuel Bach,acquaintanceOf,"In Hamburg, Lessing met Bach and played chess with Klopstock.",Gotthold Ephraim Lessing,high,,,,,,gotthold-ephraim-lessing,carl-philipp-emanuel-bach
+Gotthold Ephraim Lessing,Friedrich Heinrich Jacobi,acquaintanceOf,"Jacobi wanted to meet him for years, finally did, and influentially published their conversation about Spinoza.",Gotthold Ephraim Lessing,high,,,,,,gotthold-ephraim-lessing,friedrich-heinrich-jacobi
+Gotthold Ephraim Lessing,Johann Georg Sulzer,acquaintanceOf,"others met in Prussian enlightenment circles included Mendelssohn and Lessing, who both criticised his ideas as somewhat outmoded",Johann Georg Sulzer,high,,,,,,gotthold-ephraim-lessing,johann-georg-sulzer
+Gotthold Ephraim Lessing,Johann Gottfried Herder,acquaintanceOf,"Lessing was a respected acquaintance, though they disagreed healthily.",Johann Gottfried Herder,high,,,,,,gotthold-ephraim-lessing,johann-gottfried-herder
+Gotthold Ephraim Lessing,Moses Mendelssohn,colleagueOf; closeFriendOf,Mendelssohn was a colleague and lifelong friend,Gotthold Ephraim Lessing,high,,,,,,gotthold-ephraim-lessing,moses-mendelssohn
+Gotthold Ephraim Lessing,Voltaire,employedBy; antagonistOf,"Lessing met and did translations for Voltaire in Berlin, but delayed return of a manuscript, and attacked his cultural influence.",Gotthold Ephraim Lessing,high,,,,,,gotthold-ephraim-lessing,voltaire
+Gustave Eiffel,Charles Gounod,antagonistOf; acquaintanceOf,"Gounod led a protest against the Eiffel Tower, but happily joined Eiffel and his guest Edison at a champagne lunch atop it",Gustave Eiffel,high,,,,,,gustave-eiffel,charles-gounod
+Hans Richter,Hugo Ball,colleagueOf,"Tzara, Ball, Arp, Hausmann and Schwitters were other Dada colleagues.",Hans Richter,high,,"Ball's biography says he started Cabaret Voltaire and Richter 'came along a little later' per Janco/Tzara bios; Ball died 1927, so overlap is plausible, no conflict.",,,,hans-richter,hugo-ball
+Hans Richter,Jean Cocteau,collaboratesWith,"Hindemith, Ernst, Cocteau, Léger, Tanguy, Duchamp, Calder and Bowles all contributed to his films.",Hans Richter,high,,,,,,hans-richter,jean-cocteau
+Hans Richter,Kurt Schwitters,colleagueOf; collaboratesWith,contributed to Richter's magazine 'G' and appeared in his film 'Dadascope',Kurt Schwitters,high,,,,,,hans-richter,kurt-schwitters
+Hans Richter,Len Lye,friendOf,He met Richter (a long friendship ensued),Len Lye,high,,,,,,hans-richter,len-lye
+Hans Richter,Louis Aragon,acquaintanceOf,"He only met Aragon a few times, but always felt in contact.",Hans Richter,high,,"They met only rarely, a few times, and felt in touch mainly through Aragon's writings.",,,,hans-richter,louis-aragon
+Hans Richter,Ludwig Mies van der Rohe,collaboratesWith,"Soupault and Man Ray contributed to the magazine 'G', co-edited with Mies van der Rohe.",Hans Richter,high,,,,,,hans-richter,ludwig-mies-van-der-rohe
+Hans Richter,Marcel Duchamp,collaboratesWith,"Hindemith, Ernst, Cocteau, Léger, Tanguy, Duchamp, Calder and Bowles all contributed to his films.",Hans Richter,high,,,,,,hans-richter,marcel-duchamp
+Hans Richter,Max Ernst,collaboratesWith,appeared in a film of Richter's,Max Ernst,high,,,,,,hans-richter,max-ernst
+Hans Richter,Naum Gabo,friendOf,"Constructivist and de Stĳl connections brought friendships with Gabo, Lissitzky and van Doesburg.",Hans Richter,high,,,,,,hans-richter,naum-gabo
+Hans Richter,Paul Bowles,collaboratesWith,"Hindemith, Ernst, Cocteau, Léger, Tanguy, Duchamp, Calder and Bowles all contributed to his films.",Hans Richter,high,,,,,,hans-richter,paul-bowles
+Hans Richter,Paul Hindemith,collaboratesWith,"Hindemith, Ernst, Cocteau, Léger, Tanguy, Duchamp, Calder and Bowles all contributed to his films.",Hans Richter,high,,,,,,hans-richter,paul-hindemith
+Hans Richter,Philippe Soupault,collaboratesWith,"Soupault and Man Ray contributed to the magazine 'G', co-edited with Mies van der Rohe.",Hans Richter,high,,,,,,hans-richter,philippe-soupault
+Hans Richter,Piet Mondrian,friendOf,"Archipenko, Calder, Léger, Duchamp, Richter, Moholy-Nagy and Giedion — all old friends",Piet Mondrian,high,,,,,,hans-richter,piet-mondrian
+Hans Richter,Raoul Hausmann,lifePartnerOf,Moholy-Nagy and Richter were also lifelong friends to Hausmann.,Raoul Hausmann,high,,,,,,hans-richter,raoul-hausmann
+Hans Richter,Richard Huelsenbeck,colleagueOf,Huelsenbeck and Richter formed the main Zürich/Berlin Dada links.,Hans Richter,high,,,,,,hans-richter,richard-huelsenbeck
+Hans Richter,Sergei Eisenstein,collaboratesWith,"He collaborated with Richter, Tretyakov and (most notably) Prokoviev",Sergei Eisenstein,high,,,,,,hans-richter,sergei-eisenstein
+Hans Richter,Sophie Taeuber-Arp,acquaintanceOf,"she met Tzara, Janco and Richter",Sophie Taeuber-Arp,high,,,,,,hans-richter,sophie-taeuber-arp
+Hans Richter,Theo van Doesburg,friendOf,"Constructivist and de Stĳl connections brought friendships with Gabo, Lissitzky and van Doesburg.",Hans Richter,high,,,,,,hans-richter,theo-van-doesburg
+Hans Richter,Tristan Tzara,colleagueOf,"Tzara, Ball, Arp, Hausmann and Schwitters were other Dada colleagues.",Hans Richter,high,,,,,,hans-richter,tristan-tzara
+Hans Richter,Viking Eggeling,collaboratesWith,Eggeling and he worked to bring time and movement to painting,Hans Richter,high,,,,,,hans-richter,viking-eggeling
+Hans Richter,Yves Tanguy,neighborOf; collaboratesWith,"Richter lived near him in Connecticut, involved him in a film, and introduced him to Huelsenbeck.",Yves Tanguy,high,,,,,,hans-richter,yves-tanguy
+Hugh MacDiarmid,Ian Hamilton Finlay,acquaintanceOf; antagonistOf,"MacDiarmid was best man at his first wedding, though they later fell out with spectacular acrimony.",Ian Hamilton Finlay,high,,,,,,hugh-macdiarmid,ian-hamilton-finlay
+Hugh MacDiarmid,John Buchan,colleagueOf; collaboratesWith,"may have seemed improbable long-term colleagues, but collaborated productively in various ways",John Buchan,high,,,,,,hugh-macdiarmid,john-buchan
+Hugh MacDiarmid,Lewis Grassic Gibbon,closeFriendOf; collaboratesWith; colleagueOf,Gibbon was a close friend: they collaborated on a polemical book about Scotland.,Hugh MacDiarmid,high,,,,,,hugh-macdiarmid,lewis-grassic-gibbon
+Hugh MacDiarmid,Sorley MacLean,closeFriendOf; correspondedWith,He enjoyed a strong close friendship with the older MacDiarmid,Sorley MacLean,high,,,,,,hugh-macdiarmid,sorley-maclean
+Hugh MacDiarmid,William Butler Yeats,acquaintanceOf,Yeats was met in Ireland,Hugh MacDiarmid,high,,,,,,hugh-macdiarmid,william-butler-yeats
+Jack B. Yeats,J. M. Synge,closeFriendOf; collaboratesWith,The writers Synge and Masefield were both close friends; Masefield's suggestion led to the month-long walking tour in the west of Ireland taken by Synge (as writer) and Yeats (as illustrator).,Jack B. Yeats,high,,,,,,jack-b-yeats,j-m-synge
+Jack B. Yeats,John Masefield,closeFriendOf,The writers Synge and Masefield were both close friends,Jack B. Yeats,high,,,,,,jack-b-yeats,john-masefield
+Jack B. Yeats,Mark Twain,acquaintanceOf,Yeats met Twain on his only visit to the U.S.,Jack B. Yeats,high,,,,,,jack-b-yeats,mark-twain
+Jack B. Yeats,Oskar Kokoschka,acquaintanceOf,Kokoschka when the Austrian was in Ireland,Jack B. Yeats,high,,,,,,jack-b-yeats,oskar-kokoschka
+Jack B. Yeats,Samuel Beckett,closeFriendOf,counted Beckett as a close friend,Jack B. Yeats,high,,,,,,jack-b-yeats,samuel-beckett
+Jack B. Yeats,Thomas MacGreevy,friendOf; patronisedBy,He was a good friend and strong supporter of Yeats,Thomas MacGreevy,high,,,,,,jack-b-yeats,thomas-macgreevy
+Jack B. Yeats,Walter Sickert,correspondedWith,corresponded with Sickert,Jack B. Yeats,high,,,,,,jack-b-yeats,walter-sickert
+Jack B. Yeats,William Butler Yeats,siblingOf,William Butler Yeats was his elder brother.,Jack B. Yeats,high,,,sibling; (reverse) sibling,,,jack-b-yeats,william-butler-yeats
+Jean de La Fontaine,Jean-Baptiste Lully,collaboratesWith; antagonistOf,his collaborator Lully (who pulled out of composing the music for their projected opera Daphné – La Fontaine countering pointedly with a satirical poem),Jean de La Fontaine,high,,,,,,jean-de-la-fontaine,jean-baptiste-lully
+Jean de La Fontaine,Nicolas Boileau,friendOf; colleagueOf,Both La Fontaine and Racine were particularly warm friends of Boileau's,Nicolas Boileau,high,,,,,,jean-de-la-fontaine,nicolas-boileau
+Jean-Honoré Fragonard,Jean-Siméon Chardin,apprenticeTo,Fragonard was briefly apprenticed to him.,Jean-Siméon Chardin,high,,,student of; (reverse) student,,,jean-honore-fragonard,jean-simeon-chardin
+Jeanne Moreau,Elia Kazan,collaboratesWith,"Other directors she worked with included Buñuel, Godard, Antonioni, Wenders, Fassbinder and Kazan.",Jeanne Moreau,high,,,,,,jeanne-moreau,elia-kazan
+Jeanne Moreau,François Truffaut,lifePartnerOf; collaboratesWith; patronOf,"Malle, Truffaut and Richardson were lovers",Jeanne Moreau,high,,,,,,jeanne-moreau,francois-truffaut
+Jeanne Moreau,Jean-Luc Godard,collaboratesWith,"Other directors she worked with included Buñuel, Godard, Antonioni, Wenders, Fassbinder and Kazan.",Jeanne Moreau,high,,,,,,jeanne-moreau,jean-luc-godard
+Jeanne Moreau,Louis Malle,collaboratesWith; lifePartnerOf,"Moreau ran the bar during all-night recording, the film made her a star, and she became Malle's lover for several years.",Louis Malle,high,,,,,,jeanne-moreau,louis-malle
+Jeanne Moreau,Luis Buñuel,collaboratesWith,"Other directors she worked with included Buñuel, Godard, Antonioni, Wenders, Fassbinder and Kazan.",Jeanne Moreau,high,,,,,,jeanne-moreau,luis-bunuel
+Jeanne Moreau,Marguerite Duras,friendOf; portrayed,"Moreau, a friend, met Lacan with her, and played the part of Duras in one of two films featuring her",Marguerite Duras,high,,,,,,jeanne-moreau,marguerite-duras
+Jeanne Moreau,Michelangelo Antonioni,collaboratesWith,"Other directors she worked with included Buñuel, Godard, Antonioni, Wenders, Fassbinder and Kazan.",Jeanne Moreau,high,,,,,,jeanne-moreau,michelangelo-antonioni
+Jeanne Moreau,Rainer Werner Fassbinder,collaboratesWith,"Other directors she worked with included Buñuel, Godard, Antonioni, Wenders, Fassbinder and Kazan.",Jeanne Moreau,high,,,,,,jeanne-moreau,rainer-werner-fassbinder
+Jeanne Moreau,Susan Sontag,closeFriendOf,Moreau merely a close friend,Susan Sontag,high,,,,,,jeanne-moreau,susan-sontag
+Jeanne Moreau,Tony Richardson,lifePartnerOf,"Malle, Truffaut and Richardson were lovers",Jeanne Moreau,high,,,,,,jeanne-moreau,tony-richardson
+Jeanne Moreau,William Friedkin,spouseOf,Friedkin briefly her husband,Jeanne Moreau,high,,,spouse; (reverse) spouse,,,jeanne-moreau,william-friedkin
+Jeanne Moreau,Wim Wenders,collaboratesWith,"Other directors she worked with included Buñuel, Godard, Antonioni, Wenders, Fassbinder and Kazan.",Jeanne Moreau,high,,,,,,jeanne-moreau,wim-wenders
+Joan Mitchell,Jean-Paul Riopelle,lifePartnerOf,"in Paris she got to know Steinberg, Francis and her lover Riopelle",Joan Mitchell,high,,,,,,joan-mitchell,jean-paul-riopelle
+Joan Mitchell,José Clemente Orozco,acquaintanceOf,Orozco and Siquieros were met on a trip to Mexico.,Joan Mitchell,high,,,,,,joan-mitchell,jose-clemente-orozco
+Joan Mitchell,Philip Guston,neighborOf; acquaintanceOf,Guston (who lived above her),Joan Mitchell,high,,,,,,joan-mitchell,philip-guston
+Joan Mitchell,Sam Francis,acquaintanceOf,"in Paris she got to know Steinberg, Francis and her lover Riopelle",Joan Mitchell,high,,,,,,joan-mitchell,sam-francis
+Joan Mitchell,Samuel Beckett,closeFriendOf,"Beckett, a lifelong friend, admired her capacity for drink and passion for silence.",Joan Mitchell,high,,,,,,joan-mitchell,samuel-beckett
+Joan Mitchell,Saul Steinberg,acquaintanceOf,"in Paris she got to know Steinberg, Francis and her lover Riopelle",Joan Mitchell,high,,,,,,joan-mitchell,saul-steinberg
+Joan Mitchell,Willem de Kooning,friendOf,"Newman (also close), Pollock, Motherwell, Hofmann, Mitchell and Reinhardt were among his artist friends at The Club and the Cedar Bar",Willem de Kooning,high,,,,,,joan-mitchell,willem-de-kooning
+Johann Bernoulli,Guillaume de l'Hôpital,employedBy,"The aristocratic de l'Hôpital paid him handsomely, and published Bernoulli's work as if his own.",Johann Bernoulli,high,,,student; (reverse) influenced by; (reverse) student of,,,johann-bernoulli,guillaume-de-l-hopital
+Johann Bernoulli,Jacob Bernoulli,siblingOf; apprenticeTo; collaboratesWith,"Jacob was his elder brother, who taught and worked with him closely, and whose university position he inherited.",Johann Bernoulli,high,,,doctoral advisor; sibling; (reverse) doctoral student; (reverse) sibling,,,johann-bernoulli,jacob-bernoulli
+Johann Bernoulli,Leonhard Euler,mentorOf; correspondedWith,"He tutored Euler (whose father was a friend, and who corresponded for 14 years)",Johann Bernoulli,high,,,doctoral student; (reverse) doctoral advisor,,,johann-bernoulli,leonhard-euler
+Johann Bernoulli,Pierre-Louis Maupertuis,mentorOf; livesWith,"also teaching König, Haller and Maupertuis (who lodged with him)",Johann Bernoulli,high,,,doctoral student; (reverse) doctoral advisor,,,johann-bernoulli,pierre-louis-maupertuis
+Johann Bernoulli,Samuel König,mentorOf,"also teaching König, Haller and Maupertuis (who lodged with him)",Johann Bernoulli,high,,,doctoral student; (reverse) doctoral advisor,,,johann-bernoulli,samuel-konig
+Johann Heinrich von Mädler,Wilhelm Beer,collaboratesWith,the two produced maps of Mars and the Moon of unprecedented accuracy,Johann Heinrich von Mädler,high,,,,,,johann-heinrich-von-madler,wilhelm-beer
+Johann Reinhold Forster,Daniel Solander,acquaintanceOf,Banks and Solander got to know him as a naturalist on his move to London,Johann Reinhold Forster,high,,,,,,johann-reinhold-forster,daniel-solander
+Johann Reinhold Forster,Joseph Banks,acquaintanceOf,"Banks and Solander got to know him as a naturalist on his move to London, and when Cook refused Banks's demands, Forster (with son) replaced him on Cook's second voyage.",Johann Reinhold Forster,high,,,,,,johann-reinhold-forster,joseph-banks
+Johann Reinhold Forster,Joseph Johnson,acquaintanceOf,"Among others he knew and published were Franklin, Wordsworth, Beddoes, Forster, Hunter, Young, Smith, Malthus and Nicholson.",Joseph Johnson,high,,,,,,johann-reinhold-forster,joseph-johnson
+Johann Reinhold Forster,Joseph Priestley,colleagueOf,"Taking over from his colleague Priestley, he was the first in England to teach natural history.",Johann Reinhold Forster,high,,,,,,johann-reinhold-forster,joseph-priestley
+John Betjeman,C. S. Lewis,apprenticeTo; antagonistOf,"Lewis, Betjeman's university tutor, excited a lifelong hatred",John Betjeman,high,,,,,,john-betjeman,c-s-lewis
+John Betjeman,Louis MacNeice,classmateOf; collaboratesWith; antagonistOf,"MacNiece was a teenage school-mate, later belittled by him as an Oxford aesthete.",John Betjeman,high,,,,,,john-betjeman,louis-macneice
+John Betjeman,Philip Larkin,friendOf,his friend Larkin said that the quickest way to start a punch-up between British literary critics,John Betjeman,high,,,,,,john-betjeman,philip-larkin
+John Betjeman,T. S. Eliot,apprenticeTo; friendOf,"At school he was taught by Eliot, who while unmoved by the 10-year old's poetry, became a long-term friend.",John Betjeman,high,,,,,,john-betjeman,t-s-eliot
+John Betjeman,W. H. Auden,apprenticeTo,Auden however taught him things about poetry that no-one else had.,John Betjeman,high,,,,,,john-betjeman,w-h-auden
+John Chamberlain,Donald Judd,patronisedBy; acquaintanceOf,Judd was an important supporter — Chamberlain incorporated a crushed cube of his into one of his own pieces.,John Chamberlain,high,,,,,,john-chamberlain,donald-judd
+John Chamberlain,Robert Creeley,closeFriendOf; collaboratesWith; colleagueOf,"a lifelong friend, and sometime collaborator — Creeley",John Chamberlain,high,,,,,,john-chamberlain,robert-creeley
+John Giorno,Anne Waldman,collaboratesWith; friendOf,Waldman a great collaborator (and fellow-buddhist),John Giorno,high,,,,,,john-giorno,anne-waldman
+John Giorno,Frank Zappa,collaboratesWith,"He collaborated widely, including with Glass, Anderson, Berrigan, Zappa and Smith",John Giorno,high,,,,,,john-giorno,frank-zappa
+John Giorno,Laurie Anderson,collaboratesWith,She performed with Burroughs and Giorno,Laurie Anderson,high,,,,,,john-giorno,laurie-anderson
+John Giorno,Patti Smith,collaboratesWith,"He collaborated widely, including with Glass, Anderson, Berrigan, Zappa and Smith",John Giorno,high,,,,,,john-giorno,patti-smith
+John Giorno,Philip Glass,collaboratesWith; acquaintanceOf,"He collaborated widely, including with Glass, Anderson, Berrigan, Zappa and Smith",John Giorno,high,,,,,,john-giorno,philip-glass
+John Giorno,Robert Mapplethorpe,friendOf,wrote powerfully about his friend Mapplethorpe's death,John Giorno,high,,,,,,john-giorno,robert-mapplethorpe
+John Giorno,Robert Moog,acquaintanceOf; collaboratesWith,was told by Rauschenberg to meet Moog (who helped him with sound pieces),John Giorno,high,,,,,,john-giorno,robert-moog
+John Giorno,Ted Berrigan,collaboratesWith,"He collaborated widely, including with Glass, Anderson, Berrigan, Zappa and Smith",John Giorno,high,,,,,,john-giorno,ted-berrigan
+John Giorno,William S. Burroughs,closeFriendOf,Burroughs was close,John Giorno,high,,,,,,john-giorno,william-s-burroughs
+John Keats,Percy Bysshe Shelley,acquaintanceOf,Leigh Hunt introduced Keats to Shelley,Percy Bysshe Shelley,high,,,,,,john-keats,percy-bysshe-shelley
+John Keats,Samuel Taylor Coleridge,acquaintanceOf,"Coleridge and Keats met only once, walking for an hour on Hampstead Heath",John Keats,high,,,,,,john-keats,samuel-taylor-coleridge
+John Keats,William Wordsworth,acquaintanceOf,"Keats was introduced to his hero Wordsworth by a mutual friend, Haydon, in London",William Wordsworth,high,,"Keats' biography says Leigh Hunt introduced him to Wordsworth, while Wordsworth's biography says Haydon did; Wordsworth's death date of 1950 is also clearly wrong.",,,,john-keats,william-wordsworth
+John Lennon,David Bowie,collaboratesWith,"Jagger, Richards (both mates on the London scene) and Bowie were among his occasional collaborators",John Lennon,high,,,,,,john-lennon,david-bowie
+John Lennon,Jonas Mekas,friendOf; portrayedBy,"Among other friends were Vautier, Breer, Anger, Cassavetes, Frank, Brakhage (filmed making pancakes), Ginsberg (filmed singing an anti-war song), and Ono and Lennon (filmed in bed).",Jonas Mekas,high,,,,,,john-lennon,jonas-mekas
+John Lennon,Marshall McLuhan,acquaintanceOf,was visited by Lennon and Ono (unannounced),Marshall McLuhan,high,,,,,,john-lennon,marshall-mcluhan
+John Lennon,Paul McCartney,collaboratesWith; antagonistOf,their famous partnership was increasingly full of tensions,John Lennon,high,,,partner in business or sport; (reverse) partner in business or sport,,,john-lennon,paul-mccartney
+John Lennon,Phil Spector,collaboratesWith,"Spector helped produce, complete with loaded pistol.",John Lennon,high,,,,,,john-lennon,phil-spector
+John Lennon,Richard Lester,collaboratesWith,"Lester directed two films, tapping his sardonic humour",John Lennon,high,,,,,,john-lennon,richard-lester
+John Lennon,Timothy Leary,patronOf,Lennon wrote a song to support his California governorship campaign,Timothy Leary,high,,,,,,john-lennon,timothy-leary
+John Lennon,Yoko Ono,spouseOf,Ono’s offbeat art intrigued him; they married.,John Lennon,high,,,spouse; partner in business or sport; (reverse) spouse; (reverse) partner in business or sport,,,john-lennon,yoko-ono
+John Torrey,Joseph Henry,correspondedWith,Gray and Henry corresponded copiously; Torrey was another correspondent.,Joseph Henry,high,,,,,,john-torrey,joseph-henry
+John Torrey,Lewis David von Schweinitz,friendOf; colleagueOf; correspondedWith,was a friend and professional colleague of Torrey,Lewis David von Schweinitz,high,,,,,,john-torrey,lewis-david-von-schweinitz
+Julio González,Hans Hartung,relativeOf,Hartung married his daughter.,Julio González,high,,,,,,julio-gonzalez,hans-hartung
+Julio González,Max Jacob,friendOf,"Gargallo, Gris, Modigliani and Jacob became friends in Montmartre.",Julio González,high,,,,,,julio-gonzalez,max-jacob
+Julio González,Pablo Gargallo,friendOf,"Gargallo, Gris, Modigliani and Jacob became friends in Montmartre.",Julio González,high,,,,,,julio-gonzalez,pablo-gargallo
+Julio González,Pablo Picasso,friendOf; collaboratesWith; mentorOf,"This led to his old friend Picasso asking for his help with metal sculptures, Gonzalez working alongside him for 3 years and teaching him to weld",Julio González,high,,,influenced by,,,julio-gonzalez,pablo-picasso
+Julius Schnorr von Carolsfeld,Ludwig Richter,mentorOf,Richter turned to Schnorr to improve his figure-painting.,Julius Schnorr von Carolsfeld,high,,,,,,julius-schnorr-von-carolsfeld,ludwig-richter
+Käthe Kollwitz,Auguste Rodin,influencedBy,so too were Klinger and (however brief their meetings) Rodin,Käthe Kollwitz,high,,,,,,kathe-kollwitz,auguste-rodin
+Käthe Kollwitz,Ernst Barlach,friendOf; colleagueOf; influencedBy,"Barlach, friend and colleague, was influential at a critical phase in her career",Käthe Kollwitz,high,,,,,,kathe-kollwitz,ernst-barlach
+Käthe Kollwitz,Max Klinger,influencedBy,"Barlach, friend and colleague, was influential at a critical phase in her career; so too were Klinger and (however brief their meetings) Rodin.",Käthe Kollwitz,high,,,influenced by,,,kathe-kollwitz,max-klinger
+Lewis David von Schweinitz,Thomas Nuttall,acquaintanceOf,"met Nuttall (whom he described as ""that excellent man"") in Philadelphia",Lewis David von Schweinitz,high,,,,,,lewis-david-von-schweinitz,thomas-nuttall
+Lewis David von Schweinitz,William Hooker,correspondedWith,"Hooker and Martius were both correspondents, with whom he exchanged valuable specimens.",Lewis David von Schweinitz,high,,,,,,lewis-david-von-schweinitz,william-hooker
+Mart Stam,Hans Poelzig,collaboratesWith,He worked briefly with Poelzig.,Mart Stam,high,,,,,,mart-stam,hans-poelzig
+Max Frisch,Friedrich Dürenmatt,closeFriendOf,with his long-time friend Dürenmatt,Max Frisch,high,,,,,,max-frisch,friedrich-durenmatt
+Max Frisch,Uwe Johnson,friendOf,was challenged by his friend Johnson about his self-confessed laziness,Max Frisch,high,,,,,,max-frisch,uwe-johnson
+Maxim Gorky,Anton Chekhov,friendOf,Tolstoy and Chekhov became friends early in Gorky's career.,Maxim Gorky,high,,,,,,maxim-gorky,anton-chekhov
+Maxim Gorky,Constantin Stanislavski,colleagueOf,Stanislavski was an important colleague,Maxim Gorky,high,,,,,,maxim-gorky,constantin-stanislavski
+Maxim Gorky,Ilya Repin,portrayedBy,Repin painted him,Maxim Gorky,high,,,,,,maxim-gorky,ilya-repin
+Maxim Gorky,Jean Sibelius,acquaintanceOf,Sibelius met him when his political activities led him to hide away in Helsinki.,Maxim Gorky,high,,,,,,maxim-gorky,jean-sibelius
+Maxim Gorky,Leo Tolstoy,friendOf,Tolstoy and Chekhov became friends early in Gorky's career.,Maxim Gorky,high,,,,,,maxim-gorky,leo-tolstoy
+Maxim Gorky,Mark Twain,acquaintanceOf,"Twain sat beside him at a New York dinner, but disapproved strongly of his domestic arrangements.",Maxim Gorky,high,,,,,,maxim-gorky,mark-twain
+Maxim Gorky,Nikolai Gumilyov,friendOf,Gorky implored his friend Lenin to have Gumilyov (another friend) freed,Maxim Gorky,high,,,,,,maxim-gorky,nikolai-gumilyov
+Maxim Gorky,Vladimir Mayakovsky,patronOf,He supported both Mayakovsky and Babel,Maxim Gorky,high,,,,,,maxim-gorky,vladimir-mayakovsky
+Maxime du Camp,Théophile Gautier,closeFriendOf; collaboratesWith,"Gautier was another close friend and associate; the two founded a literary review, in which 'Madame Bovary' first appeared.",Maxime du Camp,high,,,,,,maxime-du-camp,theophile-gautier
+Peter Behrens,Hermann Muthesius,colleagueOf,"Muthesius, Olbrich and Riemerschmid were among fellow-founders of the Deutscher Werkbund.",Peter Behrens,high,,,,,,peter-behrens,hermann-muthesius
+Peter Behrens,Joseph Maria Olbrich,colleagueOf,"Muthesius, Olbrich and Riemerschmid were among fellow-founders of the Deutscher Werkbund.",Peter Behrens,high,,"Olbrich died in 1908 while the Deutscher Werkbund was founded in 1907 (text does not conflict), but check that he was truly a founder.",,,,peter-behrens,joseph-maria-olbrich
+Peter Behrens,Richard Riemerschmid,colleagueOf,"Muthesius, Olbrich and Riemerschmid were among fellow-founders of the Deutscher Werkbund.",Peter Behrens,high,,,,,,peter-behrens,richard-riemerschmid
+Peter Behrens,Vasily Kandinsky,friendOf; colleagueOf; employerOf,Kandinsky and he became friends as young members of the Munich Secession (he later invited Kandinsky to head up a painting programme in Düsseldorf).,Peter Behrens,high,,,,,,peter-behrens,vasily-kandinsky
+Peter Behrens,Walter Gropius,employerOf,"all young assistants in his office – are three giants of design and design education, Corbusier, Mies and Gropius.",Peter Behrens,high,,,(reverse) student of,,,peter-behrens,walter-gropius
+Pierre Alechinsky,Pol Bury,collaboratesWith,collaborated with Ting and Bury,Pierre Alechinsky,high,,,,,,pierre-alechinsky,pol-bury
+Pierre Alechinsky,S.W. Hayter,apprenticeTo,He studied engraving with Hayter,Pierre Alechinsky,high,,,,,,pierre-alechinsky,s-w-hayter
+Pierre Alechinsky,Victor Brauner,friendOf,"Brauner, Giacometti and van Velde all became friends.",Pierre Alechinsky,high,,,,,,pierre-alechinsky,victor-brauner
+Pierre Alechinsky,Wallace Ting,collaboratesWith,collaborated with Ting and Bury,Pierre Alechinsky,high,,,,,,pierre-alechinsky,wallace-ting
+Pierre Duhem,Ernst Mach,correspondedWith; influencedBy,Mach was a significant correspondent and influence,Pierre Duhem,high,,,influenced by,,,pierre-duhem,ernst-mach
+Pierre Duhem,Henri Poincaré,colleagueOf; correspondedWith,remained a respectful colleague and correspondent,Pierre Duhem,high,,,,,,pierre-duhem,henri-poincare
+Raoul Dufy,Albert Marquet,friendOf; collaboratesWith,"with Marquet, another early friend, in Normandy",Raoul Dufy,high,,,,,,raoul-dufy,albert-marquet
+Raoul Dufy,Paul Poiret,closeFriendOf; employedBy,"Poiret, a firm friend who liked the company of artists, funded the impecunious Dufy to experiment with fabric printing techniques",Raoul Dufy,high,,,,,,raoul-dufy,paul-poiret
+Robert Burns,Walter Scott,acquaintanceOf,"Scott and Burns met just once, when Scott was sixteen.",Walter Scott,high,,,,,,robert-burns,walter-scott
+Robert Burns,"William Smellie, encyclopaedist",friendOf; collaboratesWith; correspondedWith,"Burns used to correct his proofs on a stool in Smellie's messy office, their relationship such that their racily indiscreet letters were destroyed as unfit for publication.",Robert Burns,high,,,,,,robert-burns,william-smellie-encyclopaedist
+Robert Fulton,Robert Owen,livesWith; employedBy,"In Manchester, Fulton lodged with Owen, and got him to back his proposed digging-machines",Robert Owen,high,,,,,,robert-fulton,robert-owen
+Robert Fulton,Samuel Taylor Coleridge,acquaintanceOf,"in Manchester also met Owen (who fruitlessly backed his mechanical-excavation scheme), Dalton and Coleridge",Robert Fulton,high,,"Coleridge's own biography does not mention Fulton, and it places him in Lakeland, Hamburg and the Harz, so the Manchester meeting is not corroborated.",,,,robert-fulton,samuel-taylor-coleridge
+Robert Fulton,Thomas Paine,acquaintanceOf,Paine met Fulton in Paris,Thomas Paine,high,,,,,,robert-fulton,thomas-paine
+Roy Fisher,Tom Phillips,collaboratesWith,Phillips collaborated with him (twice),Roy Fisher,high,,,,,,roy-fisher,tom-phillips
+Samuel Beckett,Seán O'Casey,correspondedWith,"He corresponded admiringly with O’Casey, despite never meeting",Samuel Beckett,high,,"Both biographies say Beckett and O'Casey corresponded but never met, which does not fit the editor's record that they knew each other.",,,,samuel-beckett,sean-ocasey
+Theodor Adorno,Alban Berg,apprenticeTo; friendOf,Berg (with whom he studied composition) and Schoenberg (a strong influence) were both friends,Theodor Adorno,high,,,(reverse) student,,,theodor-adorno,alban-berg
+Theodor Adorno,Benny Goodman,friendOf,"were both friends, as were Brecht, Goodman, Lang and Scholem",Theodor Adorno,high,,,,,,theodor-adorno,benny-goodman
+Theodor Adorno,Fritz Lang,friendOf,"were both friends, as were Brecht, Goodman, Lang and Scholem",Theodor Adorno,high,,,,,,theodor-adorno,fritz-lang
+Theodor Adorno,Gershom Scholem,friendOf,"were both friends, as were Brecht, Goodman, Lang and Scholem",Theodor Adorno,high,,,,,,theodor-adorno,gershom-scholem
+Theodor Adorno,Hanns Eisler,collaboratesWith,He collaborated on a book about film music with Eisler,Theodor Adorno,high,,,,,,theodor-adorno,hanns-eisler
+Theodor Adorno,Jürgen Habermas,mentorOf; colleagueOf,Habermas became Adorno's post-war student and then colleague.,Theodor Adorno,high,,,student; (reverse) influenced by; (reverse) student of,,,theodor-adorno,jurgen-habermas
+Theodor Adorno,Paul Lazarsfeld,colleagueOf; antagonistOf,where he worked (and clashed) with Lazarsfeld,Theodor Adorno,high,,,,,,theodor-adorno,paul-lazarsfeld
+Theodor Adorno,Thomas Mann,friendOf; influencedBy,brought his musical knowledge to his friend Mann's 'Doctor Faustus',Theodor Adorno,high,,,,,,theodor-adorno,thomas-mann
+Theodor Adorno,Walter Benjamin,closeFriendOf; colleagueOf; collaboratesWith,Benjamin especially becoming a close friend,Theodor Adorno,high,,,influenced by,,,theodor-adorno,walter-benjamin
+Timothy Leary,William Gibson,acquaintanceOf,Byrne and Gibson were among his acquaintances after his release from prison,Timothy Leary,high,,,,,,timothy-leary,william-gibson

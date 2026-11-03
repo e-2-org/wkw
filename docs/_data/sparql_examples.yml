@@ -1,0 +1,124 @@
+# Example queries on the query page (query/index.html), in the order they are listed.
+# Each has a title, a sentence saying what it shows, and the query. The data is described on
+# the page itself; the prefixes every query can use are in assets/js/query.js.
+
+- title: Who Charles Babbage knew
+  description: Everyone WKW says Babbage knew, with their dates where they are known, from WKW or, where WKW doesn't give them, from Wikidata.
+  query: |
+    SELECT ?name ?born ?died WHERE {
+      ?babbage foaf:name "Charles Babbage" ; foaf:knows ?person .
+      ?person foaf:name ?name .
+      OPTIONAL { ?person schema:birthDate ?born }
+      OPTIONAL { ?person schema:deathDate ?died }
+    }
+    ORDER BY (!BOUND(?born)) ?born ?name
+
+- title: Who knew both Picasso and Stravinsky?
+  description: People WKW links to both of two people. Change the names to try others.
+  query: |
+    SELECT ?name WHERE {
+      ?a foaf:name "Pablo Picasso" .
+      ?b foaf:name "Igor Stravinsky" .
+      ?person foaf:knows ?a, ?b ;
+              foaf:name ?name .
+    }
+    ORDER BY ?name
+
+- title: From Babbage to Van Gogh in three steps
+  description: Chains of acquaintance between two people who never met, through two others. Change the names to try others.
+  query: |
+    SELECT ?first ?second WHERE {
+      ?a foaf:name "Charles Babbage" .
+      ?b foaf:name "Vincent van Gogh" .
+      ?a foaf:knows ?x . ?x foaf:knows ?y . ?y foaf:knows ?b .
+      ?x foaf:name ?first . ?y foaf:name ?second .
+      FILTER (?x != ?b && ?y != ?a)
+    }
+    ORDER BY ?first ?second
+
+- title: The most connected people
+  description: The people WKW links to the most others.
+  query: |
+    SELECT ?name (COUNT(?other) AS ?knew) WHERE {
+      ?person foaf:name ?name ; foaf:knows ?other .
+    }
+    GROUP BY ?person ?name
+    ORDER BY DESC(?knew)
+    LIMIT 25
+
+- title: Who is waiting to be written up?
+  description: People WKW mentions but hasn't written a bio for yet (wkw:status "stub"), by how many people they knew.
+  query: |
+    SELECT ?name (COUNT(?other) AS ?knew) WHERE {
+      ?person wkw:status "stub" ; foaf:name ?name ; foaf:knows ?other .
+    }
+    GROUP BY ?person ?name
+    ORDER BY DESC(?knew)
+    LIMIT 25
+
+- title: Who was alive in 1800?
+  description: People whose lives spanned the year 1800, by birth year. Years are compared as numbers, as some dates are full dates and some only years.
+  query: |
+    SELECT ?name ?born ?died WHERE {
+      ?person foaf:name ?name ; schema:birthDate ?born ; schema:deathDate ?died .
+      FILTER (xsd:integer(SUBSTR(STR(?born), 1, 4)) <= 1800 && xsd:integer(SUBSTR(STR(?died), 1, 4)) >= 1800)
+    }
+    ORDER BY ?born
+
+- title: Professions
+  description: How many people have each profession, as WKW lists them.
+  query: |
+    SELECT ?profession (COUNT(?person) AS ?people) WHERE {
+      ?person schema:hasOccupation ?p .
+      ?p skos:prefLabel ?profession .
+    }
+    GROUP BY ?profession
+    ORDER BY DESC(?people)
+
+- title: Friends born in the same place
+  description: Pairs of people who knew each other and were born in the same town, using the birthplaces Wikidata gives.
+  query: |
+    SELECT DISTINCT ?place ?name1 ?name2 WHERE {
+      ?a foaf:knows ?b ; foaf:name ?name1 ; owl:sameAs ?wa .
+      ?b foaf:name ?name2 ; owl:sameAs ?wb .
+      ?wa wdt:P19 ?town . ?wb wdt:P19 ?town .
+      ?town rdfs:label ?place .
+      FILTER (STR(?name1) < STR(?name2))
+    }
+    ORDER BY ?place ?name1
+
+- title: Portraits of the people Darwin knew
+  description: Pictures from Wikimedia Commons, through each person's Wikidata item.
+  query: |
+    SELECT ?name ?portrait WHERE {
+      ?darwin foaf:name "Charles Darwin" ; foaf:knows ?person .
+      ?person foaf:name ?name ; owl:sameAs ?item .
+      ?item wdt:P18 ?portrait .
+    }
+    ORDER BY ?name
+
+- title: Library records
+  description: Links to library authority records (VIAF) for everyone with a bio, through Wikidata.
+  query: |
+    SELECT ?name ?viaf WHERE {
+      ?person wkw:status "bio" ; foaf:name ?name ; owl:sameAs ?item .
+      ?item wdt:P214 ?id .
+      BIND (IRI(CONCAT("https://viaf.org/viaf/", ?id)) AS ?viaf)
+    }
+    ORDER BY ?name
+
+- title: Corrections
+  description: What was corrected in WKW's data when it was moved from WordPress, and why.
+  query: |
+    SELECT ?name ?note WHERE {
+      ?person foaf:name ?name ; skos:editorialNote ?note .
+    }
+    ORDER BY ?name
+
+- title: Where each fact comes from
+  description: "The data is in three named graphs: WKW's own, dates and places borrowed from Wikidata, and Wikidata's own facts. This counts the triples in each."
+  query: |
+    SELECT ?graph (COUNT(*) AS ?triples) WHERE {
+      GRAPH ?graph { ?s ?p ?o }
+    }
+    GROUP BY ?graph

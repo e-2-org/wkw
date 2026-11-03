@@ -1,0 +1,49 @@
+{%- comment -%}
+  One person, as the WKW theme's generatepress_actions.php drew them.
+  include.id: their id; include.heading: "h1" on their own page, else a linked h2;
+  include.excerpt: show this instead of the bio (home page, search results).
+{%- endcomment -%}
+{%- assign p = site.data.people[include.id] -%}
+{%- capture url %}{{ '/names/' | append: include.id | append: '/' | relative_url }}{% endcapture -%}
+<article id="post-{{ include.id }}" class="{{ include.id }} wkwname type-wkwname status-publish hentry" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+		<header class="entry-header">
+			{%- if include.heading == "h1" %}
+			<h1 class="entry-title" itemprop="headline">{{ p.title }}</h1>
+			{%- else %}
+			<h2 class="entry-title" itemprop="headline"><a href="{{ url }}" rel="bookmark">{{ p.title }}</a></h2>
+			{%- endif %}
+		</header>
+		<div class="wkwname-meta">
+			{%- if p.alt %}<div class="wkw-aka-name"><p>{{ p.alt }}</p></div>{% endif -%}
+			{%- if p.professions.size > 0 %}<div class="wkw-professions"><p>
+				{%- for prof in p.professions -%}
+				<a href="{{ '/types/' | append: prof[1] | append: '/' | relative_url }}" title="View others: {{ prof[0] }}">{{ prof[0] }}</a>{% unless forloop.last %}, {% endunless %}
+				{%- endfor -%}
+			</p></div>{% endif -%}
+			{%- if p.dates %}<div class="wkw-birth-death"><p>{{ p.dates }}</p></div>{% endif -%}
+		</div>
+		<div class="entry-content" itemprop="text">
+			{%- if include.excerpt %}
+			<p>{{ include.excerpt }} <a title="{{ p.name }}" class="read-more" href="{{ url }}" aria-label="Read more about {{ p.name }}">Read more</a></p>
+			{%- else %}
+			{{ p.bio }}
+			{%- endif %}
+		</div>
+		{%- if p.sources.size > 0 %}
+		<div class="name-links"><ul>
+			{%- for s in p.sources %}<li><a href="{{ s[0] }}" title="{{ s[1] | escape }}">{{ s[1] }}</a></li>{% endfor -%}
+		</ul></div>
+		{%- endif %}
+		{%- if p.knew.size > 0 %}
+		<div class="linked-names"><h2 class="entry-title">{{ p.name }} knew&hellip;</h2><ul class="inline-list">
+			{%- for k in p.knew -%}
+			{%- assign q = site.data.people[k] -%}
+			{%- if q.page %}<li><a href="{{ '/names/' | append: k | append: '/' | relative_url }}" title="{{ q.name | escape }}">{{ q.name }}</a></li>{% else %}<li>{{ q.name }}</li>{% endif -%}
+			{%- endfor -%}
+		</ul>
+		<p class="wkw-field-link"><a href="{{ '/field/' | relative_url }}#{{ include.id }}">See {{ p.name }}&rsquo;s field</a></p>
+		</div>
+		{%- endif %}
+	</div>
+</article>
