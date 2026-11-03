@@ -152,16 +152,28 @@ def build_supplement(people, wikidata):
     """Dates and places WKW doesn't give, from trusted Wikidata matches, in wkw.ttl's terms."""
     g = Graph()
     bind(g)
-    counts = {"birth date": 0, "death date": 0, "birth place": 0, "death place": 0, "people": 0}
+    counts = {"birth date": 0, "death date": 0, "birth place": 0, "death place": 0, "people": 0,
+              "impossible lifespan": 0}
     for p in people:
         w = wikidata.get(p["id"], {})
         if not trusted(w):
             continue
         x, s, added = w["wikidata"], person(p["id"]), False
+        # Wikidata has the odd impossible date (James Rosenquist born in 1547): borrow neither
+        # date if, with WKW's own, they would give a lifespan that can't be right
+        years = {}
+        for k in ("birth", "death"):
+            ours = p[k] or {}
+            lit = None if "year" in ours else date_literal(x[k])
+            years[k] = (lit, ours["year"] if "year" in ours else int(str(lit)[:5].rstrip("-")) if lit else None)
+        b, d = years["birth"][1], years["death"][1]
+        if b is not None and d is not None and not 0 <= d - b <= 110:
+            counts["impossible lifespan"] += 1
+            years = {k: (None, None) for k in years}
         for k, date_p, place_p in (("birth", SCHEMA.birthDate, SCHEMA.birthPlace),
                                    ("death", SCHEMA.deathDate, SCHEMA.deathPlace)):
             ours = p[k] or {}
-            lit = None if "year" in ours else date_literal(x[k])
+            lit = years[k][0]
             if lit is not None:
                 g.add((s, date_p, lit))
                 counts[f"{k} date"] += 1

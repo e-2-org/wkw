@@ -3415,9 +3415,7 @@
     schema:deathDate "1941-02-24"^^xsd:date ;
     schema:deathPlace wd:Q288781 .
 
-<https://culturalcartography.net/names/james-rosenquist/#person> schema:birthDate "1547-12-09"^^xsd:date ;
-    schema:birthPlace wd:Q34144 ;
-    schema:deathDate "2017-03-31"^^xsd:date ;
+<https://culturalcartography.net/names/james-rosenquist/#person> schema:birthPlace wd:Q34144 ;
     schema:deathPlace wd:Q60 .
 
 <https://culturalcartography.net/names/james-smithson/#person> schema:birthDate "1765"^^xsd:gYear ;
