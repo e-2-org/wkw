@@ -327,6 +327,13 @@ def main():
         disambiguation = {canon[t] for x in records
                           for t in php_ids(meta[x].get("wkw_disambiguation_names")) if t in posts}
 
+        def known_in_order(records, known):
+            """The people someone knew, in the order Nat listed them, then any who only link back."""
+            listed = [canon[t] for x in records for t in php_ids(meta[x].get("wkw_linked_names"))
+                      if t in posts and canon[t] in known]
+            listed += sorted(known - set(listed), key=lambda t: slugs[t])
+            return [slugs[t] for t in dict.fromkeys(listed)]
+
         people.append({
             "id": slugs[pid],
             "name": name,
@@ -340,7 +347,7 @@ def main():
             "death": death,
             "professions": professions,
             "bio": bio or None,
-            "knows": sorted(slugs[t] for t in knows[pid]),
+            "knows": known_in_order(records, knows[pid]),
             "disambiguation": sorted(slugs[t] for t in disambiguation - {pid}),
             "sources": sources,
             "wordpress_ids": [x for x in records if x > 0],
@@ -383,7 +390,7 @@ def write_csvs(people):
         *[(x[k] or {}).get(f) for k in ("birth", "death") for f in ("year", "circa", "place")],
         "; ".join(x["professions"]), x["bio"]] for x in people])
     w("knows.csv", ["person", "knew"],
-      [[x["id"], k] for x in people for k in x["knows"] if x["id"] < k])
+      [[x["id"], k] for x in people for k in sorted(x["knows"]) if x["id"] < k])
     w("sources.csv", ["person", "url", "text"],
       [[x["id"], s["url"], s["text"]] for x in people for s in x["sources"]])
     w("disambiguation.csv", ["person", "see_also"],
