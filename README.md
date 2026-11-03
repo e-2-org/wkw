@@ -13,7 +13,7 @@
 - **The network** (`network/`) shows everyone at once, drawn with WebGL, arranging itself as you watch.
 - **Query** (`query/`) runs SPARQL queries over the linked data in the browser, with examples to start from.
 
-`docs/_config.yml` says where everything is. Most of the site is generated from the data by `tools/build_site.py`; the pages copied from WordPress are edited in `docs/`.
+Every page is a file in `docs/pages/`, whose `permalink` gives its URL, and `docs/_config.yml` says where everything is. Most of the site is generated from the data by `tools/build_site.py`; the pages copied from WordPress are edited in `docs/pages/`.
 
 To run it locally, use `bundle install` and then `bundle exec jekyll serve` from inside `docs/`. The site is then at http://localhost:4000/wkw/.
 

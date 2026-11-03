@@ -1,5 +1,5 @@
 """
-Copy the WordPress site's ordinary pages (not the names) into the Jekyll site in docs/.
+Copy the WordPress site's ordinary pages (not the names) into the Jekyll site in docs/pages/.
 
 The pages' text is in the database as raw WordPress content, which needs WordPress's filters to
 become HTML, so this reads the pages as a running copy of the site renders them (see
@@ -19,17 +19,17 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 SITE = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:8099"
 
-# WordPress path -> (where it goes in docs/, extra body classes)
+# WordPress path -> (its file in docs/pages/, extra body classes). Each page keeps its WordPress
+# URL through its permalink
 PAGES = {
-    "/what/": ("what/index.html", "wp-singular page page-id-19 what"),
-    "/questions/": ("questions/index.html", "wp-singular page page-id-20 questions"),
-    "/contact/": ("contact/index.html", "wp-singular page page-id-21 contact"),
-    "/contact-2/": ("contact-2/index.html", "wp-singular page page-id-7619 contact-2"),
-    "/blog/": ("blog/index.html", "blog"),
-    "/64/": ("64/index.html", "wp-singular post-template-default single single-post postid-64 single-format-standard"),
-    "/author/nat/": ("author/nat/index.html", "archive author author-nat author-1"),
-    "/category/uncategorized/": ("category/uncategorized/index.html",
-                                 "archive category category-uncategorized category-1"),
+    "/what/": ("what.html", "wp-singular page page-id-19 what"),
+    "/questions/": ("questions.html", "wp-singular page page-id-20 questions"),
+    "/contact/": ("contact.html", "wp-singular page page-id-21 contact"),
+    "/contact-2/": ("contact-2.html", "wp-singular page page-id-7619 contact-2"),
+    "/blog/": ("blog.html", "blog"),
+    "/64/": ("64.html", "wp-singular post-template-default single single-post postid-64 single-format-standard"),
+    "/author/nat/": ("author-nat.html", "archive author author-nat author-1"),
+    "/category/uncategorized/": ("category-uncategorized.html", "archive category category-uncategorized category-1"),
     "/nonexistent-page/": ("404.html", "error404"),
 }
 
@@ -65,12 +65,9 @@ def main():
         title = title.rsplit(" – Who Knew Whom", 1)[0]
         inner = re.search(r'<main class="site-main" id="main">(.*?)</main>', page, re.S).group(1)
         inner = rewrite(inner.strip())
-        front = ["---", f"title: {title!r}" if "'" not in title else f'title: "{title}"',
-                 f"body_class: {body_class}"]
-        if out == "404.html":
-            front.append("permalink: /404.html")
-        front.append("---")
-        f = DOCS / out
+        front = ["---", "permalink: " + ("/404.html" if out == "404.html" else path),
+                 f"title: {title!r}" if "'" not in title else f'title: "{title}"', f"body_class: {body_class}", "---"]
+        f = DOCS / "pages" / out
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_text("\n".join(front) + "\n" + inner + "\n")
         print(out, title)

@@ -1,0 +1,42 @@
+---
+permalink: /query/
+title: Query
+body_class: page wkw-query-page
+scripts:
+  - /assets/js/query.js
+---
+<article class="page type-page status-publish" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+		<header class="entry-header">
+			<h1 class="entry-title" itemprop="headline">Query</h1>
+		</header>
+		<div class="wkwname-meta"></div>
+		<div class="entry-content" itemprop="text">
+			<p>Everything on this site is also linked data, which you can search with <a href="https://www.w3.org/TR/sparql11-query/">SPARQL</a> queries here. The queries run in your browser, using <a href="https://github.com/oxigraph/oxigraph">Oxigraph</a>. Start from one of the examples, or write your own.</p>
+			<p>The data is in three parts, which a query sees together. You can also ask for one at a time with <code>GRAPH</code>, or download them:</p>
+			<ul>
+				<li><a href="{{ '/assets/data/wkw.ttl' | relative_url }}">wkw.ttl</a>: Who Knew Whom&rsquo;s own data. Everyone is a <code>foaf:Person</code> with a <code>foaf:name</code>, and <code>foaf:knows</code> links each person to the people they knew. There are also dates and places (<code>schema:birthDate</code>, <code>wkw:birthPlaceText</code> and so on), professions (<code>schema:hasOccupation</code>), bios (<code>dcterms:description</code>), sources, and the matching Wikidata item (<code>owl:sameAs</code>).</li>
+				<li><a href="{{ '/assets/data/supplement.ttl' | relative_url }}">supplement.ttl</a>: dates and places of birth and death that Who Knew Whom doesn&rsquo;t give, taken from Wikidata, in the same terms.</li>
+				<li><a href="{{ '/assets/data/wikidata.ttl' | relative_url }}">wikidata.ttl</a>: what Wikidata says about the same people, in Wikidata&rsquo;s own terms (<code>wdt:P569</code> for date of birth, <code>wdt:P18</code> for a picture and so on), so queries written for <a href="https://query.wikidata.org/">query.wikidata.org</a> work here too.</li>
+			</ul>
+			<form class="wkw-sparql" id="sparql-form" data-base="{{ '/' | relative_url }}" data-worker="{{ '/assets/js/query-worker.js' | relative_url }}"
+				data-graphs="https://culturalcartography.net/graph/wkw {{ '/assets/data/wkw.ttl' | relative_url }} https://culturalcartography.net/graph/supplement {{ '/assets/data/supplement.ttl' | relative_url }} https://culturalcartography.net/graph/wikidata {{ '/assets/data/wikidata.ttl' | relative_url }}">
+				<h2 class="entry-title">Examples</h2>
+				<ul class="wkw-sparql-examples">
+				{%- for ex in site.data.sparql_examples %}
+					<li><button type="button" class="wkw-sparql-example" data-query="{{ ex.query | escape }}">{{ ex.title }}</button>: {{ ex.description }}</li>
+				{%- endfor %}
+				</ul>
+				<h2 class="entry-title">Query</h2>
+				<label class="screen-reader-text" for="sparql-query">SPARQL query</label>
+				<textarea id="sparql-query" name="query" rows="14" spellcheck="false" autocapitalize="off" autocomplete="off"></textarea>
+				<p class="wkw-sparql-actions">
+					<button type="submit" id="sparql-run" disabled>Run</button>
+					<span id="sparql-status" role="status">Loading the data&hellip;</span>
+				</p>
+			</form>
+			<div id="sparql-results"></div>
+			<noscript><p>The queries need JavaScript. The data files above work without it.</p></noscript>
+		</div>
+	</div>
+</article>

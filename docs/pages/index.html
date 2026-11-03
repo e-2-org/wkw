@@ -1,0 +1,24 @@
+---
+permalink: /
+title: Who Knew Whom
+body_class: home page-template-default page page-id-18
+---
+<article id="post-18" class="post-18 page type-page status-publish" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+		<header class="entry-header">
+			<h1 class="entry-title" itemprop="headline">Who Knew Whom</h1>
+		</header>
+		<div class="wkwname-meta"></div>
+		<div class="entry-content" itemprop="text">
+			<p>Latest additions:</p>
+			<div class="wkw-latest">
+			{%- for l in site.data.latest -%}
+			{%- assign p = site.data.people[l.id] -%}
+			{%- capture url %}{{ '/names/' | append: l.id | append: '/' | relative_url }}{% endcapture -%}
+			<h2 class="entry-title"><a href="{{ url }}">{{ p.title }}</a></h2><p class="excerpt">{{ l.excerpt }} <a title="{{ p.name }}" class="read-more" href="{{ url }}" aria-label="Read more about {{ p.name }}">Read more</a></p>
+			{%- endfor -%}
+			</div>
+			<p style="text-align: right;"><a href="{{ '/names/' | relative_url }}">Full list of names →</a></p>
+		</div>
+	</div>
+</article>

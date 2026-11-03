@@ -85,12 +85,14 @@ cd docs && bundle exec jekyll build    # or: bundle exec jekyll serve
 ```
 
 `build_site.py` writes the site's data (`docs/_data/people.json`, `names.json`, `latest.json`),
-a page for each person with a bio (`docs/names/`), the profession pages (`docs/types/`), and the
-files the search, field and query pages load (`docs/assets/data/`). It replaces those each time,
-so they shouldn't be edited by hand. Everything else in `docs/` is edited directly.
+the list of names and a page for each person with a bio (`docs/pages/names.html` and
+`docs/pages/names/`), the profession pages (`docs/pages/types/`), and the files the search, field
+and query pages load (`docs/assets/data/`). It replaces those each time, so they shouldn't be
+edited by hand. Everything else in `docs/` is edited directly. Every page's URL comes from the
+`permalink` in its front matter, not from where its file is.
 
 `import_pages.py` copied the WordPress site's other pages (the about pages, the blog, the 404
-page) into `docs/` once. It read them from a copy of the WordPress site running locally, which
+page) into `docs/pages/` once. It read them from a copy of the WordPress site running locally, which
 needs the database container from step 1 (started with `-p 127.0.0.1:8099:80`) and WordPress
 alongside it, with a local `wp-config.php` (database `wkw`, user `root`, no password, host
 `127.0.0.1`, and `WP_HOME` and `WP_SITEURL` set to `http://localhost:8099`) and WordPress's

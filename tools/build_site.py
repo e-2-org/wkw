@@ -8,9 +8,12 @@ Reads data/wkw.json and data/rdf/*.ttl and writes, in docs/:
                            they knew (in Nat's order) and their bio as HTML
   _data/names.json         every person's id in alphabetical order, for the list of names
   _data/latest.json        the three people most recently written up, for the home page
-  names/<id>/index.html    a page for each person with a bio (people without one, the stubs,
-                           never had a page)
-  types/<profession>/      each profession's people, ten to a page as WordPress showed them
+  pages/names.html         the list of names (/names/)
+  pages/names/<id>.html    a page for each person with a bio, at /names/<id>/ (people without
+                           one, the stubs, never had a page)
+  pages/types/<profession>.html, <profession>-2.html ...
+                           each profession's people, ten to a page as WordPress showed them, at
+                           /types/<profession>/, /types/<profession>/page/2/ ...
   assets/data/graph.json   the network, for the field and network pages
   assets/data/search.json  names and bios, for the search page
   assets/data/*.ttl        the RDF, for the query page
@@ -35,6 +38,7 @@ from export_wp import slugify  # noqa: E402  (WordPress's term slugs)
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DOCS = ROOT / "docs"
+PAGES = DOCS / "pages"   # every page is a file here, its URL set by its permalink
 PER_PAGE = 10        # WordPress's posts per page on the profession archives
 EXCERPT_WORDS = 30   # GeneratePress's excerpt length on the home page and in search results
 
@@ -148,7 +152,7 @@ def main():
     bios = [p for p in people if p["status"] == "bio"]
 
     for d in ("names", "types"):
-        shutil.rmtree(DOCS / d, ignore_errors=True)
+        shutil.rmtree(PAGES / d, ignore_errors=True)
 
     # professions, grouped by slug ('film director' and 'film-director' were two terms)
     prof_people = defaultdict(list)
@@ -180,11 +184,12 @@ def main():
     write(DOCS / "_data" / "latest.json",
           json.dumps([{"id": p["id"], "excerpt": excerpt(p["bio"])} for p in latest], ensure_ascii=False))
 
-    write(DOCS / "names" / "index.html",
-          front_matter(layout="names", title="Names", body_class="archive post-type-archive post-type-archive-wkwname"))
+    write(PAGES / "names.html",
+          front_matter(layout="names", title="Names", permalink="/names/",
+                       body_class="archive post-type-archive post-type-archive-wkwname"))
     for p in bios:
-        write(DOCS / "names" / p["id"] / "index.html",
-              front_matter(layout="name", title=p["name"], person=p["id"],
+        write(PAGES / "names" / f"{p['id']}.html",
+              front_matter(layout="name", title=p["name"], person=p["id"], permalink=f"/names/{p['id']}/",
                            body_class=f"wp-singular wkwname-template-default single single-wkwname {p['id']} wkwname"))
 
     for slug, ids in prof_people.items():
@@ -192,8 +197,9 @@ def main():
         pages = (len(ids) + PER_PAGE - 1) // PER_PAGE
         base = f"/types/{slug}/"
         for n in range(1, pages + 1):
-            path = DOCS / "types" / slug / ("index.html" if n == 1 else f"page/{n}/index.html")
+            path = PAGES / "types" / (f"{slug}.html" if n == 1 else f"{slug}-{n}.html")
             write(path, front_matter(layout="profession", title=label + (f" – Page {n}" if n > 1 else ""),
+                                     permalink=base if n == 1 else f"{base}page/{n}/",
                                      profession=label, people=ids[(n - 1) * PER_PAGE:n * PER_PAGE],
                                      body_class=f"archive tax-wkwcategory term-{slug}" + (" paged" if n > 1 else ""))
                   + pager(base, n, pages) + "\n")
